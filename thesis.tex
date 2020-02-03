@@ -1,0 +1,268 @@
+% !TEX TS-program = xelatexmk
+\documentclass[twoside,12pt]{Latex/Classes/PhDthesisPSnPDF}
+
+
+%: Macro file for Latex
+% Macros help you summarise frequently repeated Latex commands.
+% Here, they are placed in an external file /Latex/Macros/MacroFile1.tex
+% An macro that you may use frequently is the figuremacro (see introduction.tex)
+\include{Latex/Macros/MacroFile1}
+
+
+%: ----------------------------------------------------------------------
+%:                  TITLE PAGE: name, degree,..
+% ----------------------------------------------------------------------
+% below is to generate the title page with crest and author name
+
+%if output to PDF then put the following in PDF header
+\ifpdf  
+    \pdfinfo { /Title  (Matter in 2+1 dimensions at finite density with Chern-Simons interactions)
+               /Creator (TeX)
+               /Producer (XeLaTeX)
+               /Author (Stanislav Stratiev 917931@swan.ac.uk)
+               /CreationDate (D:202003158000)  %format D:YYYYMMDDhhmmss
+               /ModDate (D:201310081042)
+               /Subject (Subject)
+               /Keywords () }
+    \pdfcatalog { /PageMode (/UseOutlines)
+                  /OpenAction (fitbh)  }
+\fi
+
+
+\title{Matter in 2+1 Dimensions at Finite Density with Chern-Simons Interactions}
+
+
+
+%\ifpdf
+  \author{\href{mailto:917931@swan.ac.uk}{Stanislav Stratiev}}
+  \collegeordept{\href{http://www.swansea.ac.uk/physics}{Department of Physics}}
+  \university{\href{http://www.swansea.ac.uk}{Swansea University}}
+
+  % The crest is a graphics file of the logo of your research institution.
+  % Place it in ./Front_Folder/figures and specify the width
+  \crest{\includegraphics[width=4cm]{logo.pdf}}
+  
+% If you are not creating a PDF then use the following. The default is PDF.
+%\else
+%  \author{YourName}
+%%  \cityofbirth{born in XYZ}
+%  \collegeordept{CollegeOrDept}
+%  \university{University}
+%  \crest{\includegraphics[width=4cm]{logo}}
+%\fi
+
+\renewcommand{\submittedtext}{Submitted to Swansea University in fulfilment \\ of the requirements for the degree of}
+\degree{Doctor of Philosophy}
+\degreedate{2020}
+
+
+% ----------------------------------------------------------------------
+       
+% turn of those nasty overfull and underfull hboxes
+\hbadness=10000
+\hfuzz=50pt
+
+
+%: --------------------------------------------------------------
+%:                  FRONT MATTER: dedications, abstract,..
+% --------------------------------------------------------------
+%\usepackage[xelatex]{graphicx}
+\usepackage{eso-pic}
+\usepackage{tikz}
+\usepackage{bm}
+\def\mg{{\mathfrak g}}
+\newcommand{\MAT}[1]{\begin{pmatrix} #1\end{pmatrix}}
+\newcommand{\EQ}[1]{\begin{equation}\begin{split} #1
+\end{split}\end{equation}}
+\def\ben
+{\begin{equation}}
+\def\een{\end{equation}}
+\def\half{{\textstyle{1\over2}}}
+\def\p{{\bf p}}
+\def\U{\text{U}}
+\let\a=\alpha \let\b=\beta \let\g=\gamma \let\d=\delta \let\e=\varepsilon
+\let\z=\zeta \let\h=\eta \let\q=\theta \let\k=\kappa
+\let\l=\lambda \let\m=\mu \let\n=\nu \let\x=\xi \let\r=\rho
+\let\s=\sigma \let\t=\tau \let\u=\upsilon \let\c=\chi
+\let\y=\psi
+\let\w=\mu \let\G=\Gamma \let\D=\Delta \let\Q=\Theta \let\L=\Lambda
+\let\X=\Xi \let\P=\Phi  \let\Y=\Psi
+\let\C=\Chi \let\W=\mu
+\let\la=\label \let\ci=\cite \let\re=\ref
+\let\se=\section \let\sse=\subsection \let\ssse=\subsubsection
+\def\nn{\nonumber}
+\let\fr=\frac
+\def\W={\cal W}
+\def\L ={\cal L}
+\let\na=\nablal
+\let\pa=\partial
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\ba{\begin{array}}
+\def\ea{\end{array}}
+\def\del{\partial}
+\def\vp{\varphi}
+\def\td{\tilde}
+\def\wtd{\widetilde}
+\def\ie{\rm i.e.\ }
+\def\dalemb#1#2{{\vbox{\hrule height .#2pt
+        \hbox{\vrule width.#2pt height#1pt \kern#1pt
+                \vrule width.#2pt}
+        \hrule height.#2pt}}}
+\def\square{\mathord{\dalemb{6.8}{7}\hbox{\hskip1pt}}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\tr}{{\rm tr} }
+\newcommand{\Tr}{{\rm Tr} }
+\newcommand{\mf}{\mathfrak}
+\newcommand{\sh}[1]{#1\hskip-7pt /}
+\newcommand{\rqm}{{%
+\declareslhed{}{\text{/}}{0.04}{0}{k}\slashed{k}}}
+\newcommand\BackgroundPic{
+\put(0,0){
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\begin{tikzpicture}[remember picture, overlay]
+ \node[inner sep=0pt] at (current page.center) {%
+  \includegraphics[width=\paperwidth,height=\paperheight]{background.pdf}%
+};
+\end{tikzpicture}
+\vfill
+}}}
+
+\reversemarginpar
+
+      
+\begin{document}
+\AddToShipoutPicture*{\BackgroundPic}
+
+%\language{english}
+
+% sets line spacing
+\renewcommand\baselinestretch{1.2}
+\baselineskip=18pt plus1pt
+
+
+
+%: ----------------------- generate cover page ------------------------
+
+\maketitle  % command to print the title page with above variables
+
+%\newpage
+
+%: ----------------------- abstract ------------------------
+\renewcommand\marginnote[1]{}
+%\include{Front_Folder/abstract}
+
+
+%: ----------------------- cover page back side ------------------------
+% Your research institution may require reviewer names, etc.
+% This cover back side is required by Dresden Med Fac; uncomment if needed.
+
+
+%: Declaration of originality
+%\include{Front_Folder/declaration}
+
+
+% The original template provides and abstractseparate environment, if your institution requires them to be separate. I think it's easier to print the abstract from the complete thesis by restricting printing to the relevant page.
+% \begin{abstractseparate}
+%   \input{Abstract/abstract}
+% \end{abstractseparate}
+
+%\frontmatter
+
+%: ----------------------- contents ------------------------
+
+\setcounter{secnumdepth}{3} % organisational level that receives a numbers
+\setcounter{tocdepth}{3}    % print table of contents for level 3
+\tableofcontents            % print the table of contents
+% levels are: 0 - chapter, 1 - section, 2 - subsection, 3 - subsection
+
+
+%: ----------------------- tie in front matter ------------------------
+
+%\include{Front_Folder/acknowledgement}
+
+
+
+
+%: ----------------------- list of figures/tables ------------------------
+
+%\listoffigures	% print list of figures
+
+%\listoftables  % print list of tables
+
+
+%: --------------------------------------------------------------
+%:                  MAIN DOCUMENT SECTION
+% --------------------------------------------------------------
+
+% the main text starts here with the introduction, 1st chapter,...
+\mainmatter
+
+%\renewcommand{\chaptername}{} % uncomment to print only "1" not "Chapter 1"
+
+
+%: ----------------------- subdocuments ------------------------
+
+% Parts of the thesis are included below. Rename the files as required.
+% But take care that the paths match. You can also change the order of appearance by moving the include commands.
+
+
+%\include{Introduction_Folder/introduction}	% background information
+\include{Background_Folder/Background}
+%\include{Chapter_2_Folder_1912.11321/Chapter_2}
+%\include{Chapter_3_Folder_1806.06976/Chapter_3}
+%\include{conclusions/conclusions}               % discussion of results
+
+%\appendix
+%\include{Appendices_Folder/visualisations}
+%\include{Appendices_Folder/readme}
+
+% --------------------------------------------------------------
+%:                  BACK MATTER: Appendices_Folder, refs,..
+% --------------------------------------------------------------
+
+% the back matter: appendix and references close the thesis
+
+
+%: ----------------------- bibliography ------------------------
+
+% The section below defines how references are listed and formatted
+% The default below is 2 columns, small font, complete author names.
+% Entries are also linked back to the page number in the text and to external URL if provided in the BibTex file.
+
+% PhDbiblio-url2 = names small caps, title bold & hyperlinked, link to page 
+%\begin{multicols}{2} % \begin{multicols}{ # columns}[ header text][ space]
+%\begin{tiny} % tiny(5) < scriptsize(7) < footnotesize(8) < small (9)
+
+\bibliographystyle{Reference_Folder/utphys} % Title is link if provided Reference_Folder/unsrt-eprint
+\renewcommand{\bibname}{References} % changes the header; default: Bibliography
+
+\bibliography{Reference_Folder/references} % adjust this to fit your BibTex file
+
+%\end{tiny}
+%\end{multicols}
+
+% --------------------------------------------------------------
+% Various bibliography styles exit. Replace above style as desired.
+
+% in-text refs: (1) (1; 2)
+% ref list: alphabetical; author(s) in small caps; initials last name; page(s)
+%\bibliographystyle{Latex/Classes/PhDbiblio-case} % title forced lower case
+%\bibliographystyle{Latex/Classes/PhDbiblio-bold} % title as in bibtex but bold
+%\bibliographystyle{Latex/Classes/PhDbiblio-url} % bold + www link if provided
+
+%\bibliographystyle{Latex/Classes/jmb} % calls style file jmb.bst
+% in-text refs: author (year) without brackets
+% ref list: alphabetical; author(s) in normal font; last name, initials; page(s)
+
+%\bibliographystyle{plainnat} % calls style file plainnat.bst
+% in-text refs: author (year) without brackets
+% (this works with package natbib)
+
+
+% --------------------------------------------------------------
+
+\end{document}

@@ -1,0 +1,18 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Background}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Chern-Simons Theory}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Chern-Simons-Maxwell theory}{7}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Chern-Simons matter theory}{8}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Statistical Physics}{9}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Functional Integral Representation of the Partition Function}{11}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Grand Canonical Ensemble}{12}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Physical Applications}{12}{subsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.3.1}Landau-Fermi liquid theory}{12}{subsubsection.1.2.3.1}
+\contentsline {subsubsection}{\numberline {1.2.3.2}Landau-Ginzburg paradigm}{12}{subsubsection.1.2.3.2}
+\contentsline {subsubsection}{\numberline {1.2.3.3}Fractional Quantum Hall Effect}{13}{subsubsection.1.2.3.3}
+\contentsline {section}{\numberline {1.3}Vortices}{14}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Global U(1) vortex}{15}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Local U(1) vortex}{16}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Fermi-Bose Duality}{20}{section.1.4}
+\contentsline {section}{\numberline {1.5}Non-commutative fluids}{20}{section.1.5}
+\contentsline {chapter}{References}{23}{chapter*.6}
