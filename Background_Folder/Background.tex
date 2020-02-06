@@ -29,7 +29,7 @@
 \end{equation}
 The gauge field $A_\mu$ takes values in a finite dimensional representation of
 the (semi-simple) gauge Lie algebra ${\mathfrak{G}}$. In an abelian theory, the gauge fields
-$A_\mu$ commute, and so the trilinear term in (\ref{cslag}) vanishes due to the
+$A_\mu$ commute, and so the trilinear term in (\eqref{cslag}) vanishes due to the
 antisymmetry of the $\epsilon^{\mu\nu\rho}$ symbol. In the nonabelian case (just as in Yang-Mills theory) we write
 \begin{align}
     A_\mu=A_\mu^a T^a,
@@ -49,11 +49,11 @@ and the normalization
 
     Before we delve into the details of the gauge invariance, it is helpful to venture into a quick digression about \textit{topology}. Topological invariants are such properties of spaces (and hence of field configurations defined on those spaces) that do not change under continuous transformations. And since most phenomena in the real world are continuous, we should expect that these invariants are important tools that we can use to better understand the physical world. Indeed, we shall see that these expectations are justified. 
 
-    One way topologists use to classify spaces is through \textit{homotopy groups}. An example is the first homotopy group $\pi_1$ or the \textit{fundamental group}. This group is an indicator of the ``connectivity'' of a manifold. It's definition has to do with whether a given loop can be contracted to a point. More precisely, one can define a group at each point on a manifold, whose elements are equivalency classes of loops that start and end at that point \textit{and} are continuously deformable into each other. For example, if all loops on a given space can be contracted to a point, then the fundamental group $\pi_1$ is trivial, since all elements of the group are the identity. The group operation on these loops is such that we create a new loop from $g_1$ and $g_2$ by going around $g_1$ first, then followed by going around $g_2$. It turns out that loops that encircle a singular point (or hole in the space) $n$ times are \textbf{not} continuously deformable into loops that encircle said point $n'$ times, if $n \neq n'$. This is an intuitive way of understanding the fact that for each hole in the space-time manifold, the fundamental group acquires a cartesian factor of $\mathbb{Z}$. Meaning that loops can wind around singular points arbitrarily many integer number of times and the number of loops around one singular point is independent of the number around another.
+    One way topologists use to classify spaces is through \textit{homotopy groups}. An example is the first homotopy group $\pi_1$ or the \textit{fundamental group}. This group is an indicator of the ``connectivity'' of a manifold. Its definition has to do with whether a given loop can be contracted to a point. More precisely, one can define a group at each point on a manifold, whose elements are equivalency classes of loops that start and end at that point \textit{and} are continuously deformable into each other. For example, if all loops on a given space can be contracted to a point, then the fundamental group $\pi_1$ is trivial, since all elements of the group are the identity. The group operation on these loops is such that we create a new loop from $g_1$ and $g_2$ by going around $g_1$ first, then followed by going around $g_2$. It turns out that loops that encircle a singular point (or hole in the space) $n$ times are \textbf{not} continuously deformable into loops that encircle said point $n'$ times, if $n \neq n'$. This is an intuitive way of understanding the fact that for each hole in the space-time manifold, the fundamental group acquires a cartesian factor of $\mathbb{Z}$. Meaning that loops can wind around singular points arbitrarily many integer number of times and the number of loops around one singular point is independent of the number around another.
 
     Such a classification is not restricted to loops but can also be applied to higher dimensional spheres. For example, the classes of mappings from the 3-sphere to 3-dimensional Euclidean space-time are classified by $\pi_3$. If $\pi_3$ is non-trivial, this tells us that not all gauge transformations are connected to the identity. Importantly for the purposes of theoretical physics, it is known that $\pi_3\left(SU(N) \right)$, $N\geq2$ is non-trivial. We shall now see how this fact plays a role in the gauge invariance of Chern-Simons.
 
-    To convince ourselves of the gauge invariance, let's perform a gauge transformation
+    To convince ourselves of the gauge invariance, let us perform a gauge transformation
     \begin{align}
         A_{\mu} \rightarrow A'_{\mu} \equiv g^{-1} A_{\mu} g + g^{-1}\partial_{\mu} g
     \end{align}
@@ -104,7 +104,7 @@ This above passage illustrates the essence of large gauge transformations in the
 
     The second way in which CS is interesting teaches us the old lesson that sometimes the whole is greater than the sum of its parts. In this case, adding matter or a Maxwell term to the Lagrangian alters the pure Maxwell/matter theories immensely. Let us see how these alterations play out.
 
-    \subsection{Chern-Simons-Maxwell theory}
+    \subsection{Chern-Simons-Maxwell Theory}
     Here we consider the familiar Maxwell theory deformed by a Chern-Simons term.
     \begin{align}
         \mathcal{L}_{\text{MCS}} &= \int d^3x \ \left( \frac{-1}{4 g^2} F_{\mu \nu} F^{\mu \nu} + \frac{k}{4 \pi} \epsilon^{\mu \nu \rho} A_{\mu} \partial_{\nu} A_{\rho} \right)
@@ -120,7 +120,7 @@ This above passage illustrates the essence of large gauge transformations in the
     Observing that $\tilde{F}^{\mu}$ is gauge-invariant, we deduce that these equations describe a propagating wave with mass $\left(\frac{k}{2 \pi} g^2 \right)$.
     Even though in this work we shall promptly be ignoring the Maxwell contribution to the planar physics, it is important to note that despite the fact that the gauge bosons are heavy, we still observe global effects. This provides us with a more general lesson about CS. Namely, that we can have significant long-rage global effects, such as the anyonic phase change interaction, even in the case of a gapped phase (such as the Quantum Hall droplet).
     Next, we turn to the matter sector.
-    \subsection{Chern-Simons matter theory}
+    \subsection{Chern-Simons Matter Theory}
     
     We begin by coupling the Chern-Simons gauge field to a general conserved matter current.
 
@@ -143,7 +143,7 @@ This above passage illustrates the essence of large gauge transformations in the
         \rho  &= \frac{k}{4 \pi} B \label{eq:source_abel_charge} \\
         J^i &= \frac{k}{4 \pi} \epsilon^{i j } E_j \label{eq:source_abel_current}
     \end{align}
-    The first equation \ref{eq:source_abel_charge} relates the charge density to the magnetic field. So for a non-zero value of $k$, we find that anywhere there is charge, there is magnetic flux penetrating through it perpendicular to the plane, something quite unlike Maxwell theory, where charge \textit{movement} generates a magnetic field, as opposed to charge \textit{presence}. This is illustrated in  Figure \ref{fig:flux_attachment} for a collection of localized charge distributions. The second equation \ref{eq:source_abel_current} ensures that this charge-flux relation is preserved under time evolution. If we act with $\partial$ on \ref{eq:source_abel_current} then we arrive at
+    The first equation \eqref{eq:source_abel_charge} relates the charge density to the magnetic field. So for a non-zero value of $k$, we find that anywhere there is charge, there is magnetic flux penetrating through it perpendicular to the plane, something quite unlike Maxwell theory, where charge \textit{movement} generates a magnetic field, as opposed to charge \textit{presence}. This is illustrated in  Figure \ref{fig:flux_attachment} for a collection of localized charge distributions. The second equation \eqref{eq:source_abel_current} ensures that this charge-flux relation is preserved under time evolution. If we act with $\partial$ on \eqref{eq:source_abel_current} then we arrive at
     \begin{align}
         \partial_i J^i &= \frac{k}{4 \pi} \epsilon^{ij} \partial_i E_j\nonumber \\
         &= \frac{k}{4 \pi} \epsilon^{ij} \partial_i ( \partial_j A_0 - \partial_0 A_j) \nonumber \\
@@ -158,7 +158,7 @@ This above passage illustrates the essence of large gauge transformations in the
 \begin{figure}[htb]
 	\centering
 		\includegraphics[scale=0.17]{Background_Folder/figures/flux_attachment_improved.pdf}
-    \caption{A collection of localized charge distributions, and with magnetic flux lines of strength $\frac{4 \pi \hbar \rho(x,y)}{k}$ tied to the charges. The charge and flux are tied together throughout the motion of the particles as a result of the Chern-Simons equations \ref{eq:source_abel_charge} - \ref{eq:source_abel_current}.} \label{fig:flux_attachment}
+    \caption{A collection of localized charge distributions, and with magnetic flux lines of strength $\frac{4 \pi \hbar \rho(x,y)}{k}$ tied to the charges. The charge and flux are tied together throughout the motion of the particles as a result of the Chern-Simons equations \eqref{eq:source_abel_charge} - \eqref{eq:source_abel_current}.} \label{fig:flux_attachment}
 \end{figure}
 
 
@@ -181,22 +181,22 @@ This above passage illustrates the essence of large gauge transformations in the
         Finally, the failures of these extremely successful ideas will lead us to strongly correlated and topological systems. Notably, we discuss one system that seems to reject treatment from both of the above approaches -- a system of strongly interacting electrons confined to 2 dimensions, namely, the physical setup in which we observe the quantum hall effect. As the reader might suspect, the planar confinement is what forces us into considering CS theory as a natural candidate to explain the exotic properties of this structure.
         \subsection{Functional Integral Representation of the Partition Function}
         In this section we derive the functional integral representation of the partition function for interacting relativistic non-gauge field theories.
-        Let $\hat{\phi}(\vec{x},0)$ be a Schr{\H o}dinger picture field operator at time $t=0$. We define its conjugate momentum operator to be $\hat{\pi}(\vec{x},0)$. The eigenstates of the field operator are labeled $| \phi \rangle$ and satisfy
+        Let $\hat{\phi}(\bm{x},0)$ be a Schr{\H o}dinger picture field operator at time $t=0$. We define its conjugate momentum operator to be $\hat{\pi}(\bm{x},0)$. The eigenstates of the field operator are labeled $| \phi \rangle$ and satisfy
         \begin{align}
-            \hat{\phi}(\vec{x},0) | \phi \rangle = \phi(\vec{x}) | \phi \rangle,
+            \hat{\phi}(\bm{x},0) | \phi \rangle = \phi(\bm{x}) | \phi \rangle,
         \end{align}
-        where $\phi(\vec{x})$ is the eigenvalue of $| \phi \rangle$. This is complemented with the completeness and orthogonality relation
+        where $\phi(\bm{x})$ is the eigenvalue of $| \phi \rangle$. This is complemented with the completeness and orthogonality relation
         \begin{align}
-            \int d \phi(\vec{x}) | \phi \rangle \langle \phi | = 1, \\
-            \langle \phi_a | \phi_b \rangle = \prod_{\vec{x}} \delta(\phi_a(\vec{x}) - \phi_b(\vec{x}))
+            \int d \phi(\bm{x}) | \phi \rangle \langle \phi | = 1, \\
+            \langle \phi_a | \phi_b \rangle = \prod_{\bm{x}} \delta(\phi_a(\bm{x}) - \phi_b(\bm{x}))
         \end{align}
 
         And similarly for the conjugate momentum
 
         \begin{align}
-            \hat{\pi}(\vec{x},0) | \pi \rangle = \pi(\vec{x}) | \pi \rangle, \\
-            \int d \pi(\vec{x}) | \pi \rangle \langle \pi | = 1, \\
-            \langle \pi_a | \pi_b \rangle = \prod_{\vec{x}} \delta(\pi_a(\vec{x}) - \pi_b(\vec{x}))
+            \hat{\pi}(\bm{x},0) | \pi \rangle = \pi(\bm{x}) | \pi \rangle, \\
+            \int d \pi(\bm{x}) | \pi \rangle \langle \pi | = 1, \\
+            \langle \pi_a | \pi_b \rangle = \prod_{\bm{x}} \delta(\pi_a(\bm{x}) - \pi_b(\bm{x}))
         \end{align}
 
         Suppose we have a Hamiltonian with no explicit time dependence
@@ -216,14 +216,14 @@ This above passage illustrates the essence of large gauge transformations in the
 
         \subsection{Grand Canonical Ensemble} \label{GCE_sec}
         \subsection{Physical Applications}\label{phys_app_sec}
-        \subsubsection{Landau-Fermi liquid theory} \label{Fermi_Liquid_sec}
+        \subsubsection{Landau-Fermi Liquid Theory} \label{Fermi_Liquid_sec}
         The statistical description of weakly interacting particles, for example, in a fluid can be thought of as the same as that of a free gas of non-interacting quasiparticles that are in one to one correspondence with the original interacting excitations of the material. We find that in order to explain some of the surprising feature of the charge carriers in a QH system, we need to go beyond the weakly interacting description of a Landau-Fermi liquid.
-        \subsubsection{Landau-Ginzburg paradigm} \label{Landau-Ginzburg_sec}
+        \subsubsection{Landau-Ginzburg Paradigm} \label{Landau-Ginzburg_sec}
         \textcolor{red}{***More to add***} \\
         - Introductory part talk about the problem of scales, how mean field theory tackles the problems well away from the critical temperature, but at the critical point, all scales need to be taken into account. We are left with a LG functional that no longer contains information about the microscopic system -- we find a universal effective theory describing said phenomenon.
         - Symmetry breaking \\
         - Order parameters\\
-        - The Girvin MacDonald ``Landau-Ginzburg''-like model. \cite{Girvin1987} \\
+        - The Girvin MacDonald ``Landau-Ginzburg''-like model. \cite{Girvin1987} In 1987, Girvin \& MacDonald proposed a LG effective model to describe the FQHE. \\
         - Read's improvement \cite{Read1989}\\
         - The Zhang, Hansson, Kivelson microscopic Hamiltonian improvement \cite{PhysRevLett.62.82}
         \subsubsection{Fractional Quantum Hall Effect} \label{FQHE_sec}
@@ -231,14 +231,42 @@ This above passage illustrates the essence of large gauge transformations in the
         \subsubsection*{Classical Hall Effect}
         In the year 1879, Edwin Hall set up an experiment consisting of a conductor plate with two electrodes attached at either end of it, generating a current, and a magnetic field penetrating the surface of the conductor perpendicularly. He found that he could measure a non-zero potential across the conductor, orthogonal to the plane defined by the driving current and the magnetic field. The generation of this potential difference has since been known as the \textit{Hall effect}. Despite this being an exciting discovery at the time, from our modern perspective this is all accounted by basic knowledge of conductors and classical electrodynamics. In the presence of a magnetic field, the charge carriers, which are responsible for the current in the conductor, get deflected in a direction orthogonal to their motion due to the Lorentz force
         \begin{align}
-            F = q(\vec{E} + \vec{v}\times \vec{B}),
+            F = q(\bm{E} + \bm{v}\times \bm{B}),
         \end{align}
-        where $q$ is the charge of the electrons, $\vec{E}$ is the electric field due to the potential difference in the electrodes, $\vec{v}$ is the velocity of the charge carriers and $\vec{B}$ is the magnetic field in the material. If we were to account for the possible collisions that may occur within a sample of the conductor, which will cause the charge carriers (in this case electrons) to slow down, we shall arrive at a slightly modified equation to the Lorentz law from above
-
+        where $q$ is the charge of the electrons, $\bm{E}$ is the electric field due to the potential difference in the electrodes, $\bm{v}$ is the velocity of the charge carriers and $\bm{B}$ is the magnetic field in the material. If we were to account for the possible collisions that may occur within a sample of the conductor, which will cause the charge carriers (in this case electrons) to slow down, we shall arrive at a slightly modified equation to the Lorentz law from above
         \begin{align}
-            m \dot{\vec{v}} = q \vec{E}+\vec{B}\times \vec{v} - \frac{1}{\tau} m \vec{v}, \label{eq:Drude_Model_Background}
+            m \dot{\bm{v}} = q \bm{E}+q \bm{v}\times \bm{B} - \frac{1}{\tau} m \bm{v}, \label{eq:Drude_Model_Background}
         \end{align}
-        where $\tau$ is the \textit{scattering time} -- it accounts for how frequently the electrons scatter, hence a large scattering time makes the term disappear completely. This description of the charge carriers in a material, subject to both electric and magnetic field, in the presence of impurities, is called the \textit{Drude model}, named after the german physicist Paul Drude, who first proposed it.
+        where $\tau$ is the \textit{scattering time} -- it accounts for how frequently the electrons scatter, hence a large scattering time makes the term disappear completely. This description of the charge carriers in a material, subject to both electric and magnetic field, in the presence of impurities, is called the \textit{Drude model}, named after the german physicist Paul Drude, who first proposed it. Before we look at the general solution of this model, we make several remarks about certain limiting cases.
+
+        First, assume that there are no collisions (\textit{i.e.} the collision time diverges $\tau \rightarrow\infty$) and that there is no electric field. Then the system simplifies to
+        \begin{align}
+            m\dot{\bm{v}} =q \bm{v}\times \bm{B}.
+        \end{align}
+        For a particle confined to the plane the velocity vector is $\bm{v} = (\dot{x}, \dot{y})$, which leads to the system of two coupled linear ODEs
+        \begin{align}
+            m \ddot{x} = q B \dot{y}, \qquad m \ddot{y}= -q B \dot{x}.
+        \end{align}
+        The general solution to this system is
+        \begin{align}
+            x(t) &= x_0 + R \sin\left(\omega_Bt + \varphi \right) \\
+            y(t) &= y_0 + R \cos\left(\omega_Bt + \varphi \right),
+        \end{align}
+        where $x_0, y_0, R, \varphi$ are all integration constants and
+        \begin{align}
+            \omega_B = \frac{q B}{m}
+        \end{align}
+        is the \textit{cyclotron frequency}.
+        We that the solution in the absence of collisions and an electric potential is circular motion with a fixed magnetic field dependent frequency.
+
+        Now, let us go back to the full Drude model. We would like to find out what the equillibrium of the system looks like. This implies that $\dot{v} =0$. The equation of motion becomes 
+        \begin{align}
+            \bm{v} - \frac{q \tau}{m}\bm{v}\times\bm{B}  &=\frac{\tau q}{m} \bm{E} \\
+            \begin{pmatrix}
+                1 & -\frac{q \tau B}{m} \\
+                \frac{q \tau B}{m} & 1 \\
+            \end{pmatrix} \bm{v} &= \frac{\tau q}{m} \bm{E}.
+        \end{align}
 
 \textcolor{red}{***More to add***}\\
         - Drude Model
@@ -255,7 +283,7 @@ This above passage illustrates the essence of large gauge transformations in the
 
         Later on, in 1973, Nielsen \& Olesen \cite{Nielsen1973} showed that a solution similar to that of Abrikosov can come about through the study of a microscopic Lagrangian, as opposed to in an effective Landau-Ginzburg description. This is the Lagrangian of the abelian Higgs model with a quartic interaction. Similar solutions have been found in the abelian Higgs model with a Chern-Simons interaction by Paul-Khare \cite{Paul1986} and in the absence of a Maxwell term by Hong-Kim-Pac \cite{Hong1990}, Jackiw and Weinberg \cite{Jackiw1990a} and Jackiw, Lee and Weinberg \cite{Jackiw1990b}.
 
-        \subsection{Global U(1) vortex}
+        \subsection{Global U(1) Vortex}
 
         Now we look at the properties of these solutions more closely. Before we look at the gauge theory scenario, we focus on the simplest case of a complex massive scalar with a fourth order interaction, negative mass squared and a global $U(1)$ symmetry
 
@@ -276,16 +304,16 @@ This above passage illustrates the essence of large gauge transformations in the
     \begin{align}
         E= 2 \pi \int_0^{\infty} r dr \left(\lambda |\phi|^4 - m^2 |\phi|^2 + |\phi'|^2 + \frac{n^2 v^2}{r^2} \right).
     \end{align}
-    Close to infinity, the potential term vanishes and so does $\phi'$. In the end we're left with
+    Close to infinity, the potential term vanishes and so does $\phi'$. In the end we are left with
     \begin{align}
         E = 2\pi n^2 v^2 \int \frac{dr}{r} =  2\pi n^2 v^2  \ \log R,
     \end{align}
     where $R$ is the sample size on which our theory is defined. We see that the global vortex, if it exists, would only have a finite energy for finite samples and is not well-defined in the most general case. It turns out that once the global symmetry is gauged, the divergence disappears and we have a vortex configurations that is well defined in the infinite volume limit.
 
-        \subsection{Local U(1) vortex}
+        \subsection{Local U(1) Vortex}
         The gauged $U(1)$ vortex, also known as the Abrikosov-Nielsen-Olesen vortex is again a configuration that interpolates between two different vacua in a theory, but this time we introduce a gauge field, whose dynamics is governed by a Maxwell term and is minimally coupled to a $U(1)$ scalar with a symmetry breaking potential. This is the familiar abelian Higgs model. 
         \begin{align}
-            \mathcal{L} = -\frac{1}{4} F_{\mu \nu} F^{\mu \nu} + | D_{\mu} \phi|^2 - U(\phi),
+            S_{\text{AH}} & = \int d^3x \left(-\frac{1}{4} F_{\mu \nu} F^{\mu \nu} + | D_{\mu} \phi|^2 - U(\phi) \right), \label{eq:Abelian_Higgs_Model}
         \end{align}
         where
         \begin{align}
@@ -295,7 +323,7 @@ This above passage illustrates the essence of large gauge transformations in the
     \begin{align}
         E = 2 \pi \int_0^{\infty} r dr \left(\frac{1}{2}( B^2 + E^2) + |D_{\mu} \phi|^2 + U(\phi) \right)
     \end{align}
-    This time we're aiming for eliminating the divergence that arose from the kinetic term $|\partial_{\mu}\phi|$ by requiring that $A_{\mu}$ asymptotes to a value that cancels it, in such a way that this value can be arrived at through a gauge transformation, ensuring that at $r\rightarrow \infty$, $A_{\mu}$ is pure gauge, thus yielding a finite contribution from the electromagnetic field. Such a choice for $A_{\mu}$ is
+    This time we are aiming for eliminating the divergence that arose from the kinetic term $|\partial_{\mu}\phi|$ by requiring that $A_{\mu}$ asymptotes to a value that cancels it, in such a way that this value can be arrived at through a gauge transformation, ensuring that at $r\rightarrow \infty$, $A_{\mu}$ is pure gauge, thus yielding a finite contribution from the electromagnetic field. Such a choice for $A_{\mu}$ is
     \begin{align}
         A_{\mu} = n \partial_{\mu} \alpha(x),
     \end{align}
@@ -309,7 +337,7 @@ This above passage illustrates the essence of large gauge transformations in the
     \end{align}
     From here we see that the inclusion of a gauge field has cured the divergence and we are left with a sensible infinite volume limit. 
 
-    Now that we know that these boundary conditions don't lead to a divergence in the energy, let us see whether a solution with such boundary conditions exists. We write down the equations of motion.
+    Now that we know that these boundary conditions do not lead to a divergence in the energy, let us see whether a solution with such boundary conditions exists. We write down the equations of motion.
     \begin{align}
         \frac{1}{g^2}  \partial_{\rho}(r F^{\mu \rho}) = i r \left[\phi^* \left(D^{\mu}\phi\right) - \left(D^{\mu}\phi \right)^* \phi \right] \nonumber \\
         \partial_{\mu} \left(r D^{\mu} \phi \right) - i A_{\mu} D^{\mu} \phi + \frac{\delta U}{\delta \phi^*} =0
@@ -356,7 +384,7 @@ This above passage illustrates the essence of large gauge transformations in the
     \begin{align}
         U(\phi)&=\frac{\lambda}{2} \left( |\phi|^2 - v^2 \right)^2 - \frac{m^2 v^2}{2}. \label{eq:potential_square}
     \end{align}
-    Here we can ignore the constant since the energy is defined up to a constant (albeit an infinite one). Utilizing \ref{eq:Bogomolnyi} and \ref{eq:potential_square} we reach the following expression for the energy of this configuration
+    Here we can ignore the constant since the energy is defined up to a constant (albeit an infinite one). Utilizing \eqref{eq:Bogomolnyi} and \eqref{eq:potential_square} we reach the following expression for the energy of this configuration
 
     \begin{align}
         E &= 2 \pi \int r dr \bigg(\frac{1}{2 g^2}B^2 \pm B(|\phi|^2 -v^2) + \frac{\lambda}{2} \left(|\phi|^2 -v^2 \right)^2 \\ \nonumber 
@@ -376,10 +404,8 @@ This above passage illustrates the essence of large gauge transformations in the
         |D_1\phi \pm i D_2 \phi|^2 =0&,  \qquad \frac{B}{g} \pm \lambda \left(|\phi|^2 -v^2  \right) =0, \label{eq:BPS1_Abel}\\
         \lambda &= g^2 .\label{eq:BPS2_Abel}
     \end{align}
-    The above equations (\ref{eq:BPS1_Abel} and \ref{eq:BPS2_Abel}) are known as the BPS equations of the vortex, named after the people who first discovered a non-interacting limit for solitonic solutions in field theory -- Bogomol'nyi, Prasad and Sommerfield \cite{Bogomolny:1975de} \cite{Prasad1975}.
+    The above equations (\eqref{eq:BPS1_Abel} and \eqref{eq:BPS2_Abel}) are known as the BPS equations of the vortex, named after the people who first discovered a non-interacting limit for solitonic solutions in field theory -- Bogomol'nyi, Prasad and Sommerfield \cite{Bogomolny:1975de} \cite{Prasad1975}.
     
-
-
 \begin{figure}[htb]
 	\centering
 	\begin{tabular}{c@{\hspace{1.5cm}}c@{\hspace{1.5cm}}c}
@@ -388,6 +414,22 @@ This above passage illustrates the essence of large gauge transformations in the
 	\end{tabular}
     \caption{Scalar and magnetic field profiles for n=1 and $\lambda = (10,1,0.1)* \lambda_c$} \label{plot:Abelian_Higgs_Profiles_n1}
 \end{figure}
+
+    \subsection{Particle-Vortex Duality}
+    The considerations of the previous section are more general and they apply for more than just systems in $2+1d$ even though the details differ. In a general QFT, we have roughly two different types of quantum excitations. One is the familiar type of elementary excitations that appear through the standard procedure of canonical quantization, where we introduce creation and annihilation operators that insert particles at a given position. The other type is, as we have just seen from the previous section, of a \textit{solitonic nature} (such as vortices). In other words, a solution that we reach not through expanding around the free solution in a small coupling parameter, but is more generally associated with a stationary point parametrically far from the free theory. This makes these solutions grow in size and energy the smaller the coupling is so studying them in the quantum regime becomes tricky. Luckily, because their masses become large at small coupling, they decouple from the theory so one can study the quantum theory of the elementary excitations on its own without worrying about the solitons. Unfortunately, going in the other direction in terms of coupling strength, the solitons become light and their importance grows but so do quantum corrections for the elementary excitations and we reach a regime, where we do not understand the theory. So how do we learn more about these strongly coupled theories?
+
+    One approach that has become ever more popular in the past few decades is the idea of a \textit{duality}. Duality suggests that instead of having one model or one Lagrangian that describes the physics of a system, we instead have two. For example, a way in which duality can manifest itself is the following. Theory \textit{I} has elementary excitations that we can study at weak coupling and non-perturbative excitations which are inaccessible due their large mass. Whereas theory \textit{II} describes the solitons of theory \textit{I} as its own elementary excitations at weak coupling (and a small mass) and the solitons present in theory \textit{II} are in fact the elementary states of theory \textit{I}. If the non-perturbative states in these systems are vortices in $2+1$ dimensions, then we have a type of Strong-Weak duality called a \textit{Particle-Vortex duality}. 
+
+    Since we now have a reasonable grasp of what vortices are, we are ready to delve into particle-vortex duality. And what better place to start than the Abelian Higgs model from the last section \eqref{eq:Abelian_Higgs_Model}. Earlier we saw that non-perturbative solutions exist in this theory. It turns out that a model exists where the vortices of the Abelian Higgs model appear as elementary excitations. In other words, there is a duality between these two models
+    \begin{align}
+        S_{\text{AH}} \leftrightarrow S_{\text{XY}},
+    \end{align}
+    where
+    \begin{align}
+        S_{\text{XY}} &= \int d^3x |\partial_{\mu}\tilde{\phi}|^2-m^2 |\tilde{\phi}|^2 - \frac{\tilde{\lambda}}{2} |\tilde{\phi}|^4.
+    \end{align}
+    $S_{\text{XY}}$ is the action for the so called \textit{XY model}
+
 
 
 \textcolor{red}{***More to add***}\\
@@ -401,11 +443,13 @@ Some history, Abrikosov \cite{Abrikosov1957}, type $I$ and $II$ superconductors.
         \item Importance of BPS \cite{Bogomolny:1975de, Prasad1975}
     \end{itemize}
         \section{Fermi-Bose Duality} \label{Fermi-Bose_sec}
+        %``\parshape \textit{Every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics.}'' \par\bigskip \hfill -- Richard Feynman, \textit{The Character of Physical Law (1965)} \bigskip \\
+        %\epigraph{``...every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics.''}{Richard Feynman, \textit{The Character of Physical Law (1965)}}
             - Aharony's statement\\
             - Monopole operators
 
-        \section{Non-commutative fluids}
-    In this section we will define important physical notions in a non-commutative geometry, show how it relates to the theory of fluids, demonstrate how the non-commutative version of the Landau problem leads directly to the non-commutative Chern-Simons action. Finally, we discuss the Fock space of this action to prepare the presentation of results that we have discovered. For a good summary of this topic, we refer the reader to this set of excellent reviews on physics on non-commutative geometry \cite{0706.1095}, \cite{hep-th/0106048}, \cite{hep-th/0109162}.
+        \section{Non-Commutative Fluids}
+    In this section we will define important physical notions in a non-commutative geometry, show how it relates to the theory of fluids and demonstrate how the non-commutative version of the Landau problem leads directly to the non-commutative Chern-Simons action. Finally, we discuss the Fock space of this action to prepare the presentation of results that we have discovered. For a good summary of this topic, we refer the reader to this set of excellent reviews on physics on non-commutative geometry \cite{0706.1095}, \cite{hep-th/0106048}, \cite{hep-th/0109162}.
 
     Non-commutative geometry can arise naturally from the quantization of a particle's phase space coordinates. The simplest way to see this connection is through the Heisenberg algebra of the canonical commutation relations. 
     \begin{align}
@@ -413,25 +457,108 @@ Some history, Abrikosov \cite{Abrikosov1957}, type $I$ and $II$ superconductors.
     \end{align}
     As is well known, this quantization condition leads to a ``smearing out`` of the phase space structure of the theory. It makes it so that the notion of a point in phase space no longer makes sense, since one can no longer measure both position and momentum accurately.
 
-    However, there are more exotic cases, where the coordinate space becomes non-commutative or fuzzy, due to the specific form of the Poisson brackets in the problem. In such a problem, the notion of a point in space is no longer reasonable and one can no longer measure the position of a (quasi)particle to arbitrary accuracy on both axes at once. Such a problem concerns the dynamics of the particles in the lowest Landau level that we discussed earlier. These ideas of a non-commuting space-time were first explored by Snyder in 1947 \cite{Snyder1947_space_time} \cite{Snyder1947_EM}.
+    However, there are more exotic cases, where the coordinate space becomes non-commutative or fuzzy, due to the specific form of the Poisson brackets in the problem. In such a problem, the notion of a point in space is no longer reasonable and one can no longer measure the position of a (quasi)particle to arbitrary accuracy on both axes at once. An example of a problem, where the different momenta exhibit such non-commutativity is the problem of particles in a magnetic field that we discussed earlier. Similarly, we all know that angular momentum also behaves in a non-commutative way so the idea of the spatial coordinates having non-zero commutator comes naturally. Finally, in the study of fluids, one can define a type of poisson bracket that is restricted to the coordinate space, which leads to a non-commutative space following a canonical quantization \cite{Jackiw2002}. These ideas of a non-commuting space-time were first explored by Snyder in 1947 \cite{Snyder1947_space_time}, \cite{Snyder1947_EM}.
 
-    Now, let's see how to define a \textit{non-commutative field theory}. Here we will be concerned with a space-time that has both a set of commuting and non-commuting coordinates.
 
-    \\ 
-    - Specifically, non-commutative Chern-Simons theory arises as the action of a massless particle confined to the plane in the presence of a magnetic field. \cite{hep-th/0103013} Let's take a look at the Lagrangian of a particle of charge $q$ moving in an electromagnetic field.
+    \subsection{Review of Non-Commutative Geometry}
+    Now, let us see how to define a \textit{non-commutative space}. Here we will be concerned with a $D$ dimensional space-time that has both a set of $D-2p$ commuting $\{ y_i, \ i=2p+1,...,D\}$ and $2p$ non-commuting coordinates $\{ x_i, \ \alpha =1,...,2p\}$. More precisely,
     \begin{align}
-        L = \frac{1}{2} m^2 v^2 - q V(\vec{x},t) + q \vec{v} \cdot \vec{A}(\vec{x},t). \label{eq:Lagrangian_Charged_Particle_In_EM_Field}
+        [y_i, y_j] &=0\\
+        [x_{\alpha}, x_{\beta}] &=i \bm{\theta}_{\alpha \beta}, \label{eq:space_time_commutations}
+    \end{align}
+    where $\theta$ is an anti-symmetric constant one-form. One can perform linear transformations on the coordinates $x_{\alpha}$ so that the matrix $\theta$ is in canonical block form
+
+    \begin{align}
+        \bm{\theta}_{\alpha \beta } = \theta \begin{pmatrix}
+            i \bm{\sigma_2} &  & \text{\huge0} \\
+                     & \ddots &  \\
+                    \text{\huge0} &  & i \bm{\sigma_2} \\
+                \end{pmatrix},
+    \end{align}
+    where 
+
+    \begin{align}
+        i \bm{\sigma_2} = \begin{pmatrix}
+            0 & 1 \\
+            -1 & 0 \\
+        \end{pmatrix}.
     \end{align}
 
-    Now, let's assume that the particle is massless and in addition, it is in a constant magnetic field and the electric potential is 0. Since $\nabla \times \vec{A} = \vec{B}$, this implies that
+    This leaves us with $p$ pairs of the Heisenberg algebra
+    \begin{align}
+        [x_{2\alpha -1}, x_{2\alpha}]=i\theta, \qquad \alpha=1,...,p.
+    \end{align}
+    This quantization of the spatial coordinates leads to the existence of a Hilbert space. Since we can now think of the coordinates as operators, then each operator has a set of eigenstates with associated quantum numbers. To make this more explicit, let us define the \textit{creation}, \textit{annihilation} and \textit{number} operators
+    \begin{align}
+        \bm{a}_{\alpha} = \frac{x_{2\alpha-1} +i x_{2\alpha}}{\sqrt{2 \theta}}, \qquad \bm{a}^{\dag}_{\alpha} &= \frac{x_{2\alpha-1} -i x_{2\alpha}}{\sqrt{2 \theta}} \\
+        \bm{n}_{\alpha} = \bm{a}^{\dag}_{\alpha}\bm{a}_{\alpha}.
+    \end{align}
+    These operators allow us to build the familiar \textit{Fock space} from QFT by acting on a vacuum state
+    \begin{align}
+        |n_1,...,n_p\rangle=  \bm{a}^{\dag}_1^{n_1}... \bm{a}^{\dag}_p^{n_p}|0\rangle
+    \end{align}
+
+    Further, we define the derivative operators through the relations
+    \begin{align}
+        \partial_{\mu} \cdot x_{\nu} = [\partial_{\mu}, x_{\nu}] = \delta_{\mu \nu}, \qquad \mu,\nu = 1,...,D.
+    \end{align}
+    Specifically for the non-commuting coordinates
+    \begin{align}
+        \partial_{\alpha}= -i \omega_{\alpha \beta} x_{\beta}, \qquad \alpha, \beta = 1,...,2p.
+    \end{align}
+    where $\omega_{\alpha \beta} = \left(\theta^{-1} \right)_{\alpha \beta}$. From here it follows that
+    \begin{align}
+        [\partial_{\alpha}, \partial_{\beta}] = i \omega_{\alpha \beta}.
+    \end{align}
+
+
+    \subsection{Non-Commutative Field Theory}
+
+    Now that we understand some of the basic ideas of non-commutative geometry, we would like to define a field theory on this non-commutative space. The simplest possible gauge theory contains just a gauge field $A_{\mu}$. Further, the easiest way to construct a gauge invariant theory is by forming an action that is composed of a trace of covariant derivatives 
+    \begin{align}
+        D_{\mu} = -i \partial_{\mu} + A_{\mu},
+    \end{align}
+    since under a gauge transformation $D_{\mu}$ transforms as
+    \begin{align}
+        D_{\mu} \rightarrow U D_{\mu} U^{-1}.
+    \end{align}
+    Restricting ourselves to the non-commuting submanifold, we have
+    \begin{align}
+        D_{\alpha} &= -i \partial_{\alpha} + A_{\alpha} = \omega_{\alpha \beta}x^{\beta}+ A_{\alpha} = \omega_{\alpha \beta} \left( x^{\beta}+ \theta^{\beta \gamma} A_{\gamma} \right) \equiv \omega_{\alpha \beta} X^{\beta}.
+    \end{align}
+    
+
+    \\ 
+    - Specifically, non-commutative Chern-Simons theory arises as the action of a massless particle confined to the plane in the presence of a magnetic field. \cite{hep-th/0103013} Let us take a look at the action of a particle of charge $q$ and mass $m$ moving in an electromagnetic field generated by the four-potential $A^{\mu} = \left(-V(\bm{x}, t), \ \bm{A}(\bm{x},t)\right)$
+    \begin{align}
+        S = \int dt \left(\frac{1}{2} m^2 v^2 - q V(\bm{x},t) + q \bm{v} \cdot \bm{A}(\bm{x},t)\right). \label{eq:Lagrangian_Charged_Particle_In_EM_Field}
+    \end{align}
+    Now, let us assume that the particle is massless and in addition, it is in a constant magnetic field and the electric potential is 0. Since $\nabla \times \bm{A} = \bm{B}$, this implies that
     \begin{align}
         A_i = \frac{B}{2} \epsilon_{i j} x_j,
     \end{align}
-    where $B= |\vec{B}|$.
-    Substituting this expression into \ref{eq:Lagrangian_Charged_Particle_In_EM_Field}
-
+    where $B= |\bm{B}|$.
+    Substituting this expression into \eqref{eq:Lagrangian_Charged_Particle_In_EM_Field}
     \begin{align}
-        L = q \frac{B}{2}\epsilon_{i j} \dot{x_i} x_j
+        S = \int dt \left( q \frac{B}{2}\epsilon_{i j} \dot{x_i} x_j \right).
     \end{align}
+    From here we proceed by making the identification
+    \begin{align}
+        x_i \leftrightarrow X_i.
+    \end{align}
+    And since the $X_i$'s transform under gauge transformations, we ought to make sure that the action remains invariant. To this end, we need to also gauge the time derivative $\partial_0 \rightarrow D_0 = \partial_0 +A_0$
+    \begin{align}
+        S = \int dt \ \left[ q \frac{B}{2} \epsilon_{ij} Tr \left(D_0 X^i X^j \right) \right] = \int dt \ \left[ q \frac{B}{2} \epsilon_{ij} Tr \left(\partial_0 X^i X^j + [A_0, X^i] X^j \right) \right]
+    \end{align}
+    The introduction of the time component of the gauge field leads to a Gauss's law constraint
+    \begin{align}
+        [X^1, X^2] =0.
+    \end{align}
+    It seems that this constraint has removed the non-commutativity that we tried to introduce into our model. In order to bring it back, we add an extra term to the action such that we get the Heisenberg algebra \eqref{eq:space_time_commutations} that we explored earlier
+    \begin{align}
+        S =\int dt \ \left[ q \frac{B}{2} \epsilon_{ij} Tr \left(\partial_0 X^i X^j + [A_0, X^i] X^j + 2 \theta A_0 \right) \right].
+    \end{align}
+    Thus we have arrived at the non-commutative abelian Chern-Simons model by considering the movement of charged particles in a magnetic field confined to a two-dimensional plane.
 
+    
 
