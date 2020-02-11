@@ -4,44 +4,44 @@ The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Background_Folder/Background.aux
 The style file: Reference_Folder/utphys.bst
 Database file #1: Reference_Folder/references.bib
-You've used 27 entries,
+You've used 35 entries,
             2328 wiz_defined-function locations,
-            774 strings with 8524 characters,
-and the built_in function-call counts, 7432 in all, are:
-= -- 823
-> -- 164
+            827 strings with 9811 characters,
+and the built_in function-call counts, 9050 in all, are:
+= -- 976
+> -- 251
 < -- 0
-+ -- 69
-- -- 42
-* -- 651
-:= -- 892
-add.period$ -- 45
-call.type$ -- 27
-change.case$ -- 56
++ -- 101
+- -- 66
+* -- 791
+:= -- 1128
+add.period$ -- 55
+call.type$ -- 35
+change.case$ -- 65
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 367
-empty$ -- 760
-format.name$ -- 42
-if$ -- 1910
+cite$ -- 35
+duplicate$ -- 442
+empty$ -- 920
+format.name$ -- 66
+if$ -- 2311
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 87
-newline$ -- 87
-num.names$ -- 27
-pop$ -- 131
+int.to.str$ -- 35
+missing$ -- 111
+newline$ -- 112
+num.names$ -- 35
+pop$ -- 170
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 251
+skip$ -- 277
 stack$ -- 0
-substring$ -- 478
-swap$ -- 156
+substring$ -- 510
+swap$ -- 167
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 73
-width$ -- 29
-write$ -- 210
+while$ -- 84
+width$ -- 37
+write$ -- 269

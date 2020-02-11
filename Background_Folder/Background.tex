@@ -205,16 +205,61 @@ This above passage illustrates the essence of large gauge transformations in the
         \begin{align}
             H = \int d^2x \mathcal{H}(\hat{\phi}, \hat{\pi}).
         \end{align}
-        Assume that a system is in a state $| \phi_a \rangle$ at time $t=0$. After a time $t_f$ it evolves to $e^{-i H t_f} | \phi_a \rangle$, assuming that the Hamiltonian has no explicit time dependence. The transition amplitude for going from state $| \phi_a \rangle$ to state $| \phi_b \rangle$ after a time $t_f$ is $\langle \phi_b | e^{-i H t_f} | \phi_a \rangle$. In order to study a system at thermodynamic equilibrium, we will be interested in the amplitude for the system returning to the same state after a time $t_f$. To be able to compute this amplitude, we divide the time interval $(0, t_f)$ into $N$ equal time steps $\Delta t = \frac{t_f}{N}$.
+        Assume that a system is in a state $| \phi_a \rangle$ at time $t=0$. After a time $t_f$ it evolves to $e^{-i H t_f} | \phi_a \rangle$, assuming that the Hamiltonian has no explicit time dependence. The transition amplitude for going from state $| \phi_a \rangle$ to state $| \phi_b \rangle$ after a time $t_f$ is $\langle \phi_b | e^{-i H t_f} | \phi_a \rangle$. In order to study a system at thermodynamic equilibrium, we will be interested in the amplitude for the system returning to the same state after a time $t_f$. To be able to compute this amplitude, we divide the time interval $(0, t_f)$ into $N$ equal time steps $\Delta t = \frac{t_f}{N}$. Then at each time interval, we insert a complete set of states, alternating between field operators and their conjugate momenta
+
+
+        \begin{align}
+            \langle \phi_a| e^{- i H t_f} | \phi_a \rangle &= \lim_{N\rightarrow \infty} \int \left( \prod_{i=1}^{N} \frac{d\pi_i d\phi_i}{2\pi} \right) \nonumber \\
+            &\times \langle \phi_a | \pi_N \rangle \langle \pi_N|  e^{-i H \Delta t}| \phi_N \rangle \langle \phi_N | \pi_{N-1} \rangle \nonumber \\
+            &\times \langle \pi_{N-1} | e^{-i H \Delta t} | \phi_{N-1} \rangle \dots \nonumber \\
+            &\times \langle \phi_2 | \pi_1 \rangle \langle \pi_1 | e^{-i H \Delta t} | \phi_1 \rangle \langle \phi_1 |\phi_a \rangle.
+        \end{align}
+        In order to evaluate this expression, we need to do several things. First of all, from single particle QM, we know that 
+        \begin{align}
+            \langle x | p \rangle = e^{i p \cdot x}.
+        \end{align}
+        So an appropriate generalization for this inner product to field operators is 
+        \begin{align}
+            \langle \phi_{i+1}| \pi_i \rangle = \exp \left(i \int d^2 x \ \pi_i(\bm{x}) \phi_{i+1}(\bm{x}) \right)
+        \end{align}
+        Since $\Delta t \rightarrow 0$, we can expand as follows, keeping terms up to first order:
+        \begin{align}
+            \langle \pi_i | e^{-i H_i \Delta t} | \phi_i \rangle &\sim \langle \pi_i | (1- i H_i \Delta t ) | \phi_i \rangle \nonumber \\
+            &= \langle \pi_i | \phi_i \rangle (1 - i H_i \Delta t) \nonumber \\
+            & = (1-i H_i \Delta t) \ \exp\left(-i \int d^2x \pi_i(\bm{x}) \phi_i (\bm{x})  \right),
+        \end{align}
+        where
+        \begin{align}
+            H_i = \int d^2 x \ \mathcal{H}\left(\pi_i (\bm{x}) \phi_i (\bm{x}) \right)
+        \end{align}
+        In the end we arrive at 
+        \begin{align}
+            \langle \phi_a | e^{-i H t_f} | \phi_a \rangle &= \lim_{N\rightarrow \infty} \int \left( \prod_{i=1}^N \frac{d \pi_i d\phi_i}{2\pi} \right) \delta \left(\phi_1 -\phi_a \right) \nonumber \\
+            &\times \exp \left(i \Delta t \sum_{j=1}^{N} \int d^2x \left[\frac{\pi_j (\phi_{j+1} -\phi_j)}{\Delta t} - \mathcal{H}(\pi_j, \phi_j) \right] \right).
+        \end{align}
+        And taking the continuum limit we arrive at the path integral representation of the partition function
+        \begin{align}
+            \langle \phi_a | e^{-i H t_f} | \phi_a \rangle &= \int \mathcal{D} \pi \int_{\phi(\bm{x},0) =\phi_a(\bm{x})}^{\phi(\bm{x}, t_f) = \phi_a(\bm{x})} \mathcal{D} \phi \nonumber \\
+            &\times \exp \left[i \int_0^{t_f} \int d^2 x \left( \pi(\bm{x} ,t) \frac{\partial\phi(\bm{x}, t)}{ \partial t} - \mathcal{H}\left(\phi(\bm{x},t), \pi(\bm{x},t)\right) \right) \right]
+        \end{align}
+        For a Hamiltonian that is quadratic in the canonical momenta, we can just complete the square, integrate out the momenta and arrive at the usual expression for a transition amplitude in terms of a path integral over $e^{i S}$. Since our purpose here is to illuminate the connection between the statistical partition function and the path integral, we shall perform a few more manipulations. First, we note that the grand canonical partition function is defined as follows
+        \begin{align}
+            Z= \tr \left[e^{-\beta \left( H - \mu N \right)}\right],
+        \end{align}
+        where $\beta = \frac{1}{k_b T}$ and is the inverse temperature and $\mu$ is the \textit{chemical potential}, and $N$ is a particle number. In a QFT this particle number will be associated with a conserved charge that is discretized, which is the reason why it is associated to particle number. We can express the trace in the $\phi$ basis
+        \begin{align}
+            Z=
+        \end{align}
 
 
 \textcolor{red}{***More to add***}\\
-- Arive at path integral through dividing time evolution steps.
+- Arrive at path integral through dividing time evolution steps.
 - 
 
 
 
         \subsection{Grand Canonical Ensemble} \label{GCE_sec}
+In the grand canonical ensemble the system can exchange particles as well as energy with a reservoir. In this ensemble the temperature $T$, volume $V$, and chemical potential $\mu$ are fixed quantities.
         \subsection{Physical Applications}\label{phys_app_sec}
         \subsubsection{Landau-Fermi Liquid Theory} \label{Fermi_Liquid_sec}
         The statistical description of weakly interacting particles, for example, in a fluid can be thought of as the same as that of a free gas of non-interacting quasiparticles that are in one to one correspondence with the original interacting excitations of the material. We find that in order to explain some of the surprising feature of the charge carriers in a QH system, we need to go beyond the weakly interacting description of a Landau-Fermi liquid.
@@ -237,7 +282,7 @@ This above passage illustrates the essence of large gauge transformations in the
         \begin{align}
             m \dot{\bm{v}} = q \bm{E}+q \bm{v}\times \bm{B} - \frac{1}{\tau} m \bm{v}, \label{eq:Drude_Model_Background}
         \end{align}
-        where $\tau$ is the \textit{scattering time} -- it accounts for how frequently the electrons scatter, hence a large scattering time makes the term disappear completely. This description of the charge carriers in a material, subject to both electric and magnetic field, in the presence of impurities, is called the \textit{Drude model}, named after the german physicist Paul Drude, who first proposed it. Before we look at the general solution of this model, we make several remarks about certain limiting cases.
+        where $\tau$ is the \textit{scattering time} -- it accounts for how frequently the electrons scatter, hence a large scattering time makes the term disappear completely. This description of the charge carriers in a material, subject to both electric and magnetic field, in the presence of impurities, is called the \textit{Drude model}, named after the German physicist Paul Drude, who first proposed it. Before we look at the general solution of this model, we make several remarks about certain limiting cases.
 
         First, assume that there are no collisions (\textit{i.e.} the collision time diverges $\tau \rightarrow\infty$) and that there is no electric field. Then the system simplifies to
         \begin{align}
@@ -259,7 +304,7 @@ This above passage illustrates the essence of large gauge transformations in the
         is the \textit{cyclotron frequency}.
         We that the solution in the absence of collisions and an electric potential is circular motion with a fixed magnetic field dependent frequency.
 
-        Now, let us go back to the full Drude model. We would like to find out what the equillibrium of the system looks like. This implies that $\dot{v} =0$. The equation of motion becomes 
+        Now, let us go back to the full Drude model. We would like to find out what the equilibrium of the system looks like. This implies that $\dot{v} =0$. The equation of motion becomes 
         \begin{align}
             \bm{v} - \frac{q \tau}{m}\bm{v}\times\bm{B}  &=\frac{\tau q}{m} \bm{E} \\
             \begin{pmatrix}
@@ -275,11 +320,11 @@ This above passage illustrates the essence of large gauge transformations in the
    \indent         - discovered by von Klitzing\\
         - Fractional Quantum Hall effect\\
     \indent        - Leads to charge fractionalization\\
-           \indent - Laughlin wavefunction
+           \indent - Laughlin wave function
         \section{Vortices} \label{vortices_sec}
         This section takes up the task of summarizing basic aspects about vortices in general and specifically in Chern-Simons matter theories.
         Vortices are localized, exact solutions to the equations of motion. They may or may not be finite energy configurations.
-        As we have already observed in \ref{Landau-Ginzburg_sec}, LG theory can be used to characterize different phases of matter. In 1957, Abrikosov showed that if the surface tension between two phases of matter (in his case those were superconducting and non-superconducting phases) is negative, then a phase transition would be accompanied by the creation of a lattice of regions, whose interiors reside in a phase different from their exteriors. He also recognized the similarity between these regions of non-superconductivity have with the vortices formed in superfluid helium. This similarity is due to the winding of the phase of the order parameter wavefunction.
+        As we have already observed in \ref{Landau-Ginzburg_sec}, LG theory can be used to characterize different phases of matter. In 1957, Abrikosov showed that if the surface tension between two phases of matter (in his case those were superconducting and non-superconducting phases) is negative, then a phase transition would be accompanied by the creation of a lattice of regions, whose interiors reside in a phase different from their exteriors. He also recognized the similarity between these regions of non-superconductivity have with the vortices formed in superfluid helium. This similarity is due to the winding of the phase of the order parameter wave function.
 
         Later on, in 1973, Nielsen \& Olesen \cite{Nielsen1973} showed that a solution similar to that of Abrikosov can come about through the study of a microscopic Lagrangian, as opposed to in an effective Landau-Ginzburg description. This is the Lagrangian of the abelian Higgs model with a quartic interaction. Similar solutions have been found in the abelian Higgs model with a Chern-Simons interaction by Paul-Khare \cite{Paul1986} and in the absence of a Maxwell term by Hong-Kim-Pac \cite{Hong1990}, Jackiw and Weinberg \cite{Jackiw1990a} and Jackiw, Lee and Weinberg \cite{Jackiw1990b}.
 
@@ -422,13 +467,27 @@ This above passage illustrates the essence of large gauge transformations in the
 
     Since we now have a reasonable grasp of what vortices are, we are ready to delve into particle-vortex duality. And what better place to start than the Abelian Higgs model from the last section \eqref{eq:Abelian_Higgs_Model}. Earlier we saw that non-perturbative solutions exist in this theory. It turns out that a model exists where the vortices of the Abelian Higgs model appear as elementary excitations. In other words, there is a duality between these two models
     \begin{align}
-        S_{\text{AH}} \leftrightarrow S_{\text{XY}},
+        S_{\text{AH}} \longleftrightarrow S_{\text{XY}},
     \end{align}
     where
     \begin{align}
         S_{\text{XY}} &= \int d^3x |\partial_{\mu}\tilde{\phi}|^2-m^2 |\tilde{\phi}|^2 - \frac{\tilde{\lambda}}{2} |\tilde{\phi}|^4.
     \end{align}
-    $S_{\text{XY}}$ is the action for the so called \textit{XY model}
+    $S_{\text{XY}}$ is the action for the so called \textit{XY model} and $S_{\text{AH}}$ is defined as in \eqref{eq:Abelian_Higgs_Model}.
+
+\begin{center}
+  \begin{tabular}{| l | c | c | c|}
+      \hline
+    $m^2$ & $<0$ & $=0$ & $>0$\\ \hline
+     & Coulomb phase &  & SB phase\\ 
+    $S_{\text{XY}}$ & $2d$ logarithmic & WF fixed point & local ANO \\ 
+     & potential &  & vortices \\ \hline
+      & SB phase &  &  Massive excitations\\
+    $S_{\text{AH}}$ & global vortices & WF fixed point & in\\
+      & $E\xrightarrow{V \rightarrow \infty} \infty$ &  & Coulomb phase \\
+    \hline
+  \end{tabular}
+\end{center}
 
 
 
@@ -443,9 +502,24 @@ Some history, Abrikosov \cite{Abrikosov1957}, type $I$ and $II$ superconductors.
         \item Importance of BPS \cite{Bogomolny:1975de, Prasad1975}
     \end{itemize}
         \section{Fermi-Bose Duality} \label{Fermi-Bose_sec}
+        We already met the idea of duality in the previous section. In general, they tend to be an equivalence of two theories. Two different ways in which we can state the same physics. Some of them are analogous to the idea of a Fourier transform (for functionals), one phenomenon can be described either in coordinate or momentum space. Others tend to arise in consequence of the idea of universality. Two models that flow to the same CFT in the IR will tend to be equivalent sufficiently close to the fixed point.
+        Yet other types of duality are inspired by the study of black hole thermodynamics and the holographic principle. Others still, seem to be a consequence of deep mathematical ideas. Whatever the fundamental reasons for their existence is, dualities are interesting becase they give us another point of view that allows us to explore and understand the world of fundamental physics in more depth. As Feynman once said, ``Every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics''\cite{Feynman_quote}. And in the spirit of his words, here duality is one more representation we wish to understand.
+
+        As pointed out above, dualities come in many flavours and the models we are considering here play a role in more than one type. $O(N)/U(N)$ (scalar or fermion) models are holographically dual to higher spin gravitational theories \cite{hep-th/0210114}. This duality seems to persist even after deforming the theories with a Chern-Simons term in the large $N$ limit\cite{1110.4382}. Fermions in 2+1d can be shown to be dual to vector fields via a Fourier transform-like functional integral transformation and pure Chern-Simons theories are level-rank dual to each other \cite{hep-th/9401105}\cite{Barci1996}. In this section, we will concentrate on a duality that has all of the above ingredients in some form ($SU(N)/U(N)$ scalars/fermions and CS vector fields) that combine into what's believed to be an IR duality. More precisely, we are talking about a set of dualities between $2+1d$ gauge theories that are collectively known as \textit{Fermi-Bose duality}.
+
+        - Present evidence for duality in one paragraph with references. Evidence for these dualities comes from large $N$ computations on both sides both at finite temperature \cite{1211.4843}  and at $T=0$ \cite{1110.4386}. Furthermore, there is compelling evidence that the duality holds at finite $N$ from supersymmetric theories\cite{0808.0360}.
+
         %``\parshape \textit{Every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics.}'' \par\bigskip \hfill -- Richard Feynman, \textit{The Character of Physical Law (1965)} \bigskip \\
         %\epigraph{``...every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics.''}{Richard Feynman, \textit{The Character of Physical Law (1965)}}
             - Aharony's statement\\
+            Since $U(N) = (SU(N)\times U(1))/\mathbb{Z}_N$, we can in principle have different Chern-Simons levels for the $SU(N)$ and $U(1)$ symmetries. We will denote a $U(N)$ Chern-Simons theory with levels $k_1$ and $k_2$ corresponding to the $SU(N)$ and $U(1)$ symmetries, respectively, as a $U(N)_{k_1,k_2}$ theory. Prior to the inclusion of matter in our model, we state an important fact about these theories. In Yang-Mills regularization the Fermi-Bose dualities are as follows\cite{1512.00161}.
+            \begin{align}
+                SU(N)_k + scalars &\longleftrightarrow \ \ U(k)_{-N +\frac{N_f}{2}, -N + \frac{N_f}{2}} \quad + fermions,  \\
+                U(N)_{k,k} + scalars &\longleftrightarrow SU(k)_{-N +\frac{N_f}{2}}\qquad \ \ \ \quad+ fermions,  \\
+                U(N)_{k,k+N} + scalars &\longleftrightarrow \ \ U(k)_{-N +\frac{N_f}{2}, -N + \frac{N_f}{2}-k} \ + fermions.  
+            \end{align}
+            The scalars on the LHS of these equations are assumed to be tuned to a critical interacting point of the RG flow, known as the Wilson-Fisher fixed point. (Explain how the Wilson Fisher fixed point work).\\
+            - Explain what is the precise dictionary of this duality. The two theories are equivalent but which degrees of freedom correspond to which. Clarify that fundamental perturbative states on one side map to monopole operators on the other and vice-versa.\\
             - Monopole operators
 
         \section{Non-Commutative Fluids}
@@ -457,7 +531,7 @@ Some history, Abrikosov \cite{Abrikosov1957}, type $I$ and $II$ superconductors.
     \end{align}
     As is well known, this quantization condition leads to a ``smearing out`` of the phase space structure of the theory. It makes it so that the notion of a point in phase space no longer makes sense, since one can no longer measure both position and momentum accurately.
 
-    However, there are more exotic cases, where the coordinate space becomes non-commutative or fuzzy, due to the specific form of the Poisson brackets in the problem. In such a problem, the notion of a point in space is no longer reasonable and one can no longer measure the position of a (quasi)particle to arbitrary accuracy on both axes at once. An example of a problem, where the different momenta exhibit such non-commutativity is the problem of particles in a magnetic field that we discussed earlier. Similarly, we all know that angular momentum also behaves in a non-commutative way so the idea of the spatial coordinates having non-zero commutator comes naturally. Finally, in the study of fluids, one can define a type of poisson bracket that is restricted to the coordinate space, which leads to a non-commutative space following a canonical quantization \cite{Jackiw2002}. These ideas of a non-commuting space-time were first explored by Snyder in 1947 \cite{Snyder1947_space_time}, \cite{Snyder1947_EM}.
+    However, there are more exotic cases, where the coordinate space becomes non-commutative or fuzzy, due to the specific form of the Poisson brackets in the problem. In such a problem, the notion of a point in space is no longer reasonable and one can no longer measure the position of a (quasi)particle to arbitrary accuracy on both axes at once. An example of a problem, where the different momenta exhibit such non-commutativity is the problem of particles in a magnetic field that we discussed earlier. Similarly, we all know that angular momentum also behaves in a non-commutative way so the idea of the spatial coordinates having non-zero commutator comes naturally. Finally, in the study of fluids, one can define a type of Poisson bracket that is restricted to the coordinate space, which leads to a non-commutative space following a canonical quantization \cite{Jackiw2002}. These ideas of a non-commuting space-time were first explored by Snyder in 1947 \cite{Snyder1947_space_time}, \cite{Snyder1947_EM}.
 
 
     \subsection{Review of Non-Commutative Geometry}
