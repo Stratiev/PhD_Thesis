@@ -239,27 +239,59 @@ This above passage illustrates the essence of large gauge transformations in the
         \end{align}
         And taking the continuum limit we arrive at the path integral representation of the partition function
         \begin{align}
-            \langle \phi_a | e^{-i H t_f} | \phi_a \rangle &= \int \mathcal{D} \pi \int_{\phi(\bm{x},0) =\phi_a(\bm{x})}^{\phi(\bm{x}, t_f) = \phi_a(\bm{x})} \mathcal{D} \phi \nonumber \\
-            &\times \exp \left[i \int_0^{t_f} \int d^2 x \left( \pi(\bm{x} ,t) \frac{\partial\phi(\bm{x}, t)}{ \partial t} - \mathcal{H}\left(\phi(\bm{x},t), \pi(\bm{x},t)\right) \right) \right]
+            &\langle \phi_a | e^{-i H t_f} | \phi_a \rangle = \int \mathcal{D} \pi \int_{\phi(\bm{x},0) =\phi_a(\bm{x})}^{\phi(\bm{x}, t_f) = \phi_a(\bm{x})} \mathcal{D} \phi \nonumber \\
+            &\times \exp \left[i \int_0^{t_f} dt \int d^2 x \left( \pi(\bm{x} ,t) \frac{\partial\phi(\bm{x}, t)}{ \partial t} - \mathcal{H}\left(\phi(\bm{x},t), \pi(\bm{x},t)\right) \right) \right] \label{eq:path_integral_amplitude}.
         \end{align}
-        For a Hamiltonian that is quadratic in the canonical momenta, we can just complete the square, integrate out the momenta and arrive at the usual expression for a transition amplitude in terms of a path integral over $e^{i S}$. Since our purpose here is to illuminate the connection between the statistical partition function and the path integral, we shall perform a few more manipulations. First, we note that the grand canonical partition function is defined as follows
+        For a Hamiltonian that is quadratic in the canonical momenta, we can just complete the square, integrate out the momenta and arrive at the usual expression for a transition amplitude in terms of a path integral over $e^{i S}$. Since our purpose here is to illuminate the connection between the statistical partition function and the path integral, we shall perform a few more manipulations. 
+        \subsection{Grand Canonical Ensemble} \label{GCE_sec}
+        First, we note that the grand canonical partition function is defined as follows
         \begin{align}
             Z= \tr \left[e^{-\beta \left( H - \mu N \right)}\right],
         \end{align}
         where $\beta = \frac{1}{k_b T}$ and is the inverse temperature and $\mu$ is the \textit{chemical potential}, and $N$ is a particle number. In a QFT this particle number will be associated with a conserved charge that is discretized, which is the reason why it is associated to particle number. We can express the trace in the $\phi$ basis
         \begin{align}
-            Z=
+            Z= \int d \phi_a \langle \phi_a | e^{-\beta \left( H - \mu N \right)} | \phi_a \rangle.
+        \end{align}
+        We see that this expression is very similar to \ref{eq:path_integral_amplitude}. In order to match the two expressions, we need to do three things. First, we set $t \rightarrow -i \tau$, such that $t_f \rightarrow -i \beta$. Then we shift the Hamiltonian density in order to account for the inclusion of a chemical potential
+        \begin{align}
+            \mathcal{H} \left(\phi(\bm{x},t),\pi (\bm{x},t) \right) \rightarrow \mathcal{H}\left(\phi(\bm{x},t),\pi (\bm{x},t) \right) - \mu \ \mathcal{N}\left(\phi(\bm{x},t),\pi (\bm{x},t) \right),
+        \end{align}
+        where $\mathcal{N}$ is a number density. Finally, we include the trace operation, which integrates over all possible boundary conditions. In the end we are left with
+        \begin{align}
+            Z &= \int \mathcal{D} \pi \int_{\text{periodic}} \mathcal{D} \phi \exp \left[ \int_0^{\beta} \int d^2x \left(\pi \frac{\partial \phi}{\partial t} - \mathcal{H}(\pi, \phi) + \mu \mathcal{N}(\pi, \phi) \right) \right] \label{eq:partition_function}.
+        \end{align}
+This is the path integral representation of the partition function of the grand canonical ensemble of a single real scalar field. This expression is readily generalizable to more fields by integrating over the extra fields and their respective conjugate momenta.
+
+Here we shall make a few observations that will come in use frequently for the rest of this work. For the purposes of presentation, we will elaborate on these points in the context of a somewhat simpler model. This should not alarm the reader, because the properties we are discussing are more general and model independent. With this in mind, we consider the Lagrangian description of a complex relativistic scalar in $2+1d$
+        \begin{align}
+            \mathcal{L} = \int d^3x \left(\partial_{\mu}\phi^{*} \partial^{\mu} \phi \right).
+        \end{align}
+        This system possesses a global symmetry
+        \begin{align}
+            \phi \rightarrow e^{i \alpha} \phi, \qquad\qquad \phi^* \rightarrow e^{-i \alpha} \phi^*.
+        \end{align}
+        This leads to a conserved Noether current and consequently a conserved charge
+        \begin{align}
+            J_{0} &= i \int d^2x \left( \pi \phi - \pi^{\dag}\phi^{\dag}\right),
+        \end{align}
+        where $\pi = \frac{\delta \mathcal{L}}{\delta ( \partial_0 \phi)}$ is the canonical momentum. Based on the assumption of identical particles with discrete charges, we postulate that $J_0 = \mathcal{N}$. Next, we perform the momentum integrals in \eqref{eq:partition_function}. Since now we have a complex field, we have to integrate over all of $\phi$, $\phi^{\dag}$, $\pi$ and $\pi^{\dag}$.
+        \begin{align}
+            Z &= \int \mathcal{D} \pi \mathcal{D} \pi^{\dag} \int_{\text{periodic}} \mathcal{D} \phi \mathcal{D} \phi^{\dag} \nonumber \\
+            &\times \exp \left[ \int_0^{\beta} \int d^2x \left(\pi \frac{\partial \phi}{\partial t} +\pi^{\dag} \frac{\partial \phi^{\dag}}{\partial t} - \mathcal{H}(\pi, \pi^{\dag}, \phi, \phi^{\dag}) + i  \mu \left(\pi \phi - \pi^{\dag}\phi^{\dag} \right) \right] \label{eq:partition_function_complex_scalar} \nonumber \\
+            &= \int \mathcal{D} \pi \mathcal{D} \pi^{\dag} \int_{\text{periodic}} \mathcal{D} \phi \mathcal{D} \phi^{\dag} \nonumber \\
+            &\times \exp \left[ \int_0^{\beta} \int d^2x \left(\pi \left( \frac{\partial \phi}{\partial t} +i \mu \phi \right) +\pi^{\dag} \left( \frac{\partial \phi^{\dag}}{\partial t} -i \mu \phi^{\dag} \right) - \mathcal{H}(\pi, \pi^{\dag}, \phi, \phi^{\dag})  \right] \label{eq:partition_function_complex_scalar}
+        \end{align}
+        Performing the path integral leaves us with
+        \begin{align}
+            Z= \int_{\text{periodic}} \mathcal{D}\phi \mathcal{D}\phi^{\dag} \exp \left[\int_0^{\tau} d\tau \int d^2x \mathcal{L'} \right],
+        \end{align}
+        where $\mathcal{L'}$ is the same as $\mathcal{L}$ except for the time derivatives acting on $\phi$ now act as covariant derivatives in the presence of a constant background gauge field $A_0=\mu$, i.e.
+        \begin{align}
+            \partial_0 \rightarrow \partial_0 +i \mu.
         \end{align}
 
 
-\textcolor{red}{***More to add***}\\
-- Arrive at path integral through dividing time evolution steps.
-- 
 
-
-
-        \subsection{Grand Canonical Ensemble} \label{GCE_sec}
-In the grand canonical ensemble the system can exchange particles as well as energy with a reservoir. In this ensemble the temperature $T$, volume $V$, and chemical potential $\mu$ are fixed quantities.
         \subsection{Physical Applications}\label{phys_app_sec}
         \subsubsection{Landau-Fermi Liquid Theory} \label{Fermi_Liquid_sec}
         The statistical description of weakly interacting particles, for example, in a fluid can be thought of as the same as that of a free gas of non-interacting quasiparticles that are in one to one correspondence with the original interacting excitations of the material. We find that in order to explain some of the surprising feature of the charge carriers in a QH system, we need to go beyond the weakly interacting description of a Landau-Fermi liquid.
@@ -307,11 +339,44 @@ In the grand canonical ensemble the system can exchange particles as well as ene
         Now, let us go back to the full Drude model. We would like to find out what the equilibrium of the system looks like. This implies that $\dot{v} =0$. The equation of motion becomes 
         \begin{align}
             \bm{v} - \frac{q \tau}{m}\bm{v}\times\bm{B}  &=\frac{\tau q}{m} \bm{E} \\
-            \begin{pmatrix}
+            \begin{bmatrix}
                 1 & -\frac{q \tau B}{m} \\
                 \frac{q \tau B}{m} & 1 \\
-            \end{pmatrix} \bm{v} &= \frac{\tau q}{m} \bm{E}.
+            \end{bmatrix} \bm{v} &= \frac{\tau q}{m} \bm{E}.
         \end{align}
+        Subsituting $\bm{J} = q \bm{v}$ and $\omega_B = \frac{q B}{m}$
+        \begin{align}
+            \begin{bmatrix}
+                1 & -\omega_B \tau \\
+                \omega_B \tau & 1 \\
+            \end{bmatrix}\bm{J} = \frac{\tau q^2}{m} \bm{E}.
+        \end{align}
+        After inverting we arrive at \textit{Ohm's law}
+        \begin{align}
+            \bm{J}=\sigma \bm{E},
+        \end{align}
+        where
+        \begin{align}
+            \sigma=\frac{q^2 \tau }{m \left(\tau ^2 \omega_B ^2+1\right)}
+\begin{bmatrix}
+ 1 & \tau  \omega_B  \\
+ -\tau  \omega_B  & 1 \\
+\end{bmatrix}
+        \end{align}
+         is the \textit{conductivity} tensor. It is related to the \textit{resistivity} tensor by
+         \begin{align}
+            \rho = \sigma^{-1}= \frac{m}{q^2 \tau } \begin{bmatrix}
+ 1 & -\tau  \omega_B  \\
+ \tau  \omega_B  & 1 \\
+            \end{bmatrix} = \begin{bmatrix}
+                \rho_{xx} & \rho_{xy} \\
+                \rho_{yx} & \rho_{yy} \\
+            \end{bmatrix},
+         \end{align}
+         where $\rho_{xx} =\rho_{yy}$ and $\rho_{xy} = - \rho_{yx}$.
+
+         This equation tells us that in the presence of a constant magnetic field, the charge carriers experience two types of resistivity. One is the usual type of resistivity that you can expect from a conductor $\rho_{xx} = \frac{m}{q^2\tau}$ -- It is independent of the magnetic field and as the scattering time increases, \textit{i.e.} there are fewer scattering events, the smaller the resistivity. The other type is different. It 
+        The Drude model seems to be successful when compared to the classical experimental results obtained by Hall. 
 
 \textcolor{red}{***More to add***}\\
         - Drude Model
@@ -543,19 +608,19 @@ Some history, Abrikosov \cite{Abrikosov1957}, type $I$ and $II$ superconductors.
     where $\theta$ is an anti-symmetric constant one-form. One can perform linear transformations on the coordinates $x_{\alpha}$ so that the matrix $\theta$ is in canonical block form
 
     \begin{align}
-        \bm{\theta}_{\alpha \beta } = \theta \begin{pmatrix}
+        \bm{\theta}_{\alpha \beta } = \theta \begin{bmatrix}
             i \bm{\sigma_2} &  & \text{\huge0} \\
                      & \ddots &  \\
                     \text{\huge0} &  & i \bm{\sigma_2} \\
-                \end{pmatrix},
+                \end{bmatrix},
     \end{align}
     where 
 
     \begin{align}
-        i \bm{\sigma_2} = \begin{pmatrix}
+        i \bm{\sigma_2} = \begin{bmatrix}
             0 & 1 \\
             -1 & 0 \\
-        \end{pmatrix}.
+        \end{bmatrix}.
     \end{align}
 
     This leaves us with $p$ pairs of the Heisenberg algebra

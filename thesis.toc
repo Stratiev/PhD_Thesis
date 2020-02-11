@@ -6,16 +6,16 @@
 \contentsline {section}{\numberline {1.2}Statistical Physics}{10}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Functional Integral Representation of the Partition Function}{11}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Grand Canonical Ensemble}{14}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Physical Applications}{14}{subsection.1.2.3}
-\contentsline {subsubsection}{\numberline {1.2.3.1}Landau-Fermi Liquid Theory}{14}{subsubsection.1.2.3.1}
-\contentsline {subsubsection}{\numberline {1.2.3.2}Landau-Ginzburg Paradigm}{14}{subsubsection.1.2.3.2}
-\contentsline {subsubsection}{\numberline {1.2.3.3}Fractional Quantum Hall Effect}{15}{subsubsection.1.2.3.3}
-\contentsline {section}{\numberline {1.3}Vortices}{17}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Global U(1) Vortex}{18}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Local U(1) Vortex}{19}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Particle-Vortex Duality}{23}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Fermi-Bose Duality}{25}{section.1.4}
-\contentsline {section}{\numberline {1.5}Non-Commutative Fluids}{27}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Review of Non-Commutative Geometry}{28}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Non-Commutative Field Theory}{29}{subsection.1.5.2}
-\contentsline {chapter}{References}{33}{chapter*.6}
+\contentsline {subsection}{\numberline {1.2.3}Physical Applications}{16}{subsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.3.1}Landau-Fermi Liquid Theory}{16}{subsubsection.1.2.3.1}
+\contentsline {subsubsection}{\numberline {1.2.3.2}Landau-Ginzburg Paradigm}{16}{subsubsection.1.2.3.2}
+\contentsline {subsubsection}{\numberline {1.2.3.3}Fractional Quantum Hall Effect}{16}{subsubsection.1.2.3.3}
+\contentsline {section}{\numberline {1.3}Vortices}{19}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Global U(1) Vortex}{20}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Local U(1) Vortex}{21}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Particle-Vortex Duality}{25}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Fermi-Bose Duality}{28}{section.1.4}
+\contentsline {section}{\numberline {1.5}Non-Commutative Fluids}{29}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Review of Non-Commutative Geometry}{30}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Non-Commutative Field Theory}{32}{subsection.1.5.2}
+\contentsline {chapter}{References}{35}{chapter*.6}
