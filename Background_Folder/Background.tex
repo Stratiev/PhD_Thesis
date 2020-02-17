@@ -18,7 +18,7 @@
     Finally, we include a section concerning the physics of \textit{non-commutative} field theory its relation to the theory of fluids, in particular, the description of the Quantum Hall fluid in terms of a \textit{'fuzzy'} underlying space, in which the coordinates do not commute. We shall see that this description is a Chern-Simons theory and it seems to arise naturally out of the ground state in the finite density non-abelian model that we have studied.
 
         \section{Chern-Simons Theory} \label{CS_sec}
-    Chern-Simons (CS) theory is a very unusual type of QFT both in its origin and its applications. It is a testament to the power and universality of mathematics, first conceived of as an abstract tool in the theory of differential operators and their connections to topology, it has grown to encompass many facets of modern physics and mathematics. From the computation of knot invariants to the prediction of non-abelian anyons, which are the ingredients necessary for performing a topological quantum computation -- currently one of the most promising approaches to fault tolerant quantum computation, due to the topological stability of the qubits. It is an example of a topological field theory (TQFT), which means that it is independent of the metric and so any observable is related to a topological invariant. It is the basis for three dimensional gravity \cite{gr-qc/0503022}, provides a field theoretic explanation for the Quantum Hall Effect and anyonic physics \cite{cond-mat/9501022}, \cite{1606.06687}, has been instrumental in the classification of rational 2D CFTs \cite{Moore1989}, creates a bridge between theoretical physics and knot theory \cite{Witten1989} and, recently, it has uncovered an equivalence between two types of matter, previously thought to have been fundamentally different -- namely Fermi-Bose duality \cite{1512.00161}. These are among the most noteworthy applications of CS theory. Therefore, in this section we justly take the time to review essential aspects of CS theory. Most of the results seen in this section, can also be found in the excellent review by Dunne \cite{hep-th/9902115}.
+    Chern-Simons (CS) theory is a very unusual type of QFT both in its origin and its applications. It is a testament to the power and universality of mathematics, first conceived of as an abstract tool in the theory of differential operators and their connections to topology, it has grown to encompass many facets of modern physics and mathematics. From the computation of knot invariants to the prediction of non-abelian anyons, which are the ingredients necessary for performing a topological quantum computation -- currently one of the most promising approaches to fault tolerant quantum computation, due to the topological stability of the qubits. It is an example of a topological field theory (TQFT), which means that it is independent of the metric and so any observable is related to a topological invariant. It is the basis for three dimensional gravity \cite{gr-qc/0503022}, provides a field theoretic explanation for the Quantum Hall Effect and anyonic physics \cite{cond-mat/9501022, 1606.06687}, has been instrumental in the classification of rational 2D CFTs \cite{Moore1989}, creates a bridge between theoretical physics and knot theory \cite{Witten1989} and, recently, it has uncovered an equivalence between two types of matter, previously thought to have been fundamentally different -- namely Fermi-Bose duality \cite{1512.00161}. These are among the most noteworthy applications of CS theory. Therefore, in this section we justly take the time to review essential aspects of CS theory. Most of the results seen in this section, can also be found in the excellent review by Dunne \cite{hep-th/9902115}.
 
     In the study of fundamental physics, we should assume that any term in the Lagrangian that is not forbidden by a basic principle (\textit{e.g.} a symmetry or gauge-invariance) should be included in order to account for all aspects of the system at hand. From gauge theory we are familiar with the idea of introducing a gauge field to render a Lagrangian gauge invariant and then include a gauge-invariant Yang-Mills term that is responsible for the dynamics of the gauge potential. Modulo subtleties, this is true in any number of dimensions. Taking these subtleties into account, it turns out that in 2+1 dimensions, the Yang-Mills term is not the only gauge invariant term one can include. One can write down a term in the action, which is the integral of a three-form, depending solely on the gauge field $A_{\mu}$. This term, whilst not manifestly gauge invariant, leaves the partition function unchanged under gauge transfromations. This three-form is the Chern-Simons Lagrangian, which we write down here.
 
@@ -262,9 +262,9 @@ This above passage illustrates the essence of large gauge transformations in the
         \end{align}
 This is the path integral representation of the partition function of the grand canonical ensemble of a single real scalar field. This expression is readily generalizable to more fields by integrating over the extra fields and their respective conjugate momenta.
 
-Here we shall make a few observations that will come in use frequently for the rest of this work. For the purposes of presentation, we will elaborate on these points in the context of a somewhat simpler model. This should not alarm the reader, because the properties we are discussing are more general and model independent. With this in mind, we consider the Lagrangian description of a complex relativistic scalar in $2+1d$
+Here we shall make a few observations that will come in use frequently for the rest of this work. For the purposes of presentation, we will elaborate on these points in the context of a somewhat simpler model. This should not alarm the reader, because the properties we are discussing are more general and model independent. With this in mind, we consider the Lagrangian description of a complex relativistic scalar in $2+1d$ with a potential $U(\phi)$.
         \begin{align}
-            \mathcal{L} = \int d^3x \left(\partial_{\mu}\phi^{*} \partial^{\mu} \phi \right).
+            \mathcal{L} = \left(\partial_{\mu}\phi^{*} \partial^{\mu} \phi  - U\big(|\phi|\big)\right).
         \end{align}
         This system possesses a global symmetry
         \begin{align}
@@ -272,14 +272,14 @@ Here we shall make a few observations that will come in use frequently for the r
         \end{align}
         This leads to a conserved Noether current and consequently a conserved charge
         \begin{align}
-            J_{0} &= i \int d^2x \left( \pi \phi - \pi^{\dag}\phi^{\dag}\right),
+            J_{0} &= -i \int d^2x \left( \pi \phi - \pi^{\dag}\phi^{\dag}\right),
         \end{align}
         where $\pi = \frac{\delta \mathcal{L}}{\delta ( \partial_0 \phi)}$ is the canonical momentum. Based on the assumption of identical particles with discrete charges, we postulate that $J_0 = \mathcal{N}$. Next, we perform the momentum integrals in \eqref{eq:partition_function}. Since now we have a complex field, we have to integrate over all of $\phi$, $\phi^{\dag}$, $\pi$ and $\pi^{\dag}$.
         \begin{align}
             Z &= \int \mathcal{D} \pi \mathcal{D} \pi^{\dag} \int_{\text{periodic}} \mathcal{D} \phi \mathcal{D} \phi^{\dag} \nonumber \\
-            &\times \exp \left[ \int_0^{\beta} \int d^2x \left(\pi \frac{\partial \phi}{\partial t} +\pi^{\dag} \frac{\partial \phi^{\dag}}{\partial t} - \mathcal{H}(\pi, \pi^{\dag}, \phi, \phi^{\dag}) + i  \mu \left(\pi \phi - \pi^{\dag}\phi^{\dag} \right) \right] \label{eq:partition_function_complex_scalar} \nonumber \\
+            &\times \exp \left[ \int_0^{\beta} \int d^2x \left(\pi \frac{\partial \phi}{\partial t} +\pi^{\dag} \frac{\partial \phi^{\dag}}{\partial t} - \mathcal{H}(\pi, \pi^{\dag}, \phi, \phi^{\dag}) - i  \mu \left(\pi \phi - \pi^{\dag}\phi^{\dag} \right) \right] \label{eq:partition_function_complex_scalar} \nonumber \\
             &= \int \mathcal{D} \pi \mathcal{D} \pi^{\dag} \int_{\text{periodic}} \mathcal{D} \phi \mathcal{D} \phi^{\dag} \nonumber \\
-            &\times \exp \left[ \int_0^{\beta} \int d^2x \left(\pi \left( \frac{\partial \phi}{\partial t} +i \mu \phi \right) +\pi^{\dag} \left( \frac{\partial \phi^{\dag}}{\partial t} -i \mu \phi^{\dag} \right) - \mathcal{H}(\pi, \pi^{\dag}, \phi, \phi^{\dag})  \right] \label{eq:partition_function_complex_scalar}
+            &\times \exp \left[ \int_0^{\beta} \int d^2x \left(\pi \left( \frac{\partial \phi}{\partial t} -i \mu \phi \right) +\pi^{\dag} \left( \frac{\partial \phi^{\dag}}{\partial t} +i \mu \phi^{\dag} \right) - \mathcal{H}(\pi, \pi^{\dag}, \phi, \phi^{\dag})  \right] \label{eq:partition_function_complex_scalar}
         \end{align}
         Performing the path integral leaves us with
         \begin{align}
@@ -287,10 +287,38 @@ Here we shall make a few observations that will come in use frequently for the r
         \end{align}
         where $\mathcal{L'}$ is the same as $\mathcal{L}$ except for the time derivatives acting on $\phi$ now act as covariant derivatives in the presence of a constant background gauge field $A_0=\mu$, i.e.
         \begin{align}
-            \partial_0 \rightarrow \partial_0 +i \mu.
+            \partial_0 \rightarrow \partial_0 -i \mu. \label{eq:chemical_potential_gauge_field}
         \end{align}
+        This is a general result that we will be making use of numerous times.
+        \subsubsection{Chemical Potential for a Local Symmetry}
+        Now, let us see how this situation changes when we try to introduce a chemical potential for a gauged symmetry. First, we modify the Lagrangian $\mathcal{L}$ by gauging the $U(1)$ and adding a Maxwell term $-\frac{1}{4 g^2} F_{\mu \nu} F^{\mu \nu}$. For simplicity, let us assume that the potential has the monomial super-renormalizable form
+        \begin{align}
+            U\big(|\phi| \big) = \lambda |\phi|^4.
+        \end{align}
+        Therefore
+        \begin{align}
+            \mathcal{L} &=( D_{\mu} \phi)^* D^{\mu} \phi - \lambda |\phi|^4 - \frac{1}{4 g^2}F_{\mu \nu} F^{\mu \nu},
+        \end{align}
+        where $D_{\mu}= \partial_{\mu} - i A_{\mu}$. According to the rule \ref{eq:chemical_potential_gauge_field} that we established above , 
+        \begin{align}
+            \mathcal{L} \rightarrow \mathcal{L}'= \mathcal{L}\left(\phi,\ D_{\mu}' \phi,\ A_{\mu} \right),
+        \end{align}
+        where $D_{\mu}' = D_{\mu} - i \mu \delta_{\mu 0}$.
 
-
+        Let us also express $\phi$ in terms of a modulus and a phase
+        \begin{align}
+            \phi(x) = \sigma(x) e^{i \alpha(x)}.
+        \end{align}
+        If we assume a homogenous, constant configuration, the equations of motion tell us that
+        \begin{align}
+            \sigma &= \sqrt{\frac{\mu^2}{2\lambda}}  \label{eq:chem_pot_local_symmetry_eom1} \\
+            \frac{1}{g^2} \partial_{\mu} F^{\mu 0} &= \mu \sigma^2. \label{eq:chem_pot_local_symmetry_eom2}
+        \end{align}
+        The first equation tells us that the scalars have condensed to the ground state. The second equation states that we have a non-zero charge density in this ground state. On the one hand, this makes sense, since the charged scalars have condensed. On the other hand, this is contradictory, since we are studying a system at equilibrium. And a charged system cannot be in equilibrium by definition. In order to fix this problem, we introduce a background charge density, which guarantees that the system is neutral.
+        \begin{align}
+            \mathcal{L}' \rightarrow \mathcal{L}' - A_0 J_0,
+        \end{align}
+        where $J_0 = \frac{\mu^3}{2\lambda}$.
 
         \subsection{Physical Applications}\label{phys_app_sec}
         \subsubsection{Landau-Fermi Liquid Theory} \label{Fermi_Liquid_sec}
@@ -375,8 +403,9 @@ Here we shall make a few observations that will come in use frequently for the r
          \end{align}
          where $\rho_{xx} =\rho_{yy}$ and $\rho_{xy} = - \rho_{yx}$.
 
-         This equation tells us that in the presence of a constant magnetic field, the charge carriers experience two types of resistivity. One is the usual type of resistivity that you can expect from a conductor $\rho_{xx} = \frac{m}{q^2\tau}$ -- It is independent of the magnetic field and as the scattering time increases, \textit{i.e.} there are fewer scattering events, the smaller the resistivity. The other type is different. It 
-        The Drude model seems to be successful when compared to the classical experimental results obtained by Hall. 
+         This equation tells us that in the presence of a constant magnetic field, the charge carriers experience two types of resistivity. One is the usual type of resistivity that you can expect from a conductor $\rho_{xx} = \frac{m}{q^2\tau}$ -- It is independent of the magnetic field and as the scattering time increases, \textit{i.e.} the number of scattering events decreases, the resistivity decreases. The other type of resistivity is different. The off-diagonal component of the resistivity $\rho_{yx} = \frac{m \omega_B}{q^2}= \frac{B}{q}$ is independent of $\tau$. So somehow the resistivity in the direction orthogonal to that of the driving current does not depend on the impurities in the material. Another way in which $\rho_{yx}$ is different is that it depends on the magnetic field. Surprisingly, as $B\rightarrow 0$ so does $\rho_{yx} \rightarrow 0$. It would be incorrect to assume that the vanishing of $\rho_{xy}$ implies that we achieve superconductivity, since $\sigma_{xy}$ also vanishes so there is no current being generated perpendicular to the generating electric field.
+
+        The Drude model seems to be successful when compared to the classical experimental results obtained by Hall since it predicts correctly that the resistivity  $\rho_{xy}$ would grow linearly with the magnetic field $B$.
 
 \textcolor{red}{***More to add***}\\
         - Drude Model
@@ -557,8 +586,9 @@ Here we shall make a few observations that will come in use frequently for the r
 
 
 \textcolor{red}{***More to add***}\\
-Some history, Abrikosov \cite{Abrikosov1957}, type $I$ and $II$ superconductors. Vortices are solitons -- this means that they are non-perturbative solutions to the equations of motion that are localized and stable.
-            - Topological vs Non-Topological
+-- Say something about the relation between particle-vortex duality and bosonization \cite{1606.01893, 1606.01912} \\
+Some history, Abrikosov \cite{Abrikosov1957}, type $I$ and $II$ superconductors. Vortices are solitons -- this means that they are non-perturbative solutions to the equations of motion that are localized and stable.\\
+            - Topological vs Non-Topological\\
             - Review other vortices such as Abrikosov, Abelian Higgs, Pure Chern-Simons, Non-abelian vortices
 
 
@@ -567,12 +597,14 @@ Some history, Abrikosov \cite{Abrikosov1957}, type $I$ and $II$ superconductors.
         \item Importance of BPS \cite{Bogomolny:1975de, Prasad1975}
     \end{itemize}
         \section{Fermi-Bose Duality} \label{Fermi-Bose_sec}
-        We already met the idea of duality in the previous section. In general, they tend to be an equivalence of two theories. Two different ways in which we can state the same physics. Some of them are analogous to the idea of a Fourier transform (for functionals), one phenomenon can be described either in coordinate or momentum space. Others tend to arise in consequence of the idea of universality. Two models that flow to the same CFT in the IR will tend to be equivalent sufficiently close to the fixed point.
-        Yet other types of duality are inspired by the study of black hole thermodynamics and the holographic principle. Others still, seem to be a consequence of deep mathematical ideas. Whatever the fundamental reasons for their existence is, dualities are interesting becase they give us another point of view that allows us to explore and understand the world of fundamental physics in more depth. As Feynman once said, ``Every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics''\cite{Feynman_quote}. And in the spirit of his words, here duality is one more representation we wish to understand.
+        We already met the idea of duality in the previous section. In general, they tend to be an equivalence of two theories. Two different ways in which we can state the same physics. Some of them are functional integral analogs of the Fourier transform (for functionals) -- one phenomenon can be described either in coordinate or momentum space, by one action or another. This can be achieved by introducing a Lagrange multiplier field and integrating out the original fields. Others tend to arise in consequence of the idea of universality. Two models that flow to the same CFT in the IR will tend to be equivalent sufficiently close to the fixed point.
+        Yet other types of duality are inspired by the study of black hole thermodynamics and the holographic principle, such as the AdS/CFT duality. Others still, seem to be a consequence of deep mathematical ideas.
 
-        As pointed out above, dualities come in many flavours and the models we are considering here play a role in more than one type. $O(N)/U(N)$ (scalar or fermion) models are holographically dual to higher spin gravitational theories \cite{hep-th/0210114}. This duality seems to persist even after deforming the theories with a Chern-Simons term in the large $N$ limit\cite{1110.4382}. Fermions in 2+1d can be shown to be dual to vector fields via a Fourier transform-like functional integral transformation and pure Chern-Simons theories are level-rank dual to each other \cite{hep-th/9401105}\cite{Barci1996}. In this section, we will concentrate on a duality that has all of the above ingredients in some form ($SU(N)/U(N)$ scalars/fermions and CS vector fields) that combine into what's believed to be an IR duality. More precisely, we are talking about a set of dualities between $2+1d$ gauge theories that are collectively known as \textit{Fermi-Bose duality}.
+        Whatever the fundamental reasons for their existence is, dualities are interesting becase they give us another point of view that allows us to explore and understand the world of fundamental physics in more depth. As Feynman once said, ``Every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics''\cite{Feynman_quote}. And in the spirit of his words, here duality is one more representation we wish to understand.
 
-        - Present evidence for duality in one paragraph with references. Evidence for these dualities comes from large $N$ computations on both sides both at finite temperature \cite{1211.4843}  and at $T=0$ \cite{1110.4386}. Furthermore, there is compelling evidence that the duality holds at finite $N$ from supersymmetric theories\cite{0808.0360}.
+        As pointed out above, dualities come in many flavours and the models we are considering here play a role in more than one type. $O(N)/U(N)$ (scalar or fermion) models are holographically dual to higher spin gravitational theories \cite{hep-th/0210114}. This duality seems to persist even after deforming the theories with a Chern-Simons term in the large $N$ limit\cite{1110.4382}. Fermions in 2+1d can be shown to be dual to vector fields via a Fourier transform-like functional integral transformation that we described above \cite{hep-th/9401105, Barci1996}. And pure Chern-Simons theories are level-rank dual to each other \cite{Naculich1990, Camperi1990, Mlawer1991, Nakanishi1992, hep-th/0703089}. In this section, we will concentrate on a duality that has all of the above ingredients in some form ($SU(N)/U(N)$ scalars/fermions and CS vector fields) that combine into what's believed to be an IR duality. More precisely, we are talking about a set of dualities between $2+1d$ gauge theories that are collectively known as \textit{Fermi-Bose duality}.
+
+        The duality between fermions and boson was first conjectured  in the supersymmetric context\cite{0808.0360, 1108.5373, 1305.3924, 1411.5475}. Evidence for the non-supersymmetric version of these dualities comes from large $N$ computations on both sides both at finite temperature \cite{1211.4843}  and at $T=0$ \cite{1110.4386}. Furthermore, there is compelling evidence that the duality holds at finite $N$ from supersymmetric theories flowing to their non-SUSY versions \cite{1305.7235, 1507.04378}.
 
         %``\parshape \textit{Every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics.}'' \par\bigskip \hfill -- Richard Feynman, \textit{The Character of Physical Law (1965)} \bigskip \\
         %\epigraph{``...every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics.''}{Richard Feynman, \textit{The Character of Physical Law (1965)}}
@@ -584,11 +616,13 @@ Some history, Abrikosov \cite{Abrikosov1957}, type $I$ and $II$ superconductors.
                 U(N)_{k,k+N} + scalars &\longleftrightarrow \ \ U(k)_{-N +\frac{N_f}{2}, -N + \frac{N_f}{2}-k} \ + fermions.  
             \end{align}
             The scalars on the LHS of these equations are assumed to be tuned to a critical interacting point of the RG flow, known as the Wilson-Fisher fixed point. (Explain how the Wilson Fisher fixed point work).\\
+\textcolor{red}{***More to add***}\\
+            - Make sure to include the first bosonization papers \cite{hep-th/9407078, hep-th/9407182} \\
             - Explain what is the precise dictionary of this duality. The two theories are equivalent but which degrees of freedom correspond to which. Clarify that fundamental perturbative states on one side map to monopole operators on the other and vice-versa.\\
             - Monopole operators
 
         \section{Non-Commutative Fluids}
-    In this section we will define important physical notions in a non-commutative geometry, show how it relates to the theory of fluids and demonstrate how the non-commutative version of the Landau problem leads directly to the non-commutative Chern-Simons action. Finally, we discuss the Fock space of this action to prepare the presentation of results that we have discovered. For a good summary of this topic, we refer the reader to this set of excellent reviews on physics on non-commutative geometry \cite{0706.1095}, \cite{hep-th/0106048}, \cite{hep-th/0109162}.
+    In this section we will define important physical notions in a non-commutative geometry, show how it relates to the theory of fluids and demonstrate how the non-commutative version of the Landau problem leads directly to the non-commutative Chern-Simons action. Finally, we discuss the Fock space of this action to prepare the presentation of results that we have discovered. For a good summary of this topic, we refer the reader to this set of excellent reviews on physics on non-commutative geometry \cite{0706.1095, hep-th/0109162, hep-th/0106048}.
 
     Non-commutative geometry can arise naturally from the quantization of a particle's phase space coordinates. The simplest way to see this connection is through the Heisenberg algebra of the canonical commutation relations. 
     \begin{align}
@@ -596,7 +630,7 @@ Some history, Abrikosov \cite{Abrikosov1957}, type $I$ and $II$ superconductors.
     \end{align}
     As is well known, this quantization condition leads to a ``smearing out`` of the phase space structure of the theory. It makes it so that the notion of a point in phase space no longer makes sense, since one can no longer measure both position and momentum accurately.
 
-    However, there are more exotic cases, where the coordinate space becomes non-commutative or fuzzy, due to the specific form of the Poisson brackets in the problem. In such a problem, the notion of a point in space is no longer reasonable and one can no longer measure the position of a (quasi)particle to arbitrary accuracy on both axes at once. An example of a problem, where the different momenta exhibit such non-commutativity is the problem of particles in a magnetic field that we discussed earlier. Similarly, we all know that angular momentum also behaves in a non-commutative way so the idea of the spatial coordinates having non-zero commutator comes naturally. Finally, in the study of fluids, one can define a type of Poisson bracket that is restricted to the coordinate space, which leads to a non-commutative space following a canonical quantization \cite{Jackiw2002}. These ideas of a non-commuting space-time were first explored by Snyder in 1947 \cite{Snyder1947_space_time}, \cite{Snyder1947_EM}.
+    However, there are more exotic cases, where the coordinate space becomes non-commutative or fuzzy, due to the specific form of the Poisson brackets in the problem. In such a problem, the notion of a point in space is no longer reasonable and one can no longer measure the position of a (quasi)particle to arbitrary accuracy on both axes at once. An example of a problem, where the different momenta exhibit such non-commutativity is the problem of particles in a magnetic field that we discussed earlier. Similarly, we all know that angular momentum also behaves in a non-commutative way so the idea of the spatial coordinates having non-zero commutator comes naturally. Finally, in the study of fluids, one can define a type of Poisson bracket that is restricted to the coordinate space, which leads to a non-commutative space following a canonical quantization \cite{Jackiw2002}. These ideas of a non-commuting space-time were first explored by Snyder in 1947 \cite{Snyder1947_space_time, Snyder1947_EM}.
 
 
     \subsection{Review of Non-Commutative Geometry}

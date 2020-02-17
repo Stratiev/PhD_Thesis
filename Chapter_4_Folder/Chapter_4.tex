@@ -1,0 +1,90 @@
+
+% this file is called up by thesis.tex
+% content in this file will be fed into the main document
+    \graphicspath{{Background_Folder/figures/PNG/}{Background_Folder/figures/PDF/}{Background_Folder/figures/}}
+
+%: ———————-- introduction file header ———————--
+\chapter{Vortices in U(2) and SU(2) Chern-Simons scalar theories.}
+
+
+\section{U(2) theory}
+
+
+\begin{align}
+S_{\text{CS}} = \frac{k}{4 \pi} \int d^3x \; \epsilon^{\mu \nu \rho} \; \Tr\left(A_{\mu} \partial_{\nu}A_{\rho}+ \frac{2}{3} A_{\mu} A_{\nu}A_{\rho} \right)
+\end{align}
+
+
+\begin{align}
+&S_{\text{matter}}= - \int d^3x \left( \left(D_{\mu} \Phi \right)^{\dag} \left(D^{\mu} \Phi \right) + V\left(\Phi^{\dag}\Phi \right)\right) \\
+&D_{\mu} = \partial_{\mu} + A_{\mu}.
+\end{align}
+    
+Inserting the ansatz
+\begin{align}
+    A_{\mu} = i \left(a_{\mu} \mathbb{I} +a_{\mu}^3 \sigma_3 + a_{\mu}^+ \sigma_{+} +a_{\mu}^{-} \sigma_{-} \right),
+\end{align}
+    where
+    \begin{align}
+        \sigma_3 = \begin{bmatrix}
+            1 & 0 \\
+            0 & -1 \\
+        \end{bmatrix}, \qquad \mathbb{I}= \begin{bmatrix}
+            1 & 0\\
+            0 & 1\\
+        \end{bmatrix} \\
+        \sigma_+ =\begin{bmatrix}
+            0 & 1\\
+            0 & 0\\
+        \end{bmatrix}, \qquad \sigma_- = \begin{bmatrix}
+            0 &0\\
+            1 &0\\
+        \end{bmatrix}
+    \end{align}
+
+    \begin{align}
+    \Phi_{\text{VEV}} = v \begin{bmatrix}
+        0&0\\
+        0&1\\
+    \end{bmatrix} = v \sigma_- \sigma_+
+    \end{align}
+    Here we use the following relations in order to simplify the equations of motion.
+    \begin{align}
+        [\sigma_+, \sigma_-] = \sigma_3, \qquad [\sigma_3, \sigma_+] = 2 \sigma_+, \qquad [\sigma_3, \sigma_-] = -2 \sigma_-.
+    \end{align}
+
+    The equations of motion become
+
+    \begin{align}
+        \frac{k}{2 \pi} \left(\partial_{r} a_{\theta}^3 - \partial_{\theta} a_r^{(3)} + i \left(a_r^+ a_{\theta}^- - a_r^- a_{\theta}^{+} \right) \right) &= -r \left( a_0 + \mu - a^{(3)} \right)\phi^2 \\
+        \frac{k}{2 \pi} \left(\partial_r a_{\theta}^{+} - \partial_{\theta} a_r^{+} +2i \left(a_r^{(3)} a_{\theta}^{+} - a_r^{+} a_{\theta}^{(3)} \right) \right) &=r a_0^{+} \phi^2  \\
+        \frac{k}{2 \pi} \left(\partial_r a_{\theta} - \partial_{\theta} a_r \right) &=r \left(a_0 +\mu - a^{(3)} \right) \phi^2 + r J_0 \mathbb{I} \\
+        \frac{k}{2 \pi}\left(\partial_{0}a_r^{(3)} - \partial_r a_0^{(3)} + i \left(a_0^+ a_r^- - a_0^- a_r^+  \right)  \right) &= \frac{1}{r} \left(a_{\theta}+n - a_{\theta}^{(3)} \right) \phi^2  \\
+        \frac{k}{2 \pi} \left( \partial_0 a_r^+ - \partial_r a_0^+ + 2i \left( a_0^{(3)} a_r^+ -a_0^+ a_r^{(3)} \right) \right) &= -\frac{1}{r} a_{\theta}^+ \phi^2  \\
+        \frac{k}{2 \pi} \left( \partial_0 a_r - \partial_r a_0 \right) &= -\frac{1}{r} \left(a_{\theta} +n - a_{\theta}^{(3)} \right) \phi^2 \\
+        \frac{k}{2 \pi} \left(\partial_{\theta} a_0^{(3)} - \partial_0 a_{\theta}^{(3)} + i \left(a_{\theta}^+ a_0^- - a_{\theta}^- a_0^{+} \right) \right) &= r \left(a_r - a_r^{(3)}  \right) \phi^2 \\
+        \frac{k}{2 \pi} \left(\partial_{\theta} a_0^+ - \partial_0 a_{\theta}^+ + 2i \left(a_{\theta}^{(3)} a_0^+ - a_{\theta}^+ a_0^{(3)} \right) \right) &=-r a_r^+ \phi^2\\
+        \frac{k}{2 \pi} \left(\partial_{\theta}a_0 -\partial_{0} a_{\theta} \right) &= r \left(a_r^{(3)}- a_r \right) \phi^2,
+    \end{align}
+
+    where $J_0$ is determined by requiring that the system is neutral when evaluated at the VEV. This implies that
+    \begin{align}
+        J_0 = -\frac{\pi v^2}{k} \left(\frac{\mu k}{\pi}- v^2 \right) .
+    \end{align}
+
+
+
+\section{SU(2) theory}
+
+The $SU(2)$ equations of motion are determined by requiring that the trace of the $U(2)$ equations of motion vanishes. This leads to the simplified system
+    \begin{align}
+        \frac{k}{2 \pi} \left(\partial_{r} a_{\theta}^3 - \partial_{\theta} a_r^{(3)} + i \left(a_r^+ a_{\theta}^- - a_r^- a_{\theta}^{+} \right) \right) &= -r \left(\mu - a^{(3)} \right)\phi^2 \\
+        \frac{k}{2 \pi} \left(\partial_r a_{\theta}^{+} - \partial_{\theta} a_r^{+} +2i \left(a_r^{(3)} a_{\theta}^{+} - a_r^{+} a_{\theta}^{(3)} \right) \right) &=r a_0^{+} \phi^2  \\
+        \frac{k}{2 \pi}\left(\partial_{0}a_r^{(3)} - \partial_r a_0^{(3)} + i \left(a_0^+ a_r^- - a_0^- a_r^+  \right)  \right) &= \frac{1}{r} \left(n - a_{\theta}^{(3)} \right) \phi^2  \\
+        \frac{k}{2 \pi} \left( \partial_0 a_r^+ - \partial_r a_0^+ + 2i \left( a_0^{(3)} a_r^+ -a_0^+ a_r^{(3)} \right) \right) &= -\frac{1}{r} a_{\theta}^+ \phi^2  \\
+        \frac{k}{2 \pi} \left(\partial_{\theta} a_0^{(3)} - \partial_0 a_{\theta}^{(3)} + i \left(a_{\theta}^+ a_0^- - a_{\theta}^- a_0^{+} \right) \right) &= -r  a_r^{(3)} \phi^2 \\
+        \frac{k}{2 \pi} \left(\partial_{\theta} a_0^+ - \partial_0 a_{\theta}^+ + 2i \left(a_{\theta}^{(3)} a_0^+ - a_{\theta}^+ a_0^{(3)} \right) \right) &=-r a_r^+ \phi^2\\
+    \end{align}
+
+    where $J_0$ is determined by requiring that the system is neutral when evaluated at the VEV. This implies that
+    \begin{align}

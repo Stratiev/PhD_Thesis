@@ -103,6 +103,15 @@ M.~K. Prasad and C.~M. Sommerfield, ``Exact classical solution for the
   Letters} {\bfseries 35} no.~12, (Sept., 1975) 760--762}.
   \url{https://doi.org/10.1103/physrevlett.35.760}.
 
+\bibitem{1606.01893}
+A.~Karch and D.~Tong, ``Particle-vortex duality from 3d bosonization,''
+  \href{http://arxiv.org/abs/arXiv:1606.01893}{{\ttfamily arXiv:1606.01893}}.
+
+\bibitem{1606.01912}
+J.~Murugan and H.~Nastase, ``Particle-vortex duality in topological insulators
+  and superconductors,''
+  \href{http://arxiv.org/abs/arXiv:1606.01912}{{\ttfamily arXiv:1606.01912}}.
+
 \bibitem{Abrikosov1957}
 A.~Abrikosov, ``The magnetic properties of superconducting alloys,''
   \href{http://dx.doi.org/10.1016/0022-3697(57)90083-5}{{\em Journal of Physics
@@ -137,6 +146,57 @@ D.~Barci, C.~Fosco, and L.~Oxman, ``On bosonization in 3 dimensions,''
   {\bfseries 375} no.~1-4, (May, 1996) 267--272}.
   \url{https://doi.org/10.1016/0370-2693(96)00224-9}.
 
+\bibitem{Naculich1990}
+S.~Naculich, H.~Riggs, and H.~Schnitzer, ``Group-level duality in {WZW} models
+  and chern-simons theory,''
+  \href{http://dx.doi.org/10.1016/0370-2693(90)90623-e}{{\em Physics Letters B}
+  {\bfseries 246} no.~3-4, (Aug., 1990) 417--422}.
+  \url{https://doi.org/10.1016/0370-2693(90)90623-e}.
+
+\bibitem{Camperi1990}
+M.~Camperi, F.~Levstein, and G.~Zemba, ``The large n limit of chern-simons
+  gauge theory,'' \href{http://dx.doi.org/10.1016/0370-2693(90)91899-m}{{\em
+  Physics Letters B} {\bfseries 247} no.~4, (Sept., 1990) 549--554}.
+  \url{https://doi.org/10.1016/0370-2693(90)91899-m}.
+
+\bibitem{Mlawer1991}
+E.~J. Mlawer, S.~G. Naculich, H.~A. Riggs, and H.~J. Schnitzer, ``Group-level
+  duality of {WZW} fusion coefficients and chern-simons link observables,''
+  \href{http://dx.doi.org/10.1016/0550-3213(91)90110-j}{{\em Nuclear Physics B}
+  {\bfseries 352} no.~3, (Apr., 1991) 863--896}.
+  \url{https://doi.org/10.1016/0550-3213(91)90110-j}.
+
+\bibitem{Nakanishi1992}
+T.~Nakanishi and A.~Tsuchiya, ``Level-rank duality of {WZW} models in conformal
+  field theory,'' \href{http://dx.doi.org/10.1007/bf02101097}{{\em
+  Communications in Mathematical Physics} {\bfseries 144} no.~2, (Feb., 1992)
+  351--372}. \url{https://doi.org/10.1007/bf02101097}.
+
+\bibitem{hep-th/0703089}
+S.~G. Naculich and H.~J. Schnitzer, ``Level-rank duality of the u(n) wzw model,
+  chern-simons theory, and 2d qym theory,''
+  \href{http://arxiv.org/abs/arXiv:hep-th/0703089}{{\ttfamily
+  arXiv:hep-th/0703089}}.
+
+\bibitem{0808.0360}
+A.~Giveon and D.~Kutasov, ``Seiberg duality in chern-simons theory,''
+  \href{http://arxiv.org/abs/arXiv:0808.0360}{{\ttfamily arXiv:0808.0360}}.
+
+\bibitem{1108.5373}
+F.~Benini, C.~Closset, and S.~Cremonesi, ``Comments on 3d seiberg-like
+  dualities,'' \href{http://arxiv.org/abs/arXiv:1108.5373}{{\ttfamily
+  arXiv:1108.5373}}.
+
+\bibitem{1305.3924}
+O.~Aharony, S.~S. Razamat, N.~Seiberg, and B.~Willett, ``3d dualities from 4d
+  dualities,'' \href{http://arxiv.org/abs/arXiv:1305.3924}{{\ttfamily
+  arXiv:1305.3924}}.
+
+\bibitem{1411.5475}
+O.~Aharony and D.~Fleischer, ``Ir dualities in general 3d supersymmetric su(n)
+  qcd theories,'' \href{http://arxiv.org/abs/arXiv:1411.5475}{{\ttfamily
+  arXiv:1411.5475}}.
+
 \bibitem{1211.4843}
 O.~Aharony, S.~Giombi, G.~Gur-Ari, J.~Maldacena, and R.~Yacoby, ``The thermal
   free energy in large n chern-simons-matter theories,''
@@ -147,23 +207,39 @@ S.~Giombi, S.~Minwalla, S.~Prakash, S.~P. Trivedi, S.~R. Wadia, and X.~Yin,
   ``Chern-simons theory with vector fermion matter,''
   \href{http://arxiv.org/abs/arXiv:1110.4386}{{\ttfamily arXiv:1110.4386}}.
 
-\bibitem{0808.0360}
-A.~Giveon and D.~Kutasov, ``Seiberg duality in chern-simons theory,''
-  \href{http://arxiv.org/abs/arXiv:0808.0360}{{\ttfamily arXiv:0808.0360}}.
+\bibitem{1305.7235}
+S.~Jain, S.~Minwalla, and S.~Yokoyama, ``Chern simons duality with a
+  fundamental boson and fermion,''
+  \href{http://arxiv.org/abs/arXiv:1305.7235}{{\ttfamily arXiv:1305.7235}}.
+
+\bibitem{1507.04378}
+G.~Gur-Ari and R.~Yacoby, ``Three dimensional bosonization from
+  supersymmetry,'' 2015.
+
+\bibitem{hep-th/9407078}
+C.~P. Burgess, C.~A. Lütken, and F.~Quevedo, ``Bosonization in higher
+  dimensions,'' \href{http://arxiv.org/abs/arXiv:hep-th/9407078}{{\ttfamily
+  arXiv:hep-th/9407078}}.
+
+\bibitem{hep-th/9407182}
+E.~Fradkin and F.~A. Schaposnik, ``The fermion-boson mapping in three
+  dimensional quantum field theory,''
+  \href{http://arxiv.org/abs/arXiv:hep-th/9407182}{{\ttfamily
+  arXiv:hep-th/9407182}}.
 
 \bibitem{0706.1095}
 A.~P. Polychronakos, ``Noncommutative fluids,''
   \href{http://arxiv.org/abs/arXiv:0706.1095}{{\ttfamily arXiv:0706.1095}}.
 
-\bibitem{hep-th/0106048}
-M.~R. Douglas and N.~A. Nekrasov, ``Noncommutative field theory,''
-  \href{http://arxiv.org/abs/arXiv:hep-th/0106048}{{\ttfamily
-  arXiv:hep-th/0106048}}.
-
 \bibitem{hep-th/0109162}
 R.~J. Szabo, ``Quantum field theory on noncommutative spaces,''
   \href{http://arxiv.org/abs/arXiv:hep-th/0109162}{{\ttfamily
   arXiv:hep-th/0109162}}.
+
+\bibitem{hep-th/0106048}
+M.~R. Douglas and N.~A. Nekrasov, ``Noncommutative field theory,''
+  \href{http://arxiv.org/abs/arXiv:hep-th/0106048}{{\ttfamily
+  arXiv:hep-th/0106048}}.
 
 \bibitem{Jackiw2002}
 R.~Jackiw, S.-Y. Pi, and A.~Polychronakos, ``Noncommuting gauge fields as a
