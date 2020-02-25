@@ -2,46 +2,49 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Background_Folder/Background.aux
+A level-1 auxiliary file: Chapter_4_Folder/Chapter_4.aux
 The style file: Reference_Folder/utphys.bst
 Database file #1: Reference_Folder/references.bib
-You've used 49 entries,
+Warning--empty pages in NavarroLrida2010
+You've used 55 entries,
             2328 wiz_defined-function locations,
-            919 strings with 12288 characters,
-and the built_in function-call counts, 12230 in all, are:
-= -- 1296
-> -- 390
+            966 strings with 13643 characters,
+and the built_in function-call counts, 13929 in all, are:
+= -- 1475
+> -- 450
 < -- 0
-+ -- 152
-- -- 103
-* -- 1083
-:= -- 1559
-add.period$ -- 73
-call.type$ -- 49
-change.case$ -- 87
++ -- 174
+- -- 119
+* -- 1257
+:= -- 1772
+add.period$ -- 83
+call.type$ -- 55
+change.case$ -- 101
 chr.to.int$ -- 0
-cite$ -- 49
-duplicate$ -- 583
-empty$ -- 1227
-format.name$ -- 103
-if$ -- 3106
+cite$ -- 56
+duplicate$ -- 661
+empty$ -- 1386
+format.name$ -- 119
+if$ -- 3531
 int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 154
-newline$ -- 154
-num.names$ -- 49
-pop$ -- 231
+int.to.str$ -- 55
+missing$ -- 176
+newline$ -- 172
+num.names$ -- 55
+pop$ -- 255
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 355
+skip$ -- 403
 stack$ -- 0
-substring$ -- 638
-swap$ -- 207
+substring$ -- 734
+swap$ -- 239
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 110
-width$ -- 51
-write$ -- 371
+warning$ -- 1
+while$ -- 125
+width$ -- 57
+write$ -- 417
+(There was 1 warning)

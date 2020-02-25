@@ -23,8 +23,7 @@
     In the study of fundamental physics, we should assume that any term in the Lagrangian that is not forbidden by a basic principle (\textit{e.g.} a symmetry or gauge-invariance) should be included in order to account for all aspects of the system at hand. From gauge theory we are familiar with the idea of introducing a gauge field to render a Lagrangian gauge invariant and then include a gauge-invariant Yang-Mills term that is responsible for the dynamics of the gauge potential. Modulo subtleties, this is true in any number of dimensions. Taking these subtleties into account, it turns out that in 2+1 dimensions, the Yang-Mills term is not the only gauge invariant term one can include. One can write down a term in the action, which is the integral of a three-form, depending solely on the gauge field $A_{\mu}$. This term, whilst not manifestly gauge invariant, leaves the partition function unchanged under gauge transfromations. This three-form is the Chern-Simons Lagrangian, which we write down here.
 
 \begin{equation}
-    {\mathcal{L}}_{CS}= \kappa \epsilon^{\mu\nu\rho} \  \mathrm{Tr} \left ( A_\mu\partial_\nu A_\rho
-+{2\over 3} A_\mu A_\nu A_\rho \right ).
+    {\mathcal{L}}_{CS}= \kappa \epsilon^{\mu\nu\rho} \  \mathrm{Tr} \left[ A_\mu\partial_\nu A_\rho +{2\over 3} A_\mu A_\nu A_\rho \right].
 \label{cslag}
 \end{equation}
 The gauge field $A_\mu$ takes values in a finite dimensional representation of
@@ -59,11 +58,11 @@ and the normalization
     \end{align}
     Under this transformation, the Lagrangian changes in the following way
     \begin{align}
-        \mathcal{L}_{\text{CS}} &\rightarrow \mathcal{L}_{\text{CS}}  - \kappa \epsilon^{\mu \nu \rho} \partial_{\mu} \ \mathrm{Tr} \bigg(\partial_{\nu} g g^{-1} A_{\rho}  \bigg) - \frac{\kappa}{3} \epsilon^{\mu \nu \rho} \ \mathrm{Tr} \bigg(g^{-1} \partial_{\mu} g g^{-1} \partial_{\nu} g g^{-1} \partial_{\rho} g\bigg)
+        \mathcal{L}_{\text{CS}} &\rightarrow \mathcal{L}_{\text{CS}}  - \kappa \epsilon^{\mu \nu \rho} \partial_{\mu} \ \mathrm{Tr} \bigg[\partial_{\nu} g g^{-1} A_{\rho}  \bigg] - \frac{\kappa}{3} \epsilon^{\mu \nu \rho} \ \mathrm{Tr} \bigg[g^{-1} \partial_{\mu} g g^{-1} \partial_{\nu} g g^{-1} \partial_{\rho} g\bigg]
     \end{align}
     The first term is just a boundary term which vanishes. The second term turns out to be proportional to the \textit{winding density} of the gauge transformation, whose integral is an integer $N$ homotopy invariant.
     \begin{align}
-        w(g) = \frac{1}{24 \pi^2} \epsilon^{\mu \nu \rho} \ \mathrm{Tr} \bigg(g^{-1}\partial_{\mu} g g^{-1} \partial_{\nu} g g^{-1} \partial_{\rho} g \bigg), \quad \int d^3x \ w(g(x)) = N \in \mathbb{Z}
+        w(g) = \frac{1}{24 \pi^2} \epsilon^{\mu \nu \rho} \ \mathrm{Tr} \bigg[g^{-1}\partial_{\mu} g g^{-1} \partial_{\nu} g g^{-1} \partial_{\rho} g \bigg], \quad \int d^3x \ w(g(x)) = N \in \mathbb{Z}
     \end{align}
     Showing that the integral of this quantity is indeed a topological invariant is beyond the scope of this presentation. We refer the skeptical reader to the proof of Theorem 10.7 in Nakahara \cite{Nakahara}, which should at least provide some intuition.
 
@@ -107,7 +106,7 @@ This above passage illustrates the essence of large gauge transformations in the
     \subsection{Chern-Simons-Maxwell Theory}
     Here we consider the familiar Maxwell theory deformed by a Chern-Simons term.
     \begin{align}
-        \mathcal{L}_{\text{MCS}} &= \int d^3x \ \left( \frac{-1}{4 g^2} F_{\mu \nu} F^{\mu \nu} + \frac{k}{4 \pi} \epsilon^{\mu \nu \rho} A_{\mu} \partial_{\nu} A_{\rho} \right)
+        \mathcal{L}_{\text{MCS}} &= \int d^3x \ \left[ \frac{-1}{4 g^2} F_{\mu \nu} F^{\mu \nu} + \frac{k}{4 \pi} \epsilon^{\mu \nu \rho} A_{\mu} \partial_{\nu} A_{\rho} \right]
     \end{align}
     This leads to the equations of motion
     \begin{align}
@@ -115,7 +114,7 @@ This above passage illustrates the essence of large gauge transformations in the
     \end{align}
     If we rewrite this equation in terms of the dual field strength $\tilde{F}_{\mu} = \frac{1}{2} \epsilon_{\mu\nu\rho} F^{\nu\rho}$ by contracting with an $\epsilon$ tensor, followed by a $\partial$ contraction, using the equations of motion again and noting that $\partial_{\mu} \tilde{F}^{\mu} =0$ (3D Bianchi identity), we arrive at 
     \begin{align}
-        \left(\partial_{\mu} \partial^{\mu} + \left(\frac{k}{2 \pi} g^2 \right)^2 \right) \tilde{F}^{\nu}=0.
+        \left[\partial_{\mu} \partial^{\mu} + \left(\frac{k}{2 \pi} g^2 \right)^2 \right] \tilde{F}^{\nu}=0.
     \end{align}
     Observing that $\tilde{F}^{\mu}$ is gauge-invariant, we deduce that these equations describe a propagating wave with mass $\left(\frac{k}{2 \pi} g^2 \right)$.
     Even though in this work we shall promptly be ignoring the Maxwell contribution to the planar physics, it is important to note that despite the fact that the gauge bosons are heavy, we still observe global effects. This provides us with a more general lesson about CS. Namely, that we can have significant long-rage global effects, such as the anyonic phase change interaction, even in the case of a gapped phase (such as the Quantum Hall droplet).
@@ -126,7 +125,7 @@ This above passage illustrates the essence of large gauge transformations in the
 
 
     \begin{align}
-        S = \int d^3x \ \frac{k}{4 \pi} \epsilon^{\mu \nu \rho} \ \mathrm{Tr} \left(A_{\mu} \partial_{\nu} A_{\rho}+ \frac{2}{3} A_{\mu} A_{\nu} A_{\rho} \right) + J^{\mu} A_{\mu}.
+        S = \int d^3x \ \frac{k}{4 \pi} \epsilon^{\mu \nu \rho} \ \mathrm{Tr} \left[A_{\mu} \partial_{\nu} A_{\rho}+ \frac{2}{3} A_{\mu} A_{\nu} A_{\rho} \right] + J^{\mu} A_{\mu}.
     \end{align}
     This action leads to a modified equation of motion.
     \begin{align}
@@ -171,7 +170,7 @@ This above passage illustrates the essence of large gauge transformations in the
 
 \textcolor{red}{***More to add***}
 
-        - Theory is topological so does not contribute to the Energy-momentum tensor (since that is arrived at through variation of the metric and a topological theory does not depend on the metric)\\
+        - Theory is topological so does not contribute to the Energy-momentum tensor (since it is arrived at through variation of the metric and a topological theory does not depend on the metric)\\
         \section{Statistical Physics}
 
         Here we motivate the study of QFT as a gateway into understanding phenomena in many body physics. Physical phenomena at macro scale require micro scale explanations. The transition between a microscopic theory and its observable large scale properties is facillitated by the use of techniques in statistical mechanics. Here we review the connection between microscopic Lagrangian formulation and the statistical partition function through the formalism of the path integral. We follow through by accentuating the treatment of a chemical potential and the subtleties related to it. Before we go on, I note that this is the only part of this section that will be relevant to the calculations performed in this work. However, the rest of this section is meant to shine a light on why it is that we are interested in such an abstract problem.
@@ -285,7 +284,7 @@ Here we shall make a few observations that will come in use frequently for the r
         \begin{align}
             Z= \int_{\text{periodic}} \mathcal{D}\phi \mathcal{D}\phi^{\dag} \exp \left[\int_0^{\tau} d\tau \int d^2x \mathcal{L'} \right],
         \end{align}
-        where $\mathcal{L'}$ is the same as $\mathcal{L}$ except for the time derivatives acting on $\phi$ now act as covariant derivatives in the presence of a constant background gauge field $A_0=\mu$, i.e.
+        where $\mathcal{L'}$ is the same as $\mathcal{L}$ except for the time derivatives acting on $\phi$ now act as covariant derivatives in the presence of a constant background gauge field $A_0=\mu$, \ie
         \begin{align}
             \partial_0 \rightarrow \partial_0 -i \mu. \label{eq:chemical_potential_gauge_field}
         \end{align}
@@ -441,7 +440,7 @@ Here we shall make a few observations that will come in use frequently for the r
     We would like to compute the energy of such a static circularly symmetric configuration
 
     \begin{align}
-        E= 2 \pi \int_0^{\infty} r dr \left(\lambda |\phi|^4 - m^2 |\phi|^2 + |\phi'|^2 + \frac{n^2 v^2}{r^2} \right).
+        E= 2 \pi \int_0^{\infty} r dr \left[\lambda |\phi|^4 - m^2 |\phi|^2 + |\phi'|^2 + \frac{n^2 v^2}{r^2} \right].
     \end{align}
     Close to infinity, the potential term vanishes and so does $\phi'$. In the end we are left with
     \begin{align}
@@ -452,7 +451,7 @@ Here we shall make a few observations that will come in use frequently for the r
         \subsection{Local U(1) Vortex}
         The gauged $U(1)$ vortex, also known as the Abrikosov-Nielsen-Olesen vortex is again a configuration that interpolates between two different vacua in a theory, but this time we introduce a gauge field, whose dynamics is governed by a Maxwell term and is minimally coupled to a $U(1)$ scalar with a symmetry breaking potential. This is the familiar abelian Higgs model. 
         \begin{align}
-            S_{\text{AH}} & = \int d^3x \left(-\frac{1}{4} F_{\mu \nu} F^{\mu \nu} + | D_{\mu} \phi|^2 - U(\phi) \right), \label{eq:Abelian_Higgs_Model}
+            S_{\text{AH}} & = \int d^3x \left[-\frac{1}{4} F_{\mu \nu} F^{\mu \nu} + | D_{\mu} \phi|^2 - U(\phi) \right], \label{eq:Abelian_Higgs_Model}
         \end{align}
         where
         \begin{align}
