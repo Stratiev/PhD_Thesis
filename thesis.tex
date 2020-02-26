@@ -19,7 +19,7 @@
     \pdfinfo { /Title  (Matter in 2+1 dimensions at finite density with Chern-Simons interactions)
                /Creator (TeX)
                /Producer (XeLaTeX)
-               /Author (Stanislav Stratiev 917931@swan.ac.uk)
+               /Author (Stanislav Stratiev StanislavStratiev@gmail.com)
                /CreationDate (D:202003158000)  %format D:YYYYMMDDhhmmss
                /ModDate (D:201310081042)
                /Subject (Subject)
@@ -34,7 +34,7 @@
 
 
 %\ifpdf
-  \author{\href{mailto:917931@swan.ac.uk}{Stanislav Stratiev}}
+  \author{\href{mailto:StanislavStratiev@gmail.com}{Stanislav Stratiev}}
   \collegeordept{\href{http://www.swansea.ac.uk/physics}{Department of Physics}}
   \university{\href{http://www.swansea.ac.uk}{Swansea University}}
 
@@ -210,14 +210,16 @@
 % But take care that the paths match. You can also change the order of appearance by moving the include commands.
 
 
-%\include{Introduction_Folder/introduction}	% background information
+\include{Introduction_Folder/introduction}	% background information
 \include{Background_Folder/Background}
-%\include{Chapter_2_Folder_1912.11321/Chapter_2}
-%\include{Chapter_3_Folder_1806.06976/Chapter_3}
+\include{Chapter_2_Folder_1912.11321/Chapter_2}
+\include{Chapter_3_Folder_1806.06976/Chapter_3}
 \include{Chapter_4_Folder/Chapter_4}
-%\include{conclusions/conclusions}               % discussion of results
+\include{Conclusions_Folder/Conclusions}               % discussion of results
 
-%\appendix
+\chapter{Appendices}
+\appendix
+\include{Appendices_Folder/appendix_Chapter_3}
 %\include{Appendices_Folder/visualisations}
 %\include{Appendices_Folder/readme}
 

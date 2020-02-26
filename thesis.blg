@@ -1,50 +1,54 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: Introduction_Folder/introduction.aux
 A level-1 auxiliary file: Background_Folder/Background.aux
+A level-1 auxiliary file: Chapter_2_Folder_1912.11321/Chapter_2.aux
+A level-1 auxiliary file: Chapter_3_Folder_1806.06976/Chapter_3.aux
 A level-1 auxiliary file: Chapter_4_Folder/Chapter_4.aux
+A level-1 auxiliary file: Appendices_Folder/appendix_Chapter_3.tex.aux
 The style file: Reference_Folder/utphys.bst
 Database file #1: Reference_Folder/references.bib
 Warning--empty pages in NavarroLrida2010
-You've used 55 entries,
+You've used 92 entries,
             2328 wiz_defined-function locations,
-            966 strings with 13643 characters,
-and the built_in function-call counts, 13929 in all, are:
-= -- 1475
-> -- 450
+            1280 strings with 21167 characters,
+and the built_in function-call counts, 25726 in all, are:
+= -- 2703
+> -- 763
 < -- 0
-+ -- 174
-- -- 119
-* -- 1257
-:= -- 1772
-add.period$ -- 83
-call.type$ -- 55
-change.case$ -- 101
++ -- 295
+- -- 203
+* -- 2450
+:= -- 3125
+add.period$ -- 152
+call.type$ -- 92
+change.case$ -- 140
 chr.to.int$ -- 0
-cite$ -- 56
-duplicate$ -- 661
-empty$ -- 1386
-format.name$ -- 119
-if$ -- 3531
+cite$ -- 93
+duplicate$ -- 1302
+empty$ -- 2562
+format.name$ -- 203
+if$ -- 6634
 int.to.chr$ -- 0
-int.to.str$ -- 55
-missing$ -- 176
-newline$ -- 172
-num.names$ -- 55
-pop$ -- 255
+int.to.str$ -- 92
+missing$ -- 320
+newline$ -- 345
+num.names$ -- 92
+pop$ -- 428
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 403
+skip$ -- 845
 stack$ -- 0
-substring$ -- 734
-swap$ -- 239
+substring$ -- 1293
+swap$ -- 554
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 125
-width$ -- 57
-write$ -- 417
+while$ -- 211
+width$ -- 94
+write$ -- 733
 (There was 1 warning)
