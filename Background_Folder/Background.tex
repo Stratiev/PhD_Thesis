@@ -11,11 +11,11 @@
 
     After we have covered these, we will turn to the physics this formalism aims to address in \ref{phys_app_sec}. We will review the \textit{Landau-Ginzburg  paradigm} \ref{Landau-Ginzburg_sec} of symmetry breaking and phase transitions, its inability to account for all phases observable in nature and where topological phases of matter fit in this picture. Then, in \ref{FQHE_sec}, we will spend some time looking at the problems of the \textit{fractional and integer quantum hall effects} (FQHE/IQHE) and emphasize its relation to Chern-Simons matter theories. This will help us understand the applications and motivate the study of the models we are concerned with in this text.
 
-    Then, we shall continue by reviewing the properties of \textit{vortices} in section \ref{vortices_sec}. Specifically, we look at vortices in the abelian Higgs model, Pure abelian Chern-Simons theory with scalar matter and the mixed case where both $S_{\text{Maxwell}}$ and $S_CS$ play a role. We emphasize the importance of a \textit{BPS} bound for these systems. Finally, we discuss some subtleties relating to non-abelian vortices.
+    Then, we shall continue by reviewing the properties of \textit{vortices} in section \ref{vortices_sec}. Specifically, we look at vortices in the abelian Higgs model, Pure abelian Chern-Simons theory with scalar matter and the mixed case where both $S_{\text{Maxwell}}$ and $S_{\text{CS}}$ play a role. We emphasize the importance of a \textit{BPS} bound for these systems. Finally, we discuss some subtleties relating to non-abelian vortices.
 
     We continue by addressing \textit{Fermi-Bose and particle-vortex dualities} in \ref{Fermi-Bose_sec}, which were the primary motivation for this work. We provide the relevant information about CFTs and RG flows in order to keep the presentation self-contained. We outline important aspects of the dualities in order to highlight where our work fits in that context.
 
-    Finally, we include a section concerning the physics of \textit{non-commutative} field theory its relation to the theory of fluids, in particular, the description of the Quantum Hall fluid in terms of a \textit{'fuzzy'} underlying space, in which the coordinates do not commute. We shall see that this description is a Chern-Simons theory and it seems to arise naturally out of the ground state in the finite density non-abelian model that we have studied.
+    Finally, we include a section concerning the physics of \textit{non-commutative} field theory, its relation to the theory of fluids, in particular, the description of the Quantum Hall fluid in terms of a \textit{'fuzzy'} underlying space, in which the coordinates do not commute. We shall see that this description is a Chern-Simons theory and it seems to arise naturally out of the ground state in the finite density non-abelian model that we have studied.
 
         \section{Chern-Simons Theory} \label{CS_sec}
     Chern-Simons (CS) theory is a very unusual type of QFT both in its origin and its applications. It is a testament to the power and universality of mathematics, first conceived of as an abstract tool in the theory of differential operators and their connections to topology, it has grown to encompass many facets of modern physics and mathematics. From the computation of knot invariants to the prediction of non-abelian anyons, which are the ingredients necessary for performing a topological quantum computation -- currently one of the most promising approaches to fault tolerant quantum computation, due to the topological stability of the qubits. It is an example of a topological field theory (TQFT), which means that it is independent of the metric and so any observable is related to a topological invariant. It is the basis for three dimensional gravity \cite{gr-qc/0503022}, provides a field theoretic explanation for the Quantum Hall Effect and anyonic physics \cite{cond-mat/9501022, 1606.06687}, has been instrumental in the classification of rational 2D CFTs \cite{Moore1989}, creates a bridge between theoretical physics and knot theory \cite{Witten1989} and, recently, it has uncovered an equivalence between two types of matter, previously thought to have been fundamentally different -- namely Fermi-Bose duality \cite{1512.00161}. These are among the most noteworthy applications of CS theory. Therefore, in this section we justly take the time to review essential aspects of CS theory. Most of the results seen in this section, can also be found in the excellent review by Dunne \cite{hep-th/9902115}.
@@ -28,7 +28,7 @@
 \end{equation}
 The gauge field $A_\mu$ takes values in a finite dimensional representation of
 the (semi-simple) gauge Lie algebra ${\mathfrak{G}}$. In an abelian theory, the gauge fields
-$A_\mu$ commute, and so the trilinear term in (\eqref{cslag}) vanishes due to the
+$A_\mu$ commute, and so the trilinear term in \eqref{cslag} vanishes due to the
 antisymmetry of the $\epsilon^{\mu\nu\rho}$ symbol. In the nonabelian case (just as in Yang-Mills theory) we write
 \begin{align}
     A_\mu=A_\mu^a T^a,
@@ -42,9 +42,15 @@ and the normalization
     \tr(T^a T^b)=-\frac{1}{2}\delta^{ab}.
 \end{align}
 
+We can define the field strength tensor in the usual way for a non-abelian gauge theory
+\begin{align}
+    F_{\mu \nu} = \partial_{\mu}A_{\nu} - \partial_{\nu} A_{\mu} + [A_{\mu}, A_{\nu}].
+\end{align}
 
 
-    Since this Lagrangian is written in terms of $A_{\mu}$ as opposed to $F$, which transforms in such a way that any expression that is the trace of a string of $F$'s is gauge invariant.
+
+
+    $F_{\mu \nu}$ transforms in such a way that any expression that is the trace of a string of F's is gauge invariant. Since this Lagrangian is written in terms of $A_{\mu}$ as opposed to $F$, gauge invariance is no manifest.
 
     Before we delve into the details of the gauge invariance, it is helpful to venture into a quick digression about \textit{topology}. Topological invariants are such properties of spaces (and hence of field configurations defined on those spaces) that do not change under continuous transformations. And since most phenomena in the real world are continuous, we should expect that these invariants are important tools that we can use to better understand the physical world. Indeed, we shall see that these expectations are justified. 
 
@@ -66,7 +72,7 @@ and the normalization
     \end{align}
     Showing that the integral of this quantity is indeed a topological invariant is beyond the scope of this presentation. We refer the skeptical reader to the proof of Theorem 10.7 in Nakahara \cite{Nakahara}, which should at least provide some intuition.
 
-    Gauge transformations with a non-zero winding number are called \textit{large gauge transformations}. Another way of saying this is that they are mappings that are \textit{not} continuously connected to the identity transformation. Here we give an example to illustrate how these gauge transformations are different.
+    Gauge transformations with a non-zero winding number are called \textit{large gauge transformations}. Another way of saying this, is that they are mappings that are \textit{not} continuously connected to the identity transformation. Here we give an example to illustrate how these gauge transformations are different.
     Suppose we have a complex scalar field $\varphi$ defined on  $S^1$
     \begin{align}
         \varphi: S^1 \rightarrow \mathbb{C},
@@ -84,7 +90,7 @@ and the normalization
     \caption{(a) is topologically distinct from the rest, yet they are all gauge equivalent configurations. } \label{large_gauge}
 \end{figure}
 
-As a final remark to counter the point that ``We don't live on a circle'', I shall say that when studying a non-singular circularly symmetric planar set up, we would require boundary conditions which identify the point at infinity with the same gauge-field configuration. Now the point at infinity turns out to be an $S^1$, so inevitably abelian gauge transformations would be separated into distinct homotopy classes.
+As a final remark to counter the point that ``We don't live on a circle'', I shall say that when studying a non-singular circularly symmetric planar setup, we would require boundary conditions which identify the point at infinity with the same gauge-field configuration. It turns out that the point at infinity \textit{is} an $S^1$, so inevitably abelian gauge transformations \textit{would be} separated into distinct homotopy classes.
 
 This above passage illustrates the essence of large gauge transformations in the simplest possible case, where we have a non-trivial homotopy group. The situation is precisely the same with more complicated homotopy groups but they just happen to be more difficult to visualize.
 
@@ -98,7 +104,7 @@ This above passage illustrates the essence of large gauge transformations in the
     \end{align}
     This implies that if we set $\kappa = \frac{k}{4 \pi}$, where $k\in \mathbb{Z}$, we have restored gauge invariance, which means that we ought to include this term in the study of planar physics.
 
-    Now, let us look at some physical properties that the action functional $S_{\text{CS}} = \int d^3x \mathcal{L}_{\text{CS}}$ possesses. Performing the functional variation, we get the equation of motion $F_{\mu \nu}=0$, implying only pure gauge solutions exist. Now this might make one wonder, what could possibly be so interesting about CS theory if the classical equations of motion are trivial!?
+    Let us look at some physical properties that the action functional $S_{\text{CS}} = \int d^3x \, \mathcal{L}_{\text{CS}}$ possesses. Performing the functional variation, we get the equation of motion $F_{\mu \nu}=0$, implying only pure gauge solutions exist. This might make one wonder, what could possibly be so interesting about CS theory if the classical equations of motion are trivial!?
     The reason that this theory is in fact interesting and non-trivial, despite the fact that $F=0$, is two-fold. Firstly, CS is a topological field theory. It has trivial local properties. All of the physics is encoded in the topology of the manifold and in the non-local observables such as Wilson loops that require us to study the full quantum theory.
 
     The second way in which CS is interesting teaches us the old lesson that sometimes the whole is greater than the sum of its parts. In this case, adding matter or a Maxwell term to the Lagrangian alters the pure Maxwell/matter theories immensely. Let us see how these alterations play out.
@@ -139,10 +145,10 @@ This above passage illustrates the essence of large gauge transformations in the
 
     Restricting ourselves to the abelian case, we examine the equations of motion component by component. If $J_{\mu} = (\rho, J^i)$ then
     \begin{align}
-        \rho  &= \frac{k}{4 \pi} B \label{eq:source_abel_charge} \\
-        J^i &= \frac{k}{4 \pi} \epsilon^{i j } E_j \label{eq:source_abel_current}
+        \rho  &= \frac{k}{4 \pi} B \label{eq:source_abel_charge} ,\\
+        J^i &= \frac{k}{4 \pi} \epsilon^{i j } E_j \label{eq:source_abel_current},
     \end{align}
-    The first equation \eqref{eq:source_abel_charge} relates the charge density to the magnetic field. So for a non-zero value of $k$, we find that anywhere there is charge, there is magnetic flux penetrating through it perpendicular to the plane, something quite unlike Maxwell theory, where charge \textit{movement} generates a magnetic field, as opposed to charge \textit{presence}. This is illustrated in  Figure \ref{fig:flux_attachment} for a collection of localized charge distributions. The second equation \eqref{eq:source_abel_current} ensures that this charge-flux relation is preserved under time evolution. If we act with $\partial$ on \eqref{eq:source_abel_current} then we arrive at
+    where $B$ is the magnetic field perpendicular to the plane and $E_j$ is the electric field. The first equation \eqref{eq:source_abel_charge} relates the charge density to the magnetic field. So for a non-zero value of $k$, we find that anywhere there is charge, there is also magnetic flux penetrating through it perpendicular to the plane. This is something quite unlike Maxwell theory, where charge \textit{movement} generates a magnetic field, as opposed to charge \textit{presence}. This is illustrated in  Figure \ref{fig:flux_attachment} for a collection of localized charge distributions. The second equation \eqref{eq:source_abel_current} ensures that this charge-flux relation is preserved under time evolution. If we act with $\partial$ on \eqref{eq:source_abel_current} then we arrive at
     \begin{align}
         \partial_i J^i &= \frac{k}{4 \pi} \epsilon^{ij} \partial_i E_j\nonumber \\
         &= \frac{k}{4 \pi} \epsilon^{ij} \partial_i ( \partial_j A_0 - \partial_0 A_j) \nonumber \\
@@ -160,17 +166,20 @@ This above passage illustrates the essence of large gauge transformations in the
     \caption{A collection of localized charge distributions, and with magnetic flux lines of strength $\frac{4 \pi \hbar \rho(x,y)}{k}$ tied to the charges. The charge and flux are tied together throughout the motion of the particles as a result of the Chern-Simons equations \eqref{eq:source_abel_charge} - \eqref{eq:source_abel_current}.} \label{fig:flux_attachment}
 \end{figure}
 
+The final aspect of Chern-Simons theory that we will use is the fact that it is a \textit{topological} field theory (TQFT). This means that the theory is independent of the metric. This consequently implies that the CS term does not contribute to the energy-momentum tensor, since
+\begin{align}
+    T^{\mu \nu} = \frac{-2}{ \sqrt{-g}} \frac{\delta S_{\text{CS}}}{ \delta g_{\mu\nu}} =0.
+\end{align}
+
+One way to see that CS is a topological field theory is by writing it as an integral of a differential form.
+\begin{align}
+    S_{\text{CS}} &= \frac{k}{4 \pi} \int \left(A \wedge d \wedge A +A \wedge A \wedge A\right).
+\end{align}
+This construction does not require the metric to be defined, unlike the Yang-Mills term, which involves the hodge star (a metric dependent construct) in order to be defined through differential forms.
+
+This concludes our review of CS theory. We now move on to a refresher of statistical physics.
 
 
-
-
-    
-
-
-
-\textcolor{red}{***More to add***}
-
-        - Theory is topological so does not contribute to the Energy-momentum tensor (since it is arrived at through variation of the metric and a topological theory does not depend on the metric)\\
         \section{Statistical Physics}
 
         Here we motivate the study of QFT as a gateway into understanding phenomena in many body physics. Physical phenomena at macro scale require micro scale explanations. The transition between a microscopic theory and its observable large scale properties is facillitated by the use of techniques in statistical mechanics. Here we review the connection between microscopic Lagrangian formulation and the statistical partition function through the formalism of the path integral. We follow through by accentuating the treatment of a chemical potential and the subtleties related to it. Before we go on, I note that this is the only part of this section that will be relevant to the calculations performed in this work. However, the rest of this section is meant to shine a light on why it is that we are interested in such an abstract problem.
@@ -202,7 +211,7 @@ This above passage illustrates the essence of large gauge transformations in the
 
 
         \begin{align}
-            H = \int d^2x \mathcal{H}(\hat{\phi}, \hat{\pi}).
+            H = \int d^2x \, \mathcal{H}(\hat{\phi}, \hat{\pi}).
         \end{align}
         Assume that a system is in a state $| \phi_a \rangle$ at time $t=0$. After a time $t_f$ it evolves to $e^{-i H t_f} | \phi_a \rangle$, assuming that the Hamiltonian has no explicit time dependence. The transition amplitude for going from state $| \phi_a \rangle$ to state $| \phi_b \rangle$ after a time $t_f$ is $\langle \phi_b | e^{-i H t_f} | \phi_a \rangle$. In order to study a system at thermodynamic equilibrium, we will be interested in the amplitude for the system returning to the same state after a time $t_f$. To be able to compute this amplitude, we divide the time interval $(0, t_f)$ into $N$ equal time steps $\Delta t = \frac{t_f}{N}$. Then at each time interval, we insert a complete set of states, alternating between field operators and their conjugate momenta
 
@@ -225,7 +234,7 @@ This above passage illustrates the essence of large gauge transformations in the
         \begin{align}
             \langle \pi_i | e^{-i H_i \Delta t} | \phi_i \rangle &\sim \langle \pi_i | (1- i H_i \Delta t ) | \phi_i \rangle \nonumber \\
             &= \langle \pi_i | \phi_i \rangle (1 - i H_i \Delta t) \nonumber \\
-            & = (1-i H_i \Delta t) \ \exp\left(-i \int d^2x \pi_i(\bm{x}) \phi_i (\bm{x})  \right),
+            & = (1-i H_i \Delta t) \ \exp\left(-i \int d^2x \, \pi_i(\bm{x}) \phi_i (\bm{x})  \right),
         \end{align}
         where
         \begin{align}
@@ -303,7 +312,6 @@ Here we shall make a few observations that will come in use frequently for the r
             \mathcal{L} \rightarrow \mathcal{L}'= \mathcal{L}\left(\phi,\ D_{\mu}' \phi,\ A_{\mu} \right),
         \end{align}
         where $D_{\mu}' = D_{\mu} - i \mu \delta_{\mu 0}$.
-
         Let us also express $\phi$ in terms of a modulus and a phase
         \begin{align}
             \phi(x) = \sigma(x) e^{i \alpha(x)}.
@@ -568,6 +576,7 @@ Here we shall make a few observations that will come in use frequently for the r
     \end{align}
     $S_{\text{XY}}$ is the action for the so called \textit{XY model} and $S_{\text{AH}}$ is defined as in \eqref{eq:Abelian_Higgs_Model}.
 
+    \begin{table}
 \begin{center}
   \begin{tabular}{| l | c | c | c|}
       \hline
@@ -581,6 +590,8 @@ Here we shall make a few observations that will come in use frequently for the r
     \hline
   \end{tabular}
 \end{center}
+      \caption{This table shows the matching of the phases of the XY model and the Abelian Higgs model}
+    \end{table}
 
 
 

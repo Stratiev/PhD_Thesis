@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.11.24)  6 MAR 2020 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.11.24)  15 MAR 2020 11:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1374,7 +1374,8 @@ Type  H <return>  for immediate help.
 l.116 \newcommand{\Tr}{{\rm Tr} }
                                  
 ? 
-(./thesis.aux (./Introduction_Folder/introduction.aux)
+(./thesis.aux (./Front_Folder/declaration.aux)
+(./Front_Folder/acknowledgement.aux) (./Introduction_Folder/introduction.aux)
 (./Background_Folder/Background.aux)
 (./Chapter_2_Folder_1912.11321/Chapter_2.aux)
 (./Chapter_3_Folder_1806.06976/Chapter_3.aux) (./Chapter_4_Folder/Chapter_4.aux
@@ -1488,14 +1489,14 @@ LaTeX Info: Redefining \nameref on input line 137.
 Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
 (marginnote)             Extended position detection mode activated.
  ABD: EveryShipout initializing macros
-<Front_Folder/figures/logo.pdf, id=236, 131.34843pt x 81.79889pt>
+<Front_Folder/figures/logo.pdf, id=243, 131.34843pt x 81.79889pt>
 File: Front_Folder/figures/logo.pdf Graphic file (type pdf)
 
 <use Front_Folder/figures/logo.pdf>
 Package pdftex.def Info: Front_Folder/figures/logo.pdf used on input line 150.
 (pdftex.def)             Requested size: 113.81102pt x 70.87862pt.
 
-<Front_Folder/figures/background.pdf, id=240, 597.50786pt x 845.04686pt>
+<Front_Folder/figures/background.pdf, id=247, 597.50786pt x 845.04686pt>
 File: Front_Folder/figures/background.pdf Graphic file (type pdf)
 
 <use Front_Folder/figures/background.pdf>
@@ -1513,62 +1514,83 @@ kground.pdf> <./Front_Folder/figures/logo.pdf
 
 pdfTeX warning: pdflatex (file ./Front_Folder/figures/logo.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->] [2] (./thesis.toc
-LaTeX Font Info:    Try loading font information for U+jkpsya on input line 4.
+>] [2]
+\openout2 = `Front_Folder/declaration.aux'.
+
+ (./Front_Folder/declaration.tex) [3
+
+] [4
+
+
+] (./thesis.toc
+LaTeX Font Info:    Try loading font information for U+jkpsya on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 4.
+LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 4.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+jkpmia on input line 4.
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 4.
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
-) [3
-
-] [4])
+) [5] [6])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [5]
-[6
+ [7]
+\openout2 = `Front_Folder/acknowledgement.aux'.
+
+
+(./Front_Folder/acknowledgement.tex [8
+
+]) (./thesis.lof [9
+\FN@pp@footnotehinttrue 
+
+
+] [10])
+\tf@lof=\write7
+\openout7 = `thesis.lof'.
+
+ [11] [12
+
+] (./thesis.lot)
+\tf@lot=\write8
+\openout8 = `thesis.lot'.
+
+ [13] [14
 
 ]
 \openout2 = `Introduction_Folder/introduction.aux'.
 
- (./Introduction_Folder/introduction.tex
-LaTeX Font Info:    Try loading font information for TS1+jkp on input line 18.
 
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
-File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-) [1
+(./Introduction_Folder/introduction.tex [1
 
 
-]) [2]
+] [2]) [3]
 \openout2 = `Background_Folder/Background.aux'.
 
 
-(./Background_Folder/Background.tex
+(./Background_Folder/Background.tex [4
+
+
+
+]
 Chapter 1.
-[3
-
-
-
-] [4]
+[5] [6]
 LaTeX Font Info:    Try loading font information for U+eus on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
@@ -1589,7 +1611,7 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 26.
 
-[5]
+[7]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -1610,7 +1632,7 @@ Type  H <return>  for immediate help.
 l.43 \end{align}
                 
 ? 
-[6]
+[8]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -1618,7 +1640,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62     \end{align}
+l.68     \end{align}
                     
 ? 
 
@@ -1628,7 +1650,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62     \end{align}
+l.68     \end{align}
                     
 ? 
 
@@ -1638,7 +1660,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62     \end{align}
+l.68     \end{align}
                     
 ? 
 
@@ -1648,7 +1670,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62     \end{align}
+l.68     \end{align}
                     
 ? 
 
@@ -1658,7 +1680,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66     \end{align}
+l.72     \end{align}
                     
 ? 
 
@@ -1668,34 +1690,34 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66     \end{align}
+l.72     \end{align}
                     
 ? 
-[7] <Background_Folder/figures/lrg_gauge1.pdf, id=407, 350.30875pt x 433.62pt>
+[9] <Background_Folder/figures/lrg_gauge1.pdf, id=515, 350.30875pt x 433.62pt>
 File: Background_Folder/figures/lrg_gauge1.pdf Graphic file (type pdf)
 
 <use Background_Folder/figures/lrg_gauge1.pdf>
 Package pdftex.def Info: Background_Folder/figures/lrg_gauge1.pdf used on input
- line 81.
+ line 87.
 (pdftex.def)             Requested size: 59.5517pt x 73.71442pt.
 
-<Background_Folder/figures/lrg_gauge2.pdf, id=408, 361.35pt x 360.34625pt>
+<Background_Folder/figures/lrg_gauge2.pdf, id=516, 361.35pt x 360.34625pt>
 File: Background_Folder/figures/lrg_gauge2.pdf Graphic file (type pdf)
 
 <use Background_Folder/figures/lrg_gauge2.pdf>
 Package pdftex.def Info: Background_Folder/figures/lrg_gauge2.pdf used on input
- line 81.
+ line 87.
 (pdftex.def)             Requested size: 68.65721pt x 68.46649pt.
 
-<Background_Folder/figures/lrg_gauge3.pdf, id=409, 361.35pt x 360.34625pt>
+<Background_Folder/figures/lrg_gauge3.pdf, id=517, 361.35pt x 360.34625pt>
 File: Background_Folder/figures/lrg_gauge3.pdf Graphic file (type pdf)
 
 <use Background_Folder/figures/lrg_gauge3.pdf>
 Package pdftex.def Info: Background_Folder/figures/lrg_gauge3.pdf used on input
- line 82.
+ line 88.
 (pdftex.def)             Requested size: 68.65721pt x 68.46649pt.
- [8 <./Background_Folder/figures/lrg_gauge1.pdf> <./Background_Folder/figures/l
-rg_gauge2.pdf
+ [10 <./Background_Folder/figures/lrg_gauge1.pdf> <./Background_Folder/figures/
+lrg_gauge2.pdf
 
 pdfTeX warning: pdflatex (file ./Background_Folder/figures/lrg_gauge2.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
@@ -1703,7 +1725,10 @@ pdfTeX warning: pdflatex (file ./Background_Folder/figures/lrg_gauge2.pdf): PDF
 
 pdfTeX warning: pdflatex (file ./Background_Folder/figures/lrg_gauge3.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->] [9]
+>]
+Underfull \vbox (badness 1796) has occurred while \output is active []
+
+ [11]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -1711,7 +1736,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129     \end{align}
+l.135     \end{align}
                      
 ? 
 
@@ -1721,66 +1746,63 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129     \end{align}
+l.135     \end{align}
                      
 ? 
 ! Double superscript.
 <argument> ...u \rho } F^a_{\nu \rho } = J^{\mu }^
                                                   a, 
-l.133     \end{align}
+l.139     \end{align}
                      
 ? 
 ! Double superscript.
 <argument> ...u \rho } F^a_{\nu \rho } = J^{\mu }^
                                                   a, 
-l.133     \end{align}
+l.139     \end{align}
                      
 ? 
+[12]
 ! Double superscript.
 <argument>  D_{\mu } J^{\mu }^
                               a = \frac {k}{4 \pi } \epsilon ^{\mu \nu \rho ...
-l.137     \end{align}
+l.143     \end{align}
                      
 ? 
 ! Double superscript.
 <argument> ...u \nu \rho } D_{\mu } F^{\nu \rho }^
                                                   a = 0, 
-l.137     \end{align}
+l.143     \end{align}
                      
 ? 
 ! Double superscript.
 <argument>  D_{\mu } J^{\mu }^
                               a = \frac {k}{4 \pi } \epsilon ^{\mu \nu \rho ...
-l.137     \end{align}
+l.143     \end{align}
                      
 ? 
 ! Double superscript.
 <argument> ...u \nu \rho } D_{\mu } F^{\nu \rho }^
                                                   a = 0, 
-l.137     \end{align}
+l.143     \end{align}
                      
 ? 
 
-Underfull \vbox (badness 1661) has occurred while \output is active []
-
- [10]
-<Background_Folder/figures/flux_attachment_improved.pdf, id=439, 1918.0044pt x 
+<Background_Folder/figures/flux_attachment_improved.pdf, id=546, 1918.0044pt x 
 1064.3492pt>
 File: Background_Folder/figures/flux_attachment_improved.pdf Graphic file (type
  pdf)
  <use Background_Folder/figures/flux_attachment_improved.pdf>
 Package pdftex.def Info: Background_Folder/figures/flux_attachment_improved.pdf
- used on input line 159.
+ used on input line 165.
 (pdftex.def)             Requested size: 326.05643pt x 180.93697pt.
 
-[11] [12 <./Background_Folder/figures/flux_attachment_improved.pdf>]
+[13]
+Underfull \vbox (badness 6725) has occurred while \output is active []
+
+ [14 <./Background_Folder/figures/flux_attachment_improved.pdf>] [15] [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
-[14]
-Underfull \vbox (badness 1590) has occurred while \output is active []
-
- [15]
+ [17]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -1788,7 +1810,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249         \end{align}
+l.258         \end{align}
                          
 ? 
 
@@ -1798,62 +1820,62 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249         \end{align}
+l.258         \end{align}
                          
 ? 
-[16]
+[18] [19]
 ! Extra }, or forgotten \right.
 <template> }
             $}\ifmeasuring@ \savefieldlength@ \fi \set@field \hfil \endtempl...
-l.282         \end{align}
+l.291         \end{align}
                          
 ? 
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.282         \end{align}
+l.291         \end{align}
                          
 ? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.282         \end{align}
+l.291         \end{align}
                          
 ? 
 ! Extra }, or forgotten \right.
 <template> }
             $}\ifmeasuring@ \savefieldlength@ \fi \set@field \hfil \endtempl...
-l.282         \end{align}
+l.291         \end{align}
                          
 ? 
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.282         \end{align}
+l.291         \end{align}
                          
 ? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.282         \end{align}
+l.291         \end{align}
                          
 ? 
 ! Extra }, or forgotten \right.
 <template> }
             $}\ifmeasuring@ \savefieldlength@ \fi \set@field \hfil \endtempl...
-l.282         \end{align}
+l.291         \end{align}
                          
 ? 
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.282         \end{align}
+l.291         \end{align}
                          
 ? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.282         \end{align}
+l.291         \end{align}
                          
 ? 
 
@@ -1864,108 +1886,127 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282         \end{align}
+l.291         \end{align}
                          
 ? 
 ! Extra }, or forgotten \right.
 <template> }
             $}\ifmeasuring@ \savefieldlength@ \fi \set@field \hfil \endtempl...
-l.282         \end{align}
+l.291         \end{align}
                          
 ? 
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.282         \end{align}
+l.291         \end{align}
                          
 ? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.282         \end{align}
+l.291         \end{align}
                          
 ? 
-[17] [18] [19] [20]
+
+Underfull \vbox (badness 7151) has occurred while \output is active []
+
+ [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-Underfull \vbox (badness 1796) has occurred while \output is active []
+[22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
-[23]
+ [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-[25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [25]
+[26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-<Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png, id=626, 462
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+<Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png, id=737, 462
 .528pt x 346.896pt>
 File: Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png Graphic
  file (type png)
 
 <use Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png>
 Package pdftex.def Info: Background_Folder/figures/solution_n1_magnetic_field_g
-_lambda.png used on input line 550.
+_lambda.png used on input line 558.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
 
-<Background_Folder/figures/solution_n1_scalar_field_g_lambda.png, id=628, 462.5
+<Background_Folder/figures/solution_n1_scalar_field_g_lambda.png, id=739, 462.5
 28pt x 346.896pt>
 File: Background_Folder/figures/solution_n1_scalar_field_g_lambda.png Graphic f
 ile (type png)
 
 <use Background_Folder/figures/solution_n1_scalar_field_g_lambda.png>
 Package pdftex.def Info: Background_Folder/figures/solution_n1_scalar_field_g_l
-ambda.png used on input line 551.
+ambda.png used on input line 559.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
 
-Overfull \hbox (9.18997pt too wide) in paragraph at lines 549--553
+Overfull \hbox (9.18997pt too wide) in paragraph at lines 557--561
  [][] 
  []
 
-[28]
+[31]
 Underfull \vbox (badness 5548) has occurred while \output is active []
 
- [29 <./Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png> <./B
-ackground_Folder/figures/solution_n1_scalar_field_g_lambda.png>] [30] [31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [32 <./Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png> <./B
+ackground_Folder/figures/solution_n1_scalar_field_g_lambda.png>]
+Underfull \vbox (badness 1028) has occurred while \output is active []
 
  [33]
+LaTeX Font Info:    Try loading font information for TS1+jkp on input line 606.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
+File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
+) [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [35]
+[36]
+Underfull \vbox (badness 2903) has occurred while \output is active []
+
+ [37]
 ! Double superscript.
 <argument> ...,...,n_p\rangle = \bm {a}^{\dag }_1^
                                                   {n_1}... \bm {a}^{\dag }_p...
-l.671     \end{align}
+l.682     \end{align}
                      
 ? 
 ! Double superscript.
 <argument> ...\dag }_1^{n_1}... \bm {a}^{\dag }_p^
                                                   {n_p}|0\rangle 
-l.671     \end{align}
+l.682     \end{align}
                      
 ? 
 ! Double superscript.
 <argument> ...,...,n_p\rangle = \bm {a}^{\dag }_1^
                                                   {n_1}... \bm {a}^{\dag }_p...
-l.671     \end{align}
+l.682     \end{align}
                      
 ? 
 ! Double superscript.
 <argument> ...\dag }_1^{n_1}... \bm {a}^{\dag }_p^
                                                   {n_p}|0\rangle 
-l.671     \end{align}
+l.682     \end{align}
                      
 ? 
-[35]
+[38]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1973,27 +2014,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.704     -
+l.715     -
             Specifically, non-commutative Chern-Simons theory arises as the ...
 
 ? 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36])
-[37]
+ [39])
+[40]
 \openout2 = `Chapter_2_Folder_1912.11321/Chapter_2.aux'.
 
- (./Chapter_2_Folder_1912.11321/Chapter_2.tex [38
-
-
-
-]
+ (./Chapter_2_Folder_1912.11321/Chapter_2.tex
 Chapter 2.
-[39] [40]
+[41
+
+
+
+] [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+ [43]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2036,7 +2077,7 @@ Type  H <return>  for immediate help.
 l.50 &&\mathcal{L}_{\rm
                         CS} \,= \,\frac{k}{4 \pi} \epsilon^{\nu \lambda\sigma}
 ? 
-[42] [43]
+[44] [45]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2049,7 +2090,7 @@ l.88 ...angle\Phi\rangle^\dagger\right)^2/(2\xi)$}
 
 ? 
 
-<Chapter_2_Folder_1912.11321/figures/Dispersion_relations-2.pdf, id=844, 1021.1
+<Chapter_2_Folder_1912.11321/figures/Dispersion_relations-2.pdf, id=948, 1021.1
 9499pt x 662.90642pt>
 File: Chapter_2_Folder_1912.11321/figures/Dispersion_relations-2.pdf Graphic fi
 le (type pdf)
@@ -2062,14 +2103,14 @@ ns-2.pdf used on input line 105.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44]
+[46]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45 <./Chapter_2_Folder_1912.11321/figures/Dispersion_relations-2.pdf>] [46]
+ [47 <./Chapter_2_Folder_1912.11321/figures/Dispersion_relations-2.pdf>] [48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
-[48]
+ [49]
+[50]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2115,13 +2156,13 @@ l.211 $B_{\rm
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
+ [51]
 Underfull \vbox (badness 3375) has occurred while \output is active []
 
- [50]
+ [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
+ [53]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 277.
@@ -2130,7 +2171,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 277.
 
-[52]
+[54]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 302.
@@ -2143,7 +2184,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 302.
 
-[53]
+[55]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2164,8 +2205,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 329.
 
 
-<Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png, id=974, 462.528pt x 3
-46.896pt>
+<Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png, id=1075, 462.528pt x 
+346.896pt>
 File: Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png Graphic file (typ
 e png)
  <use Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png>
@@ -2173,8 +2214,8 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.pn
 g used on input line 334.
 (pdftex.def)             Requested size: 216.81pt x 162.60709pt.
 
-<Chapter_2_Folder_1912.11321/figures/B_alpha_5_final.pdf, id=975, 462.52893pt x
- 346.89668pt>
+<Chapter_2_Folder_1912.11321/figures/B_alpha_5_final.pdf, id=1076, 462.52893pt 
+x 346.89668pt>
 File: Chapter_2_Folder_1912.11321/figures/B_alpha_5_final.pdf Graphic file (typ
 e pdf)
  <use Chapter_2_Folder_1912.11321/figures/B_alpha_5_final.pdf>
@@ -2189,9 +2230,9 @@ Overfull \hbox (21.05504pt too wide) in paragraph at lines 334--335
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54]
-<Chapter_2_Folder_1912.11321/figures/E_alpha_5_final.png, id=984, 462.528pt x 3
-46.896pt>
+ [56]
+<Chapter_2_Folder_1912.11321/figures/E_alpha_5_final.png, id=1085, 462.528pt x 
+346.896pt>
 File: Chapter_2_Folder_1912.11321/figures/E_alpha_5_final.png Graphic file (typ
 e png)
  <use Chapter_2_Folder_1912.11321/figures/E_alpha_5_final.png>
@@ -2199,8 +2240,8 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/E_alpha_5_final.pn
 g used on input line 343.
 (pdftex.def)             Requested size: 202.35622pt x 151.76662pt.
 
-<Chapter_2_Folder_1912.11321/figures/E_alpha_5_n_200.pdf, id=985, 462.52893pt x
- 346.89668pt>
+<Chapter_2_Folder_1912.11321/figures/E_alpha_5_n_200.pdf, id=1086, 462.52893pt 
+x 346.89668pt>
 File: Chapter_2_Folder_1912.11321/figures/E_alpha_5_n_200.pdf Graphic file (typ
 e pdf)
  <use Chapter_2_Folder_1912.11321/figures/E_alpha_5_n_200.pdf>
@@ -2212,8 +2253,8 @@ f used on input line 343.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf, id=987, 462.528
-93pt x 346.89668pt>
+<Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf, id=1088, 462.52
+893pt x 346.89668pt>
 File: Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf Graphic fil
 e (type pdf)
 
@@ -2221,8 +2262,8 @@ e (type pdf)
 Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/radius_alpha1_larg
 e_n.pdf used on input line 361.
 (pdftex.def)             Requested size: 209.58255pt x 157.18716pt.
- [55 <./Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png> <./Chapter_2_F
-older_1912.11321/figures/B_alpha_5_final.pdf>] [56 <./Chapter_2_Folder_1912.113
+ [57 <./Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png> <./Chapter_2_F
+older_1912.11321/figures/B_alpha_5_final.pdf>] [58 <./Chapter_2_Folder_1912.113
 21/figures/E_alpha_5_final.png> <./Chapter_2_Folder_1912.11321/figures/E_alpha_
 5_n_200.pdf> <./Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf
 
@@ -2242,7 +2283,7 @@ l.370 ...pha)}{{|n|\cal E}(1, \alpha)}\,\qquad{\rm
 
 ? 
 
-<Chapter_2_Folder_1912.11321/figures/bpsrationeg.png, id=1024, 462.528pt x 346.
+<Chapter_2_Folder_1912.11321/figures/bpsrationeg.png, id=1122, 462.528pt x 346.
 896pt>
 File: Chapter_2_Folder_1912.11321/figures/bpsrationeg.png Graphic file (type pn
 g)
@@ -2251,7 +2292,7 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/bpsrationeg.png us
 ed on input line 375.
 (pdftex.def)             Requested size: 209.58255pt x 157.18686pt.
 
-<Chapter_2_Folder_1912.11321/figures/mass1neg.png, id=1025, 462.528pt x 346.896
+<Chapter_2_Folder_1912.11321/figures/mass1neg.png, id=1123, 462.528pt x 346.896
 pt>
 File: Chapter_2_Folder_1912.11321/figures/mass1neg.png Graphic file (type png)
  <use Chapter_2_Folder_1912.11321/figures/mass1neg.png>
@@ -2263,7 +2304,7 @@ on input line 376.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<Chapter_2_Folder_1912.11321/figures/firstorderalpha1_corrected.pdf, id=1030, 2
+<Chapter_2_Folder_1912.11321/figures/firstorderalpha1_corrected.pdf, id=1128, 2
 675.19739pt x 1676.1233pt>
 File: Chapter_2_Folder_1912.11321/figures/firstorderalpha1_corrected.pdf Graphi
 c file (type pdf)
@@ -2273,7 +2314,7 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/firstorderalpha1_c
 orrected.pdf used on input line 385.
 (pdftex.def)             Requested size: 202.35622pt x 126.778pt.
 
-<Chapter_2_Folder_1912.11321/figures/firstorderalpha2_corrected.pdf, id=1031, 2
+<Chapter_2_Folder_1912.11321/figures/firstorderalpha2_corrected.pdf, id=1129, 2
 374.93108pt x 1480.66028pt>
 File: Chapter_2_Folder_1912.11321/figures/firstorderalpha2_corrected.pdf Graphi
 c file (type pdf)
@@ -2283,7 +2324,7 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/firstorderalpha2_c
 orrected.pdf used on input line 386.
 (pdftex.def)             Requested size: 202.35622pt x 126.15945pt.
 
-<Chapter_2_Folder_1912.11321/figures/BPS_equation_error.pdf, id=1033, 462.52893
+<Chapter_2_Folder_1912.11321/figures/BPS_equation_error.pdf, id=1131, 462.52893
 pt x 346.89668pt>
 File: Chapter_2_Folder_1912.11321/figures/BPS_equation_error.pdf Graphic file (
 type pdf)
@@ -2293,7 +2334,7 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/BPS_equation_error
 .pdf used on input line 393.
 (pdftex.def)             Requested size: 195.12877pt x 146.34666pt.
 
-<Chapter_2_Folder_1912.11321/figures/negative_n_A0.pdf, id=1034, 593.48349pt x 
+<Chapter_2_Folder_1912.11321/figures/negative_n_A0.pdf, id=1132, 593.48349pt x 
 433.01884pt>
 File: Chapter_2_Folder_1912.11321/figures/negative_n_A0.pdf Graphic file (type 
 pdf)
@@ -2308,8 +2349,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[57]
-<Chapter_2_Folder_1912.11321/figures/B_alpha_10_positive_final.png, id=1047, 46
+[59]
+<Chapter_2_Folder_1912.11321/figures/B_alpha_10_positive_final.png, id=1145, 46
 2.528pt x 346.896pt>
 File: Chapter_2_Folder_1912.11321/figures/B_alpha_10_positive_final.png Graphic
  file (type png)
@@ -2319,7 +2360,7 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/B_alpha_10_positiv
 e_final.png used on input line 414.
 (pdftex.def)             Requested size: 195.12877pt x 146.34637pt.
 
-<Chapter_2_Folder_1912.11321/figures/E_alpha_10_positive_final.png, id=1048, 46
+<Chapter_2_Folder_1912.11321/figures/E_alpha_10_positive_final.png, id=1146, 46
 2.528pt x 346.896pt>
 File: Chapter_2_Folder_1912.11321/figures/E_alpha_10_positive_final.png Graphic
  file (type png)
@@ -2329,7 +2370,7 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/E_alpha_10_positiv
 e_final.png used on input line 414.
 (pdftex.def)             Requested size: 195.12877pt x 146.34637pt.
 
-<Chapter_2_Folder_1912.11321/figures/positive_n_energy.pdf, id=1050, 462.52893p
+<Chapter_2_Folder_1912.11321/figures/positive_n_energy.pdf, id=1148, 462.52893p
 t x 346.89668pt>
 File: Chapter_2_Folder_1912.11321/figures/positive_n_energy.pdf Graphic file (t
 ype pdf)
@@ -2338,7 +2379,7 @@ ype pdf)
 Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/positive_n_energy.
 pdf used on input line 421.
 (pdftex.def)             Requested size: 202.35622pt x 151.76692pt.
- [58 <./Chapter_2_Folder_1912.11321/figures/bpsrationeg.png> <./Chapter_2_Folde
+ [60 <./Chapter_2_Folder_1912.11321/figures/bpsrationeg.png> <./Chapter_2_Folde
 r_1912.11321/figures/mass1neg.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2355,7 +2396,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 425.
 
 
-<Chapter_2_Folder_1912.11321/figures/f_sixthvsfourth.pdf, id=1059, 462.52893pt 
+<Chapter_2_Folder_1912.11321/figures/f_sixthvsfourth.pdf, id=1157, 462.52893pt 
 x 346.89668pt>
 File: Chapter_2_Folder_1912.11321/figures/f_sixthvsfourth.pdf Graphic file (typ
 e pdf)
@@ -2364,7 +2405,7 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/f_sixthvsfourth.pd
 f used on input line 430.
 (pdftex.def)             Requested size: 140.92627pt x 105.69481pt.
 
-<Chapter_2_Folder_1912.11321/figures/B_sixthvsfourth.pdf, id=1060, 462.52893pt 
+<Chapter_2_Folder_1912.11321/figures/B_sixthvsfourth.pdf, id=1158, 462.52893pt 
 x 346.89668pt>
 File: Chapter_2_Folder_1912.11321/figures/B_sixthvsfourth.pdf Graphic file (typ
 e pdf)
@@ -2373,7 +2414,7 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/B_sixthvsfourth.pd
 f used on input line 430.
 (pdftex.def)             Requested size: 140.92627pt x 105.69481pt.
 
-<Chapter_2_Folder_1912.11321/figures/E_sixthvsfourth.pdf, id=1061, 462.52893pt 
+<Chapter_2_Folder_1912.11321/figures/E_sixthvsfourth.pdf, id=1159, 462.52893pt 
 x 346.89668pt>
 File: Chapter_2_Folder_1912.11321/figures/E_sixthvsfourth.pdf Graphic file (typ
 e pdf)
@@ -2382,7 +2423,7 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/E_sixthvsfourth.pd
 f used on input line 431.
 (pdftex.def)             Requested size: 140.92627pt x 105.69481pt.
 
-<Chapter_2_Folder_1912.11321/figures/sixth_order_alpha.pdf, id=1064, 462.52893p
+<Chapter_2_Folder_1912.11321/figures/sixth_order_alpha.pdf, id=1162, 462.52893p
 t x 346.89668pt>
 File: Chapter_2_Folder_1912.11321/figures/sixth_order_alpha.pdf Graphic file (t
 ype pdf)
@@ -2392,7 +2433,7 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/sixth_order_alpha.
 pdf used on input line 439.
 (pdftex.def)             Requested size: 209.58255pt x 157.18716pt.
 
-<Chapter_2_Folder_1912.11321/figures/sixth_order_alpha_byE1.pdf, id=1065, 462.5
+<Chapter_2_Folder_1912.11321/figures/sixth_order_alpha_byE1.pdf, id=1163, 462.5
 2893pt x 346.89668pt>
 File: Chapter_2_Folder_1912.11321/figures/sixth_order_alpha_byE1.pdf Graphic fi
 le (type pdf)
@@ -2401,7 +2442,7 @@ le (type pdf)
 Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/sixth_order_alpha_
 byE1.pdf used on input line 439.
 (pdftex.def)             Requested size: 209.58255pt x 157.18716pt.
- [59 <./Chapter_2_Folder_1912.11321/figures/firstorderalpha1_corrected.pdf> <./
+ [61 <./Chapter_2_Folder_1912.11321/figures/firstorderalpha1_corrected.pdf> <./
 Chapter_2_Folder_1912.11321/figures/firstorderalpha2_corrected.pdf
 
 pdfTeX warning: pdflatex (file ./Chapter_2_Folder_1912.11321/figures/firstorder
@@ -2417,9 +2458,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 6477) has occurred while \output is active []
 
- [60 <./Chapter_2_Folder_1912.11321/figures/BPS_equation_error.pdf> <./Chapter_
+ [62 <./Chapter_2_Folder_1912.11321/figures/BPS_equation_error.pdf> <./Chapter_
 2_Folder_1912.11321/figures/negative_n_A0.pdf>]
-<Chapter_2_Folder_1912.11321/figures/sixth_order_A0.pdf, id=1116, 462.52893pt x
+<Chapter_2_Folder_1912.11321/figures/sixth_order_A0.pdf, id=1209, 462.52893pt x
  346.89668pt>
 File: Chapter_2_Folder_1912.11321/figures/sixth_order_A0.pdf Graphic file (type
  pdf)
@@ -2431,14 +2472,14 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/sixth_order_A0.pdf
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[61 <./Chapter_2_Folder_1912.11321/figures/B_alpha_10_positive_final.png> <./Ch
+[63 <./Chapter_2_Folder_1912.11321/figures/B_alpha_10_positive_final.png> <./Ch
 apter_2_Folder_1912.11321/figures/E_alpha_10_positive_final.png>]
 ! Undefined control sequence.
 l.458 \acknowledgments
                        We thank Jeff Murugan for discussions on closely rela...
 
 ? 
-) [62 <./Chapter_2_Folder_1912.11321/figures/positive_n_energy.pdf>] [63 <./Cha
+) [64 <./Chapter_2_Folder_1912.11321/figures/positive_n_energy.pdf>] [65 <./Cha
 pter_2_Folder_1912.11321/figures/f_sixthvsfourth.pdf> <./Chapter_2_Folder_1912.
 11321/figures/B_sixthvsfourth.pdf
 
@@ -2450,7 +2491,7 @@ age
 pdfTeX warning: pdflatex (file ./Chapter_2_Folder_1912.11321/figures/E_sixthvsf
 ourth.pdf): PDF inclusion: multiple pdfs with page group included in a single p
 age
->] [64 <./Chapter_2_Folder_1912.11321/figures/sixth_order_alpha.pdf> <./Chapter
+>] [66 <./Chapter_2_Folder_1912.11321/figures/sixth_order_alpha.pdf> <./Chapter
 _2_Folder_1912.11321/figures/sixth_order_alpha_byE1.pdf
 
 pdfTeX warning: pdflatex (file ./Chapter_2_Folder_1912.11321/figures/sixth_orde
@@ -2466,7 +2507,7 @@ ge
 
  (./Chapter_3_Folder_1806.06976/Chapter_3.tex
 Chapter 3.
-[65
+[67
 
 
 
@@ -2482,7 +2523,7 @@ l.17 ... the context of superfluidity in ${}^4{\rm
                                                    He}$  \cite{Landau:1941vs...
 
 ? 
-[66] [67]
+[68] [69]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 26.
@@ -2528,7 +2569,7 @@ l.37 ...0 \to i A_0$, which together leave $S_{\rm
                                                    CS}$ invariant.  In Loren...
 
 ? 
-[68]
+[70]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2594,7 +2635,7 @@ l.62 V_{\rm
 
 Underfull \vbox (badness 2261) has occurred while \output is active []
 
- [69]
+ [71]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2620,7 +2661,7 @@ l.79 V_{\rm CS}\,+\,V_{\rm
 
 Underfull \vbox (badness 2368) has occurred while \output is active []
 
- [70]
+ [72]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2667,7 +2708,7 @@ l.120  \eta \,=\,{\rm
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
+ [73]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2681,14 +2722,14 @@ l.125 \langle j^0_B\rangle\,=\,{\rm
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72pdfTeX warning (ext4): destination with the same identifier (name{equation.
+ [74pdfTeX warning (ext4): destination with the same identifier (name{equation.
 3.2.20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.142  \be
           ]
-<Chapter_3_Folder_1806.06976/figures/Fvsv.pdf, id=1308, 361.35pt x 215.80624pt>
+<Chapter_3_Folder_1806.06976/figures/Fvsv.pdf, id=1401, 361.35pt x 215.80624pt>
 File: Chapter_3_Folder_1806.06976/figures/Fvsv.pdf Graphic file (type pdf)
 <use Chapter_3_Folder_1806.06976/figures/Fvsv.pdf>
 Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/Fvsv.pdf used on i
@@ -2701,8 +2742,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73]
-[74 <./Chapter_3_Folder_1806.06976/figures/Fvsv.pdf>]
+ [75]
+[76 <./Chapter_3_Folder_1806.06976/figures/Fvsv.pdf>]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2763,7 +2804,7 @@ l.253  && \omega^2_{{\rm
                          II}\,(\pm)}\,=\,{\p}^2 + 2\mu^2_B\pm 2\mu_B\sqrt{\p...
 
 ? 
-[75]
+[77]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2808,7 +2849,7 @@ l.278 ...rac{k}{4\pi}\epsilon^{\mu\nu\lambda} {\rm
 
 Underfull \vbox (badness 5460) has occurred while \output is active []
 
- [76]
+ [78]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2844,7 +2885,7 @@ l.287 {\cal L}_{\rm gf}\,=\,\frac{1}{2\xi}{\rm
 
 Underfull \vbox (badness 1527) has occurred while \output is active []
 
- [77]
+ [79]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2907,8 +2948,8 @@ Type  H <return>  for immediate help.
 l.309 ...4\pi}{|k|}\,v^2 \qquad\qquad \omega_{{\rm
                                                    II}(+)}\,=\, 2|\mu_B|\,.
 ? 
-[78]
-<Chapter_3_Folder_1806.06976/figures/soundspeed.pdf, id=1395, 361.35pt x 228.85
+[80]
+<Chapter_3_Folder_1806.06976/figures/soundspeed.pdf, id=1486, 361.35pt x 228.85
 5pt>
 File: Chapter_3_Folder_1806.06976/figures/soundspeed.pdf Graphic file (type pdf
 )
@@ -2916,7 +2957,7 @@ File: Chapter_3_Folder_1806.06976/figures/soundspeed.pdf Graphic file (type pdf
 Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/soundspeed.pdf use
 d on input line 325.
 (pdftex.def)             Requested size: 216.81pt x 137.31404pt.
- [79 <./Chapter_3_Folder_1806.06976/figures/soundspeed.pdf>]
+ [81 <./Chapter_3_Folder_1806.06976/figures/soundspeed.pdf>]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2951,7 +2992,7 @@ l.361 ...gap generated for the branch $\omega_{\rm
 
 ? 
 
-<Chapter_3_Folder_1806.06976/figures/crossing0.pdf, id=1437, 361.35pt x 220.825
+<Chapter_3_Folder_1806.06976/figures/crossing0.pdf, id=1527, 361.35pt x 220.825
 pt>
 File: Chapter_3_Folder_1806.06976/figures/crossing0.pdf Graphic file (type pdf)
 
@@ -2960,7 +3001,7 @@ Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/crossing0.pdf used
  on input line 364.
 (pdftex.def)             Requested size: 166.2212pt x 101.58072pt.
 
-<Chapter_3_Folder_1806.06976/figures/crossing.pdf, id=1438, 361.35pt x 220.825p
+<Chapter_3_Folder_1806.06976/figures/crossing.pdf, id=1528, 361.35pt x 220.825p
 t>
 File: Chapter_3_Folder_1806.06976/figures/crossing.pdf Graphic file (type pdf)
  <use Chapter_3_Folder_1806.06976/figures/crossing.pdf>
@@ -2982,7 +3023,7 @@ l.374 ...e location of the maximum in $\omega_{\rm
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[80]
+[82]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -3050,7 +3091,7 @@ l.381 k\gg 1,\,g_4\,{\rm fixed}: \qquad \left(\rm
 
 ? 
 
-<Chapter_3_Folder_1806.06976/figures/spectrumk20.pdf, id=1449, 361.35pt x 234.8
+<Chapter_3_Folder_1806.06976/figures/spectrumk20.pdf, id=1538, 361.35pt x 234.8
 775pt>
 File: Chapter_3_Folder_1806.06976/figures/spectrumk20.pdf Graphic file (type pd
 f)
@@ -3059,7 +3100,7 @@ Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/spectrumk20.pdf us
 ed on input line 385.
 (pdftex.def)             Requested size: 202.35622pt x 131.5305pt.
 
-<Chapter_3_Folder_1806.06976/figures/rotonk500.pdf, id=1450, 494.84875pt x 306.
+<Chapter_3_Folder_1806.06976/figures/rotonk500.pdf, id=1539, 494.84875pt x 306.
 14375pt>
 File: Chapter_3_Folder_1806.06976/figures/rotonk500.pdf Graphic file (type pdf)
 
@@ -3093,7 +3134,7 @@ l.393 ...a_{\rm rot} \sim k^{-1}$ whilst  $\p_{\rm
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[81 <./Chapter_3_Folder_1806.06976/figures/crossing0.pdf> <./Chapter_3_Folder_1
+[83 <./Chapter_3_Folder_1806.06976/figures/crossing0.pdf> <./Chapter_3_Folder_1
 806.06976/figures/crossing.pdf
 
 pdfTeX warning: pdflatex (file ./Chapter_3_Folder_1806.06976/figures/crossing.p
@@ -3122,7 +3163,7 @@ l.404 ...\qquad \left(\omega_{\rm rot},\,|\p|_{\rm
 
 ? 
 
-<Chapter_3_Folder_1806.06976/figures/spectrummassive.pdf, id=1504, 361.35pt x 3
+<Chapter_3_Folder_1806.06976/figures/spectrummassive.pdf, id=1593, 361.35pt x 3
 76.40625pt>
 File: Chapter_3_Folder_1806.06976/figures/spectrummassive.pdf Graphic file (typ
 e pdf)
@@ -3131,7 +3172,7 @@ Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/spectrummassive.pd
 f used on input line 410.
 (pdftex.def)             Requested size: 166.2212pt x 173.14897pt.
 
-<Chapter_3_Folder_1806.06976/figures/spectrumcrit.pdf, id=1505, 361.35pt x 271.
+<Chapter_3_Folder_1806.06976/figures/spectrumcrit.pdf, id=1594, 361.35pt x 271.
 0125pt>
 File: Chapter_3_Folder_1806.06976/figures/spectrumcrit.pdf Graphic file (type p
 df)
@@ -3143,7 +3184,7 @@ sed on input line 410.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[82 <./Chapter_3_Folder_1806.06976/figures/spectrumk20.pdf> <./Chapter_3_Folder
+[84 <./Chapter_3_Folder_1806.06976/figures/spectrumk20.pdf> <./Chapter_3_Folder
 _1806.06976/figures/rotonk500.pdf
 
 pdfTeX warning: pdflatex (file ./Chapter_3_Folder_1806.06976/figures/rotonk500.
@@ -3239,7 +3280,7 @@ l.431 ...,\qquad\left(\omega_{\rm rot},\,|\p|_{\rm
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83 <./Chapter_3_Folder_1806.06976/figures/spectrummassive.pdf> <./Chapter_3_F
+ [85 <./Chapter_3_Folder_1806.06976/figures/spectrummassive.pdf> <./Chapter_3_F
 older_1806.06976/figures/spectrumcrit.pdf
 
 pdfTeX warning: pdflatex (file ./Chapter_3_Folder_1806.06976/figures/spectrumcr
@@ -3307,7 +3348,7 @@ l.444 ...y is then given as $v_{\rm crit}\,=\,{\rm
 
 ? 
 
-<Chapter_3_Folder_1806.06976/figures/vcrit.pdf, id=1694, 361.35pt x 223.83624pt
+<Chapter_3_Folder_1806.06976/figures/vcrit.pdf, id=1782, 361.35pt x 223.83624pt
 >
 File: Chapter_3_Folder_1806.06976/figures/vcrit.pdf Graphic file (type pdf)
  <use Chapter_3_Folder_1806.06976/figures/vcrit.pdf>
@@ -3326,7 +3367,7 @@ l.456 ... and approaches a constant value, $v_{\rm
                                                    crit}\approx 0.27$, in th...
 
 ? 
-[84]
+[86]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 457.
@@ -3342,8 +3383,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85 <./Chapter_3_Folder_1806.06976/figures/vcrit.pdf>]
-<Chapter_3_Folder_1806.06976/figures/u2.pdf, id=1743, 361.35pt x 271.0125pt>
+ [87 <./Chapter_3_Folder_1806.06976/figures/vcrit.pdf>]
+<Chapter_3_Folder_1806.06976/figures/u2.pdf, id=1829, 361.35pt x 271.0125pt>
 File: Chapter_3_Folder_1806.06976/figures/u2.pdf Graphic file (type pdf)
 
 <use Chapter_3_Folder_1806.06976/figures/u2.pdf>
@@ -3359,7 +3400,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 476.
 
-[86 <./Chapter_3_Folder_1806.06976/figures/u2.pdf>]
+[88 <./Chapter_3_Folder_1806.06976/figures/u2.pdf>]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -3458,7 +3499,7 @@ l.526 ...mbda^\lambda\,{\bf 1}\,=\,0\,,\qquad {\rm
                                                    Tr} A_\mu\,=\,0\,,\nonumb...
 
 ? 
-[87]
+[89]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -3472,7 +3513,7 @@ l.538 ... $[A_x, A_y]$ must be diagonal $\sim {\rm
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [88]
+ [90]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -3487,7 +3528,7 @@ l.570 && J_3\,\equiv\,{\rm
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89]
+ [91]
 ! Undefined control sequence.
 l.577 ...^2 \left[\begin{array} {c|c}\quad{\mathds
                                                   {1}}_{(N-1)\times(N-1)}\qu...
@@ -3518,17 +3559,17 @@ l.589 R_{\rm
 
 Underfull \vbox (badness 1454) has occurred while \output is active []
 
- [90]
-[91] [92]
+ [92]
+[93] [94]
 ! Undefined control sequence.
 l.613 \acknowledgments
                        We would like to thank Justin David, Jeff Murugan and...
 
 ? 
-[93])
+[95])
 \openout2 = `Chapter_4_Folder/Chapter_4.aux'.
 
- (./Chapter_4_Folder/Chapter_4.tex [94
+ (./Chapter_4_Folder/Chapter_4.tex [96
 
 
 
@@ -3537,233 +3578,233 @@ Chapter 4.
 
 Underfull \vbox (badness 5217) has occurred while \output is active []
 
- [95]
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \end{align}
-                
-? 
-
-! LaTeX Error: Too many math alphabets used in version normal.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \end{align}
-                
-? 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [96]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [97]
-[98]
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{align}
+                
+? 
+
+! LaTeX Error: Too many math alphabets used in version normal.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{align}
+                
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [99]
+[100]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [100])
-[101]
+ [101]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [102])
+[103]
 \openout2 = `Conclusions_Folder/Conclusions.aux'.
 
- (./Conclusions_Folder/Conclusions.tex [102
+ (./Conclusions_Folder/Conclusions.tex [104
 
 
 
-]) [103]
+]) [105]
 \openout2 = `Appendices_Folder/appendix_Chapter_3.aux'.
 
 
-(./Appendices_Folder/appendix_Chapter_3.tex [104
+(./Appendices_Folder/appendix_Chapter_3.tex [106
 
 
 
@@ -3780,24 +3821,24 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [105])
-[106] (./thesis.bbl (./thesis.brf)
-\tf@brf=\write7
-\openout7 = `thesis.brf'.
+ [107])
+[108] (./thesis.bbl (./thesis.brf)
+\tf@brf=\write9
+\openout9 = `thesis.brf'.
 
 LaTeX Font Info:    Try loading font information for OT1+jkptt on input line 8.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ot1jkptt.fd
 File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
-) [107
+) [109
 
 
-] [108]
-[109]
+] [110]
+[111]
 Missing character: There is no Ã in font jkpmn7t!
 Missing character: There is no ¼ in font jkpmn7t!
- [110] [111] [112] [113]
+ [112] [113] [114] [115]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -3808,10 +3849,11 @@ Type  H <return>  for immediate help.
 l.499 
       
 ? 
-[114]) [115]
+[116]) [117]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 272.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 272.
- (./thesis.aux (./Introduction_Folder/introduction.aux)
+ (./thesis.aux (./Front_Folder/declaration.aux)
+(./Front_Folder/acknowledgement.aux) (./Introduction_Folder/introduction.aux)
 (./Background_Folder/Background.aux)
 (./Chapter_2_Folder_1912.11321/Chapter_2.aux)
 (./Chapter_3_Folder_1806.06976/Chapter_3.aux) (./Chapter_4_Folder/Chapter_4.aux
@@ -3820,19 +3862,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 272.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 272.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 272.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 58F45F856B68D4289EDB2E1DA8A43136;4527.
+(rerunfilecheck)             Checksum: BDA3BF7817F7B1722C5556046C14225B;4628.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: 2BFE3265197F5997E94D36ADBFECB218;7020.
+(rerunfilecheck)             Checksum: 293CA78211229E17247517F0B895204F;7086.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 272.
  ) 
 Here is how much of TeX's memory you used:
- 29727 strings out of 494953
- 554193 string characters out of 6180976
- 580764 words of memory out of 5000000
- 31800 multiletter control sequences out of 15000+600000
+ 29771 strings out of 494953
+ 554939 string characters out of 6180976
+ 581721 words of memory out of 5000000
+ 31805 multiletter control sequences out of 15000+600000
  100340 words of font info for 251 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 55i,18n,71p,10412b,825s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,20n,71p,10412b,825s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -3901,10 +3943,10 @@ pe1/public/kpfonts/jkpmne.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 psya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpsyb.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on thesis.pdf (121 pages, 7749985 bytes).
+Output written on thesis.pdf (131 pages, 7740341 bytes).
 PDF statistics:
- 2570 PDF objects out of 2984 (max. 8388607)
- 2220 compressed objects within 23 object streams
- 634 named destinations out of 1000 (max. 500000)
- 664 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2660 PDF objects out of 2984 (max. 8388607)
+ 2300 compressed objects within 23 object streams
+ 653 named destinations out of 1000 (max. 500000)
+ 680 words of extra memory for PDF output out of 10000 (max. 10000000)
 
