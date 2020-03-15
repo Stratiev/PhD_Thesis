@@ -9,7 +9,9 @@
 
     There are two important aspects of QFT that will play a major role for us. One of them is the relation between the grand canonical statistical partition function and QFT. The other aspect is the distinct way in which the gauge principle manifests itself in 2+1 dimensional theories. The latter is addressed in \ref{CS_sec}, where we review the basics of \textit{Chern-Simons theory}. The former is discussed in \ref{GCE_sec}, where we will spend time reminding ourselves some basic statistical mechanics. 
 
-    After we have covered these, we will turn to the physics this formalism aims to address in \ref{phys_app_sec}. We will review the \textit{Landau-Ginzburg  paradigm} \ref{Landau-Ginzburg_sec} of symmetry breaking and phase transitions, its inability to account for all phases observable in nature and where topological phases of matter fit in this picture. Then, in \ref{FQHE_sec}, we will spend some time looking at the problems of the \textit{fractional and integer quantum hall effects} (FQHE/IQHE) and emphasize its relation to Chern-Simons matter theories. This will help us understand the applications and motivate the study of the models we are concerned with in this text.
+   % After we have covered these, we will turn to the physics this formalism aims to address in \ref{phys_app_sec}. We will review the \textit{Landau-Ginzburg  paradigm} \ref{Landau-Ginzburg_sec} of symmetry breaking and phase transitions, its inability to account for all phases observable in nature and where topological phases of matter fit in this picture.
+
+    After we have covered these, , we will spend some time looking at the problems of the \textit{fractional and integer quantum hall effects} (FQHE/IQHE) in \ref{FQHE_sec} and emphasize its relation to Chern-Simons matter theories. This will help us understand the applications and motivate the study of the models we are concerned with in this text.
 
     Then, we shall continue by reviewing the properties of \textit{vortices} in section \ref{vortices_sec}. Specifically, we look at vortices in the abelian Higgs model, Pure abelian Chern-Simons theory with scalar matter and the mixed case where both $S_{\text{Maxwell}}$ and $S_{\text{CS}}$ play a role. We emphasize the importance of a \textit{BPS} bound for these systems. Finally, we discuss some subtleties relating to non-abelian vortices.
 
@@ -327,20 +329,20 @@ Here we shall make a few observations that will come in use frequently for the r
         \end{align}
         where $J_0 = \frac{\mu^3}{2\lambda}$.
 
-        \subsection{Physical Applications}\label{phys_app_sec}
-        \subsubsection{Landau-Fermi Liquid Theory} \label{Fermi_Liquid_sec}
+        %\subsection{Physical Applications}\label{phys_app_sec}
+        %\subsubsection{Landau-Fermi Liquid Theory} \label{Fermi_Liquid_sec}
         The statistical description of weakly interacting particles, for example, in a fluid can be thought of as the same as that of a free gas of non-interacting quasiparticles that are in one to one correspondence with the original interacting excitations of the material. We find that in order to explain some of the surprising feature of the charge carriers in a QH system, we need to go beyond the weakly interacting description of a Landau-Fermi liquid.
-        \subsubsection{Landau-Ginzburg Paradigm} \label{Landau-Ginzburg_sec}
-        \textcolor{red}{***More to add***} \\
-        - Introductory part talk about the problem of scales, how mean field theory tackles the problems well away from the critical temperature, but at the critical point, all scales need to be taken into account. We are left with a LG functional that no longer contains information about the microscopic system -- we find a universal effective theory describing said phenomenon.
-        - Symmetry breaking \\
-        - Order parameters\\
-        - The Girvin MacDonald ``Landau-Ginzburg''-like model. \cite{Girvin1987} In 1987, Girvin \& MacDonald proposed a LG effective model to describe the FQHE. \\
-        - Read's improvement \cite{Read1989}\\
-        - The Zhang, Hansson, Kivelson microscopic Hamiltonian improvement \cite{PhysRevLett.62.82}
-        \subsubsection{Fractional Quantum Hall Effect} \label{FQHE_sec}
+        %\subsubsection{Landau-Ginzburg Paradigm} \label{Landau-Ginzburg_sec}
+        %\textcolor{red}{***More to add***} \\
+        %- Introductory part talk about the problem of scales, how mean field theory tackles the problems well away from the critical temperature, but at the critical point, all scales need to be taken into account. We are left with a LG functional that no longer contains information about the microscopic system -- we find a universal effective theory describing said phenomenon.
+        %- Symmetry breaking \\
+        %- Order parameters\\
+        %- The Girvin MacDonald ``Landau-Ginzburg''-like model. \cite{Girvin1987} In 1987, Girvin \& MacDonald proposed a LG effective model to describe the FQHE. \\
+        %- Read's improvement \cite{Read1989}\\
+        %- The Zhang, Hansson, Kivelson microscopic Hamiltonian improvement \cite{PhysRevLett.62.82}
+        \section{Fractional Quantum Hall Effect} \label{FQHE_sec}
         Here we discuss what is perhaps the most applied aspect of TQFT in the real world. But before we get to the point of discussing the highly non-trivial physics of the various types of Quantum Hall Effects, we take a moment to review the classical picture.
-        \subsubsection*{Classical Hall Effect}
+        \subsection{Classical Hall Effect}
         In the year 1879, Edwin Hall set up an experiment consisting of a conductor plate with two electrodes attached at either end of it, generating a current, and a magnetic field penetrating the surface of the conductor perpendicularly. He found that he could measure a non-zero potential across the conductor, orthogonal to the plane defined by the driving current and the magnetic field. The generation of this potential difference has since been known as the \textit{Hall effect}. Despite this being an exciting discovery at the time, from our modern perspective this is all accounted by basic knowledge of conductors and classical electrodynamics. In the presence of a magnetic field, the charge carriers, which are responsible for the current in the conductor, get deflected in a direction orthogonal to their motion due to the Lorentz force
         \begin{align}
             F = q(\bm{E} + \bm{v}\times \bm{B}),
@@ -349,9 +351,8 @@ Here we shall make a few observations that will come in use frequently for the r
         \begin{align}
             m \dot{\bm{v}} = q \bm{E}+q \bm{v}\times \bm{B} - \frac{1}{\tau} m \bm{v}, \label{eq:Drude_Model_Background}
         \end{align}
-        where $\tau$ is the \textit{scattering time} -- it accounts for how frequently the electrons scatter, hence a large scattering time makes the term disappear completely. This description of the charge carriers in a material, subject to both electric and magnetic field, in the presence of impurities, is called the \textit{Drude model}, named after the German physicist Paul Drude, who first proposed it. Before we look at the general solution of this model, we make several remarks about certain limiting cases.
-
-        First, assume that there are no collisions (\textit{i.e.} the collision time diverges $\tau \rightarrow\infty$) and that there is no electric field. Then the system simplifies to
+        where $\tau$ is the \textit{scattering time} -- it accounts for how frequently the electrons scatter, hence a large scattering time makes the term disappear completely. This description of the charge carriers in a material, subject to both electric and magnetic field, in the presence of impurities, is called the \textit{Drude model}, named after the German physicist Paul Drude, who first proposed it. Before we look at the general solution of this model, we make several remarks about certain limiting cases.\\
+        \indent First, assume that there are no collisions (\textit{i.e.} the collision time diverges $\tau \rightarrow\infty$) and that there is no electric field. Then the system simplifies to
         \begin{align}
             m\dot{\bm{v}} =q \bm{v}\times \bm{B}.
         \end{align}
@@ -369,9 +370,8 @@ Here we shall make a few observations that will come in use frequently for the r
             \omega_B = \frac{q B}{m}
         \end{align}
         is the \textit{cyclotron frequency}.
-        We that the solution in the absence of collisions and an electric potential is circular motion with a fixed magnetic field dependent frequency.
-
-        Now, let us go back to the full Drude model. We would like to find out what the equilibrium of the system looks like. This implies that $\dot{v} =0$. The equation of motion becomes 
+        We that the solution in the absence of collisions and an electric potential is circular motion with a fixed magnetic field dependent frequency.\\
+        Let us go back to the full Drude model. We would like to find out what the equilibrium of the system looks like. This implies that $\dot{v} =0$. The equation of motion becomes 
         \begin{align}
             \bm{v} - \frac{q \tau}{m}\bm{v}\times\bm{B}  &=\frac{\tau q}{m} \bm{E} \\
             \begin{bmatrix}
@@ -412,20 +412,30 @@ Here we shall make a few observations that will come in use frequently for the r
 
          This equation tells us that in the presence of a constant magnetic field, the charge carriers experience two types of resistivity. One is the usual type of resistivity that you can expect from a conductor $\rho_{xx} = \frac{m}{q^2\tau}$ -- It is independent of the magnetic field and as the scattering time increases, \textit{i.e.} the number of scattering events decreases, the resistivity decreases. The other type of resistivity is different. The off-diagonal component of the resistivity $\rho_{yx} = \frac{m \omega_B}{q^2}= \frac{B}{q}$ is independent of $\tau$. So somehow the resistivity in the direction orthogonal to that of the driving current does not depend on the impurities in the material. Another way in which $\rho_{yx}$ is different is that it depends on the magnetic field. Surprisingly, as $B\rightarrow 0$ so does $\rho_{yx} \rightarrow 0$. It would be incorrect to assume that the vanishing of $\rho_{xy}$ implies that we achieve superconductivity, since $\sigma_{xy}$ also vanishes so there is no current being generated perpendicular to the generating electric field.
 
-        The Drude model seems to be successful when compared to the classical experimental results obtained by Hall since it predicts correctly that the resistivity  $\rho_{xy}$ would grow linearly with the magnetic field $B$.
+        The Drude model is successful when compared to the classical experimental results obtained by Hall since it predicts correctly that the resistivity  $\rho_{xy}$ would grow linearly with the magnetic field $B$.
+        \subsection{Quantum Hall Effect}
+        Now that we have an understanding of the classical Hall effect we are ready to delve into the physics of the quantum hall effect. It's important to distinguish two different types of quantum Hall effects, since they are qualitatively different, occur in different materials and seem to have fundamentally different physical explanations.
+        The first type is the Integer Quantum Hall effect. In 1980, Klaus von Klitzing was performing the Hall experiment at ultralow temperatures with strong magnetic fields and found that the above relation between $\rho_{yx}$ and $B$ does not hold for large enough magnetic fields. He found that beyond a certain magnetic field strength, plateaux started appearing in the resistivity that could not be explained by the classical picture. Further, he found that in the plateaux, where $\rho_{yx}$ was constant, $\rho_{xx}$ was vanishing. The precise relation that he discovered was
+        \begin{align}
+            \rho_{yx} = \frac{2 \pi \hbar}{e^2} \frac{1}{\nu}, \qquad \nu \in \mathbb{Z}.
+        \end{align}
+        Thus the quantity $\frac{2 \pi \hbar}{e^2}$ is dubbed the quantum of resistivity. The explanation of the Integer Quantum Hall effect is based on the quantum mechanics of non-interacting particles confined to a plane. In the case of the fractional quantum hall effect (FQHE), where $\nu \in \mathbb{Q}$, we need to study a highly interacting system, which makes the FQHE a very interesting topic for theoretical physics.
 
-\textcolor{red}{***More to add***}\\
-        - Drude Model
-        - Classical electrodynamic explanation of classical Hall effect\\
-        - Integer Quantum Hall effect \\
-   \indent         - discovered by von Klitzing\\
-        - Fractional Quantum Hall effect\\
-    \indent        - Leads to charge fractionalization\\
-           \indent - Laughlin wave function
+        Our exploration of the Quantum Hall Effect will stop here. What is important to take away from this section is that the understanding of the FQHE is underlied by the study of Chern-Simons theory. Thus studying the models, that are of interest in the present work, might lead to a better understanding of the fascinating problem that is the FQHE. A further connection to this problem is provided by the non-commutative Chern-Simons theory that we explore at the end of this chapter and at the end of chapter 3. Next, we turn our attention to the study of vortices.
+
+%\textcolor{red}{***More to add***}\\
+%        - Drude Model
+%        - Classical electrodynamic explanation of classical Hall effect\\
+%        - Integer Quantum Hall effect \\
+%   \indent         - discovered by von Klitzing\\
+%        - Fractional Quantum Hall effect\\
+%    \indent        - Leads to charge fractionalization\\
+%           \indent - Laughlin wave function
         \section{Vortices} \label{vortices_sec}
         This section takes up the task of summarizing basic aspects about vortices in general and specifically in Chern-Simons matter theories.
         Vortices are localized, exact solutions to the equations of motion. They may or may not be finite energy configurations.
-        As we have already observed in \ref{Landau-Ginzburg_sec}, LG theory can be used to characterize different phases of matter. In 1957, Abrikosov showed that if the surface tension between two phases of matter (in his case those were superconducting and non-superconducting phases) is negative, then a phase transition would be accompanied by the creation of a lattice of regions, whose interiors reside in a phase different from their exteriors. He also recognized the similarity between these regions of non-superconductivity have with the vortices formed in superfluid helium. This similarity is due to the winding of the phase of the order parameter wave function.
+        In 1957, Abrikosov  showed that if the surface tension between two phases of matter (in his case those were superconducting and non-superconducting phases) is negative, then a phase transition would be accompanied by the creation of a lattice of regions, whose interiors reside in a phase different from their exteriors \cite{Abrikosov1957}. He also recognized the similarity between these regions of non-superconductivity have with the vortices formed in superfluid helium. This similarity is due to the winding of the phase of the order parameter wave function.
+
 
         Later on, in 1973, Nielsen \& Olesen \cite{Nielsen1973} showed that a solution similar to that of Abrikosov can come about through the study of a microscopic Lagrangian, as opposed to in an effective Landau-Ginzburg description. This is the Lagrangian of the abelian Higgs model with a quartic interaction. Similar solutions have been found in the abelian Higgs model with a Chern-Simons interaction by Paul-Khare \cite{Paul1986} and in the absence of a Maxwell term by Hong-Kim-Pac \cite{Hong1990}, Jackiw and Weinberg \cite{Jackiw1990a} and Jackiw, Lee and Weinberg \cite{Jackiw1990b}.
 
@@ -566,7 +576,7 @@ Here we shall make a few observations that will come in use frequently for the r
 
     One approach that has become ever more popular in the past few decades is the idea of a \textit{duality}. Duality suggests that instead of having one model or one Lagrangian that describes the physics of a system, we instead have two. For example, a way in which duality can manifest itself is the following. Theory \textit{I} has elementary excitations that we can study at weak coupling and non-perturbative excitations which are inaccessible due their large mass. Whereas theory \textit{II} describes the solitons of theory \textit{I} as its own elementary excitations at weak coupling (and a small mass) and the solitons present in theory \textit{II} are in fact the elementary states of theory \textit{I}. If the non-perturbative states in these systems are vortices in $2+1$ dimensions, then we have a type of Strong-Weak duality called a \textit{Particle-Vortex duality}. 
 
-    Since we now have a reasonable grasp of what vortices are, we are ready to delve into particle-vortex duality. And what better place to start than the Abelian Higgs model from the last section \eqref{eq:Abelian_Higgs_Model}. Earlier we saw that non-perturbative solutions exist in this theory. It turns out that a model exists where the vortices of the Abelian Higgs model appear as elementary excitations. In other words, there is a duality between these two models
+    Since we now have a reasonable grasp of what vortices are, we are ready to introduce particle-vortex duality. And what better place to start than the Abelian Higgs model from the last section \eqref{eq:Abelian_Higgs_Model}. Earlier we saw that non-perturbative solutions exist in this theory. It turns out that a model exists where the vortices of the Abelian Higgs model appear as elementary excitations. In other words, there is a duality between these two models
     \begin{align}
         S_{\text{AH}} \longleftrightarrow S_{\text{XY}},
     \end{align}
@@ -574,7 +584,7 @@ Here we shall make a few observations that will come in use frequently for the r
     \begin{align}
         S_{\text{XY}} &= \int d^3x |\partial_{\mu}\tilde{\phi}|^2-m^2 |\tilde{\phi}|^2 - \frac{\tilde{\lambda}}{2} |\tilde{\phi}|^4.
     \end{align}
-    $S_{\text{XY}}$ is the action for the so called \textit{XY model} and $S_{\text{AH}}$ is defined as in \eqref{eq:Abelian_Higgs_Model}.
+    $S_{\text{XY}}$ is the action for the so called \textit{XY model} and $S_{\text{AH}}$ is defined as in \eqref{eq:Abelian_Higgs_Model}. The matching of the physics in the different phases is summarized in table \eqref{table:PV_Duality}.
 
     \begin{table}
 \begin{center}
@@ -591,46 +601,42 @@ Here we shall make a few observations that will come in use frequently for the r
   \end{tabular}
 \end{center}
       \caption{This table shows the matching of the phases of the XY model and the Abelian Higgs model}
+        \label{table:PV_Duality}
     \end{table}
+In \cite{1606.01893}, the authors showed a link between this particle-vortex duality and bosonization. This naturally leads us to the next section, which focuses on Fermi-Bose duality.
 
 
+%\textcolor{red}{***More to add***}\\
+%-- Say something about the relation between particle-vortex duality and bosonization \cite{1606.01893, 1606.01912} \\
+%Some history, Abrikosov \cite{Abrikosov1957}, type $I$ and $II$ superconductors. Vortices are solitons -- this means that they are non-perturbative solutions to the equations of motion that are localized and stable.\\
+%            - Topological vs Non-Topological\\
+%            - Review other vortices such as Abrikosov, Abelian Higgs, Pure Chern-Simons, Non-abelian vortices
+%
 
-\textcolor{red}{***More to add***}\\
--- Say something about the relation between particle-vortex duality and bosonization \cite{1606.01893, 1606.01912} \\
-Some history, Abrikosov \cite{Abrikosov1957}, type $I$ and $II$ superconductors. Vortices are solitons -- this means that they are non-perturbative solutions to the equations of motion that are localized and stable.\\
-            - Topological vs Non-Topological\\
-            - Review other vortices such as Abrikosov, Abelian Higgs, Pure Chern-Simons, Non-abelian vortices
-
-
-    \begin{itemize}
-        \item Tong TASI Solitons \cite{hep-th/0509216}
-        \item Importance of BPS \cite{Bogomolny:1975de, Prasad1975}
-    \end{itemize}
+%    \begin{itemize}
+%        \item Tong TASI Solitons \cite{hep-th/0509216}
+%        \item Importance of BPS \cite{Bogomolny:1975de, Prasad1975}
+%    \end{itemize}
         \section{Fermi-Bose Duality} \label{Fermi-Bose_sec}
         We already met the idea of duality in the previous section. In general, they tend to be an equivalence of two theories. Two different ways in which we can state the same physics. Some of them are functional integral analogs of the Fourier transform (for functionals) -- one phenomenon can be described either in coordinate or momentum space, by one action or another. This can be achieved by introducing a Lagrange multiplier field and integrating out the original fields. Others tend to arise in consequence of the idea of universality. Two models that flow to the same CFT in the IR will tend to be equivalent sufficiently close to the fixed point.
-        Yet other types of duality are inspired by the study of black hole thermodynamics and the holographic principle, such as the AdS/CFT duality. Others still, seem to be a consequence of deep mathematical ideas.
+        Yet other types of duality are inspired by the study of black hole thermodynamics and the holographic principle, such as the AdS/CFT duality. Others still, seem to be a consequence of deep mathematical ideas, such as the level-rank duality.
 
-        Whatever the fundamental reasons for their existence is, dualities are interesting becase they give us another point of view that allows us to explore and understand the world of fundamental physics in more depth. As Feynman once said, ``Every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics''\cite{Feynman_quote}. And in the spirit of his words, here duality is one more representation we wish to understand.
-
-        As pointed out above, dualities come in many flavours and the models we are considering here play a role in more than one type. $O(N)/U(N)$ (scalar or fermion) models are holographically dual to higher spin gravitational theories \cite{hep-th/0210114}. This duality seems to persist even after deforming the theories with a Chern-Simons term in the large $N$ limit\cite{1110.4382}. Fermions in 2+1d can be shown to be dual to vector fields via a Fourier transform-like functional integral transformation that we described above \cite{hep-th/9401105, Barci1996}. And pure Chern-Simons theories are level-rank dual to each other \cite{Naculich1990, Camperi1990, Mlawer1991, Nakanishi1992, hep-th/0703089}. In this section, we will concentrate on a duality that has all of the above ingredients in some form ($SU(N)/U(N)$ scalars/fermions and CS vector fields) that combine into what's believed to be an IR duality. More precisely, we are talking about a set of dualities between $2+1d$ gauge theories that are collectively known as \textit{Fermi-Bose duality}.
-
-        The duality between fermions and boson was first conjectured  in the supersymmetric context\cite{0808.0360, 1108.5373, 1305.3924, 1411.5475}. Evidence for the non-supersymmetric version of these dualities comes from large $N$ computations on both sides both at finite temperature \cite{1211.4843}  and at $T=0$ \cite{1110.4386}. Furthermore, there is compelling evidence that the duality holds at finite $N$ from supersymmetric theories flowing to their non-SUSY versions \cite{1305.7235, 1507.04378}.
-
-        %``\parshape \textit{Every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics.}'' \par\bigskip \hfill -- Richard Feynman, \textit{The Character of Physical Law (1965)} \bigskip \\
-        %\epigraph{``...every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics.''}{Richard Feynman, \textit{The Character of Physical Law (1965)}}
-            - Aharony's statement\\
-            Since $U(N) = (SU(N)\times U(1))/\mathbb{Z}_N$, we can in principle have different Chern-Simons levels for the $SU(N)$ and $U(1)$ symmetries. We will denote a $U(N)$ Chern-Simons theory with levels $k_1$ and $k_2$ corresponding to the $SU(N)$ and $U(1)$ symmetries, respectively, as a $U(N)_{k_1,k_2}$ theory. Prior to the inclusion of matter in our model, we state an important fact about these theories. In Yang-Mills regularization the Fermi-Bose dualities are as follows\cite{1512.00161}.
+        Whatever the fundamental reasons for their existence is, dualities are interesting becase they give us another point of view that allows us to explore and understand the world of fundamental physics in more depth. As Feynman once said, ``Every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics''\cite{Feynman_quote}. And in the spirit of his words, here duality is one more representation we wish to understand.\\
+        \indent As pointed out above, dualities come in many flavours and the models we are considering here play a role in more than one type. $O(N)/U(N)$ (scalar or fermion) models are holographically dual to higher spin gravitational theories \cite{hep-th/0210114}. This duality seems to persist even after deforming the theories with a Chern-Simons term in the large $N$ limit\cite{1110.4382}. Fermions in 2+1d can be shown to be dual to vector fields via a Fourier transform-like functional integral transformation that we described above \cite{hep-th/9401105, Barci1996}. And pure Chern-Simons theories are level-rank dual to each other \cite{Naculich1990, Camperi1990, Mlawer1991, Nakanishi1992, hep-th/0703089}. In this section, we will concentrate on a duality that has all of the above ingredients in some form ($SU(N)/U(N)$ scalars/fermions and CS vector fields) that combine into what's believed to be an IR duality. More precisely, we are talking about a set of dualities between $2+1d$ gauge theories that are collectively known as \textit{Fermi-Bose duality}.\\
+        \indent The duality between fermions and bosons was first conjectured  in the supersymmetric context\cite{0808.0360, 1108.5373, 1305.3924, 1411.5475}. Evidence for the non-supersymmetric version of these dualities comes from large $N$ computations on both sides both at finite temperature \cite{1211.4843}  and at $T=0$ \cite{1110.4386}. Furthermore, there is compelling evidence that the duality holds at finite $N$ from supersymmetric theories flowing to their non-SUSY versions \cite{1305.7235, 1507.04378}.\\
+        \indent Since $U(N) = (SU(N)\times U(1))/\mathbb{Z}_N$, we can in principle have different Chern-Simons levels for the $SU(N)$ and $U(1)$ symmetries. We will denote a $U(N)$ Chern-Simons theory with levels $k_1$ and $k_2$ corresponding to the $SU(N)$ and $U(1)$ symmetries, respectively, as a $U(N)_{k_1,k_2}$ theory. Prior to the inclusion of matter in our model, we state an important fact about these theories. Namely, that some choices of gauge groups and levels are dual to others. This is known as \textit{level-rank duality}. It's generalization to include matter is the duality that we present below. In Yang-Mills regularization the Fermi-Bose dualities are as follows \cite{1512.00161}.
             \begin{align}
                 SU(N)_k + scalars &\longleftrightarrow \ \ U(k)_{-N +\frac{N_f}{2}, -N + \frac{N_f}{2}} \quad + fermions,  \\
                 U(N)_{k,k} + scalars &\longleftrightarrow SU(k)_{-N +\frac{N_f}{2}}\qquad \ \ \ \quad+ fermions,  \\
                 U(N)_{k,k+N} + scalars &\longleftrightarrow \ \ U(k)_{-N +\frac{N_f}{2}, -N + \frac{N_f}{2}-k} \ + fermions.  
             \end{align}
-            The scalars on the LHS of these equations are assumed to be tuned to a critical interacting point of the RG flow, known as the Wilson-Fisher fixed point. (Explain how the Wilson Fisher fixed point work).\\
-\textcolor{red}{***More to add***}\\
-            - Make sure to include the first bosonization papers \cite{hep-th/9407078, hep-th/9407182} \\
-            - Explain what is the precise dictionary of this duality. The two theories are equivalent but which degrees of freedom correspond to which. Clarify that fundamental perturbative states on one side map to monopole operators on the other and vice-versa.\\
-            - Monopole operators
-
+            The scalars on the LHS of these equations are assumed to be tuned to a critical interacting point of the RG flow, known as the Wilson-Fisher fixed point. (Explain how the Wilson Fisher fixed point work). Similarly to PV duality, which maps elementary excitations to non-perturbative vortices, Fermi-Bose duality maps the fundamental perturbative states on one side to monopole or baryon operators on the other side. \\
+            \indent Understanding the details of this duality subject to the inclusion of a chemical potential has been the formative motivation for this work. We believe that some of the results of this thesis have sown the seed for this understanding. More specifically, the role of the ground state discussed in chapter 3 in the duality still remains mysterious. The resolution of this mystery is left for future work. Thus we conclude our discussion of Fermi-Bose duality and move on to the physics of non-commutative fluids
+%\textcolor{red}{***More to add***}\\
+%            - Make sure to include the first bosonization papers \cite{hep-th/9407078, hep-th/9407182} \\
+%            - Explain what is the precise dictionary of this duality. The two theories are equivalent but which degrees of freedom correspond to which. Clarify that fundamental perturbative states on one side map to monopole operators on the other and vice-versa.\\
+%            - Monopole operators
+%
         \section{Non-Commutative Fluids}
     In this section we will define important physical notions in a non-commutative geometry, show how it relates to the theory of fluids and demonstrate how the non-commutative version of the Landau problem leads directly to the non-commutative Chern-Simons action. Finally, we discuss the Fock space of this action to prepare the presentation of results that we have discovered. For a good summary of this topic, we refer the reader to this set of excellent reviews on physics on non-commutative geometry \cite{0706.1095, hep-th/0109162, hep-th/0106048}.
 
@@ -638,13 +644,12 @@ Some history, Abrikosov \cite{Abrikosov1957}, type $I$ and $II$ superconductors.
     \begin{align}
         [\hat{x}, \hat{p}] = i \hbar.
     \end{align}
-    As is well known, this quantization condition leads to a ``smearing out`` of the phase space structure of the theory. It makes it so that the notion of a point in phase space no longer makes sense, since one can no longer measure both position and momentum accurately.
-
-    However, there are more exotic cases, where the coordinate space becomes non-commutative or fuzzy, due to the specific form of the Poisson brackets in the problem. In such a problem, the notion of a point in space is no longer reasonable and one can no longer measure the position of a (quasi)particle to arbitrary accuracy on both axes at once. An example of a problem, where the different momenta exhibit such non-commutativity is the problem of particles in a magnetic field that we discussed earlier. Similarly, we all know that angular momentum also behaves in a non-commutative way so the idea of the spatial coordinates having non-zero commutator comes naturally. Finally, in the study of fluids, one can define a type of Poisson bracket that is restricted to the coordinate space, which leads to a non-commutative space following a canonical quantization \cite{Jackiw2002}. These ideas of a non-commuting space-time were first explored by Snyder in 1947 \cite{Snyder1947_space_time, Snyder1947_EM}.
+    As is well known, this quantization condition leads to a ``smearing out`` of the phase space structure of the theory. It makes it so that the notion of a point in phase space no longer makes sense, since one can no longer measure both position and momentum accurately. \\
+    \indent However, there are more exotic cases, where the coordinate space becomes non-commutative or fuzzy, due to the specific form of the Poisson brackets in the problem. In such a problem, the notion of a point in space is no longer reasonable and one can no longer measure the position of a (quasi)particle to arbitrary accuracy on both axes at once. An example of a problem, where the different momenta exhibit such non-commutativity is the problem of particles in a magnetic field that we discussed earlier. Similarly, we all know that angular momentum also behaves in a non-commutative way so the idea of the spatial coordinates having non-zero commutator comes naturally. Finally, in the study of fluids, one can define a type of Poisson bracket that is restricted to the coordinate space, which leads to a non-commutative space following a canonical quantization \cite{Jackiw2002}. These ideas of a non-commuting space-time were first explored by Snyder in 1947 \cite{Snyder1947_space_time, Snyder1947_EM}.
 
 
     \subsection{Review of Non-Commutative Geometry}
-    Now, let us see how to define a \textit{non-commutative space}. Here we will be concerned with a $D$ dimensional space-time that has both a set of $D-2p$ commuting $\{ y_i, \ i=2p+1,...,D\}$ and $2p$ non-commuting coordinates $\{ x_i, \ \alpha =1,...,2p\}$. More precisely,
+    Let us see how to define a \textit{non-commutative space}. Here we will be concerned with a $D$ dimensional space-time that has both a set of $D-2p$ commuting $\{ y_i, \ i=2p+1,...,D\}$ and $2p$ non-commuting coordinates $\{ x_i, \ \alpha =1,...,2p\}$. More precisely,
     \begin{align}
         [y_i, y_j] &=0\\
         [x_{\alpha}, x_{\beta}] &=i \bm{\theta}_{\alpha \beta}, \label{eq:space_time_commutations}
