@@ -61,6 +61,7 @@
 \contentsline {chapter}{\numberline {4}Vortices in U(2) and SU(2) Chern-Simons scalar theories.}{97}{chapter.4}
 \contentsline {section}{\numberline {4.1}U(2) theory}{98}{section.4.1}
 \contentsline {section}{\numberline {4.2}SU(2) theory}{103}{section.4.2}
-\contentsline {chapter}{Conclusions}{104}{equation.4.2.71}
+\contentsline {section}{\numberline {4.3}Discussion}{103}{section.4.3}
+\contentsline {chapter}{Conclusions}{105}{section.4.3}
 \contentsline {chapter}{\numberline {A}Determinant of fluctuation matrix for $SU(2)$ }{107}{appendix.A}
 \contentsline {chapter}{References}{109}{appendix*.39}
