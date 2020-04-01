@@ -1,3 +1,5 @@
+\backcite {Polyakov:1974ek}{{1}{(document)}{Doc-Start}}
+\backcite {tHooft:1974kcl}{{1}{(document)}{Doc-Start}}
 \backcite {Polyakov1977}{{1}{(document)}{Doc-Start}}
 \backcite {Aharony:2012nh}{{2}{(document)}{Doc-Start}}
 \backcite {gr-qc/0503022}{{6}{1.1}{section.1.1}}
@@ -46,13 +48,14 @@
 \backcite {0811.2094}{{41}{2.1}{section.2.1}}
 \backcite {Kumar:2018nkf}{{42}{2.1}{section.2.1}}
 \backcite {1606.01893}{{42}{2.1}{section.2.1}}
-\backcite {1606.01912}{{42}{2.1}{section.2.1}}
 \backcite {Seiberg:2016gmd}{{42}{2.1}{section.2.1}}
+\backcite {1606.01912}{{42}{2.1}{section.2.1}}
+\backcite {Aharony:2012nh}{{42}{2.1}{section.2.1}}
 \backcite {1512.00161}{{42}{2.1}{section.2.1}}
 \backcite {1110.4382}{{42}{2.1}{section.2.1}}
 \backcite {1211.4843}{{42}{2.1}{section.2.1}}
 \backcite {1110.4386}{{42}{2.1}{section.2.1}}
-\backcite {Aharony:2012nh}{{42}{2.1}{section.2.1}}
+\backcite {Jain:2013py}{{42}{2.1}{section.2.1}}
 \backcite {Geracie:2015drf}{{42}{2.1}{section.2.1}}
 \backcite {Gusynin2004}{{42}{1}{section.2.1}}
 \backcite {hep-ph/0512203}{{42}{1}{section.2.1}}
@@ -71,9 +74,9 @@
 \backcite {Tong:2003vy}{{65}{2.6}{section.2.6}}
 \backcite {Kumar:2018nkf}{{65}{2.6}{section.2.6}}
 \backcite {1110.4386}{{67}{3.1}{section.3.1}}
+\backcite {Aharony:2012nh}{{67}{3.1}{section.3.1}}
 \backcite {1110.4382}{{67}{3.1}{section.3.1}}
 \backcite {1110.4386}{{67}{3.1}{section.3.1}}
-\backcite {Aharony:2012nh}{{67}{3.1}{section.3.1}}
 \backcite {Maldacena:2011jn}{{67}{3.1}{section.3.1}}
 \backcite {Maldacena:2012sf}{{67}{3.1}{section.3.1}}
 \backcite {Jain:2014nza}{{67}{3.1}{section.3.1}}
@@ -84,8 +87,8 @@
 \backcite {Takimi:2013zca}{{67}{3.1}{section.3.1}}
 \backcite {1512.00161}{{67}{3.1}{section.3.1}}
 \backcite {1606.01893}{{67}{3.1}{section.3.1}}
-\backcite {1606.01912}{{67}{3.1}{section.3.1}}
 \backcite {Seiberg:2016gmd}{{67}{3.1}{section.3.1}}
+\backcite {1606.01912}{{67}{3.1}{section.3.1}}
 \backcite {Coleman:1973ci}{{68}{3.1}{section.3.1}}
 \backcite {Mermin:1966fe}{{68}{3.1}{section.3.1}}
 \backcite {Geracie:2015drf}{{68}{3.1}{section.3.1}}

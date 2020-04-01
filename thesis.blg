@@ -1,6 +1,9 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2019/Arch Linux)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: Front_Folder/abstract.aux
+A level-1 auxiliary file: Front_Folder/declaration.aux
+A level-1 auxiliary file: Front_Folder/acknowledgement.aux
 A level-1 auxiliary file: Introduction_Folder/introduction.aux
 A level-1 auxiliary file: Background_Folder/Background.aux
 A level-1 auxiliary file: Chapter_2_Folder_1912.11321/Chapter_2.aux
@@ -10,46 +13,50 @@ A level-1 auxiliary file: Conclusions_Folder/Conclusions.aux
 A level-1 auxiliary file: Appendices_Folder/appendix_Chapter_3.aux
 The style file: Reference_Folder/utphys.bst
 Database file #1: Reference_Folder/references.bib
+Repeated entry---line 1211 of file Reference_Folder/references.bib
+ : @article{Aharony:2012nh
+ :                        ,
+I'm skipping whatever remains of this entry
 Warning--empty pages in NavarroLrida2010
-You've used 94 entries,
+You've used 90 entries,
             2328 wiz_defined-function locations,
-            1295 strings with 21492 characters,
-and the built_in function-call counts, 26239 in all, are:
-= -- 2763
-> -- 775
+            1278 strings with 20901 characters,
+and the built_in function-call counts, 25550 in all, are:
+= -- 2692
+> -- 740
 < -- 0
-+ -- 300
-- -- 206
-* -- 2490
-:= -- 3188
-add.period$ -- 156
-call.type$ -- 94
-change.case$ -- 144
++ -- 287
+- -- 197
+* -- 2431
+:= -- 3089
+add.period$ -- 149
+call.type$ -- 90
+change.case$ -- 136
 chr.to.int$ -- 0
-cite$ -- 95
-duplicate$ -- 1328
-empty$ -- 2611
-format.name$ -- 206
-if$ -- 6766
+cite$ -- 91
+duplicate$ -- 1300
+empty$ -- 2542
+format.name$ -- 197
+if$ -- 6594
 int.to.chr$ -- 0
-int.to.str$ -- 94
-missing$ -- 327
-newline$ -- 353
-num.names$ -- 94
-pop$ -- 437
+int.to.str$ -- 90
+missing$ -- 318
+newline$ -- 339
+num.names$ -- 90
+pop$ -- 417
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 861
+skip$ -- 849
 stack$ -- 0
 substring$ -- 1325
-swap$ -- 564
+swap$ -- 563
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 216
-width$ -- 96
-write$ -- 748
-(There was 1 warning)
+while$ -- 212
+width$ -- 92
+write$ -- 718
+(There was 1 error message)

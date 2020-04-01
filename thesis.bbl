@@ -1,10 +1,27 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
+\bibitem{Polyakov:1974ek}
+A.~M. Polyakov, ``{Particle Spectrum in the Quantum Field Theory},'' {\em JETP
+  Lett.} {\bfseries 20} (1974) 194--195.
+
+\bibitem{tHooft:1974kcl}
+G.~'t~Hooft, ``{Magnetic Monopoles in Unified Gauge Theories},''
+  \href{http://dx.doi.org/10.1016/0550-3213(74)90486-6}{{\em Nucl.\ Phys.\ B}
+  {\bfseries 79} (1974) 276--284}.
+
 \bibitem{Polyakov1977}
 A.~Polyakov, ``Quark confinement and topology of gauge theories,''
   \href{http://dx.doi.org/10.1016/0550-3213(77)90086-4}{{\em Nuclear Physics B}
   {\bfseries 120} no.~3, (Mar., 1977) 429--458}.
   \url{https://doi.org/10.1016/0550-3213(77)90086-4}.
+
+\bibitem{Aharony:2012nh}
+O.~Aharony, G.~Gur-Ari, and R.~Yacoby, ``{Correlation Functions of Large N
+  Chern-Simons-Matter Theories and Bosonization in Three Dimensions},''
+  \href{http://dx.doi.org/10.1007/JHEP12(2012)028}{{\em JHEP} {\bfseries 12}
+  (2012) 028},
+\href{http://arxiv.org/abs/1207.4593}{{\ttfamily arXiv:1207.4593 [hep-th]}}.
+%%CITATION = ARXIV:1207.4593;%%.
 
 \bibitem{gr-qc/0503022}
 S.~Carlip, ``Conformal field theory, (2+1)-dimensional gravity, and the btz
@@ -43,26 +60,11 @@ G.~V. Dunne, ``Aspects of chern-simons theory,'' 1999.
 M.~Nakahara, {\em Geometry, Topology and Physics}.
 \newblock Institute of Physics Publishing, 2003.
 
-\bibitem{Girvin1987}
-S.~M. Girvin and A.~H. MacDonald, ``Off-diagonal long-range order, oblique
-  confinement, and the fractional quantum hall effect,''
-  \href{http://dx.doi.org/10.1103/physrevlett.58.1252}{{\em Physical Review
-  Letters} {\bfseries 58} no.~12, (Mar., 1987) 1252--1255}.
-  \url{https://doi.org/10.1103/physrevlett.58.1252}.
-
-\bibitem{Read1989}
-N.~Read, ``Order parameter and ginzburg-landau theory for the fractional
-  quantum hall effect,''
-  \href{http://dx.doi.org/10.1103/physrevlett.62.86}{{\em Physical Review
-  Letters} {\bfseries 62} no.~1, (Jan., 1989) 86--89}.
-  \url{https://doi.org/10.1103/physrevlett.62.86}.
-
-\bibitem{PhysRevLett.62.82}
-S.~C. Zhang, T.~H. Hansson, and S.~Kivelson, ``Effective-field-theory model for
-  the fractional quantum hall effect,''
-  \href{http://dx.doi.org/10.1103/PhysRevLett.62.82}{{\em Phys. Rev. Lett.}
-  {\bfseries 62} (Jan, 1989) 82--85}.
-  \url{https://link.aps.org/doi/10.1103/PhysRevLett.62.82}.
+\bibitem{Abrikosov1957}
+A.~Abrikosov, ``The magnetic properties of superconducting alloys,''
+  \href{http://dx.doi.org/10.1016/0022-3697(57)90083-5}{{\em Journal of Physics
+  and Chemistry of Solids} {\bfseries 2} no.~3, (Jan., 1957) 199--208}.
+  \url{https://doi.org/10.1016/0022-3697(57)90083-5}.
 
 \bibitem{Nielsen1973}
 H.~Nielsen and P.~Olesen, ``Vortex-line models for dual strings,''
@@ -112,20 +114,6 @@ M.~K. Prasad and C.~M. Sommerfield, ``Exact classical solution for the
 \bibitem{1606.01893}
 A.~Karch and D.~Tong, ``Particle-vortex duality from 3d bosonization,''
   \href{http://arxiv.org/abs/arXiv:1606.01893}{{\ttfamily arXiv:1606.01893}}.
-
-\bibitem{1606.01912}
-J.~Murugan and H.~Nastase, ``Particle-vortex duality in topological insulators
-  and superconductors,''
-  \href{http://arxiv.org/abs/arXiv:1606.01912}{{\ttfamily arXiv:1606.01912}}.
-
-\bibitem{Abrikosov1957}
-A.~Abrikosov, ``The magnetic properties of superconducting alloys,''
-  \href{http://dx.doi.org/10.1016/0022-3697(57)90083-5}{{\em Journal of Physics
-  and Chemistry of Solids} {\bfseries 2} no.~3, (Jan., 1957) 199--208}.
-  \url{https://doi.org/10.1016/0022-3697(57)90083-5}.
-
-\bibitem{hep-th/0509216}
-D.~Tong, ``Tasi lectures on solitons,'' 2005.
 
 \bibitem{Feynman_quote}
 R.~Feynman, {\em The Character of Physical Law}.
@@ -222,17 +210,6 @@ S.~Jain, S.~Minwalla, and S.~Yokoyama, ``Chern simons duality with a
 G.~Gur-Ari and R.~Yacoby, ``Three dimensional bosonization from
   supersymmetry,'' 2015.
 
-\bibitem{hep-th/9407078}
-C.~P. Burgess, C.~A. Lütken, and F.~Quevedo, ``Bosonization in higher
-  dimensions,'' \href{http://arxiv.org/abs/arXiv:hep-th/9407078}{{\ttfamily
-  arXiv:hep-th/9407078}}.
-
-\bibitem{hep-th/9407182}
-E.~Fradkin and F.~A. Schaposnik, ``The fermion-boson mapping in three
-  dimensional quantum field theory,''
-  \href{http://arxiv.org/abs/arXiv:hep-th/9407182}{{\ttfamily
-  arXiv:hep-th/9407182}}.
-
 \bibitem{0706.1095}
 A.~P. Polychronakos, ``Noncommutative fluids,''
   \href{http://arxiv.org/abs/arXiv:0706.1095}{{\ttfamily arXiv:0706.1095}}.
@@ -270,6 +247,13 @@ A.~P. Polychronakos, ``Quantum hall states as matrix chern-simons theory,''
   \href{http://arxiv.org/abs/arXiv:hep-th/0103013}{{\ttfamily
   arXiv:hep-th/0103013}}.
 
+\bibitem{PhysRevLett.62.82}
+S.~C. Zhang, T.~H. Hansson, and S.~Kivelson, ``Effective-field-theory model for
+  the fractional quantum hall effect,''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.62.82}{{\em Phys. Rev. Lett.}
+  {\bfseries 62} (Jan, 1989) 82--85}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevLett.62.82}.
+
 \bibitem{0811.2094}
 P.~A. Horvathy and P.~Zhang, ``Vortices in (abelian) chern-simons gauge
   theory,'' \href{http://arxiv.org/abs/arXiv:0811.2094}{{\ttfamily
@@ -304,13 +288,10 @@ N.~Seiberg, T.~Senthil, C.~Wang, and E.~Witten, ``{A Duality Web in 2+1
 \href{http://arxiv.org/abs/1606.01989}{{\ttfamily arXiv:1606.01989 [hep-th]}}.
 %%CITATION = ARXIV:1606.01989;%%.
 
-\bibitem{Aharony:2012nh}
-O.~Aharony, G.~Gur-Ari, and R.~Yacoby, ``{Correlation Functions of Large N
-  Chern-Simons-Matter Theories and Bosonization in Three Dimensions},''
-  \href{http://dx.doi.org/10.1007/JHEP12(2012)028}{{\em JHEP} {\bfseries 12}
-  (2012) 028},
-\href{http://arxiv.org/abs/1207.4593}{{\ttfamily arXiv:1207.4593 [hep-th]}}.
-%%CITATION = ARXIV:1207.4593;%%.
+\bibitem{1606.01912}
+J.~Murugan and H.~Nastase, ``Particle-vortex duality in topological insulators
+  and superconductors,''
+  \href{http://arxiv.org/abs/arXiv:1606.01912}{{\ttfamily arXiv:1606.01912}}.
 
 \bibitem{Jain:2013py}
 S.~Jain, S.~Minwalla, T.~Sharma, T.~Takimi, S.~R. Wadia, and S.~Yokoyama,
@@ -571,10 +552,5 @@ F.~Navarro-L{\'{e}}rida and D.~H. Tchrakian, ``Non-abelian
   \href{http://dx.doi.org/10.1103/physrevd.81.127702}{{\em Physical Review D}
   {\bfseries 81} no.~12, (June, 2010) }.
   \url{https://doi.org/10.1103/physrevd.81.127702}.
-
-\bibitem{Vachaspati:1991cs}
-T.~Vachaspati and A.~Achucarro,
-``{Semi-local cosmic strings},''.
-%%CITATION = TUTP-91-7;%%.
 
 \end{thebibliography}\endgroup
