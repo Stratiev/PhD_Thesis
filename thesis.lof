@@ -1,7 +1,7 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces (a) is topologically distinct from the rest, yet they are all gauge equivalent configurations. \relax }}{10}{figure.caption.8}% 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces A collection of localized charge distributions, and with magnetic flux lines of strength $\frac {4 \pi \hbar \rho (x,y)}{k}$ tied to the charges. The charge and flux are tied together throughout the motion of the particles as a result of the Chern-Simons equations \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:source_abel_charge}\unskip \@@italiccorr )}} - \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:source_abel_current}\unskip \@@italiccorr )}}.\relax }}{14}{figure.caption.9}% 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \leavevmode {\color {red}This figure provides a simple example that illustrates the idea behind a large gauge transformation.}}}{10}{figure.caption.8}% 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \leavevmode {\color {red}This figure depicts magnetic flux attachment}}}{14}{figure.caption.9}% 
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Scalar and magnetic field profiles for n=1 and $\lambda = (10,1,0.1)* \lambda _c$\relax }}{32}{figure.caption.10}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces {\small The dispersion relations of the two branches of perturbative fluctuations for the quartic potential ($s=2$), with different values of the dimensionless coupling $\alpha $.}\relax }}{47}{figure.caption.12}% 

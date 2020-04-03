@@ -211,8 +211,15 @@
 % But take care that the paths match. You can also change the order of appearance by moving the include commands.
 
 
+\let\oldleftmark=\leftmark
+\let\oldrightmark=\rightmark
+    \renewcommand{\leftmark}{\textcolor{red}{INTRODUCTION}}
+    \renewcommand{\rightmark}{\textcolor{red}{INTRODUCTION}}
 \addcontentsline{toc}{chapter}{Introduction}
 \include{Introduction_Folder/introduction}	% background information
+    \pagebreak
+    \let\leftmark=\oldleftmark
+    \let\rightmark=\oldrightmark
 \include{Background_Folder/Background}
 \include{Chapter_2_Folder_1912.11321/Chapter_2}
 \include{Chapter_3_Folder_1806.06976/Chapter_3}
