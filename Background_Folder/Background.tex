@@ -640,7 +640,7 @@ In \cite{1606.01893}, the authors showed a link between this particle-vortex dua
         \section{Non-Commutative Fluids}
     In this section we will define important physical notions in a non-commutative geometry, show how it relates to the theory of fluids and demonstrate how the non-commutative version of the Landau problem leads directly to the non-commutative Chern-Simons action. Finally, we discuss the Fock space of this action to prepare the presentation of results that we have discovered. For a good summary of this topic, we refer the reader to this set of excellent reviews on physics on non-commutative geometry \cite{0706.1095, hep-th/0109162, hep-th/0106048}.
 
-    Non-commutative geometry can arise naturally from the quantization of a particle's phase space coordinates. The simplest way to see this connection is through the Heisenberg algebra of the canonical commutation relations. 
+    Non-commutative geometry can arise naturally from the quantization of a particle's phase space coordinates. The simplest way to see this connection is through the Heisenberg algebra of the canonical commutation relations\colorbox{red}{ }
     \begin{align}
         [\hat{x}, \hat{p}] = i \hbar.
     \end{align}
@@ -651,7 +651,7 @@ In \cite{1606.01893}, the authors showed a link between this particle-vortex dua
     \subsection{Review of Non-Commutative Geometry}
     Let us see how to define a \textit{non-commutative space}. Here we will be concerned with a $D$ dimensional space-time that has both a set of $D-2p$ commuting $\{ y_i, \ i=2p+1,...,D\}$ and $2p$ non-commuting coordinates $\{ x_i, \ \alpha =1,...,2p\}$. More precisely,
     \begin{align}
-        [y_i, y_j] &=0\\
+        [y_i, y_j] &=0\colorbox{red}{,}\\
         [x_{\alpha}, x_{\beta}] &=i \bm{\theta}_{\alpha \beta}, \label{eq:space_time_commutations}
     \end{align}
     where $\theta$ is an anti-symmetric constant one-form. One can perform linear transformations on the coordinates $x_{\alpha}$ so that the matrix $\theta$ is in canonical block form
@@ -678,12 +678,12 @@ In \cite{1606.01893}, the authors showed a link between this particle-vortex dua
     \end{align}
     This quantization of the spatial coordinates leads to the existence of a Hilbert space. Since we can now think of the coordinates as operators, then each operator has a set of eigenstates with associated quantum numbers. To make this more explicit, let us define the \textit{creation}, \textit{annihilation} and \textit{number} operators
     \begin{align}
-        \bm{a}_{\alpha} = \frac{x_{2\alpha-1} +i x_{2\alpha}}{\sqrt{2 \theta}}, \qquad \bm{a}^{\dag}_{\alpha} &= \frac{x_{2\alpha-1} -i x_{2\alpha}}{\sqrt{2 \theta}} \\
+        \bm{a}_{\alpha} = \frac{x_{2\alpha-1} +i x_{2\alpha}}{\sqrt{2 \theta}}, \qquad \bm{a}^{\dag}_{\alpha} &= \frac{x_{2\alpha-1} -i x_{2\alpha}}{\sqrt{2 \theta}}\colorbox{red}{,} \\
         \bm{n}_{\alpha} = \bm{a}^{\dag}_{\alpha}\bm{a}_{\alpha}.
     \end{align}
     These operators allow us to build the familiar \textit{Fock space} from QFT by acting on a vacuum state
     \begin{align}
-        |n_1,...,n_p\rangle=  \bm{a}^{\dag}_1^{n_1}... \bm{a}^{\dag}_p^{n_p}|0\rangle
+        |n_1,...,n_p\rangle=  \bm{a}^{\dag}_1^{n_1}... \bm{a}^{\dag}_p^{n_p}|0\rangle\colorbox{red}{.}
     \end{align}
 
     Further, we define the derivative operators through the relations
@@ -723,10 +723,10 @@ In \cite{1606.01893}, the authors showed a link between this particle-vortex dua
     \end{align}
     Now, let us assume that the particle is massless and in addition, it is in a constant magnetic field and the electric potential is 0. Since $\nabla \times \bm{A} = \bm{B}$, this implies that
     \begin{align}
-        A_i = \frac{B}{2} \epsilon_{i j} x_j,
+        A_i = \frac{B}{2} \epsilon_{i j} x_j \label{eq:Gauge_Potential_Constant_B_Field},
     \end{align}
     where $B= |\bm{B}|$.
-    Substituting this expression into \eqref{eq:Lagrangian_Charged_Particle_In_EM_Field}
+    Substituting  \colorbox{red}{Equation \eqref{eq:Gauge_Potential_Constant_B_Field}}  into \colorbox{red}{Equation} \eqref{eq:Lagrangian_Charged_Particle_In_EM_Field}\textcolor{red}{, we arrive at the action}
     \begin{align}
         S = \int dt \left( q \frac{B}{2}\epsilon_{i j} \dot{x_i} x_j \right).
     \end{align}
@@ -736,7 +736,7 @@ In \cite{1606.01893}, the authors showed a link between this particle-vortex dua
     \end{align}
     And since the $X_i$'s transform under gauge transformations, we ought to make sure that the action remains invariant. To this end, we need to also gauge the time derivative $\partial_0 \rightarrow D_0 = \partial_0 +A_0$
     \begin{align}
-        S = \int dt \ \left[ q \frac{B}{2} \epsilon_{ij} Tr \left(D_0 X^i X^j \right) \right] = \int dt \ \left[ q \frac{B}{2} \epsilon_{ij} Tr \left(\partial_0 X^i X^j + [A_0, X^i] X^j \right) \right]
+        S = \int dt \ \left[ q \frac{B}{2} \epsilon_{ij} Tr \left(D_0 X^i X^j \right) \right] = \int dt \ \left[ q \frac{B}{2} \epsilon_{ij} Tr \left(\partial_0 X^i X^j + [A_0, X^i] X^j \right) \right]\colorbox{red}{.}
     \end{align}
     The introduction of the time component of the gauge field leads to a Gauss's law constraint
     \begin{align}

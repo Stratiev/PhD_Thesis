@@ -22,3 +22,9 @@
 - p11, before Equation 1.10: "Therefore" -> "Therefore the action transforms as"
 
 
+- p36, before Equation 1.102: Full stop removed.
+- p37, Equation 1.103: Added a comma.
+- p38, Equation 1.108: Added a comma.
+- p38, Equation 1.110: Added a full stop.
+- p39, Before Equation 1.119: "Substituting this into (1.117)" -> "Substituting Equation (1.118) into Equation (1.117), we arrive at the action"
+- p39, Equation (1.121): Added a full stop.
