@@ -13,18 +13,49 @@
 
 
 - p6 - "It is an example of a topological field theory (TQFT) ..." -> "Chern-Simons is an example of a topological field theory (TQFT) of Schwarz type..."
+- p5, First sentence: "This chapter provides the necessary background technical knowledge required to understand the main results..." -> This chapter provides the necessary background information and technical details required to understand..."
+- p5, 2nd paragraph, last sentence: "...reminding ourselves some basic..." -> "reminding ourselves of some basic..."
 - p5, 2nd paragraph: "The latter is addressed in 1.1..." -> "The latter is addressed in section 1.1..." 
 - p5, 2nd paragraph: "The former is addressed in 1.2.2..." -> "The former is addressed in section 1.2.2..." 
 - p5, 3rd paragraph: Removed double comma before "we will spend some time looking at the problems of..."
 - p5, 3rd paragraph: "...in 1.3..." -> "...in section 1.3..."
 - p5, 3rd paragraph: "...emphasize its relation..." -> "...emphasize their relation..."
+- p7, Before Equation (1.1): Removed full stop. 
+- p9, Before Equation (1.8): Removed full stop. 
 - p10, before Fig 1.1: "Configurations (b) and (c) are said to be in different homotopy classes, but they are in the same gauge equivalency class as (a)" -> "Configurations (b) and (c) are said to be in a different homotopy class from (a), but they are in the same gauge equivalency class as (a)."
 - p11, before Equation 1.10: "Therefore" -> "Therefore the action transforms as"
+- p12, Before Equation (1.15): Removed full stop.
+- p13, Before Equation (1.16): Removed full stop.
+- p14, Before Equation (1.22): Removed full stop.
+- p19, Before Equation (1.41): Removed full stop.
+- p20, Before and including Equation (1.44): Moved full stop to an appropriate position.
+- p20, In Equation (1.44): Closed parentheses.
+- p21, Before Equation (1.53): Removed full stop.
+- p21, Before Equation (1.49): Removed space.
+- p28, Before Equation (1.74): Removed full stop.
 
 
+- p16, Equation (1.25): Added a full stop.
+- p16, Equation (1.28): Added a full stop.
+- p17, Equation (1.32): Added a full stop.
+- p17, Equation (1.34): Added a full stop.
+- p21, Equation (1.51): Added a comma.
+- p23, Equation (1.58): Added a comma.
+- p24, Equation (1.61): Added a comma.
+- p27, Equation (1.69): Added full stop at the end of the equation.
+- p28, Before and including Equation (1.75): Moved full stop to an appropriate position.
+- p29, Before and including Equation (1.79): Added comma, full stop and removed a full stop.
+- p29, Before and in Equation (1.81): Removed a full stop and added a comma.
+- p29, Equations (1.85) and (1.86): Added a comma and a full stop, respectively.
+- p30, Equations (1.87) and (1.88): Added a comma and a full stop, respectively.
+- p30, Before and in Equation (1.89): Moved the full stop to an appropriate position.
+- p30, Before Equation (1.90): Removed a full stop.
+- p30, Before Equation (1.91): Removed a full stop.
+- p35, Before Equation (1.99): Removed a full stop.
 - p36, before Equation 1.102: Full stop removed.
 - p37, Equation 1.103: Added a comma.
 - p38, Equation 1.108: Added a comma.
 - p38, Equation 1.110: Added a full stop.
+- p38, Equation (1.112): Changed full stop to a comma.
 - p39, Before Equation 1.119: "Substituting this into (1.117)" -> "Substituting Equation (1.118) into Equation (1.117), we arrive at the action"
 - p39, Equation (1.121): Added a full stop.

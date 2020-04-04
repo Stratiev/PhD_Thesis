@@ -5,9 +5,9 @@
 
 %: ———————-- introduction file header ———————--
 \chapter{Background}
-        This chapter provides the necessary background technical knowledge required to understand the main results of this thesis and their implications to related fields of physics. These include both the theoretical framework we will use and the real world phenomena to which it relates to. As should already be clear by now, in this text, we will concern ourselves with the study of planar systems at finite density. We will approach the study of these two dimensional systems through the framework of Quantum Field Theory (QFT). 
+This chapter provides the necessary background \colorbox{red}{information} and technical \colorbox{red}{details} required to understand the main results of this thesis and their implications to related fields of physics. These include both the theoretical framework we will use and the real world phenomena to which it relates to. As should already be clear by now, in this text, we will concern ourselves with the study of planar systems at finite density. We will approach the study of these two dimensional systems through the framework of Quantum Field Theory (QFT). 
 
-    There are two important aspects of QFT that will play a major role for us. One of them is the relation between the grand canonical statistical partition function and QFT. The other aspect is the distinct way in which the gauge principle manifests itself in 2+1 dimensional theories. The latter is addressed in \textcolor{red}{section} \ref{CS_sec}, where we review the basics of \textit{Chern-Simons theory}. The former is discussed in \textcolor{red}{section} \ref{GCE_sec}, where we will spend time reminding ourselves some basic statistical mechanics. 
+    There are two important aspects of QFT that will play a major role for us. One of them is the relation between the grand canonical statistical partition function and QFT. The other aspect is the distinct way in which the gauge principle manifests itself in 2+1 dimensional theories. The latter is addressed in \textcolor{red}{section} \ref{CS_sec}, where we review the basics of \textit{Chern-Simons theory}. The former is discussed in \textcolor{red}{section} \ref{GCE_sec}, where we will spend time reminding ourselves \colorbox{red}{of} some basic statistical mechanics. 
 
    % After we have covered these, we will turn to the physics this formalism aims to address in \ref{phys_app_sec}. We will review the \textit{Landau-Ginzburg  paradigm} \ref{Landau-Ginzburg_sec} of symmetry breaking and phase transitions, its inability to account for all phases observable in nature and where topological phases of matter fit in this picture.
 
@@ -22,7 +22,7 @@
         \section{Chern-Simons Theory} \label{CS_sec}
     Chern-Simons (CS) theory is a very unusual type of QFT both in its origin and its applications. It is a testament to the power and universality of mathematics, first conceived of as an abstract tool in the theory of differential operators and their connections to topology, it has grown to encompass many facets of modern physics and mathematics. From the computation of knot invariants to the prediction of non-abelian anyons, which are the ingredients necessary for performing a topological quantum computation -- currently one of the most promising approaches to fault tolerant quantum computation, due to the topological stability of the qubits. \textcolor{red}{Chern-Simons} theory is an example of a topological field theory (TQFT) of Schwarz type \textcolor{yellow}{CITATION NEEDED}, which means that it is independent of the metric and so any observable is related to a topological invariant. It is the basis for three dimensional gravity \cite{gr-qc/0503022}, provides a field theoretic explanation for the Quantum Hall Effect and anyonic physics \cite{cond-mat/9501022, 1606.06687}, has been instrumental in the classification of rational 2D CFTs \cite{Moore1989}, creates a bridge between theoretical physics and knot theory \cite{Witten1989} and, recently, it has uncovered an equivalence between two types of matter, previously thought to have been fundamentally different -- namely Fermi-Bose duality \cite{1512.00161}. These are among the most noteworthy applications of CS theory. Therefore, in this section we justly take the time to review essential aspects of CS theory. Most of the results seen in this section, can also be found in the excellent review by Dunne \cite{hep-th/9902115}.
 
-    In the study of fundamental physics, we should assume that any term in the Lagrangian that is not forbidden by a basic principle (\textit{e.g.} a symmetry or gauge-invariance) should be included in order to account for all aspects of the system at hand. From gauge theory we are familiar with the idea of introducing a gauge field to render a Lagrangian gauge invariant and then include a gauge-invariant Yang-Mills term that is responsible for the dynamics of the gauge potential. Modulo subtleties, this is true in any number of dimensions. Taking these subtleties into account, it turns out that in 2+1 dimensions, the Yang-Mills term is not the only gauge invariant term one can include. One can write down a term in the action, which is the integral of a three-form, depending solely on the gauge field $A_{\mu}$. This term, whilst not manifestly gauge invariant, leaves the partition function unchanged under gauge transfromations. This three-form is the Chern-Simons Lagrangian, which we write down here.
+    In the study of fundamental physics, we should assume that any term in the Lagrangian that is not forbidden by a basic principle (\textit{e.g.} a symmetry or gauge-invariance) should be included in order to account for all aspects of the system at hand. From gauge theory we are familiar with the idea of introducing a gauge field to render a Lagrangian gauge invariant and then include a gauge-invariant Yang-Mills term that is responsible for the dynamics of the gauge potential. Modulo subtleties, this is true in any number of dimensions. Taking these subtleties into account, it turns out that in 2+1 dimensions, the Yang-Mills term is not the only gauge invariant term one can include. One can write down a term in the action, which is the integral of a three-form, depending solely on the gauge field $A_{\mu}$. This term, whilst not manifestly gauge invariant, leaves the partition function unchanged under gauge transfromations. This three-form is the Chern-Simons Lagrangian, which we write down here\colorbox{red}{ }
 
 \begin{equation}
     {\mathcal{L}}_{CS}= \kappa \epsilon^{\mu\nu\rho} \  \mathrm{Tr} \left[ A_\mu\partial_\nu A_\rho +{2\over 3} A_\mu A_\nu A_\rho \right].
@@ -68,7 +68,7 @@ We can define the field strength tensor in the usual way for a non-abelian gauge
     \begin{align}
         \mathcal{L}_{\text{CS}} &\rightarrow \mathcal{L}_{\text{CS}}  - \kappa \epsilon^{\mu \nu \rho} \partial_{\mu} \ \mathrm{Tr} \bigg[\partial_{\nu} g g^{-1} A_{\rho}  \bigg] - \frac{\kappa}{3} \epsilon^{\mu \nu \rho} \ \mathrm{Tr} \bigg[g^{-1} \partial_{\mu} g g^{-1} \partial_{\nu} g g^{-1} \partial_{\rho} g\bigg]\colorbox{red}{.}
     \end{align}
-    The first term is just a boundary term which vanishes. The second term turns out to be proportional to the \textit{winding density} of the gauge transformation, whose integral is an integer $N$ homotopy invariant.
+    The first term is just a boundary term which vanishes. The second term turns out to be proportional to the \textit{winding density} of the gauge transformation, whose integral is an integer $N$ homotopy invariant\colorbox{red}{ }
     \begin{align}
         w(g) = \frac{1}{24 \pi^2} \epsilon^{\mu \nu \rho} \ \mathrm{Tr} \bigg[g^{-1}\partial_{\mu} g g^{-1} \partial_{\nu} g g^{-1} \partial_{\rho} g \bigg], \quad \int d^3x \ w(g(x)) = N \in \mathbb{Z}\colorbox{red}{.}
     \end{align}
@@ -129,13 +129,13 @@ This above passage illustrates the essence of large gauge transformations in the
     Next, we turn to the matter sector.
     \subsection{Chern-Simons Matter Theory}
     
-    We begin by coupling the Chern-Simons gauge field to a general conserved matter current.
+    We begin by coupling the Chern-Simons gauge field to a general conserved matter current\colorbox{red}{ }
 
 
     \begin{align}
         S = \int d^3x \ \frac{k}{4 \pi} \epsilon^{\mu \nu \rho} \ \mathrm{Tr} \left[A_{\mu} \partial_{\nu} A_{\rho}+ \frac{2}{3} A_{\mu} A_{\nu} A_{\rho} \right] + J^{\mu} A_{\mu}.
     \end{align}
-    This action leads to a modified equation of motion.
+    This action leads to a modified equation of motion\colorbox{red}{ }
     \begin{align}
         \frac{k}{4 \pi} \epsilon^{\mu \nu \rho} F^a_{\nu \rho} = J^{\mu}^a,
     \end{align}
@@ -173,7 +173,7 @@ The final aspect of Chern-Simons theory that we will use is the fact that it is 
     T^{\mu \nu} = \frac{-2}{ \sqrt{-g}} \frac{\delta S_{\text{CS}}}{ \delta g_{\mu\nu}} =0.
 \end{align}
 
-One way to see that CS is a topological field theory is by writing it as an integral of a differential form.
+One way to see that CS is a topological field theory is by writing it as an integral of a differential form\colorbox{red}{ }
 \begin{align}
     S_{\text{CS}} &= \frac{k}{4 \pi} \int \left(A \wedge d \wedge A +A \wedge A \wedge A\right).
 \end{align}
@@ -198,20 +198,15 @@ This concludes our review of CS theory. We now move on to a refresher of statist
         where $\phi(\bm{x})$ is the eigenvalue of $| \phi \rangle$. This is complemented with the completeness and orthogonality relation
         \begin{align}
             \int d \phi(\bm{x}) | \phi \rangle \langle \phi | = 1, \\
-            \langle \phi_a | \phi_b \rangle = \prod_{\bm{x}} \delta(\phi_a(\bm{x}) - \phi_b(\bm{x}))
+            \langle \phi_a | \phi_b \rangle = \prod_{\bm{x}} \delta(\phi_a(\bm{x}) - \phi_b(\bm{x}))\colorbox{red}{.}
         \end{align}
-
         And similarly for the conjugate momentum
-
         \begin{align}
             \hat{\pi}(\bm{x},0) | \pi \rangle = \pi(\bm{x}) | \pi \rangle, \\
             \int d \pi(\bm{x}) | \pi \rangle \langle \pi | = 1, \\
-            \langle \pi_a | \pi_b \rangle = \prod_{\bm{x}} \delta(\pi_a(\bm{x}) - \pi_b(\bm{x}))
+            \langle \pi_a | \pi_b \rangle = \prod_{\bm{x}} \delta(\pi_a(\bm{x}) - \pi_b(\bm{x}))\colorbox{red}{.}
         \end{align}
-
         Suppose we have a Hamiltonian with no explicit time dependence
-
-
         \begin{align}
             H = \int d^2x \, \mathcal{H}(\hat{\phi}, \hat{\pi}).
         \end{align}
@@ -230,7 +225,7 @@ This concludes our review of CS theory. We now move on to a refresher of statist
         \end{align}
         So an appropriate generalization for this inner product to field operators is 
         \begin{align}
-            \langle \phi_{i+1}| \pi_i \rangle = \exp \left(i \int d^2 x \ \pi_i(\bm{x}) \phi_{i+1}(\bm{x}) \right)
+            \langle \phi_{i+1}| \pi_i \rangle = \exp \left(i \int d^2 x \ \pi_i(\bm{x}) \phi_{i+1}(\bm{x}) \right)\colorbox{red}{.}
         \end{align}
         Since $\Delta t \rightarrow 0$, we can expand as follows, keeping terms up to first order:
         \begin{align}
@@ -240,7 +235,7 @@ This concludes our review of CS theory. We now move on to a refresher of statist
         \end{align}
         where
         \begin{align}
-            H_i = \int d^2 x \ \mathcal{H}\left(\pi_i (\bm{x}) \phi_i (\bm{x}) \right)
+            H_i = \int d^2 x \ \mathcal{H}\left(\pi_i (\bm{x}) \phi_i (\bm{x}) \right) \colorbox{red}{.}
         \end{align}
         In the end we arrive at 
         \begin{align}
@@ -272,7 +267,7 @@ This concludes our review of CS theory. We now move on to a refresher of statist
         \end{align}
 This is the path integral representation of the partition function of the grand canonical ensemble of a single real scalar field. This expression is readily generalizable to more fields by integrating over the extra fields and their respective conjugate momenta.
 
-Here we shall make a few observations that will come in use frequently for the rest of this work. For the purposes of presentation, we will elaborate on these points in the context of a somewhat simpler model. This should not alarm the reader, because the properties we are discussing are more general and model independent. With this in mind, we consider the Lagrangian description of a complex relativistic scalar in $2+1d$ with a potential $U(\phi)$.
+Here we shall make a few observations that will come in use frequently for the rest of this work. For the purposes of presentation, we will elaborate on these points in the context of a somewhat simpler model. This should not alarm the reader, because the properties we are discussing are more general and model independent. With this in mind, we consider the Lagrangian description of a complex relativistic scalar in $2+1d$ with a potential $U(\phi)$\colorbox{red}{ }
         \begin{align}
             \mathcal{L} = \left(\partial_{\mu}\phi^{*} \partial^{\mu} \phi  - U\big(|\phi|\big)\right).
         \end{align}
@@ -284,12 +279,12 @@ Here we shall make a few observations that will come in use frequently for the r
         \begin{align}
             J_{0} &= -i \int d^2x \left( \pi \phi - \pi^{\dag}\phi^{\dag}\right),
         \end{align}
-        where $\pi = \frac{\delta \mathcal{L}}{\delta ( \partial_0 \phi)}$ is the canonical momentum. Based on the assumption of identical particles with discrete charges, we postulate that $J_0 = \mathcal{N}$. Next, we perform the momentum integrals in \eqref{eq:partition_function}. Since now we have a complex field, we have to integrate over all of $\phi$, $\phi^{\dag}$, $\pi$ and $\pi^{\dag}$.
+        where $\pi = \frac{\delta \mathcal{L}}{\delta ( \partial_0 \phi)}$ is the canonical momentum. Based on the assumption of identical particles with discrete charges, we postulate that $J_0 = \mathcal{N}$. Next, we perform the momentum integrals in \eqref{eq:partition_function}. Since now we have a complex field, we have to integrate over all of $\phi$, $\phi^{\dag}$, $\pi$ and $\pi^{\dag}$\colorbox{red}{ }
         \begin{align}
             Z &= \int \mathcal{D} \pi \mathcal{D} \pi^{\dag} \int_{\text{periodic}} \mathcal{D} \phi \mathcal{D} \phi^{\dag} \nonumber \\
             &\times \exp \left[ \int_0^{\beta} \int d^2x \left(\pi \frac{\partial \phi}{\partial t} +\pi^{\dag} \frac{\partial \phi^{\dag}}{\partial t} - \mathcal{H}(\pi, \pi^{\dag}, \phi, \phi^{\dag}) - i  \mu \left(\pi \phi - \pi^{\dag}\phi^{\dag} \right) \right] \label{eq:partition_function_complex_scalar} \nonumber \\
             &= \int \mathcal{D} \pi \mathcal{D} \pi^{\dag} \int_{\text{periodic}} \mathcal{D} \phi \mathcal{D} \phi^{\dag} \nonumber \\
-            &\times \exp \left[ \int_0^{\beta} \int d^2x \left(\pi \left( \frac{\partial \phi}{\partial t} -i \mu \phi \right) +\pi^{\dag} \left( \frac{\partial \phi^{\dag}}{\partial t} +i \mu \phi^{\dag} \right) - \mathcal{H}(\pi, \pi^{\dag}, \phi, \phi^{\dag})  \right] \label{eq:partition_function_complex_scalar}
+            &\times \exp \left[ \int_0^{\beta} \int d^2x \left(\pi \left( \frac{\partial \phi}{\partial t} -i \mu \phi \right) +\pi^{\dag} \left( \frac{\partial \phi^{\dag}}{\partial t} +i \mu \phi^{\dag} \right) - \mathcal{H}(\pi, \pi^{\dag}, \phi, \phi^{\dag}) \right) \right]\colorbox{red}{.} \label{eq:partition_function_complex_scalar}
         \end{align}
         Performing the path integral leaves us with
         \begin{align}
@@ -309,7 +304,7 @@ Here we shall make a few observations that will come in use frequently for the r
         \begin{align}
             \mathcal{L} &=( D_{\mu} \phi)^* D^{\mu} \phi - \lambda |\phi|^4 - \frac{1}{4 g^2}F_{\mu \nu} F^{\mu \nu},
         \end{align}
-        where $D_{\mu}= \partial_{\mu} - i A_{\mu}$. According to the rule \ref{eq:chemical_potential_gauge_field} that we established above , 
+        where $D_{\mu}= \partial_{\mu} - i A_{\mu}$. According to the rule \ref{eq:chemical_potential_gauge_field} that we established above,\colorbox{red}{ }
         \begin{align}
             \mathcal{L} \rightarrow \mathcal{L}'= \mathcal{L}\left(\phi,\ D_{\mu}' \phi,\ A_{\mu} \right),
         \end{align}
@@ -320,10 +315,10 @@ Here we shall make a few observations that will come in use frequently for the r
         \end{align}
         If we assume a homogenous, constant configuration, the equations of motion tell us that
         \begin{align}
-            \sigma &= \sqrt{\frac{\mu^2}{2\lambda}}  \label{eq:chem_pot_local_symmetry_eom1} \\
+            \sigma &= \sqrt{\frac{\mu^2}{2\lambda}}  \label{eq:chem_pot_local_symmetry_eom1}\colorbox{red}{,} \\
             \frac{1}{g^2} \partial_{\mu} F^{\mu 0} &= \mu \sigma^2. \label{eq:chem_pot_local_symmetry_eom2}
         \end{align}
-        The first equation tells us that the scalars have condensed to the ground state. The second equation states that we have a non-zero charge density in this ground state. On the one hand, this makes sense, since the charged scalars have condensed. On the other hand, this is contradictory, since we are studying a system at equilibrium. And a charged system cannot be in equilibrium by definition. In order to fix this problem, we introduce a background charge density, which guarantees that the system is neutral.
+        The first equation tells us that the scalars have condensed to the ground state. The second equation states that we have a non-zero charge density in this ground state. On the one hand, this makes sense, since the charged scalars have condensed. On the other hand, this is contradictory, since we are studying a system at equilibrium. And a charged system cannot be in equilibrium by definition. In order to fix this problem, we introduce a background charge density, which guarantees that the system is neutral \colorbox{red}{ }
         \begin{align}
             \mathcal{L}' \rightarrow \mathcal{L}' - A_0 J_0,
         \end{align}
@@ -362,7 +357,7 @@ Here we shall make a few observations that will come in use frequently for the r
         \end{align}
         The general solution to this system is
         \begin{align}
-            x(t) &= x_0 + R \sin\left(\omega_Bt + \varphi \right) \\
+            x(t) &= x_0 + R \sin\left(\omega_Bt + \varphi \right)\colorbox{red}{,} \\
             y(t) &= y_0 + R \cos\left(\omega_Bt + \varphi \right),
         \end{align}
         where $x_0, y_0, R, \varphi$ are all integration constants and
@@ -373,7 +368,7 @@ Here we shall make a few observations that will come in use frequently for the r
         We that the solution in the absence of collisions and an electric potential is circular motion with a fixed magnetic field dependent frequency.\\
         Let us go back to the full Drude model. We would like to find out what the equilibrium of the system looks like. This implies that $\dot{v} =0$. The equation of motion becomes 
         \begin{align}
-            \bm{v} - \frac{q \tau}{m}\bm{v}\times\bm{B}  &=\frac{\tau q}{m} \bm{E} \\
+            \bm{v} - \frac{q \tau}{m}\bm{v}\times\bm{B}  &=\frac{\tau q}{m} \bm{E} \colorbox{red}{,}\\
             \begin{bmatrix}
                 1 & -\frac{q \tau B}{m} \\
                 \frac{q \tau B}{m} & 1 \\
@@ -448,7 +443,7 @@ Here we shall make a few observations that will come in use frequently for the r
         \end{align}
     This leads to the equations of motion
     \begin{align}
-        \partial_{\mu} \partial^{\mu} \phi = m^2 \phi - 2\lambda |\phi|^2 \phi
+        \partial_{\mu} \partial^{\mu} \phi = m^2 \phi - 2\lambda |\phi|^2 \phi\colorbox{red}{.}
     \end{align}
     This system has an $S^1$ vacuum manifold, parametrized by $\phi = v e^{i \theta}$, where $\theta \in [0,2\pi)$ is the planar polar angular coordinate and $v^2 = \frac{m^2}{2 \lambda}$. We may consider a field configuration that is $\phi=0$ at the origin but approaches a different point on the vacuum manifold at spatial infinity depending on $\theta$. More precisely, we are looking at a field $\phi$ such that
     \begin{align}
@@ -467,7 +462,7 @@ Here we shall make a few observations that will come in use frequently for the r
     where $R$ is the sample size on which our theory is defined. We see that the global vortex, if it exists, would only have a finite energy for finite samples and is not well-defined in the most general case. It turns out that once the global symmetry is gauged, the divergence disappears and we have a vortex configurations that is well defined in the infinite volume limit.
 
         \subsection{Local U(1) Vortex}
-        The gauged $U(1)$ vortex, also known as the Abrikosov-Nielsen-Olesen vortex is again a configuration that interpolates between two different vacua in a theory, but this time we introduce a gauge field, whose dynamics is governed by a Maxwell term and is minimally coupled to a $U(1)$ scalar with a symmetry breaking potential. This is the familiar abelian Higgs model. 
+        The gauged $U(1)$ vortex, also known as the Abrikosov-Nielsen-Olesen vortex is again a configuration that interpolates between two different vacua in a theory, but this time we introduce a gauge field, whose dynamics is governed by a Maxwell term and is minimally coupled to a $U(1)$ scalar with a symmetry breaking potential. This is the familiar abelian Higgs model\colorbox{red}{ }
         \begin{align}
             S_{\text{AH}} & = \int d^3x \left[-\frac{1}{4} F_{\mu \nu} F^{\mu \nu} + | D_{\mu} \phi|^2 - U(\phi) \right], \label{eq:Abelian_Higgs_Model}
         \end{align}
@@ -475,9 +470,9 @@ Here we shall make a few observations that will come in use frequently for the r
         \begin{align}
             U(\phi) = \frac{\lambda}{2} |\phi|^4 - m^2 |\phi|^2.
         \end{align}
-    Again, we have non-trivial manifold of ground states and we can repeat the construction from above. This time the energy of the static radially symmetric configuration ends up slightly different.
+    Again, we have non-trivial manifold of ground states and we can repeat the construction from above. This time the energy of the static radially symmetric configuration ends up slightly different\colorbox{red}{ }
     \begin{align}
-        E = 2 \pi \int_0^{\infty} r dr \left(\frac{1}{2}( B^2 + E^2) + |D_{\mu} \phi|^2 + U(\phi) \right)
+        E = 2 \pi \int_0^{\infty} r dr \left(\frac{1}{2}( B^2 + E^2) + |D_{\mu} \phi|^2 + U(\phi) \right) \colorbox{red}{.}
     \end{align}
     This time we are aiming for eliminating the divergence that arose from the kinetic term $|\partial_{\mu}\phi|$ by requiring that $A_{\mu}$ asymptotes to a value that cancels it, in such a way that this value can be arrived at through a gauge transformation, ensuring that at $r\rightarrow \infty$, $A_{\mu}$ is pure gauge, thus yielding a finite contribution from the electromagnetic field. Such a choice for $A_{\mu}$ is
     \begin{align}
@@ -493,18 +488,18 @@ Here we shall make a few observations that will come in use frequently for the r
     \end{align}
     From here we see that the inclusion of a gauge field has cured the divergence and we are left with a sensible infinite volume limit. 
 
-    Now that we know that these boundary conditions do not lead to a divergence in the energy, let us see whether a solution with such boundary conditions exists. We write down the equations of motion.
+    Now that we know that these boundary conditions do not lead to a divergence in the energy, let us see whether a solution with such boundary conditions exists. We write down the equations of motion\colorbox{red}{ }
     \begin{align}
-        \frac{1}{g^2}  \partial_{\rho}(r F^{\mu \rho}) = i r \left[\phi^* \left(D^{\mu}\phi\right) - \left(D^{\mu}\phi \right)^* \phi \right] \nonumber \\
-        \partial_{\mu} \left(r D^{\mu} \phi \right) - i A_{\mu} D^{\mu} \phi + \frac{\delta U}{\delta \phi^*} =0
+        \frac{1}{g^2}  \partial_{\rho}(r F^{\mu \rho}) = i r \left[\phi^* \left(D^{\mu}\phi\right) - \left(D^{\mu}\phi \right)^* \phi \right]\colorbox{red}{,} \nonumber \\
+        \partial_{\mu} \left(r D^{\mu} \phi \right) - i A_{\mu} D^{\mu} \phi + \frac{\delta U}{\delta \phi^*} =0\colorbox{red}{.}
     \end{align}
     After substituting the ansatz
     \begin{align}
         \phi = \sqrt{\frac{m^2}{\lambda}}v(r) e^{i n \theta}, \qquad A_{\mu} = n a(r) \delta_{\theta \mu},
     \end{align}
-    and rescaling $r\rightarrow \frac{\hat{r}}{m}$, we arrive at a system of equations for the dimensionless functions $v(r)$ and $a(r)$.
+    and rescaling $r\rightarrow \frac{\hat{r}}{m}$, we arrive at a system of equations for the dimensionless functions $v(r)$ and $a(r)$\colorbox{red}{ }
     \begin{align}
-        \frac{1}{\hat{r}} \frac{d }{d \hat{r}} \left(\hat{r} \frac{d v}{d \hat{r}} \right) - \frac{n^2 (a-1)^2 v}{\hat{r}^2} -v^3 +v =0  \\
+        \frac{1}{\hat{r}} \frac{d }{d \hat{r}} \left(\hat{r} \frac{d v}{d \hat{r}} \right) - \frac{n^2 (a-1)^2 v}{\hat{r}^2} -v^3 +v =0\colorbox{red}{,}  \\
         \frac{d}{d \hat{r}}\left(\frac{1}{\hat{r}}\frac{d}{d \hat{r}} a \right)- \frac{2 g^2}{\lambda r} (a-1)v^2=0.
     \end{align}
     In these variables, the boundary conditions become
@@ -516,26 +511,26 @@ Here we shall make a few observations that will come in use frequently for the r
 
     For small $r$, the solutions to these equations look like
     \begin{align}
-        v(r)&= J_n(r) \sim \frac{r^n}{ 2^n n!} \\
-        a(r)&= C r^2
+        v(r)&= J_n(r) \sim \frac{r^n}{ 2^n n!}\colorbox{red}{,} \\
+        a(r)&= C r^2\colorbox{red}{.}
     \end{align}
     And asymptotically for large $r$ we have
 
     \begin{align}
-        v(r)&=K_0\left(\sqrt{2} r\right)\sim 2^{-\frac{3}{4}}\sqrt{\frac{\pi}{r}} e^{- \sqrt{2} r} \\
-        a(r)&=r K_1\left(\frac{\sqrt{2} g}{\sqrt{\lambda}} r \right)\sim 2^{- \frac{3}{4}} \sqrt{\frac{\pi r \sqrt{\lambda}}{g}} e^{- \sqrt{2} \frac{g}{\sqrt{\lambda}}r}
+        v(r)&=K_0\left(\sqrt{2} r\right)\sim 2^{-\frac{3}{4}}\sqrt{\frac{\pi}{r}} e^{- \sqrt{2} r} \colorbox{red}{,}\\
+        a(r)&=r K_1\left(\frac{\sqrt{2} g}{\sqrt{\lambda}} r \right)\sim 2^{- \frac{3}{4}} \sqrt{\frac{\pi r \sqrt{\lambda}}{g}} e^{- \sqrt{2} \frac{g}{\sqrt{\lambda}}r}\colorbox{red}{.}
     \end{align}
 
-    From here we can recover the masses of the gauge field and Higgs field $m_{H}$ and $m_a$, respectively, in the Higgsed phase of the theory.
+    From here we can recover the masses of the gauge field and Higgs field $m_{H}$ and $m_a$, respectively, in the Higgsed phase of the theory\colorbox{red}{ } 
     \begin{align}
-        m_{H}= \sqrt{2} m, \qquad m_a = \sqrt{2} \frac{g^2}{\lambda}m
+        m_{H}= \sqrt{2} m, \qquad m_a = \sqrt{2} \frac{g^2}{\lambda}m \colorbox{red}{.}
     \end{align}
-    From the from of the propagator for scalar and vector theories, we know that scalar fields act attractively, whereas gauge fields act repulsively for like-charged configurations. This tells us that when $m_a>m_H$, the gauge field decays slower than the scalar field, so if we were to place two vortices on the plane, we will observe an attractive force between them. Likewise, if  $m_a<m_H$, we expect the vortices to repel each other. This line of thought hints at us that there is a critical value of the couplings, where vortices are free (non-interacting). Here we present a more precise argument for this. In order to do this, we will Bogomol'nyi's identity.
+    From the from of the propagator for scalar and vector theories, we know that scalar fields act attractively, whereas gauge fields act repulsively for like-charged configurations. This tells us that when $m_a>m_H$, the gauge field decays slower than the scalar field, so if we were to place two vortices on the plane, we will observe an attractive force between them. Likewise, if  $m_a<m_H$, we expect the vortices to repel each other. This line of thought hints at us that there is a critical value of the couplings, where vortices are free (non-interacting). Here we present a more precise argument for this. In order to do this, we will Bogomol'nyi's identity\colorbox{red}{ }
 
     \begin{align}
         |D_1 \phi|^2 + |D_2 \phi|^2 = |D_1 \phi \pm D_2 \phi|^2 \pm B |\phi|^2. \label{eq:Bogomolnyi}
     \end{align}
-    Further, we re-express the potential by completing the square.
+    Further, we re-express the potential by completing the square\colorbox{red}{ }
 
     \begin{align}
         U(\phi)&=\frac{\lambda}{2} \left( |\phi|^2 - v^2 \right)^2 - \frac{m^2 v^2}{2}. \label{eq:potential_square}
@@ -624,7 +619,7 @@ In \cite{1606.01893}, the authors showed a link between this particle-vortex dua
         Whatever the fundamental reasons for their existence is, dualities are interesting becase they give us another point of view that allows us to explore and understand the world of fundamental physics in more depth. As Feynman once said, ``Every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics''\cite{Feynman_quote}. And in the spirit of his words, here duality is one more representation we wish to understand.\\
         \indent As pointed out above, dualities come in many flavours and the models we are considering here play a role in more than one type. $O(N)/U(N)$ (scalar or fermion) models are holographically dual to higher spin gravitational theories \cite{hep-th/0210114}. This duality seems to persist even after deforming the theories with a Chern-Simons term in the large $N$ limit\cite{1110.4382}. Fermions in 2+1d can be shown to be dual to vector fields via a Fourier transform-like functional integral transformation that we described above \cite{hep-th/9401105, Barci1996}. And pure Chern-Simons theories are level-rank dual to each other \cite{Naculich1990, Camperi1990, Mlawer1991, Nakanishi1992, hep-th/0703089}. In this section, we will concentrate on a duality that has all of the above ingredients in some form ($SU(N)/U(N)$ scalars/fermions and CS vector fields) that combine into what's believed to be an IR duality. More precisely, we are talking about a set of dualities between $2+1d$ gauge theories that are collectively known as \textit{Fermi-Bose duality}.\\
         \indent The duality between fermions and bosons was first conjectured  in the supersymmetric context\cite{0808.0360, 1108.5373, 1305.3924, 1411.5475}. Evidence for the non-supersymmetric version of these dualities comes from large $N$ computations on both sides both at finite temperature \cite{1211.4843}  and at $T=0$ \cite{1110.4386}. Furthermore, there is compelling evidence that the duality holds at finite $N$ from supersymmetric theories flowing to their non-SUSY versions \cite{1305.7235, 1507.04378}.\\
-        \indent Since $U(N) = (SU(N)\times U(1))/\mathbb{Z}_N$, we can in principle have different Chern-Simons levels for the $SU(N)$ and $U(1)$ symmetries. We will denote a $U(N)$ Chern-Simons theory with levels $k_1$ and $k_2$ corresponding to the $SU(N)$ and $U(1)$ symmetries, respectively, as a $U(N)_{k_1,k_2}$ theory. Prior to the inclusion of matter in our model, we state an important fact about these theories. Namely, that some choices of gauge groups and levels are dual to others. This is known as \textit{level-rank duality}. It's generalization to include matter is the duality that we present below. In Yang-Mills regularization the Fermi-Bose dualities are as follows \cite{1512.00161}.
+        \indent Since $U(N) = (SU(N)\times U(1))/\mathbb{Z}_N$, we can in principle have different Chern-Simons levels for the $SU(N)$ and $U(1)$ symmetries. We will denote a $U(N)$ Chern-Simons theory with levels $k_1$ and $k_2$ corresponding to the $SU(N)$ and $U(1)$ symmetries, respectively, as a $U(N)_{k_1,k_2}$ theory. Prior to the inclusion of matter in our model, we state an important fact about these theories. Namely, that some choices of gauge groups and levels are dual to others. This is known as \textit{level-rank duality}. It's generalization to include matter is the duality that we present below. In Yang-Mills regularization the Fermi-Bose dualities are as follows \cite{1512.00161} \colorbox{red}{ }
             \begin{align}
                 SU(N)_k + scalars &\longleftrightarrow \ \ U(k)_{-N +\frac{N_f}{2}, -N + \frac{N_f}{2}} \quad + fermions,  \\
                 U(N)_{k,k} + scalars &\longleftrightarrow SU(k)_{-N +\frac{N_f}{2}}\qquad \ \ \ \quad+ fermions,  \\
@@ -692,7 +687,7 @@ In \cite{1606.01893}, the authors showed a link between this particle-vortex dua
     \end{align}
     Specifically for the non-commuting coordinates
     \begin{align}
-        \partial_{\alpha}= -i \omega_{\alpha \beta} x_{\beta}, \qquad \alpha, \beta = 1,...,2p.
+        \partial_{\alpha}= -i \omega_{\alpha \beta} x_{\beta}, \qquad \alpha, \beta = 1,...,2p\colorbox{red}{,}
     \end{align}
     where $\omega_{\alpha \beta} = \left(\theta^{-1} \right)_{\alpha \beta}$. From here it follows that
     \begin{align}
