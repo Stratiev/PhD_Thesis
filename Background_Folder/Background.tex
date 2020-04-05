@@ -507,25 +507,31 @@ Here we shall make a few observations that will come in use frequently for the r
         v(0) = 0, \qquad a(0)=0, \\
         v(\infty) =1, \qquad a(\infty) =1.
     \end{align}
-
-
     For small $r$, the solutions to these equations look like
     \begin{align}
         v(r)&= J_n(r) \sim \frac{r^n}{ 2^n n!}\colorbox{red}{,} \\
         a(r)&= C r^2\colorbox{red}{.}
     \end{align}
     And asymptotically for large $r$ we have
-
     \begin{align}
-        v(r)&=K_0\left(\sqrt{2} r\right)\sim 2^{-\frac{3}{4}}\sqrt{\frac{\pi}{r}} e^{- \sqrt{2} r} \colorbox{red}{,}\\
-        a(r)&=r K_1\left(\frac{\sqrt{2} g}{\sqrt{\lambda}} r \right)\sim 2^{- \frac{3}{4}} \sqrt{\frac{\pi r \sqrt{\lambda}}{g}} e^{- \sqrt{2} \frac{g}{\sqrt{\lambda}}r}\colorbox{red}{.}
+        v(r)&=K_0\left(\sqrt{2} r\right)\sim 2^{-\frac{3}{4}}\sqrt{\frac{\pi}{r}} e^{- \sqrt{2} r} \colorbox{red}{,} \label{eq:Asymptotics1_Abelian_Higgs} \\
+        a(r)&=r K_1\left(\frac{\sqrt{2} g}{\sqrt{\lambda}} r \right)\sim 2^{- \frac{3}{4}} \sqrt{\frac{\pi r \sqrt{\lambda}}{g}} e^{- \sqrt{2} \frac{g}{\sqrt{\lambda}}r}\colorbox{red}{.} \label{eq:Asymptotics2_Abelian_Higgs}
     \end{align}
+    \colorbox{red}{The system is solved numerically and plotted in Figure \ref{fig:Abelian_Higgs_Profiles_n1} below.}
+\begin{figure}[htb]
+	\centering
+	\begin{tabular}{c@{\hspace{1.5cm}}c@{\hspace{1.5cm}}c}
+        \includegraphics[scale=0.4]{Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png}
+        \includegraphics[scale=0.4]{Background_Folder/figures/solution_n1_scalar_field_g_lambda.png}
+	\end{tabular}
+    \caption[\textcolor{red}{This figure depicts the magnetic and scalar field profiles in the Abelian Higgs model.}]{\textcolor{red}{The profiles for the magnetic (left) and scalar (right) fields ($B(r)$ and $v(r)$, respectively) are depicted} for \textcolor{red}{winding number} $n=1$\textcolor{red}{, electromagnetic coupling $g=1$} and \textcolor{red}{quartic interaction coupling} $\lambda = (10,1,0.1)* \lambda_c$. \textcolor{red}{Here, $\lambda_c$ is the critical coupling, for which the BPS equations \eqref{eq:BPS1_Abel} hold.}} \label{fig:Abelian_Higgs_Profiles_n1}
+\end{figure}
 
-    From here we can recover the masses of the gauge field and Higgs field $m_{H}$ and $m_a$, respectively, in the Higgsed phase of the theory\colorbox{red}{ } 
+    From \textcolor{red}{the asymptotic equations \eqref{eq:Asymptotics1_Abelian_Higgs} and \eqref{eq:Asymptotics2_Abelian_Higgs},} we can recover the masses of the gauge field and Higgs field $m_{H}$ and $m_a$, respectively, in the Higgsed phase of the theory\colorbox{red}{ } 
     \begin{align}
         m_{H}= \sqrt{2} m, \qquad m_a = \sqrt{2} \frac{g^2}{\lambda}m \colorbox{red}{.}
     \end{align}
-    From the from of the propagator for scalar and vector theories, we know that scalar fields act attractively, whereas gauge fields act repulsively for like-charged configurations. This tells us that when $m_a>m_H$, the gauge field decays slower than the scalar field, so if we were to place two vortices on the plane, we will observe an attractive force between them. Likewise, if  $m_a<m_H$, we expect the vortices to repel each other. This line of thought hints at us that there is a critical value of the couplings, where vortices are free (non-interacting). Here we present a more precise argument for this. In order to do this, we will Bogomol'nyi's identity\colorbox{red}{ }
+    From the from of the propagator for scalar and vector theories, we know that scalar fields act attractively, whereas gauge fields act repulsively for like-charged configurations. This tells us that when $m_a>m_H$, the \colorbox{red}{scalar} field decays slower than the \colorbox{red}{gauge} field, so if we were to place two vortices on the plane, we will observe an attractive force between them. Likewise, if  $m_a<m_H$, we expect the vortices to repel each other. This line of thought hints at us that there is a critical value of the couplings, where vortices are free (non-interacting). Here we present a more precise argument for this. In order to do this, we will Bogomol'nyi's identity\colorbox{red}{ }
 
     \begin{align}
         |D_1 \phi|^2 + |D_2 \phi|^2 = |D_1 \phi \pm D_2 \phi|^2 \pm B |\phi|^2. \label{eq:Bogomolnyi}
@@ -557,14 +563,6 @@ Here we shall make a few observations that will come in use frequently for the r
     \end{align}
     The above equations (\eqref{eq:BPS1_Abel} and \eqref{eq:BPS2_Abel}) are known as the BPS equations of the vortex, named after the people who first discovered a non-interacting limit for solitonic solutions in field theory -- Bogomol'nyi, Prasad and Sommerfield \cite{Bogomolny:1975de} \cite{Prasad1975}.
     
-\begin{figure}[htb]
-	\centering
-	\begin{tabular}{c@{\hspace{1.5cm}}c@{\hspace{1.5cm}}c}
-        \includegraphics[scale=0.4]{Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png}
-        \includegraphics[scale=0.4]{Background_Folder/figures/solution_n1_scalar_field_g_lambda.png}
-	\end{tabular}
-    \caption{Scalar and magnetic field profiles for n=1 and $\lambda = (10,1,0.1)* \lambda_c$} \label{plot:Abelian_Higgs_Profiles_n1}
-\end{figure}
 
     \subsection{Particle-Vortex Duality}
     The considerations of the previous section are more general and they apply for more than just systems in $2+1d$ even though the details differ. In a general QFT, we have roughly two different types of quantum excitations. One is the familiar type of elementary excitations that appear through the standard procedure of canonical quantization, where we introduce creation and annihilation operators that insert particles at a given position. The other type is, as we have just seen from the previous section, of a \textit{solitonic nature} (such as vortices). In other words, a solution that we reach not through expanding around the free solution in a small coupling parameter, but is more generally associated with a stationary point parametrically far from the free theory. This makes these solutions grow in size and energy the smaller the coupling is so studying them in the quantum regime becomes tricky. Luckily, because their masses become large at small coupling, they decouple from the theory so one can study the quantum theory of the elementary excitations on its own without worrying about the solitons. Unfortunately, going in the other direction in terms of coupling strength, the solitons become light and their importance grows but so do quantum corrections for the elementary excitations and we reach a regime, where we do not understand the theory. So how do we learn more about these strongly coupled theories?

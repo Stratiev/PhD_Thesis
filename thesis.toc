@@ -1,6 +1,6 @@
 \babel@toc {english}{}
 \contentsline {chapter}{List of Figures}{ix}{chapter*.5}% 
-\contentsline {chapter}{List of Tables}{xiii}{chapter*.6}% 
+\contentsline {chapter}{List of Tables}{xi}{chapter*.6}% 
 \contentsline {chapter}{Introduction}{1}{chapter*.6}% 
 \contentsline {chapter}{\numberline {1}Background}{5}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Chern-Simons Theory}{6}{section.1.1}% 
@@ -16,10 +16,10 @@
 \contentsline {section}{\numberline {1.4}Vortices}{26}{section.1.4}% 
 \contentsline {subsection}{\numberline {1.4.1}Global U(1) Vortex}{26}{subsection.1.4.1}% 
 \contentsline {subsection}{\numberline {1.4.2}Local U(1) Vortex}{27}{subsection.1.4.2}% 
-\contentsline {subsection}{\numberline {1.4.3}Particle-Vortex Duality}{31}{subsection.1.4.3}% 
-\contentsline {section}{\numberline {1.5}Fermi-Bose Duality}{34}{section.1.5}% 
-\contentsline {section}{\numberline {1.6}Non-Commutative Fluids}{36}{section.1.6}% 
-\contentsline {subsection}{\numberline {1.6.1}Review of Non-Commutative Geometry}{37}{subsection.1.6.1}% 
+\contentsline {subsection}{\numberline {1.4.3}Particle-Vortex Duality}{32}{subsection.1.4.3}% 
+\contentsline {section}{\numberline {1.5}Fermi-Bose Duality}{33}{section.1.5}% 
+\contentsline {section}{\numberline {1.6}Non-Commutative Fluids}{35}{section.1.6}% 
+\contentsline {subsection}{\numberline {1.6.1}Review of Non-Commutative Geometry}{36}{subsection.1.6.1}% 
 \contentsline {subsection}{\numberline {1.6.2}Non-Commutative Field Theory}{38}{subsection.1.6.2}% 
 \contentsline {chapter}{\numberline {2}Abelian Chern-Simons vortices at finite chemical potential}{41}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}Introduction}{41}{section.2.1}% 
@@ -35,33 +35,33 @@
 \contentsline {section}{\numberline {2.5}Numerical results}{56}{section.2.5}% 
 \contentsline {subsection}{\numberline {2.5.1}Quartic potential $(s=2)$}{56}{subsection.2.5.1}% 
 \contentsline {paragraph}{Negative flux solutions:}{56}{section*.14}% 
-\contentsline {paragraph}{Positive flux solutions:}{62}{section*.21}% 
-\contentsline {subsection}{\numberline {2.5.2}Sextic potential ($s=3$)}{63}{subsection.2.5.2}% 
-\contentsline {section}{\numberline {2.6}Discussion}{65}{section.2.6}% 
-\contentsline {chapter}{\numberline {3}Roton-phonon excitations in Chern-Simons matter theory at finite density}{67}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Introduction}{67}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}The $SU(2)_k$ theory}{70}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}Classical ground states with $\mu _B\neq 0$}{71}{subsection.3.2.1}% 
-\contentsline {paragraph}{Free energy:}{75}{section*.27}% 
-\contentsline {subsection}{\numberline {3.2.2}Colour-flavour locked symmetry}{76}{subsection.3.2.2}% 
-\contentsline {section}{\numberline {3.3}Spectrum of fluctuations}{77}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}The $k\to \infty $ theory}{77}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Finite, large $k$}{78}{subsection.3.3.2}% 
-\contentsline {subsubsection}{\numberline {3.3.2.1}Physical states}{79}{subsubsection.3.3.2.1}% 
-\contentsline {paragraph}{ The phonon mode:}{80}{section*.29}% 
-\contentsline {paragraph}{Level crossing:}{82}{section*.31}% 
-\contentsline {subsection}{\numberline {3.3.3}Roton minimum and complete spectrum}{83}{subsection.3.3.3}% 
-\contentsline {paragraph}{Critical case with $g_4=m=0$:}{84}{section*.35}% 
-\contentsline {subsection}{\numberline {3.3.4}Landau critical velocity}{86}{subsection.3.3.4}% 
-\contentsline {subsection}{\numberline {3.3.5}The $U(2)_k$ theory}{87}{subsection.3.3.5}% 
-\contentsline {section}{\numberline {3.4}The $SU(N>2)$ case}{88}{section.3.4}% 
-\contentsline {subsection}{\numberline {3.4.1}Vacuum configuration}{89}{subsection.3.4.1}% 
-\contentsline {subsection}{\numberline {3.4.2}Interpretation as quantum Hall droplet state}{91}{subsection.3.4.2}% 
-\contentsline {section}{\numberline {3.5}Summary and future directions}{93}{section.3.5}% 
-\contentsline {chapter}{\numberline {4}Vortices in U(2) and SU(2) Chern-Simons scalar theories.}{97}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}U(2) theory}{98}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}SU(2) theory}{103}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Discussion}{103}{section.4.3}% 
-\contentsline {chapter}{Conclusions}{105}{section.4.3}% 
-\contentsline {chapter}{\numberline {A}Determinant of fluctuation matrix for $SU(2)$ }{107}{appendix.A}% 
-\contentsline {chapter}{References}{109}{appendix*.39}% 
+\contentsline {paragraph}{Positive flux solutions:}{61}{section*.21}% 
+\contentsline {subsection}{\numberline {2.5.2}Sextic potential ($s=3$)}{62}{subsection.2.5.2}% 
+\contentsline {section}{\numberline {2.6}Discussion}{64}{section.2.6}% 
+\contentsline {chapter}{\numberline {3}Roton-phonon excitations in Chern-Simons matter theory at finite density}{65}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Introduction}{65}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}The $SU(2)_k$ theory}{68}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Classical ground states with $\mu _B\neq 0$}{69}{subsection.3.2.1}% 
+\contentsline {paragraph}{Free energy:}{73}{section*.27}% 
+\contentsline {subsection}{\numberline {3.2.2}Colour-flavour locked symmetry}{74}{subsection.3.2.2}% 
+\contentsline {section}{\numberline {3.3}Spectrum of fluctuations}{75}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}The $k\to \infty $ theory}{75}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Finite, large $k$}{76}{subsection.3.3.2}% 
+\contentsline {subsubsection}{\numberline {3.3.2.1}Physical states}{77}{subsubsection.3.3.2.1}% 
+\contentsline {paragraph}{ The phonon mode:}{78}{section*.29}% 
+\contentsline {paragraph}{Level crossing:}{80}{section*.31}% 
+\contentsline {subsection}{\numberline {3.3.3}Roton minimum and complete spectrum}{81}{subsection.3.3.3}% 
+\contentsline {paragraph}{Critical case with $g_4=m=0$:}{82}{section*.35}% 
+\contentsline {subsection}{\numberline {3.3.4}Landau critical velocity}{84}{subsection.3.3.4}% 
+\contentsline {subsection}{\numberline {3.3.5}The $U(2)_k$ theory}{85}{subsection.3.3.5}% 
+\contentsline {section}{\numberline {3.4}The $SU(N>2)$ case}{86}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Vacuum configuration}{87}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Interpretation as quantum Hall droplet state}{89}{subsection.3.4.2}% 
+\contentsline {section}{\numberline {3.5}Summary and future directions}{91}{section.3.5}% 
+\contentsline {chapter}{\numberline {4}Vortices in U(2) and SU(2) Chern-Simons scalar theories.}{95}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}U(2) theory}{96}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}SU(2) theory}{101}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Discussion}{101}{section.4.3}% 
+\contentsline {chapter}{Conclusions}{103}{section.4.3}% 
+\contentsline {chapter}{\numberline {A}Determinant of fluctuation matrix for $SU(2)$ }{105}{appendix.A}% 
+\contentsline {chapter}{References}{107}{appendix*.39}% 
