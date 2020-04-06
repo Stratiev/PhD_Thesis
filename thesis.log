@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.3.30)  5 APR 2020 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.3.30)  6 APR 2020 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2807,7 +2807,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.190 \langle{\rm
+l.191 \langle{\rm
                   Tr}\left( F_{0i}\right)^{2}\rangle\,=\,-\tfrac{2\pi^3 v^6}...
 
 ? 
@@ -2818,25 +2818,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.190 ...{v^2\pi}{|k|}\right)\,,\qquad \langle{\rm
+l.191 ...{v^2\pi}{|k|}\right)\,,\qquad \langle{\rm
                                                    Tr}\left( F_{ij}\right)^{...
 
 ? 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 244.
+(hyperref)                removing `math shift' on input line 245.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\to' on input line 244.
+(hyperref)                removing `\to' on input line 245.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\infty' on input line 244.
+(hyperref)                removing `\infty' on input line 245.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 244.
+(hyperref)                removing `math shift' on input line 245.
 
 
 ! LaTeX Error: Too many math alphabets used in version normal.
@@ -2845,7 +2845,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.251 && \omega^2_{{\rm
+l.252 && \omega^2_{{\rm
                         I}\,(\pm)}\,=\,{\p}^2 + 3\mu^2_B\pm\mu_B\sqrt{4\p^2+...
 
 ? 
@@ -2856,7 +2856,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253  && \omega^2_{{\rm
+l.254  && \omega^2_{{\rm
                          II}\,(\pm)}\,=\,{\p}^2 + 2\mu^2_B\pm 2\mu_B\sqrt{\p...
 
 ? 
@@ -2868,7 +2868,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.257  \omega_{{\rm
+l.258  \omega_{{\rm
                     I}(-)}\,=\,\frac{|\p|}{\sqrt 3}+\ldots\,,\qquad  \omega_...
 
 ? 
@@ -2879,17 +2879,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.257 ...|}{\sqrt 3}+\ldots\,,\qquad  \omega_{{\rm
+l.258 ...|}{\sqrt 3}+\ldots\,,\qquad  \omega_{{\rm
                                                    II}(-)}\,=\,\frac{\p^2}{2...
 
 ? 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 264.
+(hyperref)                removing `math shift' on input line 265.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 264.
+(hyperref)                removing `math shift' on input line 265.
 
 
 ! LaTeX Error: Too many math alphabets used in version normal.
@@ -2898,7 +2898,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.278 ...rac{k}{4\pi}\epsilon^{\mu\nu\lambda} {\rm
+l.279 ...rac{k}{4\pi}\epsilon^{\mu\nu\lambda} {\rm
                                                    Tr}\left({\cal A}_\mu {\c...
 
 ? 
@@ -2913,7 +2913,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.286 ...,\to\, {\cal L}^{(2)} \,+\, {\cal L}_{\rm
+l.287 ...,\to\, {\cal L}^{(2)} \,+\, {\cal L}_{\rm
                                                    gf}\,,\qquad
 ? 
 
@@ -2923,7 +2923,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.287 {\cal L}_{\rm
+l.288 {\cal L}_{\rm
                     gf}\,=\,\frac{1}{2\xi}{\rm Tr}\left({\cal D}_\mu{\cal A}...
 
 ? 
@@ -2934,7 +2934,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.287 {\cal L}_{\rm gf}\,=\,\frac{1}{2\xi}{\rm
+l.288 {\cal L}_{\rm gf}\,=\,\frac{1}{2\xi}{\rm
                                                Tr}\left({\cal D}_\mu{\cal A}...
 
 ? 
@@ -2949,7 +2949,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.305 ...atic dispersion relations, respectively.}
+l.306 ...atic dispersion relations, respectively.}
                                                   
 ? 
 
@@ -2959,7 +2959,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.305 ...atic dispersion relations, respectively.}
+l.306 ...atic dispersion relations, respectively.}
                                                   
 ? 
 
@@ -2969,7 +2969,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.307 {\bf p=0:}\quad&&\omega_{{\rm
+l.308 {\bf p=0:}\quad&&\omega_{{\rm
                                     I}-}\,=\,0\, \qquad \qquad
 ? 
 
@@ -2979,7 +2979,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.308 \omega_{{\rm
+l.309 \omega_{{\rm
                    I}+}\,=\,\sqrt{m^2+6g_4v^2 -\mu_B^2 +\left(2|\mu_B|-\frac...
 
 ? 
@@ -2990,7 +2990,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.309 && \omega_{{\rm
+l.310 && \omega_{{\rm
                       II}(-)}\,=\,\frac{4\pi}{|k|}\,v^2 \qquad\qquad \omega_...
 
 ? 
@@ -3001,7 +3001,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.309 ...4\pi}{|k|}\,v^2 \qquad\qquad \omega_{{\rm
+l.310 ...4\pi}{|k|}\,v^2 \qquad\qquad \omega_{{\rm
                                                    II}(+)}\,=\, 2|\mu_B|\,.
 ? 
 [78]
@@ -3011,7 +3011,7 @@ File: "Chapter_3_Folder_1806.06976/figures/""soundspeed".pdf Graphic file (type
  pdf)
 <use "Chapter_3_Folder_1806.06976/figures/""soundspeed".pdf>
 Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""soundspeed".pdf
-  used on input line 325.
+  used on input line 326.
 (pdftex.def)             Requested size: 216.81pt x 137.31404pt.
  [79 <./Chapter_3_Folder_1806.06976/figures/soundspeed.pdf>]
 
@@ -3021,7 +3021,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.357 ...ssing is between the phonon ($\omega_{\rm
+l.358 ...ssing is between the phonon ($\omega_{\rm
                                                    I (-)}$  branch) and the ...
 
 ? 
@@ -3032,7 +3032,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.357 ... the light state with energy $\omega_{\rm
+l.358 ... the light state with energy $\omega_{\rm
                                                    II(-)}$ which happens to ...
 
 ? 
@@ -3043,7 +3043,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.361 ...gap generated for the branch $\omega_{\rm
+l.362 ...gap generated for the branch $\omega_{\rm
                                                    II(-)}$ with quadratic di...
 
 ? 
@@ -3053,7 +3053,7 @@ File: "Chapter_3_Folder_1806.06976/figures/""crossing0".pdf Graphic file (type
 pdf)
 <use "Chapter_3_Folder_1806.06976/figures/""crossing0".pdf>
 Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""crossing0".pdf 
- used on input line 364.
+ used on input line 365.
 (pdftex.def)             Requested size: 166.2212pt x 101.58072pt.
 <"Chapter_3_Folder_1806.06976/figures/""crossing".pdf, id=1505, 361.35pt x 220.
 825pt>
@@ -3061,7 +3061,7 @@ File: "Chapter_3_Folder_1806.06976/figures/""crossing".pdf Graphic file (type p
 df)
 <use "Chapter_3_Folder_1806.06976/figures/""crossing".pdf>
 Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""crossing".pdf  
-used on input line 364.
+used on input line 365.
 (pdftex.def)             Requested size: 166.2212pt x 101.58072pt.
 
 ! LaTeX Error: Too many math alphabets used in version normal.
@@ -3070,7 +3070,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.374 ...e location of the maximum in $\omega_{\rm
+l.375 ...e location of the maximum in $\omega_{\rm
                                                    I(-)}$ is close to the pu...
 
 ? 
@@ -3085,7 +3085,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.379 ...of the dispersion curves for $\omega_{\rm
+l.380 ...of the dispersion curves for $\omega_{\rm
                                                    II(-)}$ and $\omega_{\rm ...
 
 ? 
@@ -3096,7 +3096,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.379 ...for $\omega_{\rm II(-)}$ and $\omega_{\rm
+l.380 ...for $\omega_{\rm II(-)}$ and $\omega_{\rm
                                                    I (-)}$. In the large $k$...
 
 ? 
@@ -3107,7 +3107,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.379 ... regime, the former is flat, $\omega_{\rm
+l.380 ... regime, the former is flat, $\omega_{\rm
                                                    II(-)}\,\approx\, 4\pi v^...
 
 ? 
@@ -3118,7 +3118,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.379 ... while the latter is linear, $\omega_{\rm
+l.380 ... while the latter is linear, $\omega_{\rm
                                                    I(-)} \,\approx\, |\p|/\s...
 
 ? 
@@ -3129,7 +3129,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.381 k\gg 1,\,g_4\,{\rm
+l.382 k\gg 1,\,g_4\,{\rm
                          fixed}: \qquad \left(\rm \omega_{\rm max},\, |\p|_{...
 
 ? 
@@ -3140,7 +3140,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.381 k\gg 1,\,g_4\,{\rm fixed}: \qquad \left(\rm
+l.382 k\gg 1,\,g_4\,{\rm fixed}: \qquad \left(\rm
                                                   \omega_{\rm max},\, |\p|_{...
 
 ? 
@@ -3150,7 +3150,7 @@ File: "Chapter_3_Folder_1806.06976/figures/""spectrumk20".pdf Graphic file (typ
 e pdf)
 <use "Chapter_3_Folder_1806.06976/figures/""spectrumk20".pdf>
 Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""spectrumk20".pd
-f  used on input line 385.
+f  used on input line 386.
 (pdftex.def)             Requested size: 202.35622pt x 131.5305pt.
 <"Chapter_3_Folder_1806.06976/figures/""rotonk500".pdf, id=1516, 494.84875pt x 
 306.14375pt>
@@ -3158,7 +3158,7 @@ File: "Chapter_3_Folder_1806.06976/figures/""rotonk500".pdf Graphic file (type
 pdf)
 <use "Chapter_3_Folder_1806.06976/figures/""rotonk500".pdf>
 Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""rotonk500".pdf 
- used on input line 385.
+ used on input line 386.
 (pdftex.def)             Requested size: 202.35622pt x 125.18806pt.
 
 ! LaTeX Error: Too many math alphabets used in version normal.
@@ -3167,7 +3167,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.393 ...  In fact, it turns out that $\omega_{\rm
+l.394 ...  In fact, it turns out that $\omega_{\rm
                                                    rot} \sim k^{-1}$ whilst ...
 
 ? 
@@ -3178,7 +3178,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.393 ...a_{\rm rot} \sim k^{-1}$ whilst  $\p_{\rm
+l.394 ...a_{\rm rot} \sim k^{-1}$ whilst  $\p_{\rm
                                                    rot} \sim k^{-1/2}$. This...
 
 ? 
@@ -3198,7 +3198,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.404 k\gg 1: \qquad \left(\omega_{\rm
+l.405 k\gg 1: \qquad \left(\omega_{\rm
                                        rot},\,|\p|_{\rm rot}\right)\,=\,\lef...
 
 ? 
@@ -3209,7 +3209,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.404 ...\qquad \left(\omega_{\rm rot},\,|\p|_{\rm
+l.405 ...\qquad \left(\omega_{\rm rot},\,|\p|_{\rm
                                                    rot}\right)\,=\,\left(\fr...
 
 ? 
@@ -3219,7 +3219,7 @@ File: "Chapter_3_Folder_1806.06976/figures/""spectrummassive".pdf Graphic file
 (type pdf)
 <use "Chapter_3_Folder_1806.06976/figures/""spectrummassive".pdf>
 Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""spectrummassive
-".pdf  used on input line 410.
+".pdf  used on input line 411.
 (pdftex.def)             Requested size: 166.2212pt x 173.14897pt.
 <"Chapter_3_Folder_1806.06976/figures/""spectrumcrit".pdf, id=1570, 361.35pt x 
 271.0125pt>
@@ -3227,7 +3227,7 @@ File: "Chapter_3_Folder_1806.06976/figures/""spectrumcrit".pdf Graphic file (ty
 pe pdf)
 <use "Chapter_3_Folder_1806.06976/figures/""spectrumcrit".pdf>
 Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""spectrumcrit".p
-df  used on input line 410.
+df  used on input line 411.
 (pdftex.def)             Requested size: 221.6362pt x 166.2212pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -3245,7 +3245,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.426 \omega_{\rm
+l.427 \omega_{\rm
                   I (-)}=0\,,\qquad\omega_{\rm I (+)}\,=\,\frac{4\mu_B}{3}\,...
 
 ? 
@@ -3256,7 +3256,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.426 \omega_{\rm I (-)}=0\,,\qquad\omega_{\rm
+l.427 \omega_{\rm I (-)}=0\,,\qquad\omega_{\rm
                                                I (+)}\,=\,\frac{4\mu_B}{3}\,...
 
 ? 
@@ -3267,7 +3267,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.426 ...\,=\,\frac{4\mu_B}{3}\,,\qquad\omega_{\rm
+l.427 ...\,=\,\frac{4\mu_B}{3}\,,\qquad\omega_{\rm
                                                    II (-)}\,=\,\frac{4\mu_B}...
 
 ? 
@@ -3278,7 +3278,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.426 ...,=\,\frac{4\mu_B}{3}\,,\qquad \omega_{\rm
+l.427 ...,=\,\frac{4\mu_B}{3}\,,\qquad \omega_{\rm
                                                    II (+)}\,=\,2\mu_B\,,
 ? 
 
@@ -3288,7 +3288,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.431 \left(\omega_{\rm
+l.432 \left(\omega_{\rm
                         max},\,|\p|_{\rm max}\right)\,=\,\left(0.553\mu_B,\,...
 
 ? 
@@ -3299,7 +3299,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.431 \left(\omega_{\rm max},\,|\p|_{\rm
+l.432 \left(\omega_{\rm max},\,|\p|_{\rm
                                          max}\right)\,=\,\left(0.553\mu_B,\,...
 
 ? 
@@ -3310,7 +3310,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.431 ...937\mu_B\right)\,,\qquad\left(\omega_{\rm
+l.432 ...937\mu_B\right)\,,\qquad\left(\omega_{\rm
                                                    rot},\,|\p|_{\rm rot}\rig...
 
 ? 
@@ -3321,7 +3321,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.431 ...,\qquad\left(\omega_{\rm rot},\,|\p|_{\rm
+l.432 ...,\qquad\left(\omega_{\rm rot},\,|\p|_{\rm
                                                    rot}\right)\,=\,\left( 0....
 
 ? 
@@ -3338,7 +3338,7 @@ it.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 3.50}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.436 \be
+l.437 \be
          
 
 ! LaTeX Error: Too many math alphabets used in version normal.
@@ -3347,7 +3347,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.437 v_{\rm
+l.438 v_{\rm
              crit} \,=\, {\rm min}_{|\bf p|} \left(\frac{\omega(\p)}{|\p|}\r...
 
 ? 
@@ -3358,7 +3358,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.437 v_{\rm crit} \,=\, {\rm
+l.438 v_{\rm crit} \,=\, {\rm
                               min}_{|\bf p|} \left(\frac{\omega(\p)}{|\p|}\r...
 
 ? 
@@ -3369,7 +3369,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.439 ...e appearance, within superfluid ${}^4{\rm
+l.440 ...e appearance, within superfluid ${}^4{\rm
                                                    He}$ flows, of a one dime...
 
 ? 
@@ -3380,7 +3380,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.444 ...erfluid velocity is then given as $v_{\rm
+l.445 ...erfluid velocity is then given as $v_{\rm
                                                    crit}\,=\,{\rm min}(\omeg...
 
 ? 
@@ -3391,7 +3391,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.444 ...y is then given as $v_{\rm crit}\,=\,{\rm
+l.445 ...y is then given as $v_{\rm crit}\,=\,{\rm
                                                    min}(\omega/|\p|)$. The a...
 
 ? 
@@ -3401,7 +3401,7 @@ File: "Chapter_3_Folder_1806.06976/figures/""vcrit".pdf Graphic file (type pdf)
 
 <use "Chapter_3_Folder_1806.06976/figures/""vcrit".pdf>
 Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""vcrit".pdf  use
-d on input line 449.
+d on input line 450.
 (pdftex.def)             Requested size: 233.34189pt x 144.54pt.
 
 ! LaTeX Error: Too many math alphabets used in version normal.
@@ -3410,22 +3410,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.456 ... and approaches a constant value, $v_{\rm
+l.457 ... and approaches a constant value, $v_{\rm
                                                    crit}\approx 0.27$, in th...
 
 ? 
 [84]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 457.
+(hyperref)                removing `math shift' on input line 458.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 457.
+(hyperref)                removing `subscript' on input line 458.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 457.
+(hyperref)                removing `math shift' on input line 458.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3436,16 +3436,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: "Chapter_3_Folder_1806.06976/figures/""u2".pdf Graphic file (type pdf)
 <use "Chapter_3_Folder_1806.06976/figures/""u2".pdf>
 Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""u2".pdf  used o
-n input line 467.
+n input line 468.
 (pdftex.def)             Requested size: 192.72762pt x 144.54pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 476.
+(hyperref)                removing `math shift' on input line 477.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 476.
+(hyperref)                removing `math shift' on input line 477.
 
 [86 <./Chapter_3_Folder_1806.06976/figures/u2.pdf>]
 
@@ -3455,7 +3455,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.485 V_{\rm
+l.486 V_{\rm
              CS}\,+\, V_{\rm scalar}&&=\, -\,\frac{k}{4\pi}\,\frac{2}{3}\,{\...
 
 ? 
@@ -3466,7 +3466,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.485 V_{\rm CS}\,+\, V_{\rm
+l.486 V_{\rm CS}\,+\, V_{\rm
                              scalar}&&=\, -\,\frac{k}{4\pi}\,\frac{2}{3}\,{\...
 
 ? 
@@ -3477,7 +3477,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.485 ...&=\, -\,\frac{k}{4\pi}\,\frac{2}{3}\,{\rm
+l.486 ...&=\, -\,\frac{k}{4\pi}\,\frac{2}{3}\,{\rm
                                                    Tr}\left(A_\mu A_\nu A_\r...
 
 ? 
@@ -3488,7 +3488,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.520 V_{\rm
+l.521 V_{\rm
              CS}\,+\,V_{\rm scalar}\,\to\,V_{\rm CS}\,+\,V_{\rm scalar}\,+\,...
 
 ? 
@@ -3499,7 +3499,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.520 V_{\rm CS}\,+\,V_{\rm
+l.521 V_{\rm CS}\,+\,V_{\rm
                             scalar}\,\to\,V_{\rm CS}\,+\,V_{\rm scalar}\,+\,...
 
 ? 
@@ -3510,7 +3510,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.520 V_{\rm CS}\,+\,V_{\rm scalar}\,\to\,V_{\rm
+l.521 V_{\rm CS}\,+\,V_{\rm scalar}\,\to\,V_{\rm
                                                  CS}\,+\,V_{\rm scalar}\,+\,...
 
 ? 
@@ -3521,7 +3521,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.520 ..._{\rm scalar}\,\to\,V_{\rm CS}\,+\,V_{\rm
+l.521 ..._{\rm scalar}\,\to\,V_{\rm CS}\,+\,V_{\rm
                                                    scalar}\,+\,\Lambda^\mu {...
 
 ? 
@@ -3532,7 +3532,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.520 ...}\,+\,V_{\rm scalar}\,+\,\Lambda^\mu {\rm
+l.521 ...}\,+\,V_{\rm scalar}\,+\,\Lambda^\mu {\rm
                                                    Tr} (A_\mu)\,.
 ? 
 
@@ -3542,7 +3542,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.526 ...mbda^\lambda\,{\bf 1}\,=\,0\,,\qquad {\rm
+l.527 ...mbda^\lambda\,{\bf 1}\,=\,0\,,\qquad {\rm
                                                    Tr} A_\mu\,=\,0\,,\nonumb...
 
 ? 
@@ -3554,7 +3554,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.538 ... $[A_x, A_y]$ must be diagonal $\sim {\rm
+l.539 ... $[A_x, A_y]$ must be diagonal $\sim {\rm
                                                    diag}(1,1,\ldots, 1-N)$.
 ? 
 
@@ -3568,7 +3568,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.570 && J_3\,\equiv\,{\rm
+l.571 && J_3\,\equiv\,{\rm
                            diag}\left(-\tfrac{N-1}{2}, -\tfrac{N-3}{2}, -\tf...
 
 ? 
@@ -3577,7 +3577,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [89]
 ! Undefined control sequence.
-l.577 ...^2 \left[\begin{array} {c|c}\quad{\mathds
+l.578 ...^2 \left[\begin{array} {c|c}\quad{\mathds
                                                   {1}}_{(N-1)\times(N-1)}\qu...
 
 ? 
@@ -3588,7 +3588,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.585 ...gle A_y\rangle\right)^2\,=\,2\alpha^2{\rm
+l.586 ...gle A_y\rangle\right)^2\,=\,2\alpha^2{\rm
                                                    diag}\left(1\,,\,3\,,5\,,...
 
 ? 
@@ -3599,7 +3599,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.589 R_{\rm
+l.590 R_{\rm
              droplet}\left.\right|_{N\to\infty}\,=\,2\beta\sqrt{\frac{\mu_B}...
 
 ? 
@@ -3908,7 +3908,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
 Here is how much of TeX's memory you used:
  35446 strings out of 492167
  655507 string characters out of 6131558
- 740947 words of memory out of 5000000
+ 740445 words of memory out of 5000000
  38504 multiletter control sequences out of 15000+600000
  629038 words of font info for 261 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
@@ -3982,7 +3982,7 @@ sr/share/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/share/texmf-dist
 /fonts/type1/public/kpfonts/jkpsya.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/kpfonts/jkpsyb.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.p
 fb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on thesis.pdf (127 pages, 7725163 bytes).
+Output written on thesis.pdf (127 pages, 7724038 bytes).
 PDF statistics:
  2617 PDF objects out of 2984 (max. 8388607)
  2259 compressed objects within 23 object streams
