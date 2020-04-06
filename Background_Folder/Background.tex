@@ -25,13 +25,12 @@ This chapter provides the necessary background \colorbox{red}{information} and t
     In the study of fundamental physics, we should assume that any term in the Lagrangian that is not forbidden by a basic principle (\textit{e.g.} a symmetry or gauge-invariance) should be included in order to account for all aspects of the system at hand. From gauge theory we are familiar with the idea of introducing a gauge field to render a Lagrangian gauge invariant and then include a gauge-invariant Yang-Mills term that is responsible for the dynamics of the gauge potential. Modulo subtleties, this is true in any number of dimensions. Taking these subtleties into account, it turns out that in 2+1 dimensions, the Yang-Mills term is not the only gauge invariant term one can include. One can write down a term in the action, which is the integral of a three-form, depending solely on the gauge field $A_{\mu}$. This term, whilst not manifestly gauge invariant, leaves the partition function unchanged under gauge \textcolor{red}{transformations}. This three-form is the Chern-Simons Lagrangian, which we write down here\colorbox{red}{ }
 
 \begin{equation}
-    {\mathcal{L}}_{CS}= \kappa \epsilon^{\mu\nu\rho} \  \mathrm{Tr} \left[ A_\mu\partial_\nu A_\rho +{2\over 3} A_\mu A_\nu A_\rho \right].
+    {\mathcal{L}}_{CS}= \kappa \, \epsilon^{\mu\nu\rho} \  \mathrm{Tr} \left[ A_\mu\partial_\nu A_\rho +{2\over 3} A_\mu A_\nu A_\rho \right].
 \label{cslag}
 \end{equation}
-The gauge field $A_\mu$ takes values in a finite dimensional representation of
-the (semi-simple) gauge Lie algebra ${\mathfrak{G}}$. In an abelian theory, the gauge fields
+\textcolor{Here $\kappa$ is the Chern-Simons level. We shall shortly derive a quantization condition related to this quantity.} The gauge field $A_\mu$ takes values in a finite dimensional representation \textcolor{red}{$\mathcal{R}$} of the (semi-simple) gauge Lie algebra ${\mathfrak{G}}$. \textcolor{red}{The $Tr$ operation is the standard matrix trace for an $dim(\mathcal{R})\times dim(\mathcal{R})$ matrix.}  In an abelian theory, the gauge fields
 $A_\mu$ commute, and so the trilinear term in \eqref{cslag} vanishes due to the
-antisymmetry of the $\epsilon^{\mu\nu\rho}$ symbol. In the nonabelian case (just as in Yang-Mills theory) we write
+antisymmetry of the $\epsilon^{\mu\nu\rho}$ \textcolor{red}{tensor}. In the nonabelian case (just as in Yang-Mills theory) we write
 \begin{align}
     A_\mu=A_\mu^a T^a,
 \end{align}
@@ -41,7 +40,7 @@ antisymmetry of the $\epsilon^{\mu\nu\rho}$ symbol. In the nonabelian case (just
  \end{align}
 and the normalization 
 \begin{align}
-    \tr(T^a T^b)=-\frac{1}{2}\delta^{ab}.
+    \colorbox{red}{\mathrm{Tr}}(T^a T^b)=-\frac{1}{2}\delta^{ab}.
 \end{align}
 
 We can define the field strength tensor in the usual way for a non-abelian gauge theory
@@ -52,9 +51,9 @@ We can define the field strength tensor in the usual way for a non-abelian gauge
 
 
 
-    $F_{\mu \nu}$ transforms in such a way that any expression that is the trace of a string of F's is gauge invariant. Since this Lagrangian is written in terms of $A_{\mu}$ as opposed to $F$, gauge invariance is no manifest.
+    $F_{\mu \nu}$ transforms \textcolor{red}{under a gauge transformation} in such a way that any expression that is the trace of a string of F's is gauge invariant. Since this Lagrangian is written in terms of $A_{\mu}$ as opposed to $F_{\textcolor{red}{\mu \nu}}$, gauge invariance is \textcolor{red}{not} manifest.
 
-    Before we delve into the details of the gauge invariance, it is helpful to venture into a quick digression about \textit{topology}. Topological invariants are such properties of spaces (and hence of field configurations defined on those spaces) that do not change under continuous transformations. And since most phenomena in the real world are continuous, we should expect that these invariants are important tools that we can use to better understand the physical world. Indeed, we shall see that these expectations are justified. 
+    Before we delve into the details of the gauge invariance \textcolor{red}{of this Lagrangian}, it is helpful to venture into a quick digression about \textit{topology}. Topological invariants are such properties of spaces (and hence of field configurations defined on those spaces) that do not change under continuous transformations. And since most phenomena in the real world are continuous, we should expect that these invariants are important tools that we can use to better understand the physical world. Indeed, we shall see that these expectations are justified. 
 
     One way topologists use to classify spaces is through \textit{homotopy groups}. An example is the first homotopy group $\pi_1$ or the \textit{fundamental group}. This group is an indicator of the ``connectivity'' of a manifold. Its definition has to do with whether a given loop can be contracted to a point. More precisely, one can define a group at each point on a manifold, whose elements are equivalency classes of loops that start and end at that point \textit{and} are continuously deformable into each other. For example, if all loops on a given space can be contracted to a point, then the fundamental group $\pi_1$ is trivial, since all elements of the group are the identity. The group operation on these loops is such that we create a new loop from $g_1$ and $g_2$ by going around $g_1$ first, then followed by going around $g_2$. It turns out that loops that encircle a singular point (or hole in the space) $n$ times are \textbf{not} continuously deformable into loops that encircle said point $n'$ times, if $n \neq n'$. This is an intuitive way of understanding the fact that for each hole in the space-time manifold, the fundamental group acquires a cartesian factor of $\mathbb{Z}$. Meaning that loops can wind around singular points arbitrarily many integer number of times and the number of loops around one singular point is independent of the number around another.
 

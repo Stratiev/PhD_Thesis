@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.3.30)  6 APR 2020 11:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.3.30)  6 APR 2020 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1782,7 +1782,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 ...kappa \epsilon^{\mu\nu\rho} \  \mathrm{Tr}
+l.28 ...pa \, \epsilon^{\mu\nu\rho} \  \mathrm{Tr}
                                                    \left[ A_\mu\partial_\nu ...
 
 ? 
@@ -1792,26 +1792,40 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                 on input line 28.
 
 
-! LaTeX Error: Too many math alphabets used in version normal.
+! Package xcolor Error: Undefined color `Here $\kappa $ is the Chern-Simons lev
+el. We shall shortly derive a quantization condition related to this quantity.'
+.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...ion condition related to this quantity.} T
+                                                  he gauge field $A_\mu$ tak...
+
+? 
+[7]
+
+! LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 \end{align}
+l.44 \end{align}
                 
 ? 
 
-! LaTeX Error: Too many math alphabets used in version normal.
+! LaTeX Error: \mathrm allowed only in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 \end{align}
+l.44 \end{align}
                 
 ? 
-[7] [8]
+[8]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -1819,7 +1833,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70     \end{align}
+l.69     \end{align}
                     
 ? 
 
@@ -1829,7 +1843,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70     \end{align}
+l.69     \end{align}
                     
 ? 
 
@@ -1839,7 +1853,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70     \end{align}
+l.69     \end{align}
                     
 ? 
 
@@ -1849,7 +1863,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70     \end{align}
+l.69     \end{align}
                     
 ? 
 
@@ -1859,7 +1873,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74     \end{align}
+l.73     \end{align}
                     
 ? 
 
@@ -1869,7 +1883,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74     \end{align}
+l.73     \end{align}
                     
 ? 
 [9]
@@ -1877,19 +1891,19 @@ l.74     \end{align}
 File: Background_Folder/figures/"""lrg_gauge1".pdf Graphic file (type pdf)
 <use Background_Folder/figures/"""lrg_gauge1".pdf>
 Package pdftex.def Info: Background_Folder/figures/"""lrg_gauge1".pdf  used on 
-input line 89.
+input line 88.
 (pdftex.def)             Requested size: 59.5517pt x 73.71442pt.
 <Background_Folder/figures/"""lrg_gauge2".pdf, id=507, 361.35pt x 360.34625pt>
 File: Background_Folder/figures/"""lrg_gauge2".pdf Graphic file (type pdf)
 <use Background_Folder/figures/"""lrg_gauge2".pdf>
 Package pdftex.def Info: Background_Folder/figures/"""lrg_gauge2".pdf  used on 
-input line 89.
+input line 88.
 (pdftex.def)             Requested size: 68.65721pt x 68.46649pt.
 <Background_Folder/figures/"""lrg_gauge3".pdf, id=508, 361.35pt x 360.34625pt>
 File: Background_Folder/figures/"""lrg_gauge3".pdf Graphic file (type pdf)
 <use Background_Folder/figures/"""lrg_gauge3".pdf>
 Package pdftex.def Info: Background_Folder/figures/"""lrg_gauge3".pdf  used on 
-input line 90.
+input line 89.
 (pdftex.def)             Requested size: 68.65721pt x 68.46649pt.
  [10 <./Background_Folder/figures/lrg_gauge1.pdf> <./Background_Folder/figures/
 lrg_gauge2.pdf
@@ -1900,10 +1914,7 @@ pdfTeX warning: pdflatex (file ./Background_Folder/figures/lrg_gauge2.pdf): PDF
 
 pdfTeX warning: pdflatex (file ./Background_Folder/figures/lrg_gauge3.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->]
-Underfull \vbox (badness 7433) has occurred while \output is active []
-
- [11]
+>] [11]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -1911,7 +1922,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137     \end{align}
+l.136     \end{align}
                      
 ? 
 
@@ -1921,44 +1932,44 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137     \end{align}
+l.136     \end{align}
                      
 ? 
 ! Double superscript.
 <argument> ...u \rho } F^a_{\nu \rho } = J^{\mu }^
                                                   a, 
-l.141     \end{align}
+l.140     \end{align}
                      
 ? 
 ! Double superscript.
 <argument> ...u \rho } F^a_{\nu \rho } = J^{\mu }^
                                                   a, 
-l.141     \end{align}
+l.140     \end{align}
                      
 ? 
 [12]
 ! Double superscript.
 <argument>  D_{\mu } J^{\mu }^
                               a = \frac {k}{4 \pi } \epsilon ^{\mu \nu \rho ...
-l.145     \end{align}
+l.144     \end{align}
                      
 ? 
 ! Double superscript.
 <argument> ...u \nu \rho } D_{\mu } F^{\nu \rho }^
                                                   a = 0, 
-l.145     \end{align}
+l.144     \end{align}
                      
 ? 
 ! Double superscript.
 <argument>  D_{\mu } J^{\mu }^
                               a = \frac {k}{4 \pi } \epsilon ^{\mu \nu \rho ...
-l.145     \end{align}
+l.144     \end{align}
                      
 ? 
 ! Double superscript.
 <argument> ...u \nu \rho } D_{\mu } F^{\nu \rho }^
                                                   a = 0, 
-l.145     \end{align}
+l.144     \end{align}
                      
 ? 
 <"Background_Folder/figures/""flux_attachment_improved".pdf, id=536, 1918.0044p
@@ -1967,7 +1978,7 @@ File: "Background_Folder/figures/""flux_attachment_improved".pdf Graphic file (
 type pdf)
 <use "Background_Folder/figures/""flux_attachment_improved".pdf>
 Package pdftex.def Info: "Background_Folder/figures/""flux_attachment_improved"
-.pdf  used on input line 167.
+.pdf  used on input line 166.
 (pdftex.def)             Requested size: 326.05643pt x 180.93697pt.
 [13] [14 <./Background_Folder/figures/flux_attachment_improved.pdf>] [15]
 Underfull \vbox (badness 2744) has occurred while \output is active []
@@ -1983,7 +1994,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255         \end{align}
+l.254         \end{align}
                          
 ? 
 
@@ -1993,44 +2004,44 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255         \end{align}
+l.254         \end{align}
                          
 ? 
 [18] [19]
 ! Extra }, or forgotten \right.
 <template> }
             $}\ifmeasuring@ \savefieldlength@ \fi \set@field \hfil \endtempl...
-l.288         \end{align}
+l.287         \end{align}
                          
 ? 
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.288         \end{align}
+l.287         \end{align}
                          
 ? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.288         \end{align}
+l.287         \end{align}
                          
 ? 
 ! Extra }, or forgotten \right.
 <template> }
             $}\ifmeasuring@ \savefieldlength@ \fi \set@field \hfil \endtempl...
-l.288         \end{align}
+l.287         \end{align}
                          
 ? 
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.288         \end{align}
+l.287         \end{align}
                          
 ? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.288         \end{align}
+l.287         \end{align}
                          
 ? 
 
@@ -2041,7 +2052,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.288         \end{align}
+l.287         \end{align}
                          
 ? 
 
@@ -2068,7 +2079,7 @@ File: "Background_Folder/figures/""solution_n1_magnetic_field_g_lambda".png Gra
 phic file (type png)
 <use "Background_Folder/figures/""solution_n1_magnetic_field_g_lambda".png>
 Package pdftex.def Info: "Background_Folder/figures/""solution_n1_magnetic_fiel
-d_g_lambda".png  used on input line 524.
+d_g_lambda".png  used on input line 523.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
 <"Background_Folder/figures/""solution_n1_scalar_field_g_lambda".png, id=699, 4
 62.528pt x 346.896pt>
@@ -2076,10 +2087,10 @@ File: "Background_Folder/figures/""solution_n1_scalar_field_g_lambda".png Graph
 ic file (type png)
 <use "Background_Folder/figures/""solution_n1_scalar_field_g_lambda".png>
 Package pdftex.def Info: "Background_Folder/figures/""solution_n1_scalar_field_
-g_lambda".png  used on input line 525.
+g_lambda".png  used on input line 524.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
 
-Overfull \hbox (9.18999pt too wide) in paragraph at lines 523--527
+Overfull \hbox (9.18999pt too wide) in paragraph at lines 522--526
  [][] 
  []
 
@@ -2097,25 +2108,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ! Double superscript.
 <argument> ...,...,n_p\rangle = \bm {a}^{\dag }_1^
                                                   {n_1}... \bm {a}^{\dag }_p...
-l.680     \end{align}
+l.679     \end{align}
                      
 ? 
 ! Double superscript.
 <argument> ...\dag }_1^{n_1}... \bm {a}^{\dag }_p^
                                                   {n_p}|0\rangle \colorbox {...
-l.680     \end{align}
+l.679     \end{align}
                      
 ? 
 ! Double superscript.
 <argument> ...,...,n_p\rangle = \bm {a}^{\dag }_1^
                                                   {n_1}... \bm {a}^{\dag }_p...
-l.680     \end{align}
+l.679     \end{align}
                      
 ? 
 ! Double superscript.
 <argument> ...\dag }_1^{n_1}... \bm {a}^{\dag }_p^
                                                   {n_p}|0\rangle \colorbox {...
-l.680     \end{align}
+l.679     \end{align}
                      
 ? 
 
@@ -2129,7 +2140,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.713     -
+l.712     -
             Specifically, non-commutative Chern-Simons theory arises as the ...
 
 ? 
@@ -3906,10 +3917,10 @@ Package rerunfilecheck Info: File `thesis.brf' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
- 35446 strings out of 492167
- 655507 string characters out of 6131558
+ 35447 strings out of 492167
+ 655630 string characters out of 6131558
  740445 words of memory out of 5000000
- 38504 multiletter control sequences out of 15000+600000
+ 38505 multiletter control sequences out of 15000+600000
  629038 words of font info for 261 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  64i,20n,83p,1780b,870s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3982,7 +3993,7 @@ sr/share/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/share/texmf-dist
 /fonts/type1/public/kpfonts/jkpsya.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/kpfonts/jkpsyb.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.p
 fb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on thesis.pdf (127 pages, 7724038 bytes).
+Output written on thesis.pdf (127 pages, 7724610 bytes).
 PDF statistics:
  2617 PDF objects out of 2984 (max. 8388607)
  2259 compressed objects within 23 object streams
