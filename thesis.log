@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.3.30)  6 APR 2020 14:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.3.30)  7 APR 2020 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3879,7 +3879,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout9 = `thesis.brf'.
 
 LaTeX Font Info:    Trying to load font information for OT1+jkptt on input line
- 17.
+ 19.
 
 (/usr/share/texmf-dist/tex/latex/kpfonts/ot1jkptt.fd
 File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
@@ -3895,7 +3895,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.480 
+l.558 
       
 ? 
 [114]) [115]
@@ -3918,7 +3918,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
  35447 strings out of 492167
- 655630 string characters out of 6131558
+ 655672 string characters out of 6131558
  740445 words of memory out of 5000000
  38505 multiletter control sequences out of 15000+600000
  629038 words of font info for 261 fonts, out of 8000000 for 9000
@@ -3993,10 +3993,10 @@ sr/share/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/share/texmf-dist
 /fonts/type1/public/kpfonts/jkpsya.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/kpfonts/jkpsyb.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.p
 fb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on thesis.pdf (127 pages, 7724610 bytes).
+Output written on thesis.pdf (127 pages, 7725425 bytes).
 PDF statistics:
- 2617 PDF objects out of 2984 (max. 8388607)
- 2259 compressed objects within 23 object streams
+ 2616 PDF objects out of 2984 (max. 8388607)
+ 2258 compressed objects within 23 object streams
  644 named destinations out of 1000 (max. 500000)
  680 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,6 @@
 - Fixed Introduction headers - ✓
 - Remove needless pages (Put the specific page numbers that were removed) -
+- Fixed title capitalization in the reference titles 
 - Put descriptive captions on all the figures so that they appear nicely in the list of figures. 
     - 1.1 Improved the Large gauge transformation caption. ✓
     - 1.2 Improved flux attachment caption. ✓ hbar consistency?
