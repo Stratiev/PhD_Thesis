@@ -121,7 +121,8 @@
                  bookmarksnumbered = true,
                  breaklinks = true,
                  linktocpage,
-                 pagebackref,
+                 % stanmod
+                 %pagebackref,
                  colorlinks = false,  % was true
                  linkcolor = blue,
                  urlcolor  = blue,
@@ -144,7 +145,8 @@
                  bookmarksnumbered = true,
                  breaklinks = true,
                  linktocpage,
-                 pagebackref,
+                 % stanmod
+                 %pagebackref,
                  colorlinks = false,  % was true
                  linkcolor = blue,
                  urlcolor  = blue,
@@ -165,7 +167,8 @@
                  bookmarksnumbered = true,
                  breaklinks = true,
                  linktocpage,
-                 pagebackref,
+                 % stanmod
+                 %pagebackref,
                  colorlinks = true,
                  linkcolor = blue,
                  urlcolor  = blue,

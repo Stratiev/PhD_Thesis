@@ -470,17 +470,18 @@ FUNCTION {format.editors}
   if$
 }
 
+% stanmod
 FUNCTION {format.title}
 { title empty$
     { "" }
-    { "``" title "t" change.case$ * ",''" * }
+    { "``" title "t" change.case$ * "\textcolor{red}{'',}" * }
   if$
 }
 
 FUNCTION {format.title.p}
 { title empty$
     { "" }
-    { "``" title "t" change.case$ * ".''" * }
+    { "``" title "t" change.case$ * "''." * }
   if$
 }
 

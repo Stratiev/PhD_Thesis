@@ -13,50 +13,59 @@ A level-1 auxiliary file: Conclusions_Folder/Conclusions.aux
 A level-1 auxiliary file: Appendices_Folder/appendix_Chapter_3.aux
 The style file: Reference_Folder/utphys.bst
 Database file #1: Reference_Folder/references.bib
-Repeated entry---line 1219 of file Reference_Folder/references.bib
+Repeated entry---line 917 of file Reference_Folder/references.bib
+ : @article{Jain:2013gza
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1349 of file Reference_Folder/references.bib
  : @article{Aharony:2012nh
  :                        ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "1110.4386"
+Warning--I didn't find a database entry for "1211.4843"
+Warning--I didn't find a database entry for "hep-th/0103013"
+Warning--empty booktitle in Tong:2016kpv
+Warning--empty year in Dunne:1998qy
 Warning--empty pages in NavarroLrida2010
-You've used 90 entries,
+You've used 89 entries,
             2328 wiz_defined-function locations,
-            1280 strings with 25839 characters,
-and the built_in function-call counts, 25688 in all, are:
-= -- 2707
-> -- 740
+            1339 strings with 22905 characters,
+and the built_in function-call counts, 29002 in all, are:
+= -- 3083
+> -- 729
 < -- 0
-+ -- 287
-- -- 197
-* -- 2451
-:= -- 3098
-add.period$ -- 150
-call.type$ -- 90
-change.case$ -- 136
++ -- 283
+- -- 194
+* -- 2772
+:= -- 3344
+add.period$ -- 169
+call.type$ -- 89
+change.case$ -- 121
 chr.to.int$ -- 0
-cite$ -- 91
-duplicate$ -- 1310
-empty$ -- 2556
-format.name$ -- 197
-if$ -- 6633
+cite$ -- 92
+duplicate$ -- 1551
+empty$ -- 2923
+format.name$ -- 194
+if$ -- 7598
 int.to.chr$ -- 0
-int.to.str$ -- 90
-missing$ -- 319
-newline$ -- 341
-num.names$ -- 90
-pop$ -- 418
+int.to.str$ -- 89
+missing$ -- 337
+newline$ -- 390
+num.names$ -- 89
+pop$ -- 435
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 858
+skip$ -- 1060
 stack$ -- 0
-substring$ -- 1331
-swap$ -- 571
+substring$ -- 1622
+swap$ -- 746
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 213
-width$ -- 92
-write$ -- 720
-(There was 1 error message)
+warning$ -- 3
+while$ -- 236
+width$ -- 91
+write$ -- 761
+(There were 2 error messages)
