@@ -13,59 +13,79 @@ A level-1 auxiliary file: Conclusions_Folder/Conclusions.aux
 A level-1 auxiliary file: Appendices_Folder/appendix_Chapter_3.aux
 The style file: Reference_Folder/utphys.bst
 Database file #1: Reference_Folder/references.bib
-Repeated entry---line 917 of file Reference_Folder/references.bib
+You're missing a field name---line 192 of file Reference_Folder/references.bib
+ :     
+ :     % primaryClass   = "hep-th",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 795 of file Reference_Folder/references.bib
+ :     
+ :     % primaryClass   = "hep-th",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 884 of file Reference_Folder/references.bib
+ :      
+ :      %primaryClass   = "hep-th",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 898 of file Reference_Folder/references.bib
+ :      
+ :      %primaryClass   = "hep-th",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 982 of file Reference_Folder/references.bib
  : @article{Jain:2013gza
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1349 of file Reference_Folder/references.bib
+Repeated entry---line 1242 of file Reference_Folder/references.bib
+ : @article{Susskind:2001fb
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1438 of file Reference_Folder/references.bib
  : @article{Aharony:2012nh
  :                        ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "1110.4386"
-Warning--I didn't find a database entry for "1211.4843"
-Warning--I didn't find a database entry for "hep-th/0103013"
 Warning--empty booktitle in Tong:2016kpv
 Warning--empty year in Dunne:1998qy
-Warning--empty pages in NavarroLrida2010
 You've used 89 entries,
             2328 wiz_defined-function locations,
-            1339 strings with 22905 characters,
-and the built_in function-call counts, 29002 in all, are:
-= -- 3083
+            1341 strings with 22387 characters,
+and the built_in function-call counts, 29410 in all, are:
+= -- 3105
 > -- 729
 < -- 0
 + -- 283
 - -- 194
-* -- 2772
-:= -- 3344
-add.period$ -- 169
+* -- 2781
+:= -- 3356
+add.period$ -- 165
 call.type$ -- 89
-change.case$ -- 121
+change.case$ -- 103
 chr.to.int$ -- 0
-cite$ -- 92
-duplicate$ -- 1551
-empty$ -- 2923
+cite$ -- 91
+duplicate$ -- 1611
+empty$ -- 2978
 format.name$ -- 194
-if$ -- 7598
+if$ -- 7748
 int.to.chr$ -- 0
 int.to.str$ -- 89
-missing$ -- 337
-newline$ -- 390
+missing$ -- 341
+newline$ -- 398
 num.names$ -- 89
-pop$ -- 435
+pop$ -- 448
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1060
+skip$ -- 1124
 stack$ -- 0
-substring$ -- 1622
-swap$ -- 746
+substring$ -- 1604
+swap$ -- 798
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 236
+warning$ -- 2
+while$ -- 235
 width$ -- 91
-write$ -- 761
-(There were 2 error messages)
+write$ -- 763
+(There were 7 error messages)

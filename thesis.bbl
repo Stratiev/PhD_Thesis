@@ -1,79 +1,66 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
 \bibitem{Polyakov:1974ek}
-A.~M. Polyakov, ``{{P}article {S}pectrum in the {Q}uantum {F}ield
-  {T}heory}\textcolor{red}{'',} {\em JETP Lett.} {\bfseries 20} (1974)
-  194--195.
+A.~M. Polyakov, ``{{P}article {S}pectrum in the {Q}uantum {F}ield {T}heory}'',
+  {\em JETP Lett.} {\bfseries 20} (1974) 194--195.
 
 \bibitem{tHooft:1974kcl}
-G.~'t~Hooft, ``{{M}agnetic {M}onopoles in {U}nified {G}auge
-  {T}heories}\textcolor{red}{'',}
+G.~'t~Hooft, ``{{M}agnetic {M}onopoles in {U}nified {G}auge {T}heories}'',
   \href{http://dx.doi.org/10.1016/0550-3213(74)90486-6}{{\em Nucl.\ Phys.\ B}
   {\bfseries 79} (1974) 276--284}.
 
-\bibitem{Polyakov1977}
-A.~Polyakov, ``{Q}uark confinement and topology of gauge
-  theories\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1016/0550-3213(77)90086-4}{{\em Nuclear Physics B}
-  {\bfseries 120} no.~3, (Mar., 1977) 429--458}.
-  \url{https://doi.org/10.1016/0550-3213(77)90086-4}.
+\bibitem{Polyakov:1976fu}
+A.~M. Polyakov, ``{Quark Confinement and Topology of Gauge Groups}'',
+  \href{http://dx.doi.org/10.1016/0550-3213(77)90086-4}{{\em Nucl.\ Phys.\ B}
+  {\bfseries 120} (1977) 429--458}.
 
 \bibitem{Aharony:2012nh}
 O.~Aharony, G.~Gur-Ari, and R.~Yacoby, ``{{C}orrelation {F}unctions of {L}arge
   {N} {C}hern-{S}imons-{M}atter Theories and Bosonization in Three
-  Dimensions}\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1007/JHEP12(2012)028}{{\em JHEP} {\bfseries 12}
-  (2012) 028},
+  Dimensions}'', \href{http://dx.doi.org/10.1007/JHEP12(2012)028}{{\em JHEP}
+  {\bfseries 12} (2012) 028},
 \href{http://arxiv.org/abs/1207.4593}{{\ttfamily arXiv:1207.4593}}.
 %%CITATION = ARXIV:1207.4593;%%.
 
 \bibitem{Carlip:2005zn}
 S.~Carlip, ``{Conformal field theory, (2+1)-dimensional gravity, and the BTZ
-  black hole}\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1088/0264-9381/22/12/R01}{{\em Class. Quant.
-  Grav.} {\bfseries 22} (2005) R85--R124},
+  black hole}'', \href{http://dx.doi.org/10.1088/0264-9381/22/12/R01}{{\em
+  Class. Quant. Grav.} {\bfseries 22} (2005) R85--R124},
 \href{http://arxiv.org/abs/gr-qc/0503022}{{\ttfamily arXiv:gr-qc/0503022}}.
 %%CITATION = GR-QC/0503022;%%.
 
 \bibitem{Zee}
-A.~Zee, \href{http://dx.doi.org/10.1007/bfb0113369}{``Quantum hall
-  fluids\textcolor{red}{'',}} in {\em Field Theory, Topology and Condensed
-  Matter Physics}, pp.~99--153.
+A.~Zee, \href{http://dx.doi.org/10.1007/bfb0113369}{``Quantum hall fluids'',}
+  in {\em Field Theory, Topology and Condensed Matter Physics}, pp.~99--153.
 \newblock Springer Berlin Heidelberg, 1995.
 \newblock \url{https://doi.org/10.1007/bfb0113369}.
 
 \bibitem{Tong:2016kpv}
-D.~Tong, ``{Lectures on the Quantum Hall Effect}\textcolor{red}{'',}
+D.~Tong, ``{Lectures on the Quantum Hall Effect}'',
 \newblock 2016.
-\newblock \href{http://arxiv.org/abs/1606.06687}{{\ttfamily
-  \textcolor{red}{arXiv}:1606.06687}}.
+\newblock \href{http://arxiv.org/abs/1606.06687}{{\ttfamily arXiv:1606.06687}}.
 
-\bibitem{Moore1989}
-G.~Moore and N.~Seiberg, ``{T}aming the conformal zoo\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1016/0370-2693(89)90897-6}{{\em Physics Letters B}
-  {\bfseries 220} no.~3, (Apr., 1989) 422--430}.
-  \url{https://doi.org/10.1016/0370-2693(89)90897-6}.
+\bibitem{Moore:1989yh}
+G.~W. Moore and N.~Seiberg, ``{Taming the Conformal Zoo}'',
+  \href{http://dx.doi.org/10.1016/0370-2693(89)90897-6}{{\em Phys.\ Lett.\ B}
+  {\bfseries 220} (1989) 422--430}.
 
-\bibitem{Witten1989}
-E.~Witten, ``{Q}uantum field theory and the \textcolor{red}{J}ones
-  polynomial\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1007/bf01217730}{{\em Communications in
-  Mathematical Physics} {\bfseries 121} no.~3, (Sept., 1989) 351--399}.
-  \url{https://doi.org/10.1007/bf01217730}.
+\bibitem{Witten:1988hf}
+E.~Witten, ``{Quantum Field Theory and the Jones Polynomial}'',
+  \href{http://dx.doi.org/10.1007/BF01217730}{{\em Commun.\ Math.\ Phys.}
+  {\bfseries 121} (1989) 351--399}.
 
 \bibitem{Aharony:2015mjs}
 O.~Aharony, ``{Baryons, monopoles and dualities in Chern-Simons-matter
-  theories}\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1007/JHEP02(2016)093}{{\em JHEP} {\bfseries 02}
-  (2016) 093},
+  theories}'', \href{http://dx.doi.org/10.1007/JHEP02(2016)093}{{\em JHEP}
+  {\bfseries 02} (2016) 093},
 \href{http://arxiv.org/abs/1512.00161}{{\ttfamily arXiv:1512.00161}}.
 %%CITATION = ARXIV:1512.00161;%%.
 
 \bibitem{Dunne:1998qy}
-G.~V. Dunne, ``{Aspects of Chern-Simons theory}\textcolor{red}{'',} in {\em
-  {Topological Aspects of Low-dimensional Systems: Proceedings, Les Houches
-  Summer School of Theoretical Physics, Session 69: Les Houches, France, July
-  7-31 1998}}.
+G.~V. Dunne, ``{Aspects of Chern-Simons theory}'', in {\em {Topological Aspects
+  of Low-dimensional Systems: Proceedings, Les Houches Summer School of
+  Theoretical Physics, Session 69: Les Houches, France, July 7-31 1998}}.
 \newblock
 \href{http://arxiv.org/abs/hep-th/9902115}{{\ttfamily arXiv:hep-th/9902115}}.
 \newblock
@@ -84,65 +71,58 @@ M.~Nakahara, {\em {G}eometry, {T}opology and {P}hysics}.
 \newblock Institute of Physics Publishing, 2003.
 
 \bibitem{Abrikosov1957}
-A.~Abrikosov, ``{T}he magnetic properties of superconducting
-  alloys\textcolor{red}{'',}
+A.~Abrikosov, ``{T}he magnetic properties of superconducting alloys'',
   \href{http://dx.doi.org/10.1016/0022-3697(57)90083-5}{{\em Journal of Physics
   and Chemistry of Solids} {\bfseries 2} no.~3, (Jan., 1957) 199--208}.
   \url{https://doi.org/10.1016/0022-3697(57)90083-5}.
 
-\bibitem{Nielsen1973}
-H.~Nielsen and P.~Olesen, ``{V}ortex-line models for dual
-  strings\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1016/0550-3213(73)90350-7}{{\em Nuclear Physics B}
-  {\bfseries 61} (Sept., 1973) 45--61}.
-  \url{https://doi.org/10.1016/0550-3213(73)90350-7}.
+\bibitem{Nielsen:1973cs}
+H.~B. Nielsen and P.~Olesen, ``{Vortex Line Models for Dual Strings}'',
+  \href{http://dx.doi.org/10.1016/0550-3213(73)90350-7}{{\em Nucl.\ Phys.\ B}
+  {\bfseries 61} (1973) 45--61}.
 
-\bibitem{Paul1986}
-S.~K. Paul and A.~Khare, ``{C}harged vortices in an abelian
-  \textcolor{red}{H}iggs model with
-  \textcolor{red}{C}hern-\textcolor{red}{S}imons term\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1016/0370-2693(86)91028-2}{{\em Physics Letters B}
-  {\bfseries 174} no.~4, (July, 1986) 420--422}.
-  \url{https://doi.org/10.1016/0370-2693(86)91028-2}.
+\bibitem{Paul:1986ix}
+S.~K. Paul and A.~Khare, ``{Charged Vortices in Abelian Higgs Model with
+  Chern-Simons Term}'', \href{http://dx.doi.org/10.1016/0370-2693(86)90788-4,
+  10.1016/0370-2693(86)91028-2}{{\em Phys. Lett.} {\bfseries B174} (1986)
+  420--422}.
+[Erratum: Phys. Lett.B177,453(1986)].
+%%CITATION = PHLTA,B174,420;%%.
 
 \bibitem{Hong1990}
 J.~Hong, Y.~Kim, and P.~Y. Pac, ``{M}ultivortex solutions of the
   \textcolor{red}{A}belian
   \textcolor{red}{C}hern-\textcolor{red}{S}imons-\textcolor{red}{H}iggs
-  theory\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1103/physrevlett.64.2230}{{\em Physical Review
-  Letters} {\bfseries 64} no.~19, (May, 1990) 2230--2233}.
+  theory'', \href{http://dx.doi.org/10.1103/physrevlett.64.2230}{{\em Physical
+  Review Letters} {\bfseries 64} no.~19, (May, 1990) 2230--2233}.
   \url{https://doi.org/10.1103/physrevlett.64.2230}.
 
 \bibitem{Jackiw1990a}
 R.~Jackiw and E.~J. Weinberg, ``{S}elf-dual
-  \textcolor{red}{C}hern-\textcolor{red}{S}imons vortices\textcolor{red}{'',}
+  \textcolor{red}{C}hern-\textcolor{red}{S}imons vortices'',
   \href{http://dx.doi.org/10.1103/physrevlett.64.2234}{{\em Physical Review
   Letters} {\bfseries 64} no.~19, (May, 1990) 2234--2237}.
   \url{https://doi.org/10.1103/physrevlett.64.2234}.
 
 \bibitem{Jackiw1990b}
 R.~Jackiw, K.~Lee, and E.~J. Weinberg, ``{S}elf-dual
-  \textcolor{red}{C}hern-\textcolor{red}{S}imons solitons\textcolor{red}{'',}
+  \textcolor{red}{C}hern-\textcolor{red}{S}imons solitons'',
   \href{http://dx.doi.org/10.1103/physrevd.42.3488}{{\em Physical Review D}
   {\bfseries 42} no.~10, (Nov., 1990) 3488--3499}.
   \url{https://doi.org/10.1103/physrevd.42.3488}.
 
 \bibitem{Bogomolny:1975de}
-E.~B. Bogomolny, ``{{S}tability of {C}lassical {S}olutions}\textcolor{red}{'',}
-  {\em Sov. J. Nucl. Phys.} {\bfseries 24} (1976) 449.
-[Yad. Fiz.24,861(1976)].
-%%CITATION = SJNCA,24,449;%%.
+E.~Bogomolny, ``{Stability of Classical Solutions}'', {\em Sov.\ J.\ Nucl.\
+  Phys.} {\bfseries 24} (1976) 449.
 
 \bibitem{Prasad:1975kr}
 M.~Prasad and C.~M. Sommerfield, ``{An Exact Classical Solution for the 't
-  Hooft Monopole and the Julia-Zee Dyon}\textcolor{red}{'',}
+  Hooft Monopole and the Julia-Zee Dyon}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.35.760}{{\em Phys.\ Rev.\ Lett.}
   {\bfseries 35} (1975) 760--762}.
 
 \bibitem{Karch:2016sxi}
-A.~Karch and D.~Tong, ``{Particle-Vortex Duality from 3d
-  Bosonization}\textcolor{red}{'',}
+A.~Karch and D.~Tong, ``{Particle-Vortex Duality from 3d Bosonization}'',
   \href{http://dx.doi.org/10.1103/PhysRevX.6.031043}{{\em Phys. Rev.}
   {\bfseries X6} no.~3, (2016) 031043},
 \href{http://arxiv.org/abs/1606.01893}{{\ttfamily arXiv:1606.01893}}.
@@ -154,22 +134,21 @@ R.~Feynman, {\em {T}he {C}haracter of {P}hysical {L}aw}.
 
 \bibitem{Klebanov:2002ja}
 I.~R. Klebanov and A.~M. Polyakov, ``{AdS dual of the critical O(N) vector
-  model}\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1016/S0370-2693(02)02980-5}{{\em Phys. Lett.}
-  {\bfseries B550} (2002) 213--219},
+  model}'', \href{http://dx.doi.org/10.1016/S0370-2693(02)02980-5}{{\em Phys.
+  Lett.} {\bfseries B550} (2002) 213--219},
 \href{http://arxiv.org/abs/hep-th/0210114}{{\ttfamily arXiv:hep-th/0210114}}.
 %%CITATION = HEP-TH/0210114;%%.
 
 \bibitem{Aharony:2011jz}
 O.~Aharony, G.~Gur-Ari, and R.~Yacoby, ``{d=3 Bosonic Vector Models Coupled to
-  Chern-Simons Gauge Theories}\textcolor{red}{'',}
+  Chern-Simons Gauge Theories}'',
   \href{http://dx.doi.org/10.1007/JHEP03(2012)037}{{\em JHEP} {\bfseries 03}
   (2012) 037},
 \href{http://arxiv.org/abs/1110.4382}{{\ttfamily arXiv:1110.4382}}.
 %%CITATION = ARXIV:1110.4382;%%.
 
 \bibitem{Burgess:1993np}
-C.~P. Burgess and F.~Quevedo, ``{Bosonization as duality}\textcolor{red}{'',}
+C.~P. Burgess and F.~Quevedo, ``{Bosonization as duality}'',
   \href{http://dx.doi.org/10.1016/0550-3213(94)90332-8}{{\em Nucl. Phys.}
   {\bfseries B421} (1994) 373--390},
 \href{http://arxiv.org/abs/hep-th/9401105}{{\ttfamily arXiv:hep-th/9401105}}.
@@ -177,7 +156,7 @@ C.~P. Burgess and F.~Quevedo, ``{Bosonization as duality}\textcolor{red}{'',}
 
 \bibitem{Barci:1995iy}
 D.~G. Barci, C.~D. Fosco, and L.~E. Oxman, ``{On bosonization in
-  three-dimensions}\textcolor{red}{'',}
+  three-dimensions}'',
   \href{http://dx.doi.org/10.1016/0370-2693(96)00224-9}{{\em Phys. Lett.}
   {\bfseries B375} (1996) 267--272},
 \href{http://arxiv.org/abs/hep-th/9508075}{{\ttfamily arXiv:hep-th/9508075}}.
@@ -185,44 +164,42 @@ D.~G. Barci, C.~D. Fosco, and L.~E. Oxman, ``{On bosonization in
 
 \bibitem{Naculich:1990pa}
 S.~G. Naculich, H.~A. Riggs, and H.~J. Schnitzer, ``{Group Level Duality in
-  {WZW} Models and {Chern-Simons} Theory}\textcolor{red}{'',}
+  {WZW} Models and {Chern-Simons} Theory}'',
 \href{http://dx.doi.org/10.1016/0370-2693(90)90623-E}{{\em Phys. Lett.}
   {\bfseries B246} (1990) 417--422}.
 %%CITATION = PHLTA,B246,417;%%.
 
 \bibitem{Camperi:1990dk}
 M.~Camperi, F.~Levstein, and G.~Zemba, ``{The Large $N$ Limit of {Chern-Simons}
-  Gauge Theory}\textcolor{red}{'',}
+  Gauge Theory}'',
 \href{http://dx.doi.org/10.1016/0370-2693(90)91899-M}{{\em Phys. Lett.}
   {\bfseries B247} (1990) 549--554}.
 %%CITATION = PHLTA,B247,549;%%.
 
 \bibitem{Mlawer:1990uv}
 E.~J. Mlawer, S.~G. Naculich, H.~A. Riggs, and H.~J. Schnitzer, ``{Group level
-  duality of WZW fusion coefficients and Chern-Simons link
-  observables}\textcolor{red}{'',}
+  duality of WZW fusion coefficients and Chern-Simons link observables}'',
 \href{http://dx.doi.org/10.1016/0550-3213(91)90110-J}{{\em Nucl. Phys.}
   {\bfseries B352} (1991) 863--896}.
 %%CITATION = NUPHA,B352,863;%%.
 
 \bibitem{Nakanishi:1990hj}
 T.~Nakanishi and A.~Tsuchiya, ``{Level rank duality of WZW models in conformal
-  field theory}\textcolor{red}{'',}
+  field theory}'',
 \href{http://dx.doi.org/10.1007/BF02101097}{{\em Commun. Math. Phys.}
   {\bfseries 144} (1992) 351--372}.
 %%CITATION = CMPHA,144,351;%%.
 
 \bibitem{Naculich:2007nc}
 S.~G. Naculich and H.~J. Schnitzer, ``{Level-rank duality of the U(N) WZW
-  model, Chern-Simons theory, and 2-D qYM theory}\textcolor{red}{'',}
+  model, Chern-Simons theory, and 2-D qYM theory}'',
   \href{http://dx.doi.org/10.1088/1126-6708/2007/06/023}{{\em JHEP} {\bfseries
   06} (2007) 023},
 \href{http://arxiv.org/abs/hep-th/0703089}{{\ttfamily arXiv:hep-th/0703089}}.
 %%CITATION = HEP-TH/0703089;%%.
 
 \bibitem{Giveon:2008zn}
-A.~Giveon and D.~Kutasov, ``{Seiberg Duality in Chern-Simons
-  Theory}\textcolor{red}{'',}
+A.~Giveon and D.~Kutasov, ``{Seiberg Duality in Chern-Simons Theory}'',
   \href{http://dx.doi.org/10.1016/j.nuclphysb.2008.09.045}{{\em Nucl. Phys.}
   {\bfseries B812} (2009) 1--11},
 \href{http://arxiv.org/abs/0808.0360}{{\ttfamily arXiv:0808.0360}}.
@@ -230,31 +207,28 @@ A.~Giveon and D.~Kutasov, ``{Seiberg Duality in Chern-Simons
 
 \bibitem{Benini:2011mf}
 F.~Benini, C.~Closset, and S.~Cremonesi, ``{Comments on 3d Seiberg-like
-  dualities}\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1007/JHEP10(2011)075}{{\em JHEP} {\bfseries 10}
-  (2011) 075},
+  dualities}'', \href{http://dx.doi.org/10.1007/JHEP10(2011)075}{{\em JHEP}
+  {\bfseries 10} (2011) 075},
 \href{http://arxiv.org/abs/1108.5373}{{\ttfamily arXiv:1108.5373}}.
 %%CITATION = ARXIV:1108.5373;%%.
 
 \bibitem{Aharony:2013dha}
 O.~Aharony, S.~S. Razamat, N.~Seiberg, and B.~Willett, ``{3d dualities from 4d
-  dualities}\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1007/JHEP07(2013)149}{{\em {JHEP}} {\bfseries
-  {07}} ({2013}) {149}},
+  dualities}'', \href{http://dx.doi.org/10.1007/JHEP07(2013)149}{{\em {JHEP}}
+  {\bfseries {07}} ({2013}) {149}},
 \href{http://arxiv.org/abs/1305.3924}{{\ttfamily arXiv:1305.3924}}.
 %%CITATION = ARXIV:1305.3924;%%.
 
 \bibitem{Aharony:2014uya}
 O.~Aharony and D.~Fleischer, ``{IR Dualities in General 3d Supersymmetric SU(N)
-  QCD Theories}\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1007/JHEP02(2015)162}{{\em JHEP} {\bfseries 02}
-  (2015) 162},
+  QCD Theories}'', \href{http://dx.doi.org/10.1007/JHEP02(2015)162}{{\em JHEP}
+  {\bfseries 02} (2015) 162},
 \href{http://arxiv.org/abs/1411.5475}{{\ttfamily arXiv:1411.5475}}.
 %%CITATION = ARXIV:1411.5475;%%.
 
 \bibitem{Aharony:2012ns}
 O.~Aharony, S.~Giombi, G.~Gur-Ari, J.~Maldacena, and R.~Yacoby, ``{The Thermal
-  Free Energy in Large N Chern-Simons-Matter Theories}\textcolor{red}{'',}
+  Free Energy in Large N Chern-Simons-Matter Theories}'',
   \href{http://dx.doi.org/10.1007/JHEP03(2013)121}{{\em JHEP} {\bfseries 03}
   (2013) 121},
 \href{http://arxiv.org/abs/1211.4843}{{\ttfamily arXiv:1211.4843}}.
@@ -262,7 +236,7 @@ O.~Aharony, S.~Giombi, G.~Gur-Ari, J.~Maldacena, and R.~Yacoby, ``{The Thermal
 
 \bibitem{Giombi:2011kc}
 S.~Giombi, S.~Minwalla, S.~Prakash, S.~P. Trivedi, S.~R. Wadia, and X.~Yin,
-  ``{Chern-Simons Theory with Vector Fermion Matter}\textcolor{red}{'',}
+  ``{Chern-Simons Theory with Vector Fermion Matter}'',
   \href{http://dx.doi.org/10.1140/epjc/s10052-012-2112-0}{{\em Eur. Phys. J.}
   {\bfseries C72} (2012) 2112},
 \href{http://arxiv.org/abs/1110.4386}{{\ttfamily arXiv:1110.4386}}.
@@ -270,7 +244,7 @@ S.~Giombi, S.~Minwalla, S.~Prakash, S.~P. Trivedi, S.~R. Wadia, and X.~Yin,
 
 \bibitem{Jain:2013gza}
 S.~Jain, S.~Minwalla, and S.~Yokoyama, ``{Chern Simons duality with a
-  fundamental boson and fermion}\textcolor{red}{'',}
+  fundamental boson and fermion}'',
   \href{http://dx.doi.org/10.1007/JHEP11(2013)037}{{\em JHEP} {\bfseries 11}
   (2013) 037},
 \href{http://arxiv.org/abs/1305.7235}{{\ttfamily arXiv:1305.7235}}.
@@ -278,30 +252,27 @@ S.~Jain, S.~Minwalla, and S.~Yokoyama, ``{Chern Simons duality with a
 
 \bibitem{Gur-Ari:2015pca}
 G.~Gur-Ari and R.~Yacoby, ``{Three Dimensional Bosonization From
-  Supersymmetry}\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1007/JHEP11(2015)013}{{\em JHEP} {\bfseries 11}
-  (2015) 013},
+  Supersymmetry}'', \href{http://dx.doi.org/10.1007/JHEP11(2015)013}{{\em JHEP}
+  {\bfseries 11} (2015) 013},
 \href{http://arxiv.org/abs/1507.04378}{{\ttfamily arXiv:1507.04378}}.
 %%CITATION = ARXIV:1507.04378;%%.
 
 \bibitem{Polychronakos:2007df}
-A.~P. Polychronakos, ``{Non-commutative Fluids}\textcolor{red}{'',}
+A.~P. Polychronakos, ``{Non-commutative Fluids}'',
   \href{http://dx.doi.org/10.1007/978-3-7643-8522-4_3}{{\em Prog. Math. Phys.}
   {\bfseries 53} (2007) 109--159},
 \href{http://arxiv.org/abs/0706.1095}{{\ttfamily arXiv:0706.1095}}.
 %%CITATION = ARXIV:0706.1095;%%.
 
 \bibitem{Szabo:2001kg}
-R.~J. Szabo, ``{Quantum field theory on noncommutative
-  spaces}\textcolor{red}{'',}
+R.~J. Szabo, ``{Quantum field theory on noncommutative spaces}'',
   \href{http://dx.doi.org/10.1016/S0370-1573(03)00059-0}{{\em Phys. Rept.}
   {\bfseries 378} (2003) 207--299},
 \href{http://arxiv.org/abs/hep-th/0109162}{{\ttfamily arXiv:hep-th/0109162}}.
 %%CITATION = HEP-TH/0109162;%%.
 
 \bibitem{Douglas:2001ba}
-M.~R. Douglas and N.~A. Nekrasov, ``{Noncommutative field
-  theory}\textcolor{red}{'',}
+M.~R. Douglas and N.~A. Nekrasov, ``{Noncommutative field theory}'',
   \href{http://dx.doi.org/10.1103/RevModPhys.73.977}{{\em Rev. Mod. Phys.}
   {\bfseries 73} (2001) 977--1029},
 \href{http://arxiv.org/abs/hep-th/0106048}{{\ttfamily arXiv:hep-th/0106048}}.
@@ -309,95 +280,94 @@ M.~R. Douglas and N.~A. Nekrasov, ``{Noncommutative field
 
 \bibitem{Jackiw:2002pn}
 R.~Jackiw, S.~Y. Pi, and A.~P. Polychronakos, ``{Noncommuting Gauge Fields as a
-  Lagrange Fluid}\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1006/aphy.2002.6290}{{\em Annals Phys.} {\bfseries
-  301} (2002) 157--173},
+  Lagrange Fluid}'', \href{http://dx.doi.org/10.1006/aphy.2002.6290}{{\em
+  Annals Phys.} {\bfseries 301} (2002) 157--173},
 \href{http://arxiv.org/abs/hep-th/0206014}{{\ttfamily arXiv:hep-th/0206014}}.
 %%CITATION = HEP-TH/0206014;%%.
 
 \bibitem{Snyder1947_space_time}
-H.~S. Snyder, ``{Q}uantized
-  \textcolor{red}{S}pace-\textcolor{red}{T}ime\textcolor{red}{'',}
+H.~S. Snyder, ``{Q}uantized \textcolor{red}{S}pace-\textcolor{red}{T}ime'',
   \href{http://dx.doi.org/10.1103/physrev.71.38}{{\em Physical Review}
   {\bfseries 71} no.~1, (Jan., 1947) 38--41}.
   \url{https://doi.org/10.1103/physrev.71.38}.
 
 \bibitem{Snyder1947_EM}
 H.~S. Snyder, ``{T}he \textcolor{red}{E}lectromagnetic \textcolor{red}{F}ield
-  in \textcolor{red}{Q}uantized
-  \textcolor{red}{S}pace-\textcolor{red}{T}ime\textcolor{red}{'',}
+  in \textcolor{red}{Q}uantized \textcolor{red}{S}pace-\textcolor{red}{T}ime'',
   \href{http://dx.doi.org/10.1103/physrev.72.68}{{\em Physical Review}
   {\bfseries 72} no.~1, (July, 1947) 68--71}.
   \url{https://doi.org/10.1103/physrev.72.68}.
 
 \bibitem{Polychronakos:2001mi}
-A.~P. Polychronakos, ``{Quantum Hall states as matrix Chern-Simons
-  theory}\textcolor{red}{'',}
+A.~P. Polychronakos, ``{Quantum Hall states as matrix Chern-Simons theory}'',
   \href{http://dx.doi.org/10.1088/1126-6708/2001/04/011}{{\em JHEP} {\bfseries
   04} (2001) 011}, \href{http://arxiv.org/abs/hep-th/0103013}{{\ttfamily
   arXiv:hep-th/0103013}}.
 
 \bibitem{PhysRevLett.62.82}
 S.~C. Zhang, T.~H. Hansson, and S.~Kivelson, ``{E}ffective-{F}ield-{T}heory
-  {M}odel for the {F}ractional {Q}uantum {H}all {E}ffect\textcolor{red}{'',}
+  {M}odel for the {F}ractional {Q}uantum {H}all {E}ffect'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.62.82}{{\em Phys. Rev. Lett.}
   {\bfseries 62} (Jan, 1989) 82--85}.
   \url{https://link.aps.org/doi/10.1103/PhysRevLett.62.82}.
 
 \bibitem{Horvathy:2008hd}
 P.~A. Horvathy and P.~Zhang, ``{Vortices in (abelian) Chern-Simons gauge
-  theory}\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1016/j.physrep.2009.07.003}{{\em Phys.\ Rept.}
-  {\bfseries 481} (2009) 83--142},
-  \href{http://arxiv.org/abs/0811.2094}{{\ttfamily arXiv:0811.2094 [hep-th]}}.
+  theory}'', \href{http://dx.doi.org/10.1016/j.physrep.2009.07.003}{{\em Phys.\
+  Rept.} {\bfseries 481} (2009) 83--142},
+  \href{http://arxiv.org/abs/0811.2094}{{\ttfamily arXiv:0811.2094}}.
 
 \bibitem{Kumar:2018nkf}
 S.~P. Kumar, D.~Roychowdhury, and S.~Stratiev, ``{{R}oton-phonon excitations in
-  {C}hern-{S}imons matter theory at finite density}\textcolor{red}{'',}
+  {C}hern-{S}imons matter theory at finite density}'',
   \href{http://dx.doi.org/10.1007/JHEP12(2018)116}{{\em JHEP} {\bfseries 12}
   (2018) 116},
 \href{http://arxiv.org/abs/1806.06976}{{\ttfamily arXiv:1806.06976}}.
 %%CITATION = ARXIV:1806.06976;%%.
 
-\bibitem{Gusynin2004}
-V.~Gusynin, V.~Miransky, and I.~Shovkovy, ``{S}pontaneous rotational symmetry
-  breaking and roton like excitations in gauged $\upsigma$-model at finite
-  density\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1016/j.physletb.2003.11.042}{{\em Physics Letters
-  B} {\bfseries 581} no.~1-2, (Feb., 2004) 82--92}.
-  \url{https://doi.org/10.1016/j.physletb.2003.11.042}.
+\bibitem{Gusynin:2003yu}
+V.~P. Gusynin, V.~A. Miransky, and I.~A. Shovkovy, ``{Spontaneous rotational
+  symmetry breaking and roton - like excitations in gauged $\sigma$-model at
+  finite density}'', \href{http://dx.doi.org/10.1016/j.physletb.2014.05.029,
+  10.1016/j.physletb.2003.11.042}{{\em Phys. Lett.} {\bfseries B581} (2004)
+  82--92}, \href{http://arxiv.org/abs/hep-ph/0311025}{{\ttfamily
+  arXiv:hep-ph/0311025}}.
+[Erratum: Phys. Lett.B734,407(2014)].
+%%CITATION = HEP-PH/0311025;%%.
 
-\bibitem{hep-ph/0512203}
-E.~V. Gorbar, J.~Jia, and V.~A. Miransky, ``{V}ortices in gauge models at
-  finite density with vector condensates\textcolor{red}{'',}
-  \href{http://arxiv.org/abs/arXiv:hep-ph/0512203}{{\ttfamily
-  arXiv:hep-ph/0512203}}.
+\bibitem{Gorbar:2005pi}
+E.~V. Gorbar, J.~Jia, and V.~A. Miransky, ``{Vortices in gauge models at finite
+  density with vector condensates}'',
+  \href{http://dx.doi.org/10.1103/PhysRevD.73.045001}{{\em Phys. Rev.}
+  {\bfseries D73} (2006) 045001},
+\href{http://arxiv.org/abs/hep-ph/0512203}{{\ttfamily arXiv:hep-ph/0512203}}.
+%%CITATION = HEP-PH/0512203;%%.
 
 \bibitem{Seiberg:2016gmd}
 N.~Seiberg, T.~Senthil, C.~Wang, and E.~Witten, ``{{A} {D}uality {W}eb in 2+1
-  {D}imensions and {C}ondensed {M}atter Physics}\textcolor{red}{'',}
+  {D}imensions and {C}ondensed {M}atter Physics}'',
   \href{http://dx.doi.org/10.1016/j.aop.2016.08.007}{{\em Annals Phys.}
   {\bfseries 374} (2016) 395--433},
 \href{http://arxiv.org/abs/1606.01989}{{\ttfamily arXiv:1606.01989}}.
 %%CITATION = ARXIV:1606.01989;%%.
 
-\bibitem{1606.01912}
-J.~Murugan and H.~Nastase, ``{P}article-vortex duality in topological
-  insulators and superconductors\textcolor{red}{'',}
-  \href{http://arxiv.org/abs/arXiv:1606.01912}{{\ttfamily arXiv:1606.01912}}.
+\bibitem{Murugan:2016zal}
+J.~Murugan and H.~Nastase, ``{Particle-vortex duality in topological insulators
+  and superconductors}'', \href{http://dx.doi.org/10.1007/JHEP05(2017)159}{{\em
+  JHEP} {\bfseries 05} (2017) 159},
+  \href{http://arxiv.org/abs/1606.01912}{{\ttfamily arXiv:1606.01912}}.
 
 \bibitem{Jain:2013py}
 S.~Jain, S.~Minwalla, T.~Sharma, T.~Takimi, S.~R. Wadia, and S.~Yokoyama,
   ``{{P}hases of large ${N}$ vector {C}hern-{S}imons theories on ${S}^2 \times
-  S^1$}\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1007/JHEP09(2013)009}{{\em JHEP} {\bfseries 09}
-  (2013) 009},
+  S^1$}'', \href{http://dx.doi.org/10.1007/JHEP09(2013)009}{{\em JHEP}
+  {\bfseries 09} (2013) 009},
 \href{http://arxiv.org/abs/1301.6169}{{\ttfamily arXiv:1301.6169}}.
 %%CITATION = ARXIV:1301.6169;%%.
 
 \bibitem{Takimi:2013zca}
 T.~Takimi, ``{{D}uality and higher temperature phases of large {N} Chern-Simons
-  matter theories on $S^2$ x $S^1$}\textcolor{red}{'',}
+  matter theories on $S^2$ x $S^1$}'',
   \href{http://dx.doi.org/10.1007/JHEP07(2013)177}{{\em JHEP} {\bfseries 07}
   (2013) 177},
 \href{http://arxiv.org/abs/1304.3725}{{\ttfamily arXiv:1304.3725}}.
@@ -405,7 +375,7 @@ T.~Takimi, ``{{D}uality and higher temperature phases of large {N} Chern-Simons
 
 \bibitem{Geracie:2015drf}
 M.~Geracie, M.~Goykhman, and D.~T. Son, ``{{D}ense {C}hern-{S}imons {M}atter
-  with {F}ermions at {L}arge {N}}\textcolor{red}{'',}
+  with {F}ermions at {L}arge {N}}'',
   \href{http://dx.doi.org/10.1007/JHEP04(2016)103}{{\em JHEP} {\bfseries 04}
   (2016) 103},
 \href{http://arxiv.org/abs/1511.04772}{{\ttfamily arXiv:1511.04772}}.
@@ -413,22 +383,21 @@ M.~Geracie, M.~Goykhman, and D.~T. Son, ``{{D}ense {C}hern-{S}imons {M}atter
 
 \bibitem{Tong:2015xaa}
 D.~Tong and C.~Turner, ``{{Q}uantum {H}all effect in supersymmetric
-  {C}hern-{S}imons theories}\textcolor{red}{'',}
+  {C}hern-{S}imons theories}'',
   \href{http://dx.doi.org/10.1103/PhysRevB.92.235125}{{\em Phys. Rev.}
   {\bfseries B92} no.~23, (2015) 235125},
 \href{http://arxiv.org/abs/1508.00580}{{\ttfamily arXiv:1508.00580}}.
 %%CITATION = ARXIV:1508.00580;%%.
 
 \bibitem{Bolognesi:2005ty}
-S.~Bolognesi, ``{{L}arge {N}, {Z}({N}) strings and bag
-  models}\textcolor{red}{'',}
+S.~Bolognesi, ``{{L}arge {N}, {Z}({N}) strings and bag models}'',
   \href{http://dx.doi.org/10.1016/j.nuclphysb.2005.09.031}{{\em Nucl. Phys.}
   {\bfseries B730} (2005) 150--163},
 \href{http://arxiv.org/abs/hep-th/0507286}{{\ttfamily arXiv:hep-th/0507286}}.
 %%CITATION = HEP-TH/0507286;%%.
 
 \bibitem{Bolognesi:2005rk}
-S.~Bolognesi, ``{{M}ulti-monopoles and magnetic bags}\textcolor{red}{'',}
+S.~Bolognesi, ``{{M}ulti-monopoles and magnetic bags}'',
   \href{http://dx.doi.org/10.1016/j.nuclphysb.2006.06.022}{{\em Nucl. Phys.}
   {\bfseries B752} (2006) 93--123},
 \href{http://arxiv.org/abs/hep-th/0512133}{{\ttfamily arXiv:hep-th/0512133}}.
@@ -436,7 +405,7 @@ S.~Bolognesi, ``{{M}ulti-monopoles and magnetic bags}\textcolor{red}{'',}
 
 \bibitem{Bolognesi:2007ez}
 S.~Bolognesi and S.~B. Gudnason, ``{{A} {N}ote on {C}hern-{S}imons solitons:
-  {A} {T}ype {I}{I}{I} vortex from the wall vortex}\textcolor{red}{'',}
+  {A} {T}ype {I}{I}{I} vortex from the wall vortex}'',
   \href{http://dx.doi.org/10.1016/j.nuclphysb.2008.07.018}{{\em Nucl. Phys.}
   {\bfseries B805} (2008) 104--123},
 \href{http://arxiv.org/abs/0711.3803}{{\ttfamily arXiv:0711.3803}}.
@@ -444,30 +413,28 @@ S.~Bolognesi and S.~B. Gudnason, ``{{A} {N}ote on {C}hern-{S}imons solitons:
 
 \bibitem{Kapusta1981}
 J.~I. Kapusta, ``{B}ose-\textcolor{red}{E}instein condensation, spontaneous
-  symmetry breaking, and gauge theories\textcolor{red}{'',}
+  symmetry breaking, and gauge theories'',
   \href{http://dx.doi.org/10.1103/physrevd.24.426}{{\em Physical Review D}
   {\bfseries 24} no.~2, (July, 1981) 426--439}.
   \url{https://doi.org/10.1103/physrevd.24.426}.
 
 \bibitem{Rosen:2010es}
 R.~A. Rosen, ``{{P}hase {T}ransitions of {C}harged {S}calars at {F}inite
-  Temperature and Chemical Potential}\textcolor{red}{'',}
+  Temperature and Chemical Potential}'',
   \href{http://dx.doi.org/10.1007/JHEP12(2010)024}{{\em JHEP} {\bfseries 12}
   (2010) 024},
 \href{http://arxiv.org/abs/1009.0752}{{\ttfamily arXiv:1009.0752}}.
 %%CITATION = ARXIV:1009.0752;%%.
 
-\bibitem{0906.2366}
-R.~Auzzi and S.~P. Kumar, ``{N}on-\textcolor{red}{A}belian
-  \textcolor{red}{V}ortices at \textcolor{red}{W}eak and
-  \textcolor{red}{S}trong \textcolor{red}{C}oupling in \textcolor{red}{M}ass
-  \textcolor{red}{D}eformed
-  \textcolor{red}{A}\textcolor{red}{B}\textcolor{red}{J}\textcolor{red}{M}
-  \textcolor{red}{T}heory\textcolor{red}{'',}
-  \href{http://arxiv.org/abs/arXiv:0906.2366}{{\ttfamily arXiv:0906.2366}}.
+\bibitem{Auzzi:2009es}
+R.~Auzzi and S.~P. Kumar, ``{Non-Abelian Vortices at Weak and Strong Coupling
+  in Mass Deformed ABJM Theory}'',
+  \href{http://dx.doi.org/10.1088/1126-6708/2009/10/071}{{\em JHEP} {\bfseries
+  10} (2009) 071}, \href{http://arxiv.org/abs/0906.2366}{{\ttfamily
+  arXiv:0906.2366}}.
 
 \bibitem{Tong:2003vy}
-D.~Tong, ``{{A} {Q}uantum {H}all fluid of vortices}\textcolor{red}{'',}
+D.~Tong, ``{{A} {Q}uantum {H}all fluid of vortices}'',
   \href{http://dx.doi.org/10.1088/1126-6708/2004/02/046}{{\em JHEP} {\bfseries
   02} (2004) 046},
 \href{http://arxiv.org/abs/hep-th/0306266}{{\ttfamily arXiv:hep-th/0306266}}.
@@ -475,7 +442,7 @@ D.~Tong, ``{{A} {Q}uantum {H}all fluid of vortices}\textcolor{red}{'',}
 
 \bibitem{Maldacena:2011jn}
 J.~Maldacena and A.~Zhiboedov, ``{{C}onstraining {C}onformal {F}ield {T}heories
-  with {A} {H}igher {S}pin Symmetry}\textcolor{red}{'',}
+  with {A} {H}igher {S}pin Symmetry}'',
   \href{http://dx.doi.org/10.1088/1751-8113/46/21/214011}{{\em J. Phys.}
   {\bfseries A46} (2013) 214011},
 \href{http://arxiv.org/abs/1112.1016}{{\ttfamily arXiv:1112.1016}}.
@@ -483,7 +450,7 @@ J.~Maldacena and A.~Zhiboedov, ``{{C}onstraining {C}onformal {F}ield {T}heories
 
 \bibitem{Maldacena:2012sf}
 J.~Maldacena and A.~Zhiboedov, ``{{C}onstraining conformal field theories with
-  a slightly broken higher spin symmetry}\textcolor{red}{'',}
+  a slightly broken higher spin symmetry}'',
   \href{http://dx.doi.org/10.1088/0264-9381/30/10/104003}{{\em Class. Quant.
   Grav.} {\bfseries 30} (2013) 104003},
 \href{http://arxiv.org/abs/1204.3882}{{\ttfamily arXiv:1204.3882}}.
@@ -492,7 +459,7 @@ J.~Maldacena and A.~Zhiboedov, ``{{C}onstraining conformal field theories with
 \bibitem{Jain:2014nza}
 S.~Jain, M.~Mandlik, S.~Minwalla, T.~Takimi, S.~R. Wadia, and S.~Yokoyama,
   ``{{U}nitarity, {C}rossing {S}ymmetry and {D}uality of the {S}-matrix in
-  large N Chern-Simons theories with fundamental matter}\textcolor{red}{'',}
+  large N Chern-Simons theories with fundamental matter}'',
   \href{http://dx.doi.org/10.1007/JHEP04(2015)129}{{\em JHEP} {\bfseries 04}
   (2015) 129},
 \href{http://arxiv.org/abs/1404.6373}{{\ttfamily arXiv:1404.6373}}.
@@ -500,16 +467,14 @@ S.~Jain, M.~Mandlik, S.~Minwalla, T.~Takimi, S.~R. Wadia, and S.~Yokoyama,
 
 \bibitem{Dandekar:2014era}
 Y.~Dandekar, M.~Mandlik, and S.~Minwalla, ``{{P}oles in the ${S}$-{M}atrix of
-  {R}elativistic {C}hern-{S}imons Matter theories from Quantum
-  Mechanics}\textcolor{red}{'',}
+  {R}elativistic {C}hern-{S}imons Matter theories from Quantum Mechanics}'',
   \href{http://dx.doi.org/10.1007/JHEP04(2015)102}{{\em JHEP} {\bfseries 04}
   (2015) 102},
 \href{http://arxiv.org/abs/1407.1322}{{\ttfamily arXiv:1407.1322}}.
 %%CITATION = ARXIV:1407.1322;%%.
 
 \bibitem{Coleman:1973ci}
-S.~R. Coleman, ``{{T}here are no {G}oldstone bosons in
-  two-dimensions}\textcolor{red}{'',}
+S.~R. Coleman, ``{{T}here are no {G}oldstone bosons in two-dimensions}'',
 \href{http://dx.doi.org/10.1007/BF01646487}{{\em Commun. Math. Phys.}
   {\bfseries 31} (1973) 259--264}.
 %%CITATION = CMPHA,31,259;%%.
@@ -517,27 +482,26 @@ S.~R. Coleman, ``{{T}here are no {G}oldstone bosons in
 \bibitem{Mermin:1966fe}
 N.~D. Mermin and H.~Wagner, ``{{A}bsence of ferromagnetism or
   antiferromagnetism in one-dimensional or two-dimensional isotropic Heisenberg
-  models}\textcolor{red}{'',}
+  models}'',
 \href{http://dx.doi.org/10.1103/PhysRevLett.17.1133}{{\em Phys. Rev. Lett.}
   {\bfseries 17} (1966) 1133--1136}.
 %%CITATION = PRLTA,17,1133;%%.
 
 \bibitem{Gur-Ari:2016xff}
 G.~Gur-Ari, S.~A. Hartnoll, and R.~Mahajan, ``{{T}ransport in
-  {C}hern-{S}imons-{M}atter {T}heories}\textcolor{red}{'',}
+  {C}hern-{S}imons-{M}atter {T}heories}'',
   \href{http://dx.doi.org/10.1007/JHEP07(2016)090}{{\em JHEP} {\bfseries 07}
   (2016) 090},
 \href{http://arxiv.org/abs/1605.01122}{{\ttfamily arXiv:1605.01122}}.
 %%CITATION = ARXIV:1605.01122;%%.
 
 \bibitem{Landau:1941vsj}
-L.~D. Landau, ``{{T}he theory of superfuidity of helium
-  {I}{I}}\textcolor{red}{'',}
+L.~D. Landau, ``{{T}he theory of superfuidity of helium {I}{I}}'',
 {\em J. Phys.(USSR)} {\bfseries 5} (1941) 71--100.
 %%CITATION = JOPYA,5,71;%%.
 
 \bibitem{Schmitt:2014eka}
-A.~Schmitt, ``{{I}ntroduction to {S}uperfluidity}\textcolor{red}{'',}
+A.~Schmitt, ``{{I}ntroduction to {S}uperfluidity}'',
   \href{http://dx.doi.org/10.1007/978-3-319-07947-9}{{\em Lect. Notes Phys.}
   {\bfseries 888} (2015) pp.1--155},
 \href{http://arxiv.org/abs/1404.1284}{{\ttfamily arXiv:1404.1284}}.
@@ -545,28 +509,26 @@ A.~Schmitt, ``{{I}ntroduction to {S}uperfluidity}\textcolor{red}{'',}
 
 \bibitem{Susskind:2001fb}
 L.~Susskind, ``{{T}he {Q}uantum {H}all fluid and noncommutative
-  {C}hern-{S}imons theory}\textcolor{red}{'',}
+  {C}hern-{S}imons theory}'',
 \href{http://arxiv.org/abs/hep-th/0101029}{{\ttfamily arXiv:hep-th/0101029}}.
 %%CITATION = HEP-TH/0101029;%%.
 
 \bibitem{Minwalla:2015sca}
 S.~Minwalla and S.~Yokoyama, ``{{C}hern {S}imons {B}osonization along {R}{G}
-  {F}lows}\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1007/JHEP02(2016)103}{{\em JHEP} {\bfseries 02}
-  (2016) 103},
+  {F}lows}'', \href{http://dx.doi.org/10.1007/JHEP02(2016)103}{{\em JHEP}
+  {\bfseries 02} (2016) 103},
 \href{http://arxiv.org/abs/1507.04546}{{\ttfamily arXiv:1507.04546}}.
 %%CITATION = ARXIV:1507.04546;%%.
 
 \bibitem{Nielsen:1975hm}
-H.~B. Nielsen and S.~Chadha, ``{{O}n {H}ow to {C}ount {G}oldstone
-  {B}osons}\textcolor{red}{'',}
+H.~B. Nielsen and S.~Chadha, ``{{O}n {H}ow to {C}ount {G}oldstone {B}osons}'',
 \href{http://dx.doi.org/10.1016/0550-3213(76)90025-0}{{\em Nucl. Phys.}
   {\bfseries B105} (1976) 445--453}.
 %%CITATION = NUPHA,B105,445;%%.
 
 \bibitem{Watanabe:2012hr}
 H.~Watanabe and H.~Murayama, ``{{U}nified {D}escription of {N}ambu-{G}oldstone
-  {B}osons without Lorentz Invariance}\textcolor{red}{'',}
+  {B}osons without Lorentz Invariance}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.108.251602}{{\em Phys. Rev.
   Lett.} {\bfseries 108} (2012) 251602},
 \href{http://arxiv.org/abs/1203.0609}{{\ttfamily arXiv:1203.0609}}.
@@ -574,18 +536,18 @@ H.~Watanabe and H.~Murayama, ``{{U}nified {D}escription of {N}ambu-{G}oldstone
 
 \bibitem{pitaevskii84}
 L.~P. Pitaevskii, ``{{L}ayered structure of ${}^4{\rm {H}e}$ with supercritical
-  motion}\textcolor{red}{'',} {\em JETP} {\bfseries 39(9)} (1984) 511--514.
+  motion}'', {\em JETP} {\bfseries 39(9)} (1984) 511--514.
 
 \bibitem{voskresenskii93}
 D.~N. Voskresenskii, ``{{C}ondensate with finite momentum in a moving
-  medium}\textcolor{red}{'',} {\em JETP} {\bfseries 77(6)} (1993) 917--932.
+  medium}'', {\em JETP} {\bfseries 77(6)} (1993) 917--932.
 
 \bibitem{ongoing}
-S.~P. Kumar and S.~Stratiev, ``{{W}ork in progress}\textcolor{red}{'',}.
+S.~P. Kumar and S.~Stratiev, ``{{W}ork in progress}'',.
 
 \bibitem{Markov:2004mj}
-V.~Markov, A.~Marshakov, and A.~Yung, ``{{N}on-{A}belian vortices in {N} = 1*
-  gauge theory}\textcolor{red}{'',}
+V.~Markov, A.~Marshakov, and A.~Yung, ``{{N}on-{A}belian {V}ortices in {N} = 1*
+  {G}auge {T}heory}'',
   \href{http://dx.doi.org/10.1016/j.nuclphysb.2004.12.018}{{\em Nucl. Phys.}
   {\bfseries B709} (2005) 267--295},
 \href{http://arxiv.org/abs/hep-th/0408235}{{\ttfamily arXiv:hep-th/0408235}}.
@@ -593,7 +555,7 @@ V.~Markov, A.~Marshakov, and A.~Yung, ``{{N}on-{A}belian vortices in {N} = 1*
 
 \bibitem{Auzzi:2008ep}
 R.~Auzzi and S.~P. Kumar, ``{{N}on-{A}belian k-{V}ortex {D}ynamics in {N}=1*
-  theory and its Gravity Dual}\textcolor{red}{'',}
+  theory and its Gravity Dual}'',
   \href{http://dx.doi.org/10.1088/1126-6708/2008/12/077}{{\em JHEP} {\bfseries
   12} (2008) 077},
 \href{http://arxiv.org/abs/0810.3201}{{\ttfamily arXiv:0810.3201}}.
@@ -601,14 +563,14 @@ R.~Auzzi and S.~P. Kumar, ``{{N}on-{A}belian k-{V}ortex {D}ynamics in {N}=1*
 
 \bibitem{Castorina:2004yd}
 P.~Castorina, G.~Riccobene, and D.~Zappala, ``{{N}on-commutative dynamics and
-  roton-like spectra in bosonic and fermionic condensates}\textcolor{red}{'',}
+  roton-like spectra in bosonic and fermionic condensates}'',
   \href{http://dx.doi.org/10.1016/j.physleta.2005.01.086}{{\em Phys. Lett.}
   {\bfseries A337} (2005) 463--468},
 \href{http://arxiv.org/abs/hep-th/0405093}{{\ttfamily arXiv:hep-th/0405093}}.
 %%CITATION = HEP-TH/0405093;%%.
 
 \bibitem{Hands:1998he}
-S.~Hands, ``{{F}our fermion models at nonzero density}\textcolor{red}{'',}
+S.~Hands, ``{{F}our fermion models at nonzero density}'',
   \href{http://dx.doi.org/10.1016/S0375-9474(98)00521-1}{{\em Nucl. Phys.}
   {\bfseries A642} (1998) 228--238},
 \href{http://arxiv.org/abs/hep-lat/9806022}{{\ttfamily arXiv:hep-lat/9806022}}.
@@ -617,40 +579,36 @@ S.~Hands, ``{{F}our fermion models at nonzero density}\textcolor{red}{'',}
 \bibitem{Choudhury:2018iwf}
 S.~Choudhury, A.~Dey, I.~Halder, S.~Jain, L.~Janagal, S.~Minwalla, and
   N.~Prabhakar, ``{{B}ose-{F}ermi {C}hern-{S}imons {D}ualities in the {H}iggsed
-  {P}hase}\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1007/JHEP11(2018)177}{{\em JHEP} {\bfseries 11}
-  (2018) 177},
+  {P}hase}'', \href{http://dx.doi.org/10.1007/JHEP11(2018)177}{{\em JHEP}
+  {\bfseries 11} (2018) 177},
 \href{http://arxiv.org/abs/1804.08635}{{\ttfamily arXiv:1804.08635}}.
 %%CITATION = ARXIV:1804.08635;%%.
 
-\bibitem{deVega1986}
-H.~J. de~Vega and F.~A. Schaposnik, ``{V}ortices and electrically charged
-  vortices in non-\textcolor{red}{A}belian gauge theories\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1103/physrevd.34.3206}{{\em Physical Review D}
-  {\bfseries 34} no.~10, (Nov., 1986) 3206--3213}.
-  \url{https://doi.org/10.1103/physrevd.34.3206}.
+\bibitem{deVega:1986eu}
+H.~J. de~Vega and F.~A. Schaposnik, ``{Electrically Charged Vortices in
+  Nonabelian Gauge Theories With Chern-simons Term}'',
+\href{http://dx.doi.org/10.1103/PhysRevLett.56.2564}{{\em Phys. Rev. Lett.}
+  {\bfseries 56} (1986) 2564}.
+%%CITATION = PRLTA,56,2564;%%.
 
-\bibitem{Kumar1986}
-C.~N. Kumar and A.~Khare, ``{C}harged vortex of finite energy in nonabelian
-  gauge theories with \textcolor{red}{C}hern-\textcolor{red}{S}imons
-  term\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1016/0370-2693(86)91400-0}{{\em Physics Letters B}
-  {\bfseries 178} no.~4, (Oct., 1986) 395--399}.
-  \url{https://doi.org/10.1016/0370-2693(86)91400-0}.
+\bibitem{Kumar:1986yz}
+C.~N. Kumar and A.~Khare, ``{Charged Vortex of Finite Energy in Nonabelian
+  Gauge Theories With Chern-simons Term}'',
+\href{http://dx.doi.org/10.1016/0370-2693(86)91400-0}{{\em Phys. Lett.}
+  {\bfseries B178} (1986) 395}.
+%%CITATION = PHLTA,B178,395;%%.
 
-\bibitem{1306.5146}
-J.~L. Blazquez-Salcedo, L.~M. Gonzalez-Romero, F.~Navarro-Lerida, and D.~H.
-  Tchrakian, ``{N}on-\textcolor{red}{A}belian
-  \textcolor{red}{C}hern-\textcolor{red}{S}imons-\textcolor{red}{H}iggs
-  vortices with a quartic potential\textcolor{red}{'',}
-  \href{http://arxiv.org/abs/arXiv:1306.5146}{{\ttfamily arXiv:1306.5146}}.
+\bibitem{Blazquez-Salcedo:2013roa}
+J.~L. Blázquez-Salcedo, L.~M. González-Romero, F.~Navarro-Lérida, and D.~H.
+  Tchrakian, ``{Non-Abelian Chern-Simons-Higgs vortices with a quartic
+  potential}'', \href{http://dx.doi.org/10.1103/PhysRevD.88.025026,
+  10.1103/PhysRevD.88.02502}{{\em Phys. Rev.} {\bfseries D88} no.~2, (2013)
+  025026}, \href{http://arxiv.org/abs/1306.5146}{{\ttfamily arXiv:1306.5146}}.
 
-\bibitem{NavarroLrida2010}
-F.~Navarro-L{\'{e}}rida and D.~H. Tchrakian, ``{N}on-\textcolor{red}{A}belian
-  \textcolor{red}{Y}ang-\textcolor{red}{M}ills{\textendash}\textcolor{red}{H}iggs
-  vortices\textcolor{red}{'',}
-  \href{http://dx.doi.org/10.1103/physrevd.81.127702}{{\em Physical Review D}
-  {\bfseries 81} no.~12, (June, 2010) }.
-  \url{https://doi.org/10.1103/physrevd.81.127702}.
+\bibitem{NavarroLerida:2009dm}
+F.~Navarro-Lerida and D.~H. Tchrakian, ``{Non-Abelian Yang-Mills-Higgs
+  vortices}'', \href{http://dx.doi.org/10.1103/PhysRevD.81.127702}{{\em Phys.
+  Rev.} {\bfseries D81} (2010) 127702},
+  \href{http://arxiv.org/abs/0909.4220}{{\ttfamily arXiv:0909.4220}}.
 
 \end{thebibliography}\endgroup

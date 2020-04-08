@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.3.30)  7 APR 2020 22:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.4.8)  8 APR 2020 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2065,11 +2065,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 3009) has occurred while \output is active []
 
  [24]
-[25] [26] [27]
+[25]
+
+Package natbib Warning: Citation `Paul:1986ix' on page 26 undefined on input li
+ne 434.
+
+[26] [27]
 Underfull \vbox (badness 5622) has occurred while \output is active []
 
  [28]
-<"Background_Folder/figures/""solution_n1_magnetic_field_g_lambda".png, id=697,
+<"Background_Folder/figures/""solution_n1_magnetic_field_g_lambda".png, id=695,
  462.528pt x 346.896pt>
 File: "Background_Folder/figures/""solution_n1_magnetic_field_g_lambda".png Gra
 phic file (type png)
@@ -2077,7 +2082,7 @@ phic file (type png)
 Package pdftex.def Info: "Background_Folder/figures/""solution_n1_magnetic_fiel
 d_g_lambda".png  used on input line 523.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-<"Background_Folder/figures/""solution_n1_scalar_field_g_lambda".png, id=699, 4
+<"Background_Folder/figures/""solution_n1_scalar_field_g_lambda".png, id=697, 4
 62.528pt x 346.896pt>
 File: "Background_Folder/figures/""solution_n1_scalar_field_g_lambda".png Graph
 ic file (type png)
@@ -2150,16 +2155,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  (./Chapter_2_Folder_1912.11321/Chapter_2.tex
 Chapter 2.
 
-Package natbib Warning: Citation `Horvathy:2008hd' on page 41 undefined on inpu
-t line 8.
-
-
-Package natbib Warning: Citation `1110.4386' on page 41 undefined on input line
- 15.
-
-
-Package natbib Warning: Citation `1211.4843' on page 41 undefined on input line
- 15.
+Package natbib Warning: Citation `Paul:1986ix' on page 41 undefined on input li
+ne 8.
 
 [41
 
@@ -2223,7 +2220,7 @@ l.88 ...angle\Phi\rangle^\dagger\right)^2/(2\xi)$}
                                                    to  quadratic order in fl...
 
 ? 
-<"Chapter_2_Folder_1912.11321/figures/""Dispersion_relations-2".pdf, id=932, 10
+<"Chapter_2_Folder_1912.11321/figures/""Dispersion_relations-2".pdf, id=933, 10
 21.19499pt x 662.90642pt>
 File: "Chapter_2_Folder_1912.11321/figures/""Dispersion_relations-2".pdf Graphi
 c file (type pdf)
@@ -2329,11 +2326,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 329.
 
-
-Package natbib Warning: Citation `Horvathy:2008hd' on page 56 undefined on inpu
-t line 330.
-
-<"Chapter_2_Folder_1912.11321/figures/""f_alpha_5_final".png, id=1057, 462.528p
+<"Chapter_2_Folder_1912.11321/figures/""f_alpha_5_final".png, id=1059, 462.528p
 t x 346.896pt>
 File: "Chapter_2_Folder_1912.11321/figures/""f_alpha_5_final".png Graphic file 
 (type png)
@@ -2341,7 +2334,7 @@ File: "Chapter_2_Folder_1912.11321/figures/""f_alpha_5_final".png Graphic file
 Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""f_alpha_5_final
 ".png  used on input line 334.
 (pdftex.def)             Requested size: 216.81pt x 162.60709pt.
-<"Chapter_2_Folder_1912.11321/figures/""B_alpha_5_final".pdf, id=1058, 462.5289
+<"Chapter_2_Folder_1912.11321/figures/""B_alpha_5_final".pdf, id=1060, 462.5289
 3pt x 346.89668pt>
 File: "Chapter_2_Folder_1912.11321/figures/""B_alpha_5_final".pdf Graphic file 
 (type pdf)
@@ -2358,11 +2351,7 @@ Overfull \hbox (21.05504pt too wide) in paragraph at lines 334--335
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56]
-
-Package natbib Warning: Citation `Horvathy:2008hd' on page 57 undefined on inpu
-t line 338.
-
-<"Chapter_2_Folder_1912.11321/figures/""E_alpha_5_final".png, id=1066, 462.528p
+<"Chapter_2_Folder_1912.11321/figures/""E_alpha_5_final".png, id=1069, 462.528p
 t x 346.896pt>
 File: "Chapter_2_Folder_1912.11321/figures/""E_alpha_5_final".png Graphic file 
 (type png)
@@ -2370,7 +2359,7 @@ File: "Chapter_2_Folder_1912.11321/figures/""E_alpha_5_final".png Graphic file
 Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""E_alpha_5_final
 ".png  used on input line 342.
 (pdftex.def)             Requested size: 202.35622pt x 151.76662pt.
-<"Chapter_2_Folder_1912.11321/figures/""E_alpha_5_n_200".pdf, id=1067, 462.5289
+<"Chapter_2_Folder_1912.11321/figures/""E_alpha_5_n_200".pdf, id=1070, 462.5289
 3pt x 346.89668pt>
 File: "Chapter_2_Folder_1912.11321/figures/""E_alpha_5_n_200".pdf Graphic file 
 (type pdf)
@@ -2378,6 +2367,7 @@ File: "Chapter_2_Folder_1912.11321/figures/""E_alpha_5_n_200".pdf Graphic file
 Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""E_alpha_5_n_200
 ".pdf  used on input line 342.
 (pdftex.def)             Requested size: 202.35622pt x 151.76692pt.
+
 [57 <./Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png> <./Chapter_2_Fo
 lder_1912.11321/figures/B_alpha_5_final.pdf> <./Chapter_2_Folder_1912.11321/fig
 ures/E_alpha_5_final.png> <./Chapter_2_Folder_1912.11321/figures/E_alpha_5_n_20
@@ -2387,7 +2377,7 @@ pdfTeX warning: pdflatex (file ./Chapter_2_Folder_1912.11321/figures/E_alpha_5_
 n_200.pdf): PDF inclusion: multiple pdfs with page group included in a single p
 age
 >]
-<"Chapter_2_Folder_1912.11321/figures/""radius_alpha1_large_n".pdf, id=1088, 46
+<"Chapter_2_Folder_1912.11321/figures/""radius_alpha1_large_n".pdf, id=1091, 46
 2.52893pt x 346.89668pt>
 File: "Chapter_2_Folder_1912.11321/figures/""radius_alpha1_large_n".pdf Graphic
  file (type pdf)
@@ -2407,7 +2397,7 @@ l.371 ...pha)}{{|n|\cal E}(1, \alpha)}\,\qquad{\rm
                                                    and} \qquad \frac{{\cal E...
 
 ? 
-<"Chapter_2_Folder_1912.11321/figures/""bpsrationeg".png, id=1091, 462.528pt x 
+<"Chapter_2_Folder_1912.11321/figures/""bpsrationeg".png, id=1094, 462.528pt x 
 346.896pt>
 File: "Chapter_2_Folder_1912.11321/figures/""bpsrationeg".png Graphic file (typ
 e png)
@@ -2415,7 +2405,7 @@ e png)
 Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""bpsrationeg".pn
 g  used on input line 376.
 (pdftex.def)             Requested size: 195.12877pt x 146.34637pt.
-<"Chapter_2_Folder_1912.11321/figures/""mass1neg".png, id=1092, 462.528pt x 346
+<"Chapter_2_Folder_1912.11321/figures/""mass1neg".png, id=1095, 462.528pt x 346
 .896pt>
 File: "Chapter_2_Folder_1912.11321/figures/""mass1neg".png Graphic file (type p
 ng)
@@ -2425,7 +2415,7 @@ used on input line 377.
 (pdftex.def)             Requested size: 195.12877pt x 146.34637pt.
 [58 <./Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf>]
 <"Chapter_2_Folder_1912.11321/figures/""firstorderalpha1_corrected".pdf, id=111
-1, 2675.19739pt x 1676.1233pt>
+4, 2675.19739pt x 1676.1233pt>
 File: "Chapter_2_Folder_1912.11321/figures/""firstorderalpha1_corrected".pdf Gr
 aphic file (type pdf)
 <use "Chapter_2_Folder_1912.11321/figures/""firstorderalpha1_corrected".pdf>
@@ -2433,7 +2423,7 @@ Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""firstorderalpha
 1_corrected".pdf  used on input line 386.
 (pdftex.def)             Requested size: 195.12877pt x 122.25111pt.
 <"Chapter_2_Folder_1912.11321/figures/""firstorderalpha2_corrected".pdf, id=111
-2, 2374.93108pt x 1480.66028pt>
+5, 2374.93108pt x 1480.66028pt>
 File: "Chapter_2_Folder_1912.11321/figures/""firstorderalpha2_corrected".pdf Gr
 aphic file (type pdf)
 <use "Chapter_2_Folder_1912.11321/figures/""firstorderalpha2_corrected".pdf>
@@ -2445,7 +2435,7 @@ Underfull \vbox (badness 2529) has occurred while \output is active []
 
  [59 <./Chapter_2_Folder_1912.11321/figures/bpsrationeg.png> <./Chapter_2_Folde
 r_1912.11321/figures/mass1neg.png>]
-<"Chapter_2_Folder_1912.11321/figures/""BPS_equation_error".pdf, id=1120, 462.5
+<"Chapter_2_Folder_1912.11321/figures/""BPS_equation_error".pdf, id=1123, 462.5
 2893pt x 346.89668pt>
 File: "Chapter_2_Folder_1912.11321/figures/""BPS_equation_error".pdf Graphic fi
 le (type pdf)
@@ -2453,7 +2443,7 @@ le (type pdf)
 Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""BPS_equation_er
 ror".pdf  used on input line 394.
 (pdftex.def)             Requested size: 187.90244pt x 140.92642pt.
-<"Chapter_2_Folder_1912.11321/figures/""negative_n_A0".pdf, id=1121, 593.48349p
+<"Chapter_2_Folder_1912.11321/figures/""negative_n_A0".pdf, id=1124, 593.48349p
 t x 433.01884pt>
 File: "Chapter_2_Folder_1912.11321/figures/""negative_n_A0".pdf Graphic file (t
 ype pdf)
@@ -2473,7 +2463,7 @@ pdfTeX warning: pdflatex (file ./Chapter_2_Folder_1912.11321/figures/BPS_equati
 on_error.pdf): PDF inclusion: multiple pdfs with page group included in a singl
 e page
 > <./Chapter_2_Folder_1912.11321/figures/negative_n_A0.pdf>]
-<"Chapter_2_Folder_1912.11321/figures/""B_alpha_10_positive_final".png, id=1164
+<"Chapter_2_Folder_1912.11321/figures/""B_alpha_10_positive_final".png, id=1167
 , 462.528pt x 346.896pt>
 File: "Chapter_2_Folder_1912.11321/figures/""B_alpha_10_positive_final".png Gra
 phic file (type png)
@@ -2481,7 +2471,7 @@ phic file (type png)
 Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""B_alpha_10_posi
 tive_final".png  used on input line 414.
 (pdftex.def)             Requested size: 195.12877pt x 146.34637pt.
-<"Chapter_2_Folder_1912.11321/figures/""E_alpha_10_positive_final".png, id=1165
+<"Chapter_2_Folder_1912.11321/figures/""E_alpha_10_positive_final".png, id=1168
 , 462.528pt x 346.896pt>
 File: "Chapter_2_Folder_1912.11321/figures/""E_alpha_10_positive_final".png Gra
 phic file (type png)
@@ -2489,7 +2479,7 @@ phic file (type png)
 Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""E_alpha_10_posi
 tive_final".png  used on input line 414.
 (pdftex.def)             Requested size: 195.12877pt x 146.34637pt.
-<"Chapter_2_Folder_1912.11321/figures/""positive_n_energy".pdf, id=1167, 462.52
+<"Chapter_2_Folder_1912.11321/figures/""positive_n_energy".pdf, id=1170, 462.52
 893pt x 346.89668pt>
 File: "Chapter_2_Folder_1912.11321/figures/""positive_n_energy".pdf Graphic fil
 e (type pdf)
@@ -2507,7 +2497,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 425.
 
-<"Chapter_2_Folder_1912.11321/figures/""f_sixthvsfourth".pdf, id=1181, 462.5289
+<"Chapter_2_Folder_1912.11321/figures/""f_sixthvsfourth".pdf, id=1184, 462.5289
 3pt x 346.89668pt>
 File: "Chapter_2_Folder_1912.11321/figures/""f_sixthvsfourth".pdf Graphic file 
 (type pdf)
@@ -2515,7 +2505,7 @@ File: "Chapter_2_Folder_1912.11321/figures/""f_sixthvsfourth".pdf Graphic file
 Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""f_sixthvsfourth
 ".pdf  used on input line 433.
 (pdftex.def)             Requested size: 133.69994pt x 100.27457pt.
-<"Chapter_2_Folder_1912.11321/figures/""B_sixthvsfourth".pdf, id=1182, 462.5289
+<"Chapter_2_Folder_1912.11321/figures/""B_sixthvsfourth".pdf, id=1185, 462.5289
 3pt x 346.89668pt>
 File: "Chapter_2_Folder_1912.11321/figures/""B_sixthvsfourth".pdf Graphic file 
 (type pdf)
@@ -2523,7 +2513,7 @@ File: "Chapter_2_Folder_1912.11321/figures/""B_sixthvsfourth".pdf Graphic file
 Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""B_sixthvsfourth
 ".pdf  used on input line 433.
 (pdftex.def)             Requested size: 133.69994pt x 100.27457pt.
-<"Chapter_2_Folder_1912.11321/figures/""E_sixthvsfourth".pdf, id=1183, 462.5289
+<"Chapter_2_Folder_1912.11321/figures/""E_sixthvsfourth".pdf, id=1186, 462.5289
 3pt x 346.89668pt>
 File: "Chapter_2_Folder_1912.11321/figures/""E_sixthvsfourth".pdf Graphic file 
 (type pdf)
@@ -2535,7 +2525,7 @@ Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""E_sixthvsfourth
 Underfull \vbox (badness 4001) has occurred while \output is active []
 
  [62 <./Chapter_2_Folder_1912.11321/figures/positive_n_energy.pdf>]
-<"Chapter_2_Folder_1912.11321/figures/""sixth_order_alpha".pdf, id=1195, 462.52
+<"Chapter_2_Folder_1912.11321/figures/""sixth_order_alpha".pdf, id=1198, 462.52
 893pt x 346.89668pt>
 File: "Chapter_2_Folder_1912.11321/figures/""sixth_order_alpha".pdf Graphic fil
 e (type pdf)
@@ -2543,7 +2533,7 @@ e (type pdf)
 Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""sixth_order_alp
 ha".pdf  used on input line 441.
 (pdftex.def)             Requested size: 202.35622pt x 151.76692pt.
-<"Chapter_2_Folder_1912.11321/figures/""sixth_order_alpha_byE1".pdf, id=1196, 4
+<"Chapter_2_Folder_1912.11321/figures/""sixth_order_alpha_byE1".pdf, id=1199, 4
 62.52893pt x 346.89668pt>
 File: "Chapter_2_Folder_1912.11321/figures/""sixth_order_alpha_byE1".pdf Graphi
 c file (type pdf)
@@ -2551,7 +2541,7 @@ c file (type pdf)
 Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""sixth_order_alp
 ha_byE1".pdf  used on input line 441.
 (pdftex.def)             Requested size: 202.35622pt x 151.76692pt.
-<"Chapter_2_Folder_1912.11321/figures/""sixth_order_A0".pdf, id=1199, 462.52893
+<"Chapter_2_Folder_1912.11321/figures/""sixth_order_A0".pdf, id=1202, 462.52893
 pt x 346.89668pt>
 File: "Chapter_2_Folder_1912.11321/figures/""sixth_order_A0".pdf Graphic file (
 type pdf)
@@ -2586,22 +2576,6 @@ ingle page
 
 (./Chapter_3_Folder_1806.06976/Chapter_3.tex
 Chapter 3.
-
-Package natbib Warning: Citation `1110.4386' on page 65 undefined on input line
- 6.
-
-
-Package natbib Warning: Citation `1110.4386' on page 65 undefined on input line
- 6.
-
-
-Package natbib Warning: Citation `1110.4386' on page 65 undefined on input line
- 7.
-
-
-Package natbib Warning: Citation `1211.4843' on page 65 undefined on input line
- 7.
-
 [65
 
 
@@ -2623,12 +2597,7 @@ l.17 ... the context of superfluidity in ${}^4{\rm
                                                    He}$  \cite{Landau:1941vs...
 
 ? 
-[66]
-
-Package natbib Warning: Citation `hep-th/0103013' on page 67 undefined on input
- line 20.
-
-[67]
+[66] [67]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 26.
@@ -2831,7 +2800,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
                                                   \fi \fi 
 l.142  \be
           ]
-<"Chapter_3_Folder_1806.06976/figures/""Fvsv".pdf, id=1368, 361.35pt x 215.8062
+<"Chapter_3_Folder_1806.06976/figures/""Fvsv".pdf, id=1375, 361.35pt x 215.8062
 4pt>
 File: "Chapter_3_Folder_1806.06976/figures/""Fvsv".pdf Graphic file (type pdf)
 <use "Chapter_3_Folder_1806.06976/figures/""Fvsv".pdf>
@@ -3052,7 +3021,7 @@ l.310 ...4\pi}{|k|}\,v^2 \qquad\qquad \omega_{{\rm
                                                    II}(+)}\,=\, 2|\mu_B|\,.
 ? 
 [78]
-<"Chapter_3_Folder_1806.06976/figures/""soundspeed".pdf, id=1453, 361.35pt x 22
+<"Chapter_3_Folder_1806.06976/figures/""soundspeed".pdf, id=1460, 361.35pt x 22
 8.855pt>
 File: "Chapter_3_Folder_1806.06976/figures/""soundspeed".pdf Graphic file (type
  pdf)
@@ -3094,7 +3063,7 @@ l.362 ...gap generated for the branch $\omega_{\rm
                                                    II(-)}$ with quadratic di...
 
 ? 
-<"Chapter_3_Folder_1806.06976/figures/""crossing0".pdf, id=1495, 361.35pt x 220
+<"Chapter_3_Folder_1806.06976/figures/""crossing0".pdf, id=1502, 361.35pt x 220
 .825pt>
 File: "Chapter_3_Folder_1806.06976/figures/""crossing0".pdf Graphic file (type 
 pdf)
@@ -3102,7 +3071,7 @@ pdf)
 Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""crossing0".pdf 
  used on input line 365.
 (pdftex.def)             Requested size: 166.2212pt x 101.58072pt.
-<"Chapter_3_Folder_1806.06976/figures/""crossing".pdf, id=1496, 361.35pt x 220.
+<"Chapter_3_Folder_1806.06976/figures/""crossing".pdf, id=1503, 361.35pt x 220.
 825pt>
 File: "Chapter_3_Folder_1806.06976/figures/""crossing".pdf Graphic file (type p
 df)
@@ -3191,7 +3160,7 @@ l.382 k\gg 1,\,g_4\,{\rm fixed}: \qquad \left(\rm
                                                   \omega_{\rm max},\, |\p|_{...
 
 ? 
-<"Chapter_3_Folder_1806.06976/figures/""spectrumk20".pdf, id=1506, 361.35pt x 2
+<"Chapter_3_Folder_1806.06976/figures/""spectrumk20".pdf, id=1513, 361.35pt x 2
 34.8775pt>
 File: "Chapter_3_Folder_1806.06976/figures/""spectrumk20".pdf Graphic file (typ
 e pdf)
@@ -3199,7 +3168,7 @@ e pdf)
 Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""spectrumk20".pd
 f  used on input line 386.
 (pdftex.def)             Requested size: 202.35622pt x 131.5305pt.
-<"Chapter_3_Folder_1806.06976/figures/""rotonk500".pdf, id=1507, 494.84875pt x 
+<"Chapter_3_Folder_1806.06976/figures/""rotonk500".pdf, id=1514, 494.84875pt x 
 306.14375pt>
 File: "Chapter_3_Folder_1806.06976/figures/""rotonk500".pdf Graphic file (type 
 pdf)
@@ -3260,7 +3229,7 @@ l.405 ...\qquad \left(\omega_{\rm rot},\,|\p|_{\rm
                                                    rot}\right)\,=\,\left(\fr...
 
 ? 
-<"Chapter_3_Folder_1806.06976/figures/""spectrummassive".pdf, id=1560, 361.35pt
+<"Chapter_3_Folder_1806.06976/figures/""spectrummassive".pdf, id=1567, 361.35pt
  x 376.40625pt>
 File: "Chapter_3_Folder_1806.06976/figures/""spectrummassive".pdf Graphic file 
 (type pdf)
@@ -3268,7 +3237,7 @@ File: "Chapter_3_Folder_1806.06976/figures/""spectrummassive".pdf Graphic file
 Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""spectrummassive
 ".pdf  used on input line 411.
 (pdftex.def)             Requested size: 166.2212pt x 173.14897pt.
-<"Chapter_3_Folder_1806.06976/figures/""spectrumcrit".pdf, id=1561, 361.35pt x 
+<"Chapter_3_Folder_1806.06976/figures/""spectrumcrit".pdf, id=1568, 361.35pt x 
 271.0125pt>
 File: "Chapter_3_Folder_1806.06976/figures/""spectrumcrit".pdf Graphic file (ty
 pe pdf)
@@ -3442,7 +3411,7 @@ l.445 ...y is then given as $v_{\rm crit}\,=\,{\rm
                                                    min}(\omega/|\p|)$. The a...
 
 ? 
-<"Chapter_3_Folder_1806.06976/figures/""vcrit".pdf, id=1748, 361.35pt x 223.836
+<"Chapter_3_Folder_1806.06976/figures/""vcrit".pdf, id=1755, 361.35pt x 223.836
 24pt>
 File: "Chapter_3_Folder_1806.06976/figures/""vcrit".pdf Graphic file (type pdf)
 
@@ -3478,7 +3447,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [85 <./Chapter_3_Folder_1806.06976/figures/vcrit.pdf>]
-<"Chapter_3_Folder_1806.06976/figures/""u2".pdf, id=1797, 361.35pt x 271.0125pt
+<"Chapter_3_Folder_1806.06976/figures/""u2".pdf, id=1804, 361.35pt x 271.0125pt
 >
 File: "Chapter_3_Folder_1806.06976/figures/""u2".pdf Graphic file (type pdf)
 <use "Chapter_3_Folder_1806.06976/figures/""u2".pdf>
@@ -3651,23 +3620,10 @@ l.590 R_{\rm
 
 ? 
 
-Package natbib Warning: Citation `hep-th/0103013' on page 90 undefined on input
- line 597.
-
-
 Underfull \vbox (badness 1454) has occurred while \output is active []
 
  [90]
-
-Package natbib Warning: Citation `hep-th/0103013' on page 91 undefined on input
- line 600.
-
-[91]
-
-Package natbib Warning: Citation `hep-th/0103013' on page 92 undefined on input
- line 607.
-
-[92] [93])
+[91] [92] [93])
 \openout2 = `Chapter_4_Folder/Chapter_4.aux'.
 
  (./Chapter_4_Folder/Chapter_4.tex [94
@@ -3925,7 +3881,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ])
 [106] (./thesis.bbl
 LaTeX Font Info:    Trying to load font information for OT1+jkptt on input line
- 19.
+ 22.
  (/usr/share/texmf-dist/tex/latex/kpfonts/ot1jkptt.fd
 File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
 )
@@ -3940,7 +3896,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.576 ...skii, ``{{L}ayered structure of ${}^4{\rm
+l.538 ...skii, ``{{L}ayered structure of ${}^4{\rm
                                                    {H}e}$ with supercritical
 ? 
 [114])
@@ -3969,13 +3925,13 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
- 35007 strings out of 492167
- 648649 string characters out of 6131558
+ 35008 strings out of 492167
+ 648856 string characters out of 6131559
  737093 words of memory out of 5000000
- 38072 multiletter control sequences out of 15000+600000
+ 38073 multiletter control sequences out of 15000+600000
  629038 words of font info for 261 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 64i,20n,83p,1771b,870s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,20n,83p,1777b,870s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -4032,23 +3988,22 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts
 /enc/dvips/kpfonts/kpfonts-expert.enc}</usr/share/texmf-dist/fonts/type1/public
-/amsfonts/euler/eurm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/e
-uler/eusm10.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpbmi.pfb></
-usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/share/texmf-d
-ist/fonts/type1/public/kpfonts/jkpbne.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/kpfonts/jkpex.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpmi.
-pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb></usr/share/te
-xmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/kpfonts/jkpmite.pfb></usr/share/texmf-dist/fonts/type1/public/kpfon
-ts/jkpmn8a.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></u
-sr/share/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/share/texmf-dist
-/fonts/type1/public/kpfonts/jkpsya.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/kpfonts/jkpsyb.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.p
-fb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on thesis.pdf (127 pages, 7722761 bytes).
+/amsfonts/euler/eusm10.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jk
+pbmi.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/kpfonts/jkpbne.pfb></usr/share/texmf-dist/fon
+ts/type1/public/kpfonts/jkpex.pfb></usr/share/texmf-dist/fonts/type1/public/kpf
+onts/jkpmi.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb></u
+sr/share/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/share/texmf-d
+ist/fonts/type1/public/kpfonts/jkpmite.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/kpfonts/jkpmn8a.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkp
+mne.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/share
+/texmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb></usr/share/texmf-dist/fonts/
+type1/public/kpfonts/jkpsyb.pfb></usr/share/texmf-dist/fonts/type1/public/kpfon
+ts/jkpsyc.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on thesis.pdf (127 pages, 7719854 bytes).
 PDF statistics:
- 2496 PDF objects out of 2984 (max. 8388607)
- 2139 compressed objects within 22 object streams
+ 2498 PDF objects out of 2984 (max. 8388607)
+ 2142 compressed objects within 22 object streams
  643 named destinations out of 1000 (max. 500000)
  680 words of extra memory for PDF output out of 10000 (max. 10000000)
 
