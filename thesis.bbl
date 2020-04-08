@@ -89,27 +89,21 @@ S.~K. Paul and A.~Khare, ``{Charged Vortices in Abelian Higgs Model with
 [Erratum: Phys. Lett.B177,453(1986)].
 %%CITATION = PHLTA,B174,420;%%.
 
-\bibitem{Hong1990}
-J.~Hong, Y.~Kim, and P.~Y. Pac, ``{M}ultivortex solutions of the
-  \textcolor{red}{A}belian
-  \textcolor{red}{C}hern-\textcolor{red}{S}imons-\textcolor{red}{H}iggs
-  theory'', \href{http://dx.doi.org/10.1103/physrevlett.64.2230}{{\em Physical
-  Review Letters} {\bfseries 64} no.~19, (May, 1990) 2230--2233}.
-  \url{https://doi.org/10.1103/physrevlett.64.2230}.
+\bibitem{Hong:1990yh}
+J.~Hong, Y.~Kim, and P.~Y. Pac, ``{On the Multivortex Solutions of the Abelian
+  {Chern-Simons}-higgs Theory}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.64.2230}{{\em Phys.\ Rev.\ Lett.}
+  {\bfseries 64} (1990) 2230}.
 
-\bibitem{Jackiw1990a}
-R.~Jackiw and E.~J. Weinberg, ``{S}elf-dual
-  \textcolor{red}{C}hern-\textcolor{red}{S}imons vortices'',
-  \href{http://dx.doi.org/10.1103/physrevlett.64.2234}{{\em Physical Review
-  Letters} {\bfseries 64} no.~19, (May, 1990) 2234--2237}.
-  \url{https://doi.org/10.1103/physrevlett.64.2234}.
+\bibitem{Jackiw:1990aw}
+R.~Jackiw and E.~J. Weinberg, ``{{S}elf-dual {C}hern-{S}imons Vortices}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.64.2234}{{\em Phys.\ Rev.\ Lett.}
+  {\bfseries 64} (1990) 2234}.
 
-\bibitem{Jackiw1990b}
-R.~Jackiw, K.~Lee, and E.~J. Weinberg, ``{S}elf-dual
-  \textcolor{red}{C}hern-\textcolor{red}{S}imons solitons'',
-  \href{http://dx.doi.org/10.1103/physrevd.42.3488}{{\em Physical Review D}
-  {\bfseries 42} no.~10, (Nov., 1990) 3488--3499}.
-  \url{https://doi.org/10.1103/physrevd.42.3488}.
+\bibitem{Jackiw:1990pr}
+R.~Jackiw, K.-M. Lee, and E.~J. Weinberg, ``{Selfdual Chern-Simons solitons}'',
+  \href{http://dx.doi.org/10.1103/PhysRevD.42.3488}{{\em Phys.\ Rev.\ D}
+  {\bfseries 42} (1990) 3488--3499}.
 
 \bibitem{Bogomolny:1975de}
 E.~Bogomolny, ``{Stability of Classical Solutions}'', {\em Sov.\ J.\ Nucl.\
@@ -133,8 +127,8 @@ R.~Feynman, {\em {T}he {C}haracter of {P}hysical {L}aw}.
 \newblock MIT Press, 1965.
 
 \bibitem{Klebanov:2002ja}
-I.~R. Klebanov and A.~M. Polyakov, ``{AdS dual of the critical O(N) vector
-  model}'', \href{http://dx.doi.org/10.1016/S0370-2693(02)02980-5}{{\em Phys.
+I.~R. Klebanov and A.~M. Polyakov, ``{AdS Dual of the Critical $O(N)$ Vector
+  Model}'', \href{http://dx.doi.org/10.1016/S0370-2693(02)02980-5}{{\em Phys.
   Lett.} {\bfseries B550} (2002) 213--219},
 \href{http://arxiv.org/abs/hep-th/0210114}{{\ttfamily arXiv:hep-th/0210114}}.
 %%CITATION = HEP-TH/0210114;%%.
@@ -265,7 +259,7 @@ A.~P. Polychronakos, ``{Non-commutative Fluids}'',
 %%CITATION = ARXIV:0706.1095;%%.
 
 \bibitem{Szabo:2001kg}
-R.~J. Szabo, ``{Quantum field theory on noncommutative spaces}'',
+R.~J. Szabo, ``{Quantum Field Theory on Noncommutative Spaces}'',
   \href{http://dx.doi.org/10.1016/S0370-1573(03)00059-0}{{\em Phys. Rept.}
   {\bfseries 378} (2003) 207--299},
 \href{http://arxiv.org/abs/hep-th/0109162}{{\ttfamily arXiv:hep-th/0109162}}.
@@ -285,18 +279,15 @@ R.~Jackiw, S.~Y. Pi, and A.~P. Polychronakos, ``{Noncommuting Gauge Fields as a
 \href{http://arxiv.org/abs/hep-th/0206014}{{\ttfamily arXiv:hep-th/0206014}}.
 %%CITATION = HEP-TH/0206014;%%.
 
-\bibitem{Snyder1947_space_time}
-H.~S. Snyder, ``{Q}uantized \textcolor{red}{S}pace-\textcolor{red}{T}ime'',
-  \href{http://dx.doi.org/10.1103/physrev.71.38}{{\em Physical Review}
-  {\bfseries 71} no.~1, (Jan., 1947) 38--41}.
-  \url{https://doi.org/10.1103/physrev.71.38}.
+\bibitem{Snyder:1946qz}
+H.~S. Snyder, ``{Quantized Space-Time}'',
+  \href{http://dx.doi.org/10.1103/PhysRev.71.38}{{\em Phys.\ Rev.} {\bfseries
+  71} (1947) 38--41}.
 
-\bibitem{Snyder1947_EM}
-H.~S. Snyder, ``{T}he \textcolor{red}{E}lectromagnetic \textcolor{red}{F}ield
-  in \textcolor{red}{Q}uantized \textcolor{red}{S}pace-\textcolor{red}{T}ime'',
-  \href{http://dx.doi.org/10.1103/physrev.72.68}{{\em Physical Review}
-  {\bfseries 72} no.~1, (July, 1947) 68--71}.
-  \url{https://doi.org/10.1103/physrev.72.68}.
+\bibitem{Snyder:1947nq}
+H.~S. Snyder, ``{The Electromagnetic Field in Quantized Space-Time}'',
+  \href{http://dx.doi.org/10.1103/PhysRev.72.68}{{\em Phys.\ Rev.} {\bfseries
+  72} (1947) 68--71}.
 
 \bibitem{Polychronakos:2001mi}
 A.~P. Polychronakos, ``{Quantum Hall states as matrix Chern-Simons theory}'',
@@ -366,8 +357,8 @@ S.~Jain, S.~Minwalla, T.~Sharma, T.~Takimi, S.~R. Wadia, and S.~Yokoyama,
 %%CITATION = ARXIV:1301.6169;%%.
 
 \bibitem{Takimi:2013zca}
-T.~Takimi, ``{{D}uality and higher temperature phases of large {N} Chern-Simons
-  matter theories on $S^2$ x $S^1$}'',
+T.~Takimi, ``{{D}uality and Higher Temperature Phases of Large $N$ Chern-Simons
+  Matter Theories on $S^2$ x $S^1$}'',
   \href{http://dx.doi.org/10.1007/JHEP07(2013)177}{{\em JHEP} {\bfseries 07}
   (2013) 177},
 \href{http://arxiv.org/abs/1304.3725}{{\ttfamily arXiv:1304.3725}}.
@@ -382,22 +373,22 @@ M.~Geracie, M.~Goykhman, and D.~T. Son, ``{{D}ense {C}hern-{S}imons {M}atter
 %%CITATION = ARXIV:1511.04772;%%.
 
 \bibitem{Tong:2015xaa}
-D.~Tong and C.~Turner, ``{{Q}uantum {H}all effect in supersymmetric
-  {C}hern-{S}imons theories}'',
+D.~Tong and C.~Turner, ``{{Q}uantum {H}all Effect in Supersymmetric
+  {C}hern-{S}imons Theories}'',
   \href{http://dx.doi.org/10.1103/PhysRevB.92.235125}{{\em Phys. Rev.}
   {\bfseries B92} no.~23, (2015) 235125},
 \href{http://arxiv.org/abs/1508.00580}{{\ttfamily arXiv:1508.00580}}.
 %%CITATION = ARXIV:1508.00580;%%.
 
 \bibitem{Bolognesi:2005ty}
-S.~Bolognesi, ``{{L}arge {N}, {Z}({N}) strings and bag models}'',
+S.~Bolognesi, ``{{L}arge {$N$}, $\mathbb{Z}_N$ Strings and Bag Models}'',
   \href{http://dx.doi.org/10.1016/j.nuclphysb.2005.09.031}{{\em Nucl. Phys.}
   {\bfseries B730} (2005) 150--163},
 \href{http://arxiv.org/abs/hep-th/0507286}{{\ttfamily arXiv:hep-th/0507286}}.
 %%CITATION = HEP-TH/0507286;%%.
 
 \bibitem{Bolognesi:2005rk}
-S.~Bolognesi, ``{{M}ulti-monopoles and magnetic bags}'',
+S.~Bolognesi, ``{{M}ulti-monopoles and Magnetic Bags}'',
   \href{http://dx.doi.org/10.1016/j.nuclphysb.2006.06.022}{{\em Nucl. Phys.}
   {\bfseries B752} (2006) 93--123},
 \href{http://arxiv.org/abs/hep-th/0512133}{{\ttfamily arXiv:hep-th/0512133}}.
@@ -411,12 +402,10 @@ S.~Bolognesi and S.~B. Gudnason, ``{{A} {N}ote on {C}hern-{S}imons solitons:
 \href{http://arxiv.org/abs/0711.3803}{{\ttfamily arXiv:0711.3803}}.
 %%CITATION = ARXIV:0711.3803;%%.
 
-\bibitem{Kapusta1981}
-J.~I. Kapusta, ``{B}ose-\textcolor{red}{E}instein condensation, spontaneous
-  symmetry breaking, and gauge theories'',
-  \href{http://dx.doi.org/10.1103/physrevd.24.426}{{\em Physical Review D}
-  {\bfseries 24} no.~2, (July, 1981) 426--439}.
-  \url{https://doi.org/10.1103/physrevd.24.426}.
+\bibitem{Kapusta:1981aa}
+J.~I. Kapusta, ``{Bose-Einstein Condensation, Spontaneous Symmetry Breaking,
+  and Gauge Theories}'', \href{http://dx.doi.org/10.1103/PhysRevD.24.426}{{\em
+  Phys.\ Rev.\ D} {\bfseries 24} (1981) 426--439}.
 
 \bibitem{Rosen:2010es}
 R.~A. Rosen, ``{{P}hase {T}ransitions of {C}harged {S}calars at {F}inite
@@ -480,9 +469,8 @@ S.~R. Coleman, ``{{T}here are no {G}oldstone bosons in two-dimensions}'',
 %%CITATION = CMPHA,31,259;%%.
 
 \bibitem{Mermin:1966fe}
-N.~D. Mermin and H.~Wagner, ``{{A}bsence of ferromagnetism or
-  antiferromagnetism in one-dimensional or two-dimensional isotropic Heisenberg
-  models}'',
+N.~D. Mermin and H.~Wagner, ``{Absence of Ferromagnetism or Antiferromagnetism
+  in One- or Two-Dimensional Isotropic Heisenberg Models}'',
 \href{http://dx.doi.org/10.1103/PhysRevLett.17.1133}{{\em Phys. Rev. Lett.}
   {\bfseries 17} (1966) 1133--1136}.
 %%CITATION = PRLTA,17,1133;%%.
