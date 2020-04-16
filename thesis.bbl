@@ -3,6 +3,7 @@
 \bibitem{Polyakov:1974ek}
 A.~M. Polyakov, ``{{P}article {S}pectrum in the {Q}uantum {F}ield {T}heory}'',
   {\em JETP Lett.} {\bfseries 20} (1974) 194--195.
+  \url{http://www.jetpletters.ac.ru/ps/1789/article_27297.shtml}.
 
 \bibitem{tHooft:1974kcl}
 G.~'t~Hooft, ``{{M}agnetic {M}onopoles in {U}nified {G}auge {T}heories}'',
@@ -21,6 +22,23 @@ O.~Aharony, G.~Gur-Ari, and R.~Yacoby, ``{{C}orrelation {F}unctions of {L}arge
   {\bfseries 12} (2012) 028},
 \href{http://arxiv.org/abs/1207.4593}{{\ttfamily arXiv:1207.4593}}.
 %%CITATION = ARXIV:1207.4593;%%.
+
+\bibitem{Peskin:1977kp}
+M.~E. Peskin, ``{Mandelstam 't Hooft Duality in Abelian Lattice Models}'',
+  \href{http://dx.doi.org/10.1016/0003-4916(78)90252-X}{{\em Annals Phys.}
+  {\bfseries 113} (1978) 122}.
+
+\bibitem{Dasgupta:1981zz}
+C.~Dasgupta and B.~Halperin, ``{Phase Transition in a Lattice Model of
+  Superconductivity}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.47.1556}{{\em Phys. Rev. Lett.}
+  {\bfseries 47} (1981) 1556--1560}.
+
+\bibitem{PhysRevB.39.2756}
+M.~P.~A. Fisher and D.~H. Lee, ``Correspondence between two-dimensional bosons
+  and a bulk superconductor in a magnetic field'',
+  \href{http://dx.doi.org/10.1103/PhysRevB.39.2756}{{\em Phys. Rev. B}
+  {\bfseries 39} (Feb, 1989) 2756--2759}.
 
 \bibitem{Carlip:2005zn}
 S.~Carlip, ``{Conformal field theory, (2+1)-dimensional gravity, and the BTZ
@@ -525,10 +543,12 @@ H.~Watanabe and H.~Murayama, ``{{U}nified {D}escription of {N}ambu-{G}oldstone
 \bibitem{pitaevskii84}
 L.~P. Pitaevskii, ``{{L}ayered structure of ${}^4{\rm {H}e}$ with supercritical
   motion}'', {\em JETP} {\bfseries 39(9)} (1984) 511--514.
+  \url{http://www.jetpletters.ac.ru/ps/1301/article_19659.shtml}.
 
 \bibitem{voskresenskii93}
 D.~N. Voskresenskii, ``{{C}ondensate with finite momentum in a moving
   medium}'', {\em JETP} {\bfseries 77(6)} (1993) 917--932.
+  \url{http://www.jetp.ac.ru/cgi-bin/e/index/e/77/6/p917?a=list}.
 
 \bibitem{ongoing}
 S.~P. Kumar and S.~Stratiev, ``{{W}ork in progress}'',.
@@ -558,7 +578,7 @@ P.~Castorina, G.~Riccobene, and D.~Zappala, ``{{N}on-commutative dynamics and
 %%CITATION = HEP-TH/0405093;%%.
 
 \bibitem{Hands:1998he}
-S.~Hands, ``{{F}our fermion models at nonzero density}'',
+S.~Hands, ``{{F}our Fermion Models at Non-Zero Density}'',
   \href{http://dx.doi.org/10.1016/S0375-9474(98)00521-1}{{\em Nucl. Phys.}
   {\bfseries A642} (1998) 228--238},
 \href{http://arxiv.org/abs/hep-lat/9806022}{{\ttfamily arXiv:hep-lat/9806022}}.
