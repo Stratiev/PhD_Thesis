@@ -56,45 +56,45 @@ Repeated entry---line 1605 of file Reference_Folder/references.bib
 I'm skipping whatever remains of this entry
 Warning--empty booktitle in Tong:2016kpv
 Warning--empty year in Dunne:1998qy
-You've used 102 entries,
+You've used 105 entries,
             2328 wiz_defined-function locations,
-            1435 strings with 24212 characters,
-and the built_in function-call counts, 33248 in all, are:
-= -- 3481
-> -- 821
+            1460 strings with 24685 characters,
+and the built_in function-call counts, 34235 in all, are:
+= -- 3588
+> -- 837
 < -- 0
-+ -- 320
-- -- 218
-* -- 3130
-:= -- 3797
-add.period$ -- 175
-call.type$ -- 102
-change.case$ -- 106
++ -- 327
+- -- 222
+* -- 3213
+:= -- 3908
+add.period$ -- 178
+call.type$ -- 105
+change.case$ -- 109
 chr.to.int$ -- 0
-cite$ -- 104
-duplicate$ -- 1831
-empty$ -- 3385
-format.name$ -- 218
-if$ -- 8755
+cite$ -- 107
+duplicate$ -- 1883
+empty$ -- 3487
+format.name$ -- 222
+if$ -- 9010
 int.to.chr$ -- 0
-int.to.str$ -- 102
-missing$ -- 393
-newline$ -- 437
-num.names$ -- 102
-pop$ -- 516
+int.to.str$ -- 105
+missing$ -- 405
+newline$ -- 446
+num.names$ -- 105
+pop$ -- 531
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1282
+skip$ -- 1322
 stack$ -- 0
-substring$ -- 1820
-swap$ -- 914
+substring$ -- 1908
+swap$ -- 942
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 273
-width$ -- 105
-write$ -- 858
+while$ -- 285
+width$ -- 108
+write$ -- 879
 (There were 9 error messages)
