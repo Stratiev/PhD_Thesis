@@ -1,4 +1,4 @@
-\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
 \bibitem{Polyakov:1974ek}
 A.~M. Polyakov, ``{{P}article {S}pectrum in the {Q}uantum {F}ield {T}heory}'',
@@ -14,6 +14,16 @@ G.~'t~Hooft, ``{{M}agnetic {M}onopoles in {U}nified {G}auge {T}heories}'',
 A.~M. Polyakov, ``{Quark Confinement and Topology of Gauge Groups}'',
   \href{http://dx.doi.org/10.1016/0550-3213(77)90086-4}{{\em Nucl.\ Phys.\ B}
   {\bfseries 120} (1977) 429--458}.
+
+\bibitem{Coleman:1974bu}
+S.~R. Coleman, ``{The Quantum Sine-Gordon Equation as the Massive Thirring
+  Model}'', \href{http://dx.doi.org/10.1103/PhysRevD.11.2088}{{\em Phys. Rev.
+  D} {\bfseries 11} (1975) 2088}.
+
+\bibitem{Witten:1983ar}
+E.~Witten, ``{Nonabelian Bosonization in Two-Dimensions}'',
+  \href{http://dx.doi.org/10.1007/BF01215276}{{\em Commun. Math. Phys.}
+  {\bfseries 92} (1984) 455--472}.
 
 \bibitem{Aharony:2012nh}
 O.~Aharony, G.~Gur-Ari, and R.~Yacoby, ``{{C}orrelation {F}unctions of {L}arge
@@ -39,6 +49,72 @@ M.~P.~A. Fisher and D.~H. Lee, ``Correspondence between two-dimensional bosons
   and a bulk superconductor in a magnetic field'',
   \href{http://dx.doi.org/10.1103/PhysRevB.39.2756}{{\em Phys. Rev. B}
   {\bfseries 39} (Feb, 1989) 2756--2759}.
+
+\bibitem{Aharony:1997bx}
+O.~Aharony, A.~Hanany, K.~A. Intriligator, N.~Seiberg, and M.~Strassler,
+  ``{Aspects of N=2 supersymmetric gauge theories in three-dimensions}'',
+  \href{http://dx.doi.org/10.1016/S0550-3213(97)00323-4}{{\em Nucl. Phys. B}
+  {\bfseries 499} (1997) 67--99},
+  \href{http://arxiv.org/abs/hep-th/9703110}{{\ttfamily arXiv:hep-th/9703110}}.
+
+\bibitem{Intriligator:2013lca}
+K.~Intriligator and N.~Seiberg, ``{Aspects of 3d N=2 Chern-Simons-Matter
+  Theories}'', \href{http://dx.doi.org/10.1007/JHEP07(2013)079}{{\em JHEP}
+  {\bfseries 07} (2013) 079}, \href{http://arxiv.org/abs/1305.1633}{{\ttfamily
+  arXiv:1305.1633 [hep-th]}}.
+
+\bibitem{Aharony:1997gp}
+O.~Aharony, ``{IR duality in d = 3 N=2 supersymmetric USp(2N(c)) and U(N(c))
+  gauge theories}'',
+  \href{http://dx.doi.org/10.1016/S0370-2693(97)00530-3}{{\em Phys. Lett. B}
+  {\bfseries 404} (1997) 71--76},
+  \href{http://arxiv.org/abs/hep-th/9703215}{{\ttfamily arXiv:hep-th/9703215}}.
+
+\bibitem{Karch:1997ux}
+A.~Karch, ``{Seiberg duality in three-dimensions}'',
+  \href{http://dx.doi.org/10.1016/S0370-2693(97)00598-4}{{\em Phys. Lett. B}
+  {\bfseries 405} (1997) 79--84},
+  \href{http://arxiv.org/abs/hep-th/9703172}{{\ttfamily arXiv:hep-th/9703172}}.
+
+\bibitem{Intriligator:1996ex}
+K.~A. Intriligator and N.~Seiberg, ``{Mirror symmetry in three-dimensional
+  gauge theories}'', \href{http://dx.doi.org/10.1016/0370-2693(96)01088-X}{{\em
+  Phys. Lett. B} {\bfseries 387} (1996) 513--519},
+  \href{http://arxiv.org/abs/hep-th/9607207}{{\ttfamily arXiv:hep-th/9607207}}.
+
+\bibitem{Aharony:2014uya}
+O.~Aharony and D.~Fleischer, ``{IR Dualities in General 3d Supersymmetric SU(N)
+  QCD Theories}'', \href{http://dx.doi.org/10.1007/JHEP02(2015)162}{{\em JHEP}
+  {\bfseries 02} (2015) 162},
+\href{http://arxiv.org/abs/1411.5475}{{\ttfamily arXiv:1411.5475}}.
+%%CITATION = ARXIV:1411.5475;%%.
+
+\bibitem{Aharony:2015pla}
+O.~Aharony, P.~Narayan, and T.~Sharma, ``{On monopole operators in
+  supersymmetric Chern-Simons-matter theories}'',
+  \href{http://dx.doi.org/10.1007/JHEP05(2015)117}{{\em JHEP} {\bfseries 05}
+  (2015) 117}, \href{http://arxiv.org/abs/1502.00945}{{\ttfamily
+  arXiv:1502.00945 [hep-th]}}.
+
+\bibitem{Sezgin:2003pt}
+E.~Sezgin and P.~Sundell, ``{Holography in 4D (super) higher spin theories and
+  a test via cubic scalar couplings}'',
+  \href{http://dx.doi.org/10.1088/1126-6708/2005/07/044}{{\em JHEP} {\bfseries
+  07} (2005) 044}, \href{http://arxiv.org/abs/hep-th/0305040}{{\ttfamily
+  arXiv:hep-th/0305040}}.
+
+\bibitem{Klebanov:2002ja}
+I.~R. Klebanov and A.~M. Polyakov, ``{AdS Dual of the Critical $O(N)$ Vector
+  Model}'', \href{http://dx.doi.org/10.1016/S0370-2693(02)02980-5}{{\em Phys.
+  Lett.} {\bfseries B550} (2002) 213--219},
+\href{http://arxiv.org/abs/hep-th/0210114}{{\ttfamily arXiv:hep-th/0210114}}.
+%%CITATION = HEP-TH/0210114;%%.
+
+\bibitem{Vasiliev:1992av}
+M.~A. Vasiliev, ``{More on equations of motion for interacting massless fields
+  of all spins in (3+1)-dimensions}'',
+  \href{http://dx.doi.org/10.1016/0370-2693(92)91457-K}{{\em Phys. Lett. B}
+  {\bfseries 285} (1992) 225--234}.
 
 \bibitem{Carlip:2005zn}
 S.~Carlip, ``{Conformal field theory, (2+1)-dimensional gravity, and the BTZ
@@ -144,13 +220,6 @@ A.~Karch and D.~Tong, ``{Particle-Vortex Duality from 3d Bosonization}'',
 R.~Feynman, {\em {T}he {C}haracter of {P}hysical {L}aw}.
 \newblock MIT Press, 1965.
 
-\bibitem{Klebanov:2002ja}
-I.~R. Klebanov and A.~M. Polyakov, ``{AdS Dual of the Critical $O(N)$ Vector
-  Model}'', \href{http://dx.doi.org/10.1016/S0370-2693(02)02980-5}{{\em Phys.
-  Lett.} {\bfseries B550} (2002) 213--219},
-\href{http://arxiv.org/abs/hep-th/0210114}{{\ttfamily arXiv:hep-th/0210114}}.
-%%CITATION = HEP-TH/0210114;%%.
-
 \bibitem{Aharony:2011jz}
 O.~Aharony, G.~Gur-Ari, and R.~Yacoby, ``{d=3 Bosonic Vector Models Coupled to
   Chern-Simons Gauge Theories}'',
@@ -230,13 +299,6 @@ O.~Aharony, S.~S. Razamat, N.~Seiberg, and B.~Willett, ``{3d dualities from 4d
   {\bfseries {07}} ({2013}) {149}},
 \href{http://arxiv.org/abs/1305.3924}{{\ttfamily arXiv:1305.3924}}.
 %%CITATION = ARXIV:1305.3924;%%.
-
-\bibitem{Aharony:2014uya}
-O.~Aharony and D.~Fleischer, ``{IR Dualities in General 3d Supersymmetric SU(N)
-  QCD Theories}'', \href{http://dx.doi.org/10.1007/JHEP02(2015)162}{{\em JHEP}
-  {\bfseries 02} (2015) 162},
-\href{http://arxiv.org/abs/1411.5475}{{\ttfamily arXiv:1411.5475}}.
-%%CITATION = ARXIV:1411.5475;%%.
 
 \bibitem{Aharony:2012ns}
 O.~Aharony, S.~Giombi, G.~Gur-Ari, J.~Maldacena, and R.~Yacoby, ``{The Thermal

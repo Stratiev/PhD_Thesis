@@ -50,47 +50,51 @@ You're missing a field name---line 1536 of file Reference_Folder/references.bib
  :   %url = {https://link.aps.org/doi/10.1103/PhysRevB.39.2756}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Repeated entry---line 1605 of file Reference_Folder/references.bib
+ : @article{Aharony:2014uya
+ :                         ,
+I'm skipping whatever remains of this entry
 Warning--empty booktitle in Tong:2016kpv
 Warning--empty year in Dunne:1998qy
-You've used 92 entries,
+You've used 102 entries,
             2328 wiz_defined-function locations,
-            1360 strings with 22517 characters,
-and the built_in function-call counts, 30114 in all, are:
-= -- 3167
-> -- 749
+            1435 strings with 24212 characters,
+and the built_in function-call counts, 33248 in all, are:
+= -- 3481
+> -- 821
 < -- 0
-+ -- 291
-- -- 199
-* -- 2811
-:= -- 3439
-add.period$ -- 165
-call.type$ -- 92
-change.case$ -- 96
++ -- 320
+- -- 218
+* -- 3130
+:= -- 3797
+add.period$ -- 175
+call.type$ -- 102
+change.case$ -- 106
 chr.to.int$ -- 0
-cite$ -- 94
-duplicate$ -- 1663
-empty$ -- 3058
-format.name$ -- 199
-if$ -- 7945
+cite$ -- 104
+duplicate$ -- 1831
+empty$ -- 3385
+format.name$ -- 218
+if$ -- 8755
 int.to.chr$ -- 0
-int.to.str$ -- 92
-missing$ -- 353
-newline$ -- 407
-num.names$ -- 92
-pop$ -- 469
+int.to.str$ -- 102
+missing$ -- 393
+newline$ -- 437
+num.names$ -- 102
+pop$ -- 516
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1162
+skip$ -- 1282
 stack$ -- 0
-substring$ -- 1626
-swap$ -- 826
+substring$ -- 1820
+swap$ -- 914
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 241
-width$ -- 94
-write$ -- 781
-(There were 8 error messages)
+while$ -- 273
+width$ -- 105
+write$ -- 858
+(There were 9 error messages)
