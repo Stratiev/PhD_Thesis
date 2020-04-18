@@ -4,6 +4,11 @@
     - Fixed title capitalization in the reference titles ✓
     - Swapped inverted commas and comma at the end of title ✓
     - Removed backreferencing, since it is superfluous. ✓
+    - Added Drude model references
+    - Added Hall Effect references
+    - Added von Klitzing references
+    - Added Feynman & Hibbs and Laine et al Thermal Field Theory references
+    - Added Landau-Fermi liquid theory reference
 - Put descriptive captions on all the figures so that they appear nicely in the list of figures. 
     - 1.1 Improved the Large gauge transformation caption. ✓
     - 1.2 Improved flux attachment caption. ✓ hbar consistency?

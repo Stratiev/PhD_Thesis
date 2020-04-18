@@ -1,5 +1,10 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
+\bibitem{Georgi:1974sy}
+H.~Georgi and S.~Glashow, ``{Unity of All Elementary Particle Forces}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.32.438}{{\em Phys. Rev. Lett.}
+  {\bfseries 32} (1974) 438--441}.
+
 \bibitem{Polyakov:1974ek}
 A.~M. Polyakov, ``{{P}article {S}pectrum in the {Q}uantum {F}ield {T}heory}'',
   {\em JETP Lett.} {\bfseries 20} (1974) 194--195.
@@ -39,6 +44,49 @@ L.~Onsager, ``{Crystal statistics. 1. A Two-dimensional model with an order
 P.~A.~M. Dirac, ``{Quantised singularities in the electromagnetic field,}'',
   \href{http://dx.doi.org/10.1098/rspa.1931.0130}{{\em Proc. Roy. Soc. Lond. A}
   {\bfseries A133} no.~821, (1931) 60--72}.
+
+\bibitem{Montonen:1977sn}
+C.~Montonen and D.~I. Olive, ``{Magnetic Monopoles as Gauge Particles?}'',
+  \href{http://dx.doi.org/10.1016/0370-2693(77)90076-4}{{\em Phys. Lett. B}
+  {\bfseries 72} (1977) 117--120}.
+
+\bibitem{Osborn:1979tq}
+H.~Osborn, ``{Topological Charges for N=4 Supersymmetric Gauge Theories and
+  Monopoles of Spin 1}'',
+  \href{http://dx.doi.org/10.1016/0370-2693(79)91118-3}{{\em Phys. Lett. B}
+  {\bfseries 83} (1979) 321--326}.
+
+\bibitem{Witten:1978mh}
+E.~Witten and D.~I. Olive, ``{Supersymmetry Algebras That Include Topological
+  Charges}'', \href{http://dx.doi.org/10.1016/0370-2693(78)90357-X}{{\em Phys.
+  Lett. B} {\bfseries 78} (1978) 97--101}.
+
+\bibitem{Sen:1994yi}
+A.~Sen, ``{Dyon - monopole bound states, selfdual harmonic forms on the multi -
+  monopole moduli space, and SL(2,Z) invariance in string theory}'',
+  \href{http://dx.doi.org/10.1016/0370-2693(94)90763-3}{{\em Phys. Lett. B}
+  {\bfseries 329} (1994) 217--221},
+  \href{http://arxiv.org/abs/hep-th/9402032}{{\ttfamily arXiv:hep-th/9402032}}.
+
+\bibitem{Vafa:1994tf}
+C.~Vafa and E.~Witten, ``{A Strong coupling test of S duality}'',
+  \href{http://dx.doi.org/10.1016/0550-3213(94)90097-3}{{\em Nucl. Phys. B}
+  {\bfseries 431} (1994) 3--77},
+  \href{http://arxiv.org/abs/hep-th/9408074}{{\ttfamily arXiv:hep-th/9408074}}.
+
+\bibitem{Seiberg:1994bz}
+N.~Seiberg, ``{Exact results on the space of vacua of four-dimensional SUSY
+  gauge theories}'', \href{http://dx.doi.org/10.1103/PhysRevD.49.6857}{{\em
+  Phys. Rev. D} {\bfseries 49} (1994) 6857--6863},
+  \href{http://arxiv.org/abs/hep-th/9402044}{{\ttfamily arXiv:hep-th/9402044}}.
+
+\bibitem{Seiberg:1994rs}
+N.~Seiberg and E.~Witten, ``{Electric - magnetic duality, monopole
+  condensation, and confinement in N=2 supersymmetric Yang-Mills theory}'',
+  \href{http://dx.doi.org/10.1016/0550-3213(94)90124-4}{{\em Nucl. Phys. B}
+  {\bfseries 426} (1994) 19--52},
+  \href{http://arxiv.org/abs/hep-th/9407087}{{\ttfamily arXiv:hep-th/9407087}}.
+  [Erratum: Nucl.Phys.B 430, 485--486 (1994)].
 
 \bibitem{Aharony:2012nh}
 O.~Aharony, G.~Gur-Ari, and R.~Yacoby, ``{{C}orrelation {F}unctions of {L}arge
@@ -178,6 +226,48 @@ G.~V. Dunne, ``{Aspects of Chern-Simons theory}'', in {\em {Topological Aspects
 \bibitem{Nakahara}
 M.~Nakahara, {\em {G}eometry, {T}opology and {P}hysics}.
 \newblock Institute of Physics Publishing, 2003.
+
+\bibitem{Landau:1956zuh}
+L.~Landau, ``{The Theory of a Fermi Liquid}'', {\em Sov. Phys. JETP} {\bfseries
+  3} no.~6, (1957) 920.
+
+\bibitem{Laine:2016hma}
+M.~Laine and A.~Vuorinen,
+  \href{http://dx.doi.org/10.1007/978-3-319-31933-9}{{\em {Basics of Thermal
+  Field Theory}}}, vol.~925.
+\newblock Springer, 2016.
+\newblock \href{http://arxiv.org/abs/1701.01554}{{\ttfamily arXiv:1701.01554
+  [hep-ph]}}.
+
+\bibitem{0486477223}
+R.~P. Feynman, A.~R. Hibbs, and D.~F. Styer, {\em Quantum Mechanics and Path
+  Integrals}.
+\newblock 07, 2010.
+
+\bibitem{Hall1879}
+E.~H. Hall, ``On a new action of the magnet on electric currents'',
+  \href{http://dx.doi.org/10.2307/2369245}{{\em American Journal of
+  Mathematics} {\bfseries 2} no.~3, (Sept., 1879) 287}.
+  \url{https://doi.org/10.2307/2369245}.
+
+\bibitem{Drude1900a}
+P.~Drude, ``Zur elektronentheorie der metalle'',
+  \href{http://dx.doi.org/10.1002/andp.19003060312}{{\em Annalen der Physik}
+  {\bfseries 306} no.~3, (1900) 566--613}.
+  \url{https://doi.org/10.1002/andp.19003060312}.
+
+\bibitem{Drude1900b}
+P.~Drude, ``Zur elektronentheorie der metalle$\mathsemicolon$ {II}. teil.
+  galvanomagnetische und thermomagnetische effecte'',
+  \href{http://dx.doi.org/10.1002/andp.19003081102}{{\em Annalen der Physik}
+  {\bfseries 308} no.~11, (1900) 369--402}.
+  \url{https://doi.org/10.1002/andp.19003081102}.
+
+\bibitem{vonKlitzing:1980pdk}
+K.~von Klitzing, G.~Dorda, and M.~Pepper, ``{New method for high accuracy
+  determination of the fine structure constant based on quantized Hall
+  resistance}'', \href{http://dx.doi.org/10.1103/PhysRevLett.45.494}{{\em Phys.
+  Rev. Lett.} {\bfseries 45} (1980) 494--497}.
 
 \bibitem{Abrikosov1957}
 A.~Abrikosov, ``{T}he magnetic properties of superconducting alloys'',
