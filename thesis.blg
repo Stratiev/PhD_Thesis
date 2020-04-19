@@ -57,45 +57,45 @@ I'm skipping whatever remains of this entry
 Warning--empty booktitle in Tong:2016kpv
 Warning--empty year in Dunne:1998qy
 Warning--empty publisher in 0486477223
-You've used 120 entries,
+You've used 136 entries,
             2328 wiz_defined-function locations,
-            1576 strings with 27163 characters,
-and the built_in function-call counts, 39029 in all, are:
-= -- 4103
-> -- 935
+            1705 strings with 29765 characters,
+and the built_in function-call counts, 44744 in all, are:
+= -- 4710
+> -- 1055
 < -- 0
-+ -- 367
-- -- 247
-* -- 3646
-:= -- 4452
-add.period$ -- 200
-call.type$ -- 120
-change.case$ -- 126
++ -- 415
+- -- 279
+* -- 4203
+:= -- 5094
+add.period$ -- 219
+call.type$ -- 136
+change.case$ -- 144
 chr.to.int$ -- 0
-cite$ -- 123
-duplicate$ -- 2136
-empty$ -- 3990
-format.name$ -- 247
-if$ -- 10253
+cite$ -- 139
+duplicate$ -- 2424
+empty$ -- 4568
+format.name$ -- 279
+if$ -- 11722
 int.to.chr$ -- 0
-int.to.str$ -- 120
-missing$ -- 461
-newline$ -- 494
-num.names$ -- 120
-pop$ -- 611
+int.to.str$ -- 136
+missing$ -- 525
+newline$ -- 542
+num.names$ -- 136
+pop$ -- 680
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1500
+skip$ -- 1724
 stack$ -- 0
-substring$ -- 2254
-swap$ -- 1064
+substring$ -- 2730
+swap$ -- 1223
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 335
-width$ -- 123
-write$ -- 998
+while$ -- 395
+width$ -- 139
+write$ -- 1123
 (There were 9 error messages)

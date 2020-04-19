@@ -25,6 +25,18 @@ S.~R. Coleman, ``{The Quantum Sine-Gordon Equation as the Massive Thirring
   Model}'', \href{http://dx.doi.org/10.1103/PhysRevD.11.2088}{{\em Phys. Rev.
   D} {\bfseries 11} (1975) 2088}.
 
+\bibitem{Scott1973}
+A.~Scott, F.~Chu, and D.~McLaughlin, ``The soliton: A new concept in applied
+  science'', \href{http://dx.doi.org/10.1109/proc.1973.9296}{{\em Proceedings
+  of the {IEEE}} {\bfseries 61} no.~10, (1973) 1443--1483}.
+  \url{https://doi.org/10.1109/proc.1973.9296}.
+
+\bibitem{Thirring1958}
+W.~E. Thirring, ``A soluble relativistic field theory'',
+  \href{http://dx.doi.org/10.1016/0003-4916(58)90015-0}{{\em Annals of Physics}
+  {\bfseries 3} no.~1, (Jan., 1958) 91--112}.
+  \url{https://doi.org/10.1016/0003-4916(58)90015-0}.
+
 \bibitem{Witten:1983ar}
 E.~Witten, ``{Nonabelian Bosonization in Two-Dimensions}'',
   \href{http://dx.doi.org/10.1007/BF01215276}{{\em Commun. Math. Phys.}
@@ -95,12 +107,105 @@ O.~Aharony, ``{IR duality in d = 3 N=2 supersymmetric USp(2N(c)) and U(N(c))
   {\bfseries 404} (1997) 71--76},
   \href{http://arxiv.org/abs/hep-th/9703215}{{\ttfamily arXiv:hep-th/9703215}}.
 
+\bibitem{Karch:1997ux}
+A.~Karch, ``{Seiberg duality in three-dimensions}'',
+  \href{http://dx.doi.org/10.1016/S0370-2693(97)00598-4}{{\em Phys. Lett. B}
+  {\bfseries 405} (1997) 79--84},
+  \href{http://arxiv.org/abs/hep-th/9703172}{{\ttfamily arXiv:hep-th/9703172}}.
+
 \bibitem{Giveon:2008zn}
 A.~Giveon and D.~Kutasov, ``{Seiberg Duality in Chern-Simons Theory}'',
   \href{http://dx.doi.org/10.1016/j.nuclphysb.2008.09.045}{{\em Nucl. Phys.}
   {\bfseries B812} (2009) 1--11},
 \href{http://arxiv.org/abs/0808.0360}{{\ttfamily arXiv:0808.0360}}.
 %%CITATION = ARXIV:0808.0360;%%.
+
+\bibitem{Benini:2011mf}
+F.~Benini, C.~Closset, and S.~Cremonesi, ``{Comments on 3d Seiberg-like
+  dualities}'', \href{http://dx.doi.org/10.1007/JHEP10(2011)075}{{\em JHEP}
+  {\bfseries 10} (2011) 075},
+\href{http://arxiv.org/abs/1108.5373}{{\ttfamily arXiv:1108.5373}}.
+%%CITATION = ARXIV:1108.5373;%%.
+
+\bibitem{deBoer:1997kr}
+J.~de~Boer, K.~Hori, and Y.~Oz, ``{Dynamics of N=2 supersymmetric gauge
+  theories in three-dimensions}'',
+  \href{http://dx.doi.org/10.1016/S0550-3213(97)00328-3}{{\em Nucl. Phys. B}
+  {\bfseries 500} (1997) 163--191},
+  \href{http://arxiv.org/abs/hep-th/9703100}{{\ttfamily arXiv:hep-th/9703100}}.
+
+\bibitem{Sen:1994fa}
+A.~Sen, ``{Strong - weak coupling duality in four-dimensional string theory}'',
+  \href{http://dx.doi.org/10.1142/S0217751X94001497}{{\em Int. J. Mod. Phys. A}
+  {\bfseries 9} (1994) 3707--3750},
+  \href{http://arxiv.org/abs/hep-th/9402002}{{\ttfamily arXiv:hep-th/9402002}}.
+
+\bibitem{Schwarz:1994xn}
+J.~H. Schwarz, ``{Evidence for nonperturbative string symmetries}'',
+  \href{http://dx.doi.org/10.1007/BF01872784}{{\em Lett. Math. Phys.}
+  {\bfseries 34} (1995) 309--317},
+  \href{http://arxiv.org/abs/hep-th/9411178}{{\ttfamily arXiv:hep-th/9411178}}.
+
+\bibitem{Sathiapalan:1986zb}
+B.~Sathiapalan, ``{Duality in Statistical Mechanics and String Theory}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.58.1597}{{\em Phys. Rev. Lett.}
+  {\bfseries 58} (1987) 1597}.
+
+\bibitem{Hull:1994ys}
+C.~Hull and P.~Townsend, ``{Unity of superstring dualities}'',
+  \href{http://dx.doi.org/10.1016/0550-3213(94)00559-W}{{\em Nucl. Phys. B}
+  {\bfseries 438} (1995) 109--137},
+  \href{http://arxiv.org/abs/hep-th/9410167}{{\ttfamily arXiv:hep-th/9410167}}.
+
+\bibitem{Witten:1995ex}
+E.~Witten, ``{String theory dynamics in various dimensions}'',
+  \href{http://dx.doi.org/10.1016/0550-3213(95)00158-O}{{\em Nucl. Phys. B}
+  {\bfseries 443} (1995) 85--126},
+  \href{http://arxiv.org/abs/hep-th/9503124}{{\ttfamily arXiv:hep-th/9503124}}.
+
+\bibitem{Susskind:1994vu}
+L.~Susskind, ``{The World as a hologram}'',
+  \href{http://dx.doi.org/10.1063/1.531249}{{\em J. Math. Phys.} {\bfseries 36}
+  (1995) 6377--6396}, \href{http://arxiv.org/abs/hep-th/9409089}{{\ttfamily
+  arXiv:hep-th/9409089}}.
+
+\bibitem{tHooft:1993dmi}
+G.~'t~Hooft, ``{Dimensional reduction in quantum gravity}'', {\em Conf. Proc.
+  C} {\bfseries 930308} (1993) 284--296,
+  \href{http://arxiv.org/abs/gr-qc/9310026}{{\ttfamily arXiv:gr-qc/9310026}}.
+
+\bibitem{Aharony:1999ti}
+O.~Aharony, S.~S. Gubser, J.~M. Maldacena, H.~Ooguri, and Y.~Oz, ``{Large N
+  field theories, string theory and gravity}'',
+  \href{http://dx.doi.org/10.1016/S0370-1573(99)00083-6}{{\em Phys. Rept.}
+  {\bfseries 323} (2000) 183--386},
+  \href{http://arxiv.org/abs/hep-th/9905111}{{\ttfamily arXiv:hep-th/9905111}}.
+
+\bibitem{Maldacena:1997re}
+J.~M. Maldacena, ``{The Large N limit of superconformal field theories and
+  supergravity}'', \href{http://dx.doi.org/10.1023/A:1026654312961}{{\em Int.
+  J. Theor. Phys.} {\bfseries 38} (1999) 1113--1133},
+  \href{http://arxiv.org/abs/hep-th/9711200}{{\ttfamily arXiv:hep-th/9711200}}.
+
+\bibitem{Sezgin:2003pt}
+E.~Sezgin and P.~Sundell, ``{Holography in 4D (super) higher spin theories and
+  a test via cubic scalar couplings}'',
+  \href{http://dx.doi.org/10.1088/1126-6708/2005/07/044}{{\em JHEP} {\bfseries
+  07} (2005) 044}, \href{http://arxiv.org/abs/hep-th/0305040}{{\ttfamily
+  arXiv:hep-th/0305040}}.
+
+\bibitem{Klebanov:2002ja}
+I.~R. Klebanov and A.~M. Polyakov, ``{AdS Dual of the Critical $O(N)$ Vector
+  Model}'', \href{http://dx.doi.org/10.1016/S0370-2693(02)02980-5}{{\em Phys.
+  Lett.} {\bfseries B550} (2002) 213--219},
+\href{http://arxiv.org/abs/hep-th/0210114}{{\ttfamily arXiv:hep-th/0210114}}.
+%%CITATION = HEP-TH/0210114;%%.
+
+\bibitem{Vasiliev:1992av}
+M.~A. Vasiliev, ``{More on equations of motion for interacting massless fields
+  of all spins in (3+1)-dimensions}'',
+  \href{http://dx.doi.org/10.1016/0370-2693(92)91457-K}{{\em Phys. Lett. B}
+  {\bfseries 285} (1992) 225--234}.
 
 \bibitem{Aharony:2012nh}
 O.~Aharony, G.~Gur-Ari, and R.~Yacoby, ``{{C}orrelation {F}unctions of {L}arge
@@ -140,12 +245,6 @@ K.~Intriligator and N.~Seiberg, ``{Aspects of 3d N=2 Chern-Simons-Matter
   {\bfseries 07} (2013) 079}, \href{http://arxiv.org/abs/1305.1633}{{\ttfamily
   arXiv:1305.1633 [hep-th]}}.
 
-\bibitem{Karch:1997ux}
-A.~Karch, ``{Seiberg duality in three-dimensions}'',
-  \href{http://dx.doi.org/10.1016/S0370-2693(97)00598-4}{{\em Phys. Lett. B}
-  {\bfseries 405} (1997) 79--84},
-  \href{http://arxiv.org/abs/hep-th/9703172}{{\ttfamily arXiv:hep-th/9703172}}.
-
 \bibitem{Intriligator:1996ex}
 K.~A. Intriligator and N.~Seiberg, ``{Mirror symmetry in three-dimensional
   gauge theories}'', \href{http://dx.doi.org/10.1016/0370-2693(96)01088-X}{{\em
@@ -166,25 +265,28 @@ O.~Aharony, P.~Narayan, and T.~Sharma, ``{On monopole operators in
   (2015) 117}, \href{http://arxiv.org/abs/1502.00945}{{\ttfamily
   arXiv:1502.00945 [hep-th]}}.
 
-\bibitem{Sezgin:2003pt}
-E.~Sezgin and P.~Sundell, ``{Holography in 4D (super) higher spin theories and
-  a test via cubic scalar couplings}'',
-  \href{http://dx.doi.org/10.1088/1126-6708/2005/07/044}{{\em JHEP} {\bfseries
-  07} (2005) 044}, \href{http://arxiv.org/abs/hep-th/0305040}{{\ttfamily
-  arXiv:hep-th/0305040}}.
+\bibitem{Borokhov:2002cg}
+V.~Borokhov, A.~Kapustin, and X.-k. Wu, ``{Monopole operators and mirror
+  symmetry in three-dimensions}'',
+  \href{http://dx.doi.org/10.1088/1126-6708/2002/12/044}{{\em JHEP} {\bfseries
+  12} (2002) 044}, \href{http://arxiv.org/abs/hep-th/0207074}{{\ttfamily
+  arXiv:hep-th/0207074}}.
 
-\bibitem{Klebanov:2002ja}
-I.~R. Klebanov and A.~M. Polyakov, ``{AdS Dual of the Critical $O(N)$ Vector
-  Model}'', \href{http://dx.doi.org/10.1016/S0370-2693(02)02980-5}{{\em Phys.
-  Lett.} {\bfseries B550} (2002) 213--219},
-\href{http://arxiv.org/abs/hep-th/0210114}{{\ttfamily arXiv:hep-th/0210114}}.
-%%CITATION = HEP-TH/0210114;%%.
+\bibitem{Chern:1974ft}
+S.-S. Chern and J.~Simons, ``{Characteristic forms and geometric invariants}'',
+  \href{http://dx.doi.org/10.2307/1971013}{{\em Annals Math.} {\bfseries 99}
+  (1974) 48--69}.
 
-\bibitem{Vasiliev:1992av}
-M.~A. Vasiliev, ``{More on equations of motion for interacting massless fields
-  of all spins in (3+1)-dimensions}'',
-  \href{http://dx.doi.org/10.1016/0370-2693(92)91457-K}{{\em Phys. Lett. B}
-  {\bfseries 285} (1992) 225--234}.
+\bibitem{Deser:1982vy}
+S.~Deser, R.~Jackiw, and S.~Templeton, ``{Three-Dimensional Massive Gauge
+  Theories}'', \href{http://dx.doi.org/10.1103/PhysRevLett.48.975}{{\em Phys.
+  Rev. Lett.} {\bfseries 48} (1982) 975--978}.
+
+\bibitem{Deser:1981wh}
+S.~Deser, R.~Jackiw, and S.~Templeton, ``{Topologically Massive Gauge
+  Theories}'', \href{http://dx.doi.org/10.1016/0003-4916(82)90164-6}{{\em
+  Annals Phys.} {\bfseries 140} (1982) 372--411}. [Erratum: Annals Phys. 185,
+  406 (1988)].
 
 \bibitem{Carlip:2005zn}
 S.~Carlip, ``{Conformal field theory, (2+1)-dimensional gravity, and the BTZ
@@ -390,13 +492,6 @@ S.~G. Naculich and H.~J. Schnitzer, ``{Level-rank duality of the U(N) WZW
   06} (2007) 023},
 \href{http://arxiv.org/abs/hep-th/0703089}{{\ttfamily arXiv:hep-th/0703089}}.
 %%CITATION = HEP-TH/0703089;%%.
-
-\bibitem{Benini:2011mf}
-F.~Benini, C.~Closset, and S.~Cremonesi, ``{Comments on 3d Seiberg-like
-  dualities}'', \href{http://dx.doi.org/10.1007/JHEP10(2011)075}{{\em JHEP}
-  {\bfseries 10} (2011) 075},
-\href{http://arxiv.org/abs/1108.5373}{{\ttfamily arXiv:1108.5373}}.
-%%CITATION = ARXIV:1108.5373;%%.
 
 \bibitem{Aharony:2013dha}
 O.~Aharony, S.~S. Razamat, N.~Seiberg, and B.~Willett, ``{3d dualities from 4d
