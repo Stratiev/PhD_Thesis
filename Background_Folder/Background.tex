@@ -13,14 +13,14 @@ This chapter provides the necessary background \colorbox{red}{information} and t
 
     After we have covered these, \colorbox{red}{ }we will spend some time looking at the problems of the \textit{fractional and integer quantum hall effects} (FQHE/IQHE) in \textcolor{red}{section} \ref{FQHE_sec} and emphasize \colorbox{red}{their} relation to Chern-Simons matter theories. This will help us understand the applications and motivate the study of the models we are concerned with in this text.
 
-    Then, we shall continue by reviewing the properties of \textit{vortices} in section \ref{vortices_sec}. Specifically, we look at vortices in the abelian Higgs model, Pure abelian Chern-Simons theory with scalar matter and the mixed case where both $S_{\text{Maxwell}}$ and $S_{\text{CS}}$ play a role. We emphasize the importance of a \textit{BPS} bound for these systems. Finally, we discuss some subtleties relating to non-abelian vortices.
+    Then, we shall continue by reviewing the properties of \textit{vortices} in section \ref{vortices_sec}. Specifically, we look at vortices in the abelian Higgs model, \textcolor{red}{p}ure abelian Chern-Simons theory with scalar matter and the mixed case where both \textcolor{red}{classical Maxwell dynamics and the topological Chern-Simons term} play a role. We emphasize the importance of a \textcolor{red}{\textit{Bogomol'nyi-Prasad-Sommerfield (BPS)} \cite{Bogomolny:1975de, Prasad:1975kr}} bound for these systems. Finally, we discuss some subtleties relating to non-abelian vortices.
 
     We continue by addressing \textit{Fermi-Bose and particle-vortex dualities} in \ref{Fermi-Bose_sec}, which were the primary motivation for this work. We provide the relevant information about CFTs and RG flows in order to keep the presentation self-contained. We outline important aspects of the dualities in order to highlight where our work fits in that context.
 
     Finally, we include a section concerning the physics of \textit{non-commutative} field theory \colorbox{red}{and} its relation to the theory of fluids\colorbox{red}{. In} particular, \colorbox{red}{we include} the description of the Quantum Hall fluid in terms of a \textit{'fuzzy'} underlying space, in which the coordinates do not commute. We shall see that this description is a Chern-Simons theory and it seems to arise naturally out of the ground state in the finite density non-abelian model that we have studied.
 
         \section{Chern-Simons Theory} \label{CS_sec}
-    Chern-Simons (CS) theory is a very unusual type of QFT both in its origin and its applications. It is a testament to the power and universality of mathematics, first conceived of as an abstract tool in the theory of differential operators and their connections to topology, it has grown to encompass many facets of modern physics and mathematics. From the computation of knot invariants to the prediction of non-abelian anyons, which are the ingredients necessary for performing a topological quantum computation -- currently one of the most promising approaches to fault tolerant quantum computation, due to the topological stability of the qubits. \textcolor{red}{Chern-Simons} theory is an example of a topological field theory (TQFT) of Schwarz type \textcolor{yellow}{CITATION NEEDED}, which means that it is independent of the metric and so any observable is related to a topological invariant. It is the basis for three dimensional gravity \cite{Carlip:2005zn}, provides a field theoretic explanation for the Quantum Hall Effect and anyonic physics \cite{Zee, Tong:2016kpv}, has been instrumental in the classification of rational 2D CFTs \cite{Moore:1989yh}, creates a bridge between theoretical physics and knot theory \cite{Witten:1988hf} and, recently, it has uncovered an equivalence between two types of matter, previously thought to have been fundamentally different -- namely Fermi-Bose duality \cite{Aharony:2015mjs}. These are among the most noteworthy applications of CS theory. Therefore, in this section we justly take the time to review essential aspects of CS theory. Most of the results seen in this section, can also be found in the excellent review by Dunne \cite{Dunne:1998qy}.
+    Chern-Simons (CS) theory is a very unusual type of QFT both in its origin and its applications. It is a testament to the power and universality of mathematics, first conceived of as an abstract tool in the theory of differential operators and their connections to topology \textcolor{red}{\cite{Chern:1974ft}}, it has grown to encompass many facets of modern physics and mathematics. From the computation of knot invariants \textcolor{red}{\cite{Witten:1988hf}} to the prediction of non-abelian anyons \textcolor{red}{\cite{Moore:1991ks}}, which are the ingredients necessary for performing a topological quantum computation \textcolor{red}{\cite{RevModPhys.80.1083}} -- currently one of the most promising approaches to fault tolerant quantum computation, due to the topological stability of the qubits. \textcolor{red}{Chern-Simons} theory is an example of a topological field theory (TQFT) of Schwarz type \textcolor{red}{\cite{Schwarz:2000ct}}, which means that it is independent of the metric and so any observable is related to a topological invariant. It is the basis for three dimensional gravity \cite{Carlip:2005zn} \textcolor{red}{\cite{Deser:1982vy, Witten:2007kt}}, provides a field theoretic explanation for the Quantum Hall Effect and anyonic physics \cite{Zee, Tong:2016kpv}, has been instrumental in the classification of rational 2D CFTs \cite{Moore:1989yh}, creates a bridge between theoretical physics and knot theory \cite{Witten:1988hf} and, recently, it has uncovered an equivalence between two types of matter, previously thought to have been fundamentally different -- namely Fermi-Bose duality \cite{Aharony:2015mjs} \textcolor{red}{\cite{Aharony:2012nh, Giombi:2011kc, Aharony:2011jz, Giveon:2008zn}}. These are among the most noteworthy applications of CS theory. Therefore, in this section we justly take the time to review essential aspects of CS theory. Most of the results seen in this section, can also be found in the excellent review by Dunne \cite{Dunne:1998qy}.
 
     In the study of fundamental physics, we should assume that any term in the Lagrangian that is not forbidden by a basic principle (\textit{e.g.} a symmetry or gauge-invariance) should be included in order to account for all aspects of the system at hand. From gauge theory we are familiar with the idea of introducing a gauge field to render a Lagrangian gauge invariant and then include a gauge-invariant Yang-Mills term that is responsible for the dynamics of the gauge potential. Modulo subtleties, this is true in any number of dimensions. Taking these subtleties into account, it turns out that in 2+1 dimensions, the Yang-Mills term is not the only gauge invariant term one can include. One can write down a term in the action, which is the integral of a three-form, depending solely on the gauge field $A_{\mu}$. This term, whilst not manifestly gauge invariant, leaves the partition function unchanged under gauge \textcolor{red}{transformations}. This three-form is the Chern-Simons Lagrangian, which we write down here\colorbox{red}{ }
 
@@ -57,12 +57,13 @@ We can define the field strength tensor in the usual way for a non-abelian gauge
 
     One way topologists use to classify spaces is through \textit{homotopy groups}. An example is the first homotopy group $\pi_1$ or the \textit{fundamental group}. This group is an indicator of the ``connectivity'' of a manifold. Its definition has to do with whether a given loop can be contracted to a point. More precisely, one can define a group at each point on a manifold, whose elements are equivalency classes of loops that start and end at that point \textit{and} are continuously deformable into each other. For example, if all loops on a given space can be contracted to a point, then the fundamental group $\pi_1$ is trivial, since all elements of the group are the identity. The group operation on these loops is such that we create a new loop from $g_1$ and $g_2$ by going around $g_1$ first, then followed by going around $g_2$. It turns out that loops that encircle a singular point (or hole in the space) $n$ times are \textbf{not} continuously deformable into loops that encircle said point $n'$ times, if $n \neq n'$. This is an intuitive way of understanding the fact that for each hole in the space-time manifold, the fundamental group acquires a cartesian factor of $\mathbb{Z}$. Meaning that loops can wind around singular points arbitrarily many integer number of times and the number of loops around one singular point is independent of the number around another.
 
-    Such a classification is not restricted to loops but can also be applied to higher dimensional spheres. For example, the classes of mappings from the 3-sphere to 3-dimensional Euclidean space-time are classified by $\pi_3$. If $\pi_3$ is non-trivial, this tells us that not all gauge transformations are connected to the identity. Importantly for the purposes of theoretical physics, it is known that $\pi_3\left(SU(N) \right)$, $N\geq2$ is non-trivial. We shall now see how this fact plays a role in the gauge invariance of Chern-Simons.
+    Such a classification is not restricted to loops but can also be applied to higher dimensional spheres. For example, the classes of mappings from the 3-sphere to 3-dimensional Euclidean space-time are classified by $\pi_3$. If $\pi_3$ is non-trivial, this tells us that not all gauge transformations are connected to the identity. Importantly\textcolor{red}{,} for the purposes of theoretical physics, \textcolor{red}{we shall use the fact} that $\pi_3\left(SU(N) \right)\textcolor{red}{=\mathbb{Z}}$ \textcolor{red}{for} $N\geq2$ is non-trivial \textcolor{red}{\cite{Toda1959}}. We shall now see how this fact plays a role in the gauge invariance of Chern-Simons.
 
     To convince ourselves of the gauge invariance, let us perform a gauge transformation
     \begin{align}
-        A_{\mu} \rightarrow A'_{\mu} \equiv g^{-1} A_{\mu} g + g^{-1}\partial_{\mu} g\colorbox{red}{.}
+        A_{\mu} \rightarrow A'_{\mu} \equiv g^{-1} A_{\mu} g + g^{-1}\partial_{\mu} g\colorbox{red}{, $\qquad$ g$\in$ $\mathcal{G}$,}
     \end{align}
+    where $\mathcal{G}$ is a compact semi-simple Lie group.
     Under this transformation, the Lagrangian changes in the following way
     \begin{align}
         \mathcal{L}_{\text{CS}} &\rightarrow \mathcal{L}_{\text{CS}}  - \kappa \epsilon^{\mu \nu \rho} \partial_{\mu} \ \mathrm{Tr} \bigg[\partial_{\nu} g g^{-1} A_{\rho}  \bigg] - \frac{\kappa}{3} \epsilon^{\mu \nu \rho} \ \mathrm{Tr} \bigg[g^{-1} \partial_{\mu} g g^{-1} \partial_{\nu} g g^{-1} \partial_{\rho} g\bigg]\colorbox{red}{.}
@@ -119,7 +120,7 @@ This above passage illustrates the essence of large gauge transformations in the
     \begin{align}
         \partial_{\mu} F^{\mu \nu} + \frac{k}{4\pi} g^2 \epsilon^{\nu \alpha \beta}F_{\alpha \beta} =0\colorbox{red}{.}
     \end{align}
-    If we rewrite this equation in terms of the dual field strength $\tilde{F}_{\mu} = \frac{1}{2} \epsilon_{\mu\nu\rho} F^{\nu\rho}$ by contracting with an $\epsilon$ tensor, followed by a $\partial$ contraction, using the equations of motion again and noting that $\partial_{\mu} \tilde{F}^{\mu} =0$ (3D Bianchi identity), we arrive at 
+    If we rewrite this equation in terms of the dual field strength $\tilde{F}_{\mu} = \frac{1}{2} \epsilon_{\mu\nu\rho} F^{\nu\rho}$ by contracting with an $\epsilon$ tensor \textcolor{red}{density}, followed by a $\partial$ contraction, using the equations of motion again and noting that $\partial_{\mu} \tilde{F}^{\mu} =0$ (3\textcolor{red}{d} Bianchi identity), we arrive at 
     \begin{align}
         \left[\partial_{\mu} \partial^{\mu} + \left(\frac{k}{2 \pi} g^2 \right)^2 \right] \tilde{F}^{\nu}=0.
     \end{align}
@@ -163,8 +164,8 @@ This above passage illustrates the essence of large gauge transformations in the
 
 \begin{figure}[htb]
 	\centering
-		\includegraphics[scale=0.17]{Background_Folder/figures/flux_attachment_improved.pdf}
-    \caption[\textcolor{red}{This figure depicts magnetic flux attachment.}]{A collection of localized charge distributions, and with magnetic flux lines of strength $\frac{4 \pi \hbar \rho(x,y)}{k}$ tied to the charges. \textcolor{red}{Here the charge density distribution is denoted by $\rho(x,y)$ and the magnetic field strength is denoted by $B(x,y)$. Darker shades of cyan depict a larger charge density and larger red vectors are associated with a stronger magnetic field perpendicular to the plane.}  The charge and flux are tied together throughout the motion of the particles as a result of the Chern-Simons equations \eqref{eq:source_abel_charge} - \eqref{eq:source_abel_current}.} \label{fig:flux_attachment}
+		\includegraphics[scale=0.17]{Background_Folder/figures/Flux_Attachment_2.pdf}
+    \caption[\textcolor{red}{This figure depicts magnetic flux attachment.}]{A collection of localized charge distributions, and with magnetic flux lines of strength \textcolor{red}{$\frac{4 \pi \rho(x,y)}{k}$} tied to the charges. \textcolor{red}{Here the charge density distribution is denoted by $\rho(x,y)$ and the magnetic field strength is denoted by $B(x,y)$. Darker shades of cyan depict a larger charge density and larger red vectors are associated with a stronger magnetic field perpendicular to the plane.}  The charge and flux are tied together throughout the motion of the particles as a result of the Chern-Simons equations \eqref{eq:source_abel_charge} - \eqref{eq:source_abel_current}.} \label{fig:flux_attachment}
 \end{figure}
 
 The final aspect of Chern-Simons theory that we will use is the fact that it is a \textit{topological} field theory (TQFT). This means that the theory is independent of the metric. This consequently implies that the CS term does not contribute to the energy-momentum tensor, since
@@ -176,7 +177,7 @@ One way to see that CS is a topological field theory is by writing it as an inte
 \begin{align}
     S_{\text{CS}} &= \frac{k}{4 \pi} \int \left(A \wedge d \wedge A +A \wedge A \wedge A\right).
 \end{align}
-This construction does not require the metric to be defined, unlike the Yang-Mills term, which involves the hodge star (a metric dependent construct) in order to be defined through differential forms.
+This construction does not require the metric to be defined, unlike the Yang-Mills term, which involves the \textcolor{red}{H}odge star (a metric dependent construct) in order to be defined through differential forms.
 
 This concludes our review of CS theory. We now move on to a refresher of statistical physics.
 
@@ -187,7 +188,7 @@ This concludes our review of CS theory. We now move on to a refresher of statist
 
         Upon completing this summary, we go through a short review of statistical mechanical paradigms, their successes and shortcomings. In particular, we will highlight how the Landau-Fermi liquid theory \textcolor{red}{\cite{Landau:1956zuh}} manages to do away with the complications arising from interactions and how succesful the Landau-Ginzburg symmetry breaking ideas have been in explaining large swathes of interesting phases of matter. 
 
-        Finally, the failures of these extremely successful ideas will lead us to strongly correlated and topological systems. Notably, we discuss one system that seems to reject treatment from both of the above approaches -- a system of strongly interacting electrons confined to 2 dimensions, namely, the physical setup in which we observe the quantum hall effect. As the reader might suspect, the planar confinement is what forces us into considering CS theory as a natural candidate to explain the exotic properties of this structure.
+        Finally, the failures of these extremely successful ideas will lead us to strongly correlated and topological systems. Notably, we discuss one system that seems to reject treatment from both of the above approaches -- a system of strongly interacting electrons confined to 2 dimensions, namely, the physical setup in which we observe the \textcolor{red}{Q}uantum \textcolor{red}{H}all effect. As the reader might suspect, the planar confinement is what forces us into considering CS theory as a natural candidate to explain the exotic properties of this structure.
         \subsection{Functional Integral Representation of the Partition Function}
         In this section we derive the functional integral representation of the partition function for interacting relativistic non-gauge field theories. \textcolor{red}{Good reviews on the techniques we discuss here can be found in \cite{Laine:2016hma, 0486477223}.}
         Let $\hat{\phi}(\bm{x},0)$ be a Schr{\H o}dinger picture field operator at time $t=0$. We define its conjugate momentum operator to be $\hat{\pi}(\bm{x},0)$. The eigenstates of the field operator are labeled $| \phi \rangle$ and satisfy
@@ -408,12 +409,12 @@ Here we shall make a few observations that will come in use frequently for the r
 
         The Drude model is successful when compared to the classical experimental results obtained by Hall since it predicts correctly that the resistivity  $\rho_{xy}$ would grow linearly with the magnetic field $B$.
         \subsection{Quantum Hall Effect}
-        Now that we have an understanding of the classical Hall effect we are ready to delve into the physics of the quantum hall effect. It's important to distinguish two different types of quantum Hall effects, since they are qualitatively different, occur in different materials and seem to have fundamentally different physical explanations.
+        Now that we have an understanding of the classical Hall effect we are ready to delve into the physics of the \textcolor{red}{Q}uantum \textcolor{red}{H}all effect. It's important to distinguish two different types of \textcolor{red}{Q}uantum Hall effects, since they are qualitatively different, occur in different materials and seem to have fundamentally different physical explanations.
         The first type is the Integer Quantum Hall effect. In 1980, Klaus von Klitzing \textcolor{red}{et. al. \cite{vonKlitzing:1980pdk}} \textcolor{red}{performed} the Hall experiment at ultralow temperatures with strong magnetic fields and found that the above relation between $\rho_{yx}$ and $B$ does not hold for large enough magnetic fields. \textcolor{red}{They} found that beyond a certain magnetic field strength, plateaux started appearing in the resistivity that could not be explained by the classical picture. Further, \textcolor{red}{they} found that in the plateaux, where $\rho_{yx}$ was constant, $\rho_{xx}$ was vanishing. The precise relation that he discovered was
         \begin{align}
             \rho_{yx} = \frac{2 \pi \hbar}{e^2} \frac{1}{\nu}, \qquad \nu \in \mathbb{Z}.
         \end{align}
-        Thus the quantity $\frac{2 \pi \hbar}{e^2}$ is dubbed the quantum of resistivity. The explanation of the Integer Quantum Hall effect is based on the quantum mechanics of non-interacting particles confined to a plane. In the case of the fractional quantum hall effect (FQHE), where $\nu \in \mathbb{Q}$, we need to study a highly interacting system, which makes the FQHE a very interesting topic for theoretical physics.
+        Thus the quantity $\frac{2 \pi \hbar}{e^2}$ is dubbed the quantum of resistivity. The explanation of the Integer Quantum Hall effect is based on the quantum mechanics of non-interacting particles confined to a plane. In the case of the fractional \textcolor{red}{Q}uantum \textcolor{red}{H}all effect (FQHE), where $\nu \in \mathbb{Q}$, we need to study a highly interacting system, which makes the FQHE a very interesting topic for theoretical physics.
 
         Our exploration of the Quantum Hall Effect will stop here. What is important to take away from this section is that the understanding of the FQHE is underlied by the study of Chern-Simons theory. Thus studying the models, that are of interest in the present work, might lead to a better understanding of the fascinating problem that is the FQHE. A further connection to this problem is provided by the non-commutative Chern-Simons theory that we explore at the end of this chapter and at the end of chapter 3. Next, we turn our attention to the study of vortices.
 
@@ -574,30 +575,27 @@ Here we shall make a few observations that will come in use frequently for the r
     \end{align}
     where
     \begin{align}
-        S_{\text{XY}} &= \int d^3x |\partial_{\mu}\tilde{\phi}|^2-m^2 |\tilde{\phi}|^2 - \frac{\tilde{\lambda}}{2} |\tilde{\phi}|^4.
+        S_{\text{XY}} &= \int d^3x \, |\partial_{\mu}\tilde{\phi}|^2-m^2 |\tilde{\phi}|^2 - \frac{\tilde{\lambda}}{2} |\tilde{\phi}|^4.
     \end{align}
     $S_{\text{XY}}$ is the action for the so called \textit{XY model} and $S_{\text{AH}}$ is defined as in \eqref{eq:Abelian_Higgs_Model}. The matching of the physics in the different phases is summarized in table \eqref{table:PV_Duality}.
-
     \begin{table}
 \begin{center}
   \begin{tabular}{| l | c | c | c|}
       \hline
-    $m^2$ & $<0$ & $=0$ & $>0$\\ \hline
-     & Coulomb phase &  & SB phase\\ 
-    $S_{\text{XY}}$ & $2d$ logarithmic & WF fixed point & local ANO \\ 
-     & potential &  & vortices \\ \hline
-      & SB phase &  &  Massive excitations\\
-    $S_{\text{AH}}$ & global vortices & WF fixed point & in\\
-      & $E\xrightarrow{V \rightarrow \infty} \infty$ &  & Coulomb phase \\
+    $m^2$           &  $>0$                  & $=0$                           &  $<0$                                               \\\hline
+                    &  SB phase              & \textcolor{red}{Wilson-Fisher} &  Coulomb phase                                      \\                             
+    $S_{\text{XY}}$ &  local ANO             &  fixed point                   &  $2d$ logarithmic                                   \\                           
+                    &  vortices              &                                &  potential                                          \\\hline
+                    &   Massive excitations  & \textcolor{red}{Wilson-Fisher} &  SB phase                                           \\                
+    $S_{\text{AH}}$ &  in                    & fixed point                    &  global vortices                                    \\                                  
+                    &  Coulomb phase         &                                &  $E\xrightarrow{V \rightarrow \infty} \infty$       \\                      
     \hline
   \end{tabular}
 \end{center}
-      \caption{This table shows the matching of the phases of the XY model and the Abelian Higgs model}
+        \caption[This table shows the matching of the phases of the XY model and the Abelian Higgs model.]{This table shows the matching of the phases of the XY model and the Abelian Higgs model. \textcolor{red}{The $m$ parameter corresponds to the mass in the XY model. Deforming the XY model with a positive mass squared is matched by a negative mass squared deformation on the side of the Abelian Higgs model. At $m^2=0$, both models are at a critical point known as the Wilson Fisher fixed point. }}
         \label{table:PV_Duality}
     \end{table}
 In \cite{Karch:2016sxi}, the authors showed a link between this particle-vortex duality and bosonization. This naturally leads us to the next section, which focuses on Fermi-Bose duality.
-
-
 %\textcolor{red}{***More to add***}\\
 %-- Say something about the relation between particle-vortex duality and bosonization \cite{Karch:2016sxi, Murugan:2016zal} \\
 %Some history, Abrikosov \cite{Abrikosov1957}, type $I$ and $II$ superconductors. Vortices are solitons -- this means that they are non-perturbative solutions to the equations of motion that are localized and stable.\\

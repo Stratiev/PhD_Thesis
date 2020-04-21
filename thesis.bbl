@@ -20,6 +20,16 @@ A.~M. Polyakov, ``{Quark Confinement and Topology of Gauge Groups}'',
   \href{http://dx.doi.org/10.1016/0550-3213(77)90086-4}{{\em Nucl.\ Phys.\ B}
   {\bfseries 120} (1977) 429--458}.
 
+\bibitem{Kramers:1941kn}
+H.~Kramers and G.~Wannier, ``{Statistics of the two-dimensional ferromagnet.
+  Part 1.}'', \href{http://dx.doi.org/10.1103/PhysRev.60.252}{{\em Phys. Rev.}
+  {\bfseries 60} (1941) 252--262}.
+
+\bibitem{Onsager:1943jn}
+L.~Onsager, ``{Crystal statistics. 1. A Two-dimensional model with an order
+  disorder transition}'', \href{http://dx.doi.org/10.1103/PhysRev.65.117}{{\em
+  Phys. Rev.} {\bfseries 65} (1944) 117--149}.
+
 \bibitem{Coleman:1974bu}
 S.~R. Coleman, ``{The Quantum Sine-Gordon Equation as the Massive Thirring
   Model}'', \href{http://dx.doi.org/10.1103/PhysRevD.11.2088}{{\em Phys. Rev.
@@ -42,15 +52,32 @@ E.~Witten, ``{Nonabelian Bosonization in Two-Dimensions}'',
   \href{http://dx.doi.org/10.1007/BF01215276}{{\em Commun. Math. Phys.}
   {\bfseries 92} (1984) 455--472}.
 
-\bibitem{Kramers:1941kn}
-H.~Kramers and G.~Wannier, ``{Statistics of the two-dimensional ferromagnet.
-  Part 1.}'', \href{http://dx.doi.org/10.1103/PhysRev.60.252}{{\em Phys. Rev.}
-  {\bfseries 60} (1941) 252--262}.
+\bibitem{Nakanishi:1990hj}
+T.~Nakanishi and A.~Tsuchiya, ``{Level rank duality of WZW models in conformal
+  field theory}'',
+\href{http://dx.doi.org/10.1007/BF02101097}{{\em Commun. Math. Phys.}
+  {\bfseries 144} (1992) 351--372}.
+%%CITATION = CMPHA,144,351;%%.
 
-\bibitem{Onsager:1943jn}
-L.~Onsager, ``{Crystal statistics. 1. A Two-dimensional model with an order
-  disorder transition}'', \href{http://dx.doi.org/10.1103/PhysRev.65.117}{{\em
-  Phys. Rev.} {\bfseries 65} (1944) 117--149}.
+\bibitem{Naculich:1990hg}
+S.~G. Naculich and H.~J. Schnitzer, ``{Duality Between SU($N$)-k and SU(k)-$N$
+  {WZW} Models}'', \href{http://dx.doi.org/10.1016/0550-3213(90)90380-V}{{\em
+  Nucl. Phys. B} {\bfseries 347} (1990) 687--742}.
+
+\bibitem{Mlawer:1990uv}
+E.~J. Mlawer, S.~G. Naculich, H.~A. Riggs, and H.~J. Schnitzer, ``{Group level
+  duality of WZW fusion coefficients and Chern-Simons link observables}'',
+\href{http://dx.doi.org/10.1016/0550-3213(91)90110-J}{{\em Nucl. Phys.}
+  {\bfseries B352} (1991) 863--896}.
+%%CITATION = NUPHA,B352,863;%%.
+
+\bibitem{Naculich:2007nc}
+S.~G. Naculich and H.~J. Schnitzer, ``{Level-rank duality of the U(N) WZW
+  model, Chern-Simons theory, and 2-D qYM theory}'',
+  \href{http://dx.doi.org/10.1088/1126-6708/2007/06/023}{{\em JHEP} {\bfseries
+  06} (2007) 023},
+\href{http://arxiv.org/abs/hep-th/0703089}{{\ttfamily arXiv:hep-th/0703089}}.
+%%CITATION = HEP-TH/0703089;%%.
 
 \bibitem{Dirac:1931kp}
 P.~A.~M. Dirac, ``{Quantised singularities in the electromagnetic field,}'',
@@ -120,20 +147,6 @@ A.~Giveon and D.~Kutasov, ``{Seiberg Duality in Chern-Simons Theory}'',
 \href{http://arxiv.org/abs/0808.0360}{{\ttfamily arXiv:0808.0360}}.
 %%CITATION = ARXIV:0808.0360;%%.
 
-\bibitem{Benini:2011mf}
-F.~Benini, C.~Closset, and S.~Cremonesi, ``{Comments on 3d Seiberg-like
-  dualities}'', \href{http://dx.doi.org/10.1007/JHEP10(2011)075}{{\em JHEP}
-  {\bfseries 10} (2011) 075},
-\href{http://arxiv.org/abs/1108.5373}{{\ttfamily arXiv:1108.5373}}.
-%%CITATION = ARXIV:1108.5373;%%.
-
-\bibitem{deBoer:1997kr}
-J.~de~Boer, K.~Hori, and Y.~Oz, ``{Dynamics of N=2 supersymmetric gauge
-  theories in three-dimensions}'',
-  \href{http://dx.doi.org/10.1016/S0550-3213(97)00328-3}{{\em Nucl. Phys. B}
-  {\bfseries 500} (1997) 163--191},
-  \href{http://arxiv.org/abs/hep-th/9703100}{{\ttfamily arXiv:hep-th/9703100}}.
-
 \bibitem{Sen:1994fa}
 A.~Sen, ``{Strong - weak coupling duality in four-dimensional string theory}'',
   \href{http://dx.doi.org/10.1142/S0217751X94001497}{{\em Int. J. Mod. Phys. A}
@@ -187,6 +200,12 @@ J.~M. Maldacena, ``{The Large N limit of superconformal field theories and
   J. Theor. Phys.} {\bfseries 38} (1999) 1113--1133},
   \href{http://arxiv.org/abs/hep-th/9711200}{{\ttfamily arXiv:hep-th/9711200}}.
 
+\bibitem{Vasiliev:1992av}
+M.~A. Vasiliev, ``{More on equations of motion for interacting massless fields
+  of all spins in (3+1)-dimensions}'',
+  \href{http://dx.doi.org/10.1016/0370-2693(92)91457-K}{{\em Phys. Lett. B}
+  {\bfseries 285} (1992) 225--234}.
+
 \bibitem{Sezgin:2003pt}
 E.~Sezgin and P.~Sundell, ``{Holography in 4D (super) higher spin theories and
   a test via cubic scalar couplings}'',
@@ -201,11 +220,27 @@ I.~R. Klebanov and A.~M. Polyakov, ``{AdS Dual of the Critical $O(N)$ Vector
 \href{http://arxiv.org/abs/hep-th/0210114}{{\ttfamily arXiv:hep-th/0210114}}.
 %%CITATION = HEP-TH/0210114;%%.
 
-\bibitem{Vasiliev:1992av}
-M.~A. Vasiliev, ``{More on equations of motion for interacting massless fields
-  of all spins in (3+1)-dimensions}'',
-  \href{http://dx.doi.org/10.1016/0370-2693(92)91457-K}{{\em Phys. Lett. B}
-  {\bfseries 285} (1992) 225--234}.
+\bibitem{Giombi:2011kc}
+S.~Giombi, S.~Minwalla, S.~Prakash, S.~P. Trivedi, S.~R. Wadia, and X.~Yin,
+  ``{Chern-Simons Theory with Vector Fermion Matter}'',
+  \href{http://dx.doi.org/10.1140/epjc/s10052-012-2112-0}{{\em Eur. Phys. J.}
+  {\bfseries C72} (2012) 2112},
+\href{http://arxiv.org/abs/1110.4386}{{\ttfamily arXiv:1110.4386}}.
+%%CITATION = ARXIV:1110.4386;%%.
+
+\bibitem{Aharony:2015mjs}
+O.~Aharony, ``{Baryons, monopoles and dualities in Chern-Simons-matter
+  theories}'', \href{http://dx.doi.org/10.1007/JHEP02(2016)093}{{\em JHEP}
+  {\bfseries 02} (2016) 093},
+\href{http://arxiv.org/abs/1512.00161}{{\ttfamily arXiv:1512.00161}}.
+%%CITATION = ARXIV:1512.00161;%%.
+
+\bibitem{Gur-Ari:2015pca}
+G.~Gur-Ari and R.~Yacoby, ``{Three Dimensional Bosonization From
+  Supersymmetry}'', \href{http://dx.doi.org/10.1007/JHEP11(2015)013}{{\em JHEP}
+  {\bfseries 11} (2015) 013},
+\href{http://arxiv.org/abs/1507.04378}{{\ttfamily arXiv:1507.04378}}.
+%%CITATION = ARXIV:1507.04378;%%.
 
 \bibitem{Aharony:2012nh}
 O.~Aharony, G.~Gur-Ari, and R.~Yacoby, ``{{C}orrelation {F}unctions of {L}arge
@@ -215,78 +250,49 @@ O.~Aharony, G.~Gur-Ari, and R.~Yacoby, ``{{C}orrelation {F}unctions of {L}arge
 \href{http://arxiv.org/abs/1207.4593}{{\ttfamily arXiv:1207.4593}}.
 %%CITATION = ARXIV:1207.4593;%%.
 
-\bibitem{Peskin:1977kp}
-M.~E. Peskin, ``{Mandelstam 't Hooft Duality in Abelian Lattice Models}'',
-  \href{http://dx.doi.org/10.1016/0003-4916(78)90252-X}{{\em Annals Phys.}
-  {\bfseries 113} (1978) 122}.
+\bibitem{Jain:2013gza}
+S.~Jain, S.~Minwalla, and S.~Yokoyama, ``{Chern Simons duality with a
+  fundamental boson and fermion}'',
+  \href{http://dx.doi.org/10.1007/JHEP11(2013)037}{{\em JHEP} {\bfseries 11}
+  (2013) 037},
+\href{http://arxiv.org/abs/1305.7235}{{\ttfamily arXiv:1305.7235}}.
+%%CITATION = ARXIV:1305.7235;%%.
 
-\bibitem{Dasgupta:1981zz}
-C.~Dasgupta and B.~Halperin, ``{Phase Transition in a Lattice Model of
-  Superconductivity}'',
-  \href{http://dx.doi.org/10.1103/PhysRevLett.47.1556}{{\em Phys. Rev. Lett.}
-  {\bfseries 47} (1981) 1556--1560}.
+\bibitem{Bogomolny:1975de}
+E.~Bogomolny, ``{Stability of Classical Solutions}'', {\em Sov.\ J.\ Nucl.\
+  Phys.} {\bfseries 24} (1976) 449.
 
-\bibitem{PhysRevB.39.2756}
-M.~P.~A. Fisher and D.~H. Lee, ``Correspondence between two-dimensional bosons
-  and a bulk superconductor in a magnetic field'',
-  \href{http://dx.doi.org/10.1103/PhysRevB.39.2756}{{\em Phys. Rev. B}
-  {\bfseries 39} (Feb, 1989) 2756--2759}.
-
-\bibitem{Aharony:1997bx}
-O.~Aharony, A.~Hanany, K.~A. Intriligator, N.~Seiberg, and M.~Strassler,
-  ``{Aspects of N=2 supersymmetric gauge theories in three-dimensions}'',
-  \href{http://dx.doi.org/10.1016/S0550-3213(97)00323-4}{{\em Nucl. Phys. B}
-  {\bfseries 499} (1997) 67--99},
-  \href{http://arxiv.org/abs/hep-th/9703110}{{\ttfamily arXiv:hep-th/9703110}}.
-
-\bibitem{Intriligator:2013lca}
-K.~Intriligator and N.~Seiberg, ``{Aspects of 3d N=2 Chern-Simons-Matter
-  Theories}'', \href{http://dx.doi.org/10.1007/JHEP07(2013)079}{{\em JHEP}
-  {\bfseries 07} (2013) 079}, \href{http://arxiv.org/abs/1305.1633}{{\ttfamily
-  arXiv:1305.1633 [hep-th]}}.
-
-\bibitem{Intriligator:1996ex}
-K.~A. Intriligator and N.~Seiberg, ``{Mirror symmetry in three-dimensional
-  gauge theories}'', \href{http://dx.doi.org/10.1016/0370-2693(96)01088-X}{{\em
-  Phys. Lett. B} {\bfseries 387} (1996) 513--519},
-  \href{http://arxiv.org/abs/hep-th/9607207}{{\ttfamily arXiv:hep-th/9607207}}.
-
-\bibitem{Aharony:2014uya}
-O.~Aharony and D.~Fleischer, ``{IR Dualities in General 3d Supersymmetric SU(N)
-  QCD Theories}'', \href{http://dx.doi.org/10.1007/JHEP02(2015)162}{{\em JHEP}
-  {\bfseries 02} (2015) 162},
-\href{http://arxiv.org/abs/1411.5475}{{\ttfamily arXiv:1411.5475}}.
-%%CITATION = ARXIV:1411.5475;%%.
-
-\bibitem{Aharony:2015pla}
-O.~Aharony, P.~Narayan, and T.~Sharma, ``{On monopole operators in
-  supersymmetric Chern-Simons-matter theories}'',
-  \href{http://dx.doi.org/10.1007/JHEP05(2015)117}{{\em JHEP} {\bfseries 05}
-  (2015) 117}, \href{http://arxiv.org/abs/1502.00945}{{\ttfamily
-  arXiv:1502.00945 [hep-th]}}.
-
-\bibitem{Borokhov:2002cg}
-V.~Borokhov, A.~Kapustin, and X.-k. Wu, ``{Monopole operators and mirror
-  symmetry in three-dimensions}'',
-  \href{http://dx.doi.org/10.1088/1126-6708/2002/12/044}{{\em JHEP} {\bfseries
-  12} (2002) 044}, \href{http://arxiv.org/abs/hep-th/0207074}{{\ttfamily
-  arXiv:hep-th/0207074}}.
+\bibitem{Prasad:1975kr}
+M.~Prasad and C.~M. Sommerfield, ``{An Exact Classical Solution for the 't
+  Hooft Monopole and the Julia-Zee Dyon}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.35.760}{{\em Phys.\ Rev.\ Lett.}
+  {\bfseries 35} (1975) 760--762}.
 
 \bibitem{Chern:1974ft}
 S.-S. Chern and J.~Simons, ``{Characteristic forms and geometric invariants}'',
   \href{http://dx.doi.org/10.2307/1971013}{{\em Annals Math.} {\bfseries 99}
   (1974) 48--69}.
 
-\bibitem{Deser:1982vy}
-S.~Deser, R.~Jackiw, and S.~Templeton, ``{Three-Dimensional Massive Gauge
-  Theories}'', \href{http://dx.doi.org/10.1103/PhysRevLett.48.975}{{\em Phys.
-  Rev. Lett.} {\bfseries 48} (1982) 975--978}.
+\bibitem{Witten:1988hf}
+E.~Witten, ``{Quantum Field Theory and the Jones Polynomial}'',
+  \href{http://dx.doi.org/10.1007/BF01217730}{{\em Commun.\ Math.\ Phys.}
+  {\bfseries 121} (1989) 351--399}.
 
-\bibitem{Deser:1981wh}
-S.~Deser, R.~Jackiw, and S.~Templeton, ``{Topologically Massive Gauge
-  Theories}'', \href{http://dx.doi.org/10.1016/0003-4916(82)90164-6}{{\em
-  Annals Phys.} {\bfseries 140} (1982) 372--411}. [Erratum: Annals Phys. 185,
-  406 (1988)].
+\bibitem{Moore:1991ks}
+G.~W. Moore and N.~Read, ``{Nonabelions in the fractional quantum Hall
+  effect}'', \href{http://dx.doi.org/10.1016/0550-3213(91)90407-O}{{\em Nucl.
+  Phys. B} {\bfseries 360} (1991) 362--396}.
+
+\bibitem{RevModPhys.80.1083}
+C.~Nayak, S.~H. Simon, A.~Stern, M.~Freedman, and S.~Das~Sarma, ``Non-abelian
+  anyons and topological quantum computation'',
+  \href{http://dx.doi.org/10.1103/RevModPhys.80.1083}{{\em Rev. Mod. Phys.}
+  {\bfseries 80} (Sep, 2008) 1083--1159}.
+  \url{https://link.aps.org/doi/10.1103/RevModPhys.80.1083}.
+
+\bibitem{Schwarz:2000ct}
+A.~S. Schwarz, ``{Topological quantum field theories}'',
+  \href{http://arxiv.org/abs/hep-th/0011260}{{\ttfamily arXiv:hep-th/0011260}}.
 
 \bibitem{Carlip:2005zn}
 S.~Carlip, ``{Conformal field theory, (2+1)-dimensional gravity, and the BTZ
@@ -294,6 +300,15 @@ S.~Carlip, ``{Conformal field theory, (2+1)-dimensional gravity, and the BTZ
   Class. Quant. Grav.} {\bfseries 22} (2005) R85--R124},
 \href{http://arxiv.org/abs/gr-qc/0503022}{{\ttfamily arXiv:gr-qc/0503022}}.
 %%CITATION = GR-QC/0503022;%%.
+
+\bibitem{Deser:1982vy}
+S.~Deser, R.~Jackiw, and S.~Templeton, ``{Three-Dimensional Massive Gauge
+  Theories}'', \href{http://dx.doi.org/10.1103/PhysRevLett.48.975}{{\em Phys.
+  Rev. Lett.} {\bfseries 48} (1982) 975--978}.
+
+\bibitem{Witten:2007kt}
+E.~Witten, ``{Three-Dimensional Gravity Revisited}'',
+  \href{http://arxiv.org/abs/0706.3359}{{\ttfamily arXiv:0706.3359 [hep-th]}}.
 
 \bibitem{Zee}
 A.~Zee, \href{http://dx.doi.org/10.1007/bfb0113369}{``Quantum hall fluids'',}
@@ -311,17 +326,13 @@ G.~W. Moore and N.~Seiberg, ``{Taming the Conformal Zoo}'',
   \href{http://dx.doi.org/10.1016/0370-2693(89)90897-6}{{\em Phys.\ Lett.\ B}
   {\bfseries 220} (1989) 422--430}.
 
-\bibitem{Witten:1988hf}
-E.~Witten, ``{Quantum Field Theory and the Jones Polynomial}'',
-  \href{http://dx.doi.org/10.1007/BF01217730}{{\em Commun.\ Math.\ Phys.}
-  {\bfseries 121} (1989) 351--399}.
-
-\bibitem{Aharony:2015mjs}
-O.~Aharony, ``{Baryons, monopoles and dualities in Chern-Simons-matter
-  theories}'', \href{http://dx.doi.org/10.1007/JHEP02(2016)093}{{\em JHEP}
-  {\bfseries 02} (2016) 093},
-\href{http://arxiv.org/abs/1512.00161}{{\ttfamily arXiv:1512.00161}}.
-%%CITATION = ARXIV:1512.00161;%%.
+\bibitem{Aharony:2011jz}
+O.~Aharony, G.~Gur-Ari, and R.~Yacoby, ``{d=3 Bosonic Vector Models Coupled to
+  Chern-Simons Gauge Theories}'',
+  \href{http://dx.doi.org/10.1007/JHEP03(2012)037}{{\em JHEP} {\bfseries 03}
+  (2012) 037},
+\href{http://arxiv.org/abs/1110.4382}{{\ttfamily arXiv:1110.4382}}.
+%%CITATION = ARXIV:1110.4382;%%.
 
 \bibitem{Dunne:1998qy}
 G.~V. Dunne, ``{Aspects of Chern-Simons theory}'', in {\em {Topological Aspects
@@ -331,6 +342,13 @@ G.~V. Dunne, ``{Aspects of Chern-Simons theory}'', in {\em {Topological Aspects
 \href{http://arxiv.org/abs/hep-th/9902115}{{\ttfamily arXiv:hep-th/9902115}}.
 \newblock
 %%CITATION = HEP-TH/9902115;%%.
+
+\bibitem{Toda1959}
+H.~Toda, ``A topological proof of theorems of bott and borel-hirzeburch for
+  homotopy groups of unitary groups'',
+  \href{http://dx.doi.org/10.1215/kjm/1250776701}{{\em Memoirs of the College
+  of Science, University of Kyoto. Series A: Mathematics} {\bfseries 32} no.~1,
+  (1959) 103--119}. \url{https://doi.org/10.1215/kjm/1250776701}.
 
 \bibitem{Nakahara}
 M.~Nakahara, {\em {G}eometry, {T}opology and {P}hysics}.
@@ -413,16 +431,6 @@ R.~Jackiw, K.-M. Lee, and E.~J. Weinberg, ``{Selfdual Chern-Simons solitons}'',
   \href{http://dx.doi.org/10.1103/PhysRevD.42.3488}{{\em Phys.\ Rev.\ D}
   {\bfseries 42} (1990) 3488--3499}.
 
-\bibitem{Bogomolny:1975de}
-E.~Bogomolny, ``{Stability of Classical Solutions}'', {\em Sov.\ J.\ Nucl.\
-  Phys.} {\bfseries 24} (1976) 449.
-
-\bibitem{Prasad:1975kr}
-M.~Prasad and C.~M. Sommerfield, ``{An Exact Classical Solution for the 't
-  Hooft Monopole and the Julia-Zee Dyon}'',
-  \href{http://dx.doi.org/10.1103/PhysRevLett.35.760}{{\em Phys.\ Rev.\ Lett.}
-  {\bfseries 35} (1975) 760--762}.
-
 \bibitem{Karch:2016sxi}
 A.~Karch and D.~Tong, ``{Particle-Vortex Duality from 3d Bosonization}'',
   \href{http://dx.doi.org/10.1103/PhysRevX.6.031043}{{\em Phys. Rev.}
@@ -433,14 +441,6 @@ A.~Karch and D.~Tong, ``{Particle-Vortex Duality from 3d Bosonization}'',
 \bibitem{Feynman_quote}
 R.~Feynman, {\em {T}he {C}haracter of {P}hysical {L}aw}.
 \newblock MIT Press, 1965.
-
-\bibitem{Aharony:2011jz}
-O.~Aharony, G.~Gur-Ari, and R.~Yacoby, ``{d=3 Bosonic Vector Models Coupled to
-  Chern-Simons Gauge Theories}'',
-  \href{http://dx.doi.org/10.1007/JHEP03(2012)037}{{\em JHEP} {\bfseries 03}
-  (2012) 037},
-\href{http://arxiv.org/abs/1110.4382}{{\ttfamily arXiv:1110.4382}}.
-%%CITATION = ARXIV:1110.4382;%%.
 
 \bibitem{Burgess:1993np}
 C.~P. Burgess and F.~Quevedo, ``{Bosonization as duality}'',
@@ -471,27 +471,12 @@ M.~Camperi, F.~Levstein, and G.~Zemba, ``{The Large $N$ Limit of {Chern-Simons}
   {\bfseries B247} (1990) 549--554}.
 %%CITATION = PHLTA,B247,549;%%.
 
-\bibitem{Mlawer:1990uv}
-E.~J. Mlawer, S.~G. Naculich, H.~A. Riggs, and H.~J. Schnitzer, ``{Group level
-  duality of WZW fusion coefficients and Chern-Simons link observables}'',
-\href{http://dx.doi.org/10.1016/0550-3213(91)90110-J}{{\em Nucl. Phys.}
-  {\bfseries B352} (1991) 863--896}.
-%%CITATION = NUPHA,B352,863;%%.
-
-\bibitem{Nakanishi:1990hj}
-T.~Nakanishi and A.~Tsuchiya, ``{Level rank duality of WZW models in conformal
-  field theory}'',
-\href{http://dx.doi.org/10.1007/BF02101097}{{\em Commun. Math. Phys.}
-  {\bfseries 144} (1992) 351--372}.
-%%CITATION = CMPHA,144,351;%%.
-
-\bibitem{Naculich:2007nc}
-S.~G. Naculich and H.~J. Schnitzer, ``{Level-rank duality of the U(N) WZW
-  model, Chern-Simons theory, and 2-D qYM theory}'',
-  \href{http://dx.doi.org/10.1088/1126-6708/2007/06/023}{{\em JHEP} {\bfseries
-  06} (2007) 023},
-\href{http://arxiv.org/abs/hep-th/0703089}{{\ttfamily arXiv:hep-th/0703089}}.
-%%CITATION = HEP-TH/0703089;%%.
+\bibitem{Benini:2011mf}
+F.~Benini, C.~Closset, and S.~Cremonesi, ``{Comments on 3d Seiberg-like
+  dualities}'', \href{http://dx.doi.org/10.1007/JHEP10(2011)075}{{\em JHEP}
+  {\bfseries 10} (2011) 075},
+\href{http://arxiv.org/abs/1108.5373}{{\ttfamily arXiv:1108.5373}}.
+%%CITATION = ARXIV:1108.5373;%%.
 
 \bibitem{Aharony:2013dha}
 O.~Aharony, S.~S. Razamat, N.~Seiberg, and B.~Willett, ``{3d dualities from 4d
@@ -500,6 +485,13 @@ O.~Aharony, S.~S. Razamat, N.~Seiberg, and B.~Willett, ``{3d dualities from 4d
 \href{http://arxiv.org/abs/1305.3924}{{\ttfamily arXiv:1305.3924}}.
 %%CITATION = ARXIV:1305.3924;%%.
 
+\bibitem{Aharony:2014uya}
+O.~Aharony and D.~Fleischer, ``{IR Dualities in General 3d Supersymmetric SU(N)
+  QCD Theories}'', \href{http://dx.doi.org/10.1007/JHEP02(2015)162}{{\em JHEP}
+  {\bfseries 02} (2015) 162},
+\href{http://arxiv.org/abs/1411.5475}{{\ttfamily arXiv:1411.5475}}.
+%%CITATION = ARXIV:1411.5475;%%.
+
 \bibitem{Aharony:2012ns}
 O.~Aharony, S.~Giombi, G.~Gur-Ari, J.~Maldacena, and R.~Yacoby, ``{The Thermal
   Free Energy in Large N Chern-Simons-Matter Theories}'',
@@ -507,29 +499,6 @@ O.~Aharony, S.~Giombi, G.~Gur-Ari, J.~Maldacena, and R.~Yacoby, ``{The Thermal
   (2013) 121},
 \href{http://arxiv.org/abs/1211.4843}{{\ttfamily arXiv:1211.4843}}.
 %%CITATION = ARXIV:1211.4843;%%.
-
-\bibitem{Giombi:2011kc}
-S.~Giombi, S.~Minwalla, S.~Prakash, S.~P. Trivedi, S.~R. Wadia, and X.~Yin,
-  ``{Chern-Simons Theory with Vector Fermion Matter}'',
-  \href{http://dx.doi.org/10.1140/epjc/s10052-012-2112-0}{{\em Eur. Phys. J.}
-  {\bfseries C72} (2012) 2112},
-\href{http://arxiv.org/abs/1110.4386}{{\ttfamily arXiv:1110.4386}}.
-%%CITATION = ARXIV:1110.4386;%%.
-
-\bibitem{Jain:2013gza}
-S.~Jain, S.~Minwalla, and S.~Yokoyama, ``{Chern Simons duality with a
-  fundamental boson and fermion}'',
-  \href{http://dx.doi.org/10.1007/JHEP11(2013)037}{{\em JHEP} {\bfseries 11}
-  (2013) 037},
-\href{http://arxiv.org/abs/1305.7235}{{\ttfamily arXiv:1305.7235}}.
-%%CITATION = ARXIV:1305.7235;%%.
-
-\bibitem{Gur-Ari:2015pca}
-G.~Gur-Ari and R.~Yacoby, ``{Three Dimensional Bosonization From
-  Supersymmetry}'', \href{http://dx.doi.org/10.1007/JHEP11(2015)013}{{\em JHEP}
-  {\bfseries 11} (2015) 013},
-\href{http://arxiv.org/abs/1507.04378}{{\ttfamily arXiv:1507.04378}}.
-%%CITATION = ARXIV:1507.04378;%%.
 
 \bibitem{Polychronakos:2007df}
 A.~P. Polychronakos, ``{Non-commutative Fluids}'',
