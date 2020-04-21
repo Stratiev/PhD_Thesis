@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.4.8)  21 APR 2020 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.4.8)  21 APR 2020 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1788,22 +1788,9 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 28.
 
-
-! Package xcolor Error: Undefined color `Here $\kappa $ is the Chern-Simons lev
-el. We shall shortly derive a quantization condition related to this quantity.'
-.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ...ion condition related to this quantity.} T
-                                                  he gauge field $A_\mu$ tak...
-
-? 
 [9]
 
-! LaTeX Error: \mathrm allowed only in math mode.
+! LaTeX Error: Too many math alphabets used in version normal.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1813,7 +1800,7 @@ l.44 \end{align}
                 
 ? 
 
-! LaTeX Error: \mathrm allowed only in math mode.
+! LaTeX Error: Too many math alphabets used in version normal.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1884,19 +1871,19 @@ l.74     \end{align}
                     
 ? 
 [11]
-<Background_Folder/figures/"""lrg_gauge1".pdf, id=609, 350.30875pt x 433.62pt>
+<Background_Folder/figures/"""lrg_gauge1".pdf, id=610, 350.30875pt x 433.62pt>
 File: Background_Folder/figures/"""lrg_gauge1".pdf Graphic file (type pdf)
 <use Background_Folder/figures/"""lrg_gauge1".pdf>
 Package pdftex.def Info: Background_Folder/figures/"""lrg_gauge1".pdf  used on 
 input line 89.
 (pdftex.def)             Requested size: 59.5517pt x 73.71442pt.
-<Background_Folder/figures/"""lrg_gauge2".pdf, id=610, 361.35pt x 360.34625pt>
+<Background_Folder/figures/"""lrg_gauge2".pdf, id=611, 361.35pt x 360.34625pt>
 File: Background_Folder/figures/"""lrg_gauge2".pdf Graphic file (type pdf)
 <use Background_Folder/figures/"""lrg_gauge2".pdf>
 Package pdftex.def Info: Background_Folder/figures/"""lrg_gauge2".pdf  used on 
 input line 89.
 (pdftex.def)             Requested size: 68.65721pt x 68.46649pt.
-<Background_Folder/figures/"""lrg_gauge3".pdf, id=611, 361.35pt x 360.34625pt>
+<Background_Folder/figures/"""lrg_gauge3".pdf, id=612, 361.35pt x 360.34625pt>
 File: Background_Folder/figures/"""lrg_gauge3".pdf Graphic file (type pdf)
 <use Background_Folder/figures/"""lrg_gauge3".pdf>
 Package pdftex.def Info: Background_Folder/figures/"""lrg_gauge3".pdf  used on 
@@ -1933,7 +1920,7 @@ l.137     \end{align}
                      
 ? 
 
-Underfull \vbox (badness 1199) has occurred while \output is active []
+Underfull \vbox (badness 1394) has occurred while \output is active []
 
  [14]
 ! Double superscript.
@@ -2124,7 +2111,7 @@ l.677     \end{align}
 ? 
 ! Double superscript.
 <argument> ...\dag }_1^{n_1}... \bm {a}^{\dag }_p^
-                                                  {n_p}|0\rangle \colorbox {...
+                                                  {n_p}|0\rangle . 
 l.677     \end{align}
                      
 ? 
@@ -2136,7 +2123,7 @@ l.677     \end{align}
 ? 
 ! Double superscript.
 <argument> ...\dag }_1^{n_1}... \bm {a}^{\dag }_p^
-                                                  {n_p}|0\rangle \colorbox {...
+                                                  {n_p}|0\rangle . 
 l.677     \end{align}
                      
 ? 
@@ -3932,13 +3919,13 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
- 35188 strings out of 492167
- 652387 string characters out of 6131559
- 737814 words of memory out of 5000000
- 38202 multiletter control sequences out of 15000+600000
+ 35187 strings out of 492167
+ 652264 string characters out of 6131559
+ 737624 words of memory out of 5000000
+ 38201 multiletter control sequences out of 15000+600000
  629038 words of font info for 261 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 64i,21n,83p,2075b,1007s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,21n,83p,1939b,1007s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -4007,7 +3994,7 @@ mne.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/share
 /texmf-dist/fonts/type1/public/kpfonts/jkpsya.pfb></usr/share/texmf-dist/fonts/
 type1/public/kpfonts/jkpsyb.pfb></usr/share/texmf-dist/fonts/type1/public/kpfon
 ts/jkpsyc.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on thesis.pdf (133 pages, 7349657 bytes).
+Output written on thesis.pdf (133 pages, 7346570 bytes).
 PDF statistics:
  2719 PDF objects out of 2984 (max. 8388607)
  2355 compressed objects within 24 object streams
