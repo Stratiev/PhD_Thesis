@@ -1,5 +1,5 @@
 - Fixed Introduction headers - ✓
-- Remove needless pages (Put the specific page numbers that were removed) -
+- Remove needless empty pages after the Introduction and after the List of Tables - ✓
 - References:
     - Fixed title capitalization in the reference titles ✓
     - Swapped inverted commas and comma at the end of title ✓
@@ -19,16 +19,12 @@
     - 2.7 Fixed a formatting problem.
     - 2.1-2.12 Changed list of figures reference.
     - 3.1-3.7 Changed list of figures reference.
-- Use the same conventions everywhere. For example:
-    - Anti-hermitean gauge fields
-    - N
-    - Capitalize QHE, CS, PV, FB
-    - Symmetry groups are written in italics
-- Improve the transition before the large gauge transformation example.
+- Improved the transition before the large gauge transformation example.
 - Expanded the introduction so that it places the thesis in context.
 
 
 
+Concrete changes:
 - p6 - "It is an example of a topological field theory (TQFT) ..." -> "Chern-Simons is an example of a topological field theory (TQFT) of Schwarz type..."
 - p5, First sentence: "This chapter provides the necessary background technical knowledge required to understand the main results..." -> "This chapter provides the necessary background information and technical details required to understand..."
 - p5, 2nd paragraph, last sentence: "...reminding ourselves some basic..." -> "reminding ourselves of some basic..."
