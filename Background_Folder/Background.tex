@@ -68,11 +68,23 @@ We can define the field strength tensor in the usual way for a non-abelian gauge
     \begin{align}
         \mathcal{L}_{\text{CS}} &\rightarrow \mathcal{L}_{\text{CS}}  - \kappa \epsilon^{\mu \nu \rho} \partial_{\mu} \ \mathrm{Tr} \bigg[\partial_{\nu} g g^{-1} A_{\rho}  \bigg] - \frac{\kappa}{3} \epsilon^{\mu \nu \rho} \ \mathrm{Tr} \bigg[g^{-1} \partial_{\mu} g g^{-1} \partial_{\nu} g g^{-1} \partial_{\rho} g\bigg].
     \end{align}
-    The first term is just a boundary term which vanishes. The second term turns out to be proportional to the \textit{winding density} of the gauge transformation, whose integral is an integer $N$ homotopy invariant
+    The first term is just a boundary term. \textcolor{red}{If we are either considering manifolds with no boundary or we insist that the gauge transformation approaches $0$ at $\infty$, this term vanishes.} \textcolor{red}{For an $SU(2)$ transformation, t}he second term turns out to be proportional to the \textit{winding density} of the gauge transformation, whose integral is an integer $N$ homotopy invariant
     \begin{align}
         w(g) = \frac{1}{24 \pi^2} \epsilon^{\mu \nu \rho} \ \mathrm{Tr} \bigg[g^{-1}\partial_{\mu} g g^{-1} \partial_{\nu} g g^{-1} \partial_{\rho} g \bigg], \quad \int d^3x \ w(g(x)) = N \in \mathbb{Z}.
     \end{align}
-    Showing that the integral of this quantity is indeed a topological invariant is beyond the scope of this presentation. We refer the skeptical reader to the proof of Theorem 10.7 in Nakahara \cite{Nakahara}, which should at least provide some intuition.
+    \textcolor{red}{The integral of $w(g)$ is also known as the \textit{Brouwer degree} of a mapping. Here, the factor of $24\pi^2$ is proportional to the volume of the SU(2) group and depends only on the choice of gauge group and the convention we have chosen for the trace of the product of two generators (the \textit{Killing form}). }
+
+    \textcolor{red}{For the case of mapping between one $n$-sphere and another $n$-sphere (which is indeed the case  for an $SU(2)$ gauge transformation on $S^3$), we are guaranteed that this quantity is a homotopy invariant by \textit{Hopf's theorem} \cite{Dugundji}, which states that two mappings $f,g: S^n \rightarrow S^n$ are homotopic if and only if they have the same winding number.}
+
+    \textcolor{red}{Another way of seeing that $w(g)$ is a homotopic invariant is by varying $g\rightarrow g+\delta g$ and showing that the integral of the first order variation of $w(g)$, which we define to be $\delta w(g)$, vanishes. Using the fact that $(g+\delta g)^{-1} = g^{-1} - g^{-1} \delta g g^{-1}$ to first order and the cyclicity of the trace, we can show that}
+\begin{align}
+    \textcolor{red}{   \int d^3x \, \delta w(g) = \frac{1}{24 \pi^2} \epsilon^{\mu \nu \rho} \int d^3 x \, 3 \partial_{\mu}\mathrm{Tr} \left[(g^{-1} \delta g) g^{-1} \partial_{\nu} g g^{-1} \partial_{\rho} g \right].}
+\end{align}
+\textcolor{red}{Using Stokes' theorem and requiring that the variation $\delta g$ vanishes at the boundary (or equivalently, considering a manifold without a boundary, which is the case for $S^n$), we see that}
+\begin{align}
+    \textcolor{red}{ \int d^3 x \, \delta w(g) =0.}
+\end{align}
+\textcolor{red}{Thus we see that the winding number is unaffected by small variations of the mapping.}
 
     Gauge transformations with a non-zero winding number are called \textit{large gauge transformations}. Another way of saying this, is that they are mappings that are \textit{not} continuously connected to the identity transformation. Here we give an example to illustrate how these gauge transformations are different.
     Suppose we have a complex scalar field $\varphi$ defined on  $S^1$

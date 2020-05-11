@@ -1,1 +1,4 @@
 1. Clarify the CS level quantization in the abelian case.
+
+- p11, After equation (1.7) -- Clarified the vanishing of the boundary term.
+- p11, After equation (1.8) -- Added a discussion about the winding density, relating it to the Brouwer degree, and clarifying the normalization for SU(2) vs SO(3), explaining how it can be generalized to arbitrary groups and why it is a topological invariant.

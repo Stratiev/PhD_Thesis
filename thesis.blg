@@ -56,46 +56,47 @@ Repeated entry---line 1616 of file Reference_Folder/references.bib
 I'm skipping whatever remains of this entry
 Warning--empty booktitle in Tong:2016kpv
 Warning--empty year in Dunne:1998qy
+Warning--empty publisher in Dugundji
 Warning--empty publisher in 0486477223
-You've used 132 entries,
+You've used 133 entries,
             2328 wiz_defined-function locations,
-            1672 strings with 28975 characters,
-and the built_in function-call counts, 43158 in all, are:
-= -- 4565
-> -- 1003
+            1676 strings with 29013 characters,
+and the built_in function-call counts, 43353 in all, are:
+= -- 4584
+> -- 1007
 < -- 0
-+ -- 397
-- -- 265
-* -- 4024
-:= -- 4920
-add.period$ -- 216
-call.type$ -- 132
-change.case$ -- 140
++ -- 399
+- -- 266
+* -- 4032
+:= -- 4942
+add.period$ -- 218
+call.type$ -- 133
+change.case$ -- 142
 chr.to.int$ -- 0
-cite$ -- 135
-duplicate$ -- 2338
-empty$ -- 4408
-format.name$ -- 265
-if$ -- 11311
+cite$ -- 137
+duplicate$ -- 2353
+empty$ -- 4437
+format.name$ -- 266
+if$ -- 11363
 int.to.chr$ -- 0
-int.to.str$ -- 132
-missing$ -- 507
-newline$ -- 530
-num.names$ -- 132
-pop$ -- 659
+int.to.str$ -- 133
+missing$ -- 509
+newline$ -- 534
+num.names$ -- 133
+pop$ -- 671
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1656
+skip$ -- 1659
 stack$ -- 0
 substring$ -- 2642
-swap$ -- 1171
+swap$ -- 1172
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 381
-width$ -- 135
-write$ -- 1090
+warning$ -- 4
+while$ -- 382
+width$ -- 136
+write$ -- 1098
 (There were 9 error messages)
