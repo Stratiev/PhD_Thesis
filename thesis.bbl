@@ -119,6 +119,12 @@ N.~Seiberg, ``{Exact results on the space of vacua of four-dimensional SUSY
   Phys. Rev. D} {\bfseries 49} (1994) 6857--6863},
   \href{http://arxiv.org/abs/hep-th/9402044}{{\ttfamily arXiv:hep-th/9402044}}.
 
+\bibitem{Seiberg:1994pq}
+N.~Seiberg, ``{Electric - magnetic duality in supersymmetric nonAbelian gauge
+  theories}'', \href{http://dx.doi.org/10.1016/0550-3213(94)00023-8}{{\em Nucl.
+  Phys. B} {\bfseries 435} (1995) 129--146},
+  \href{http://arxiv.org/abs/hep-th/9411149}{{\ttfamily arXiv:hep-th/9411149}}.
+
 \bibitem{Seiberg:1994rs}
 N.~Seiberg and E.~Witten, ``{Electric - magnetic duality, monopole
   condensation, and confinement in N=2 supersymmetric Yang-Mills theory}'',
@@ -294,6 +300,12 @@ C.~Nayak, S.~H. Simon, A.~Stern, M.~Freedman, and S.~Das~Sarma, ``Non-abelian
 A.~S. Schwarz, ``{Topological quantum field theories}'',
   \href{http://arxiv.org/abs/hep-th/0011260}{{\ttfamily arXiv:hep-th/0011260}}.
 
+\bibitem{Achucarro:1987vz}
+A.~Achucarro and P.~Townsend, ``{A Chern-Simons Action for Three-Dimensional
+  anti-De Sitter Supergravity Theories}'',
+  \href{http://dx.doi.org/10.1016/0370-2693(86)90140-1}{{\em Phys. Lett. B}
+  {\bfseries 180} (1986) 89}.
+
 \bibitem{Carlip:2005zn}
 S.~Carlip, ``{Conformal field theory, (2+1)-dimensional gravity, and the BTZ
   black hole}'', \href{http://dx.doi.org/10.1088/0264-9381/22/12/R01}{{\em
@@ -354,9 +366,11 @@ H.~Toda, ``A topological proof of theorems of bott and borel-hirzeburch for
 J.~Dugundji, {\em Topology}.
 \newblock 05, 1989.
 
-\bibitem{Nakahara}
-M.~Nakahara, {\em {G}eometry, {T}opology and {P}hysics}.
-\newblock Institute of Physics Publishing, 2003.
+\bibitem{Polychronakos:1990xq}
+A.~P. Polychronakos, ``{On the Quantization of the Coefficient of the Abelian
+  {Chern-Simons} Term}'',
+  \href{http://dx.doi.org/10.1016/0370-2693(90)91482-Q}{{\em Phys. Lett. B}
+  {\bfseries 241} (1990) 37--40}.
 
 \bibitem{Landau:1956zuh}
 L.~Landau, ``{The Theory of a Fermi Liquid}'', {\em Sov. Phys. JETP} {\bfseries
@@ -442,17 +456,6 @@ A.~Karch and D.~Tong, ``{Particle-Vortex Duality from 3d Bosonization}'',
 \href{http://arxiv.org/abs/1606.01893}{{\ttfamily arXiv:1606.01893}}.
 %%CITATION = ARXIV:1606.01893;%%.
 
-\bibitem{Feynman_quote}
-R.~Feynman, {\em {T}he {C}haracter of {P}hysical {L}aw}.
-\newblock MIT Press, 1965.
-
-\bibitem{Burgess:1993np}
-C.~P. Burgess and F.~Quevedo, ``{Bosonization as duality}'',
-  \href{http://dx.doi.org/10.1016/0550-3213(94)90332-8}{{\em Nucl. Phys.}
-  {\bfseries B421} (1994) 373--390},
-\href{http://arxiv.org/abs/hep-th/9401105}{{\ttfamily arXiv:hep-th/9401105}}.
-%%CITATION = HEP-TH/9401105;%%.
-
 \bibitem{Barci:1995iy}
 D.~G. Barci, C.~D. Fosco, and L.~E. Oxman, ``{On bosonization in
   three-dimensions}'',
@@ -460,6 +463,13 @@ D.~G. Barci, C.~D. Fosco, and L.~E. Oxman, ``{On bosonization in
   {\bfseries B375} (1996) 267--272},
 \href{http://arxiv.org/abs/hep-th/9508075}{{\ttfamily arXiv:hep-th/9508075}}.
 %%CITATION = HEP-TH/9508075;%%.
+
+\bibitem{Burgess:1993np}
+C.~P. Burgess and F.~Quevedo, ``{Bosonization as duality}'',
+  \href{http://dx.doi.org/10.1016/0550-3213(94)90332-8}{{\em Nucl. Phys.}
+  {\bfseries B421} (1994) 373--390},
+\href{http://arxiv.org/abs/hep-th/9401105}{{\ttfamily arXiv:hep-th/9401105}}.
+%%CITATION = HEP-TH/9401105;%%.
 
 \bibitem{Naculich:1990pa}
 S.~G. Naculich, H.~A. Riggs, and H.~J. Schnitzer, ``{Group Level Duality in
@@ -474,6 +484,10 @@ M.~Camperi, F.~Levstein, and G.~Zemba, ``{The Large $N$ Limit of {Chern-Simons}
 \href{http://dx.doi.org/10.1016/0370-2693(90)91899-M}{{\em Phys. Lett.}
   {\bfseries B247} (1990) 549--554}.
 %%CITATION = PHLTA,B247,549;%%.
+
+\bibitem{Feynman_quote}
+R.~Feynman, {\em {T}he {C}haracter of {P}hysical {L}aw}.
+\newblock MIT Press, 1965.
 
 \bibitem{Benini:2011mf}
 F.~Benini, C.~Closset, and S.~Cremonesi, ``{Comments on 3d Seiberg-like
@@ -503,6 +517,45 @@ O.~Aharony, S.~Giombi, G.~Gur-Ari, J.~Maldacena, and R.~Yacoby, ``{The Thermal
   (2013) 121},
 \href{http://arxiv.org/abs/1211.4843}{{\ttfamily arXiv:1211.4843}}.
 %%CITATION = ARXIV:1211.4843;%%.
+
+\bibitem{PhysRevD.32.2081}
+R.~D. Pisarski and S.~Rao, ``Topologically massive chromodynamics in the
+  perturbative regime'', \href{http://dx.doi.org/10.1103/PhysRevD.32.2081}{{\em
+  Phys. Rev. D} {\bfseries 32} (Oct, 1985) 2081--2096}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevD.32.2081}.
+
+\bibitem{Wilson:1971dc}
+K.~G. Wilson and M.~E. Fisher, ``{Critical exponents in 3.99 dimensions}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.28.240}{{\em Phys. Rev. Lett.}
+  {\bfseries 28} 240--243}.
+
+\bibitem{Borokhov:2002ib}
+V.~Borokhov, A.~Kapustin, and X.-k. Wu, ``{Topological disorder operators in
+  three-dimensional conformal field theory}'',
+  \href{http://dx.doi.org/10.1088/1126-6708/2002/11/049}{{\em JHEP} {\bfseries
+  11} (2002) 049}, \href{http://arxiv.org/abs/hep-th/0206054}{{\ttfamily
+  arXiv:hep-th/0206054}}.
+
+\bibitem{Borokhov:2002cg}
+V.~Borokhov, A.~Kapustin, and X.-k. Wu, ``{Monopole operators and mirror
+  symmetry in three-dimensions}'',
+  \href{http://dx.doi.org/10.1088/1126-6708/2002/12/044}{{\em JHEP} {\bfseries
+  12} (2002) 044}, \href{http://arxiv.org/abs/hep-th/0207074}{{\ttfamily
+  arXiv:hep-th/0207074}}.
+
+\bibitem{Pufu:2013eda}
+S.~S. Pufu and S.~Sachdev, ``{Monopoles in 2 + 1-dimensional conformal field
+  theories with global U(1) symmetry}'',
+  \href{http://dx.doi.org/10.1007/JHEP09(2013)127}{{\em JHEP} {\bfseries 09}
+  (2013) 127}, \href{http://arxiv.org/abs/1303.3006}{{\ttfamily arXiv:1303.3006
+  [hep-th]}}.
+
+\bibitem{Pufu:2013vpa}
+S.~S. Pufu, ``{Anomalous dimensions of monopole operators in three-dimensional
+  quantum electrodynamics}'',
+  \href{http://dx.doi.org/10.1103/PhysRevD.89.065016}{{\em Phys. Rev. D}
+  {\bfseries 89} no.~6, (2014) 065016},
+  \href{http://arxiv.org/abs/1303.6125}{{\ttfamily arXiv:1303.6125 [hep-th]}}.
 
 \bibitem{Polychronakos:2007df}
 A.~P. Polychronakos, ``{Non-commutative Fluids}'',

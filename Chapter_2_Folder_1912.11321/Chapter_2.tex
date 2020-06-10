@@ -85,7 +85,55 @@ J_0\,-\,\frac{k}{2\pi}\langle B\rangle\,+\,2\left(\mu\,+\,\langle A_0\rangle\rig
 \ee
 Therefore, even if the source $J_0$ were not  explicitly introduced, it is naturally induced through a non-zero background value for  $B$. We will treat this background value as distinct from the magnetic field carried by the vortex.
 
-\subsection{Perturbative spectrum} The vacuum expectation value for $\Phi$ Higgses the gauge group and since Chern-Simons gauge fields do not propagate, the physical perturbative spectrum consists of two gapped excitations.  The dispersion relations can be found by expanding the gauge-fixed  action\footnote{We use an $R_\xi$ gauge fixing term of the form ${\cal L}_{\rm gf}\,=\,\left(\partial_\mu A^{\mu}\,-\,\xi \langle\Phi\rangle\delta\Phi^\dagger\,+\,\xi\delta\Phi\langle\Phi\rangle^\dagger\right)^2/(2\xi)$} to  quadratic order in fluctuations and identifying the gauge-invariant zeros of the fluctuation determinant. The dispersion relations for the two physical modes can be expressed in terms of dimensionless frequency and  momentum  and a single dimensionless coupling (assuming $k>0$, $\mu>0$)
+\subsection{Perturbative spectrum} The vacuum expectation value for $\Phi$ Higgses the gauge group and since Chern-Simons gauge fields do not propagate, the physical perturbative spectrum consists of two gapped excitations.  The dispersion relations can be found by expanding the gauge-fixed  action\footnote{We use an $R_\xi$ gauge fixing term of the form ${\cal L}_{\rm gf}\,=\,\left(\partial_\mu A^{\mu}\,- \textcolor{red}{i\left(} \,\xi \langle\Phi\rangle\delta\Phi^\dagger\, \textcolor{red}{-}\,\xi\delta\Phi\langle\Phi\rangle^\dagger \textcolor{red}{\right)} \right)^2/(2\xi)$} to  quadratic order in fluctuations and identifying the gauge-invariant zeros of the fluctuation determinant. \textcolor{red}{Let the quadratic fluctuations be defined as follows:}
+\begin{align}
+    \textcolor{red}{\Phi = (v+\varphi_1) + i \varphi_2, \qquad A_{\mu} = \delta A_{\mu}.}
+\end{align}
+
+\textcolor{red}{Then the quadratic Lagrangian of the fluctuations in phase space becomes}
+\begin{align}
+    \textcolor{red}{ \mathcal{L}^{(2)}} &\textcolor{red}{=  \left(\varphi_1^2 + \varphi_2^2 \right) \left(-\omega^2 +\bf{p}^2 -\mu^2 \right) + g_{2s} v^{2(s-1)} \left(\varphi_2^2 + (2s-1) \varphi_1^2 \right)} \nonumber \\
+    &\textcolor{red}{-4i \mu \omega \varphi_1 \varphi_2 - 4v \mu \delta A_0 \varphi_1 + v^2 \delta A_{\mu} \delta A^{\mu} } \nonumber \\
+    &\textcolor{red}{-\frac{i k}{2 \pi} \bigg(\delta A_{0} p_{1} \delta A_{2}- \delta A_{0} p_{2} \delta A_{1} + \delta A_{1} \omega \delta A_{2}  \bigg) } \nonumber \\
+    &\textcolor{red}{- \frac{1}{2 \xi} p_{\mu}p_{\nu} \delta A^{\mu} \delta A^{\nu}  - 2 \xi v^2 \varphi_2^2.}
+\end{align}
+
+ \textcolor{red}{From this expression we can extract the following matrix, the zero eigenvalues of which, are the elementary excitations of the model}
+\begin{align}
+   \textcolor{red}{D= \left(
+\begin{array}{ccccc}
+    -\frac{\omega ^2}{2 \xi }-v^2 & -\frac{i k p_y}{4 \pi } - \frac{p_x \omega}{2\xi} & \frac{i k  p_x}{4 \pi } - \frac{p_y \omega}{2\xi} & -2 \mu  v & 0 \\
+ \frac{i k p_y}{4 \pi } - \frac{p_x \omega}{2\xi} & v^2-\frac{p_x^2}{2 \xi } & \frac{i k \omega }{4 \pi } - \frac{p_x p_y}{2\xi}& 0 & 0 \\
+ -\frac{i k p_x}{4 \pi } - \frac{\omega p_y}{2\xi} & -\frac{i k \omega }{4 \pi } - \frac{p_x p_y}{2\xi}&  v^2-\frac{p_y^2}{2 \xi } & 0 & 0 \\
+    -2 \mu  v & 0 & 0 & 2 \mu ^2 (s-1)+\bf{p}^2-\omega ^2 & 2 i \mu  \omega  \\
+ 0 & 0 & 0 & -2 i \mu  \omega  & \mu^2 -2 \xi v^2+\bf{p}^2-\omega^2 \\
+\end{array}
+    \right),} \nonumber
+\end{align}
+\textcolor{red}{where we have used $g_{2s} =\frac{ \mu^2}{ v^{2(s-1)}}$. Note that this is a $5x5$ matrix, but we stated earlier that the number of excitations in this model is only $d_{\text{dof}}=2$, where $d_{\text{dof}}$ is the number of physical degrees of freedom. The reason for this mismatch is that 3 out of the 5 solutions, that we get, are going to be gauge dependent. Once we remove the gauge dependent solutions, we will be left with the two physical excitations present in the spectrum of the theory.}
+
+ \textcolor{red}{One way of achieving this is by finding all of the eigenvalues explicitly. This is not-trivial in the general case so here we will illustrate an approach that can be used when symbolic computation of all the eigenvalues is unfeasible. This approach is also utilized in Chapter 3, but we outline it here since the calculation is simpler and more instructive. The way we can find the physical eigenvalues is by picking out the highest order term in $\xi$ in the determinant. Let's see why this works. We know that without gauge fixing, $D$ is non-invertible. First we express $D$ as the product of eigenvalues}
+\begin{align}
+    \textcolor{red}{\det\left(D \right) =\lambda_1 ... \lambda_r, \text{ where } r \text{ is the size of the square matrix}.}
+\end{align}
+\textcolor{red}{Suppose, without loss of generality, that the physical eigenvalues are $\lambda_1$ and $\lambda_2$. Hence the dispersion relations are $\lambda_1=0$ and $\lambda_2=0$. Then the determinant can be expressed as}
+\begin{align}
+    \textcolor{red}{\det\left(D \right) = \lambda_1 \lambda_2 \left( \sum_{i_{1}=-p_1}^{q_1} a_{i_{1}}^{(1)} \xi^{i_{1}}\right) ...\left( \sum_{i_{r-2}=-p_{r-2}}^{q_{r-2}} a_{i_{r-2}}^{(r-2)} \xi^{i_{r-2}}\right),}
+\end{align}
+\textcolor{red}{where $p_1,p_2,...,p_{r-2}, q_1, q_2,...,q_{r-2} \in \mathbb{N}$. Multiplying out the $\xi$ dependent sums and setting the determinant to $0$ we arrive at }
+\begin{align}
+    \textcolor{red}{\det\left(D \right) = \lambda_1 \lambda_2 \sum_{i=-p}^{q} a_i \xi^i =0, }
+\end{align}
+\textcolor{red}{where $p,q \in \mathbb{N}$. Assuming $\xi\neq 0$, we divide by $\xi^q$ and take the $\xi \rightarrow \infty$ limit}
+\begin{align}
+    \textcolor{red}{\lambda_1 \lambda_2 a_{q} =0.} \label{eq:xi_infinity}
+\end{align}
+\textcolor{red}{Solving \eqref{eq:xi_infinity} for the energy \omega$ gives us a number of solutions. If this number matches $d_{\text{dof}}$ exactly, then our job is done and we have found the correct dispersion relations. If, however, this number is larger than $d_{\text{dof}}$ that the system has, it means that we have stumbled upon a gauge mode that needs to be removed. We can plug in the solutions we have found into the next to leading order term in $\xi$, namely }
+\begin{align}
+    \textcolor{red}{\lambda_1 \lambda_2 a_{q-1}.}
+\end{align}
+\textcolor{red}{If the number of common solutions to these two equations is $d_{\text{dof}}$, we have found the physical dispersion relations. In principle, one can continue this procedure order by order in $\xi$ for all of the coefficients. If the gauge procedure is done properly, we are guaranteed to find the physical solutions, since if we have more than $d_{\text{dof}}$ dispersion relations that are independent of $\xi$, this means that there is a gauge mode that is independent of $\xi$, but that is impossible since those modes would return an identically zero eigenvalue prior to gauge fixing.}\\
+\indent The dispersion relations for the two physical modes can be expressed in terms of dimensionless frequency and  momentum  and a single dimensionless coupling (assuming $k>0$, $\mu>0$)
 \be
 \alpha\equiv\, \frac{k\,\mu}{4\pi v^2}\,,\qquad \tilde \omega\equiv\omega/\mu\,,\qquad \tilde{\bf p}\equiv {\bf p}/\mu\,.\label{alpha}
 \ee

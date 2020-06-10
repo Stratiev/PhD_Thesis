@@ -1,4 +1,12 @@
 1. Clarify the CS level quantization in the abelian case.
 
+Throughout the winding number explanation section, the winding number integer N has been substituted with a small case n to match the convention of the winding number in the vortex sections.
+
+- p9, Before equation (1.2) -- "nonabelian" -> "non-abelian".
+- p10, After equation (1.5) -- Added clarification about the gauge transformation of the field strength tensor.
+- p11, "cartesian" -> "Cartesian"
 - p11, After equation (1.7) -- Clarified the vanishing of the boundary term.
 - p11, After equation (1.8) -- Added a discussion about the winding density, relating it to the Brouwer degree, and clarifying the normalization for SU(2) vs SO(3), explaining how it can be generalized to arbitrary groups and why it is a topological invariant.
+- p15, "\mathcal{L}" -> "S" in the Maxwell-Chern-Simons theory definition.
+- p18, Removed unnecessary (and incorrect) wedge in the differential form definition of the Chern-Simons action.
+- p22, Grand Canonical Ensemble defining equation changed Tr convention.
