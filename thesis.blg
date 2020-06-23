@@ -8,7 +8,6 @@ A level-1 auxiliary file: Introduction_Folder/introduction.aux
 A level-1 auxiliary file: Background_Folder/Background.aux
 A level-1 auxiliary file: Chapter_2_Folder_1912.11321/Chapter_2.aux
 A level-1 auxiliary file: Chapter_3_Folder_1806.06976/Chapter_3.aux
-A level-1 auxiliary file: Chapter_4_Folder/Chapter_4.aux
 A level-1 auxiliary file: Conclusions_Folder/Conclusions.aux
 A level-1 auxiliary file: Appendices_Folder/appendix_Chapter_3.aux
 The style file: Reference_Folder/utphys.bst
@@ -71,45 +70,45 @@ Warning--empty booktitle in Tong:2016kpv
 Warning--empty year in Dunne:1998qy
 Warning--empty publisher in Dugundji
 Warning--empty publisher in 0486477223
-You've used 141 entries,
+You've used 142 entries,
             2328 wiz_defined-function locations,
-            1736 strings with 30483 characters,
-and the built_in function-call counts, 45971 in all, are:
-= -- 4849
-> -- 1069
+            1743 strings with 30677 characters,
+and the built_in function-call counts, 46421 in all, are:
+= -- 4897
+> -- 1086
 < -- 0
-+ -- 423
-- -- 282
-* -- 4303
-:= -- 5235
-add.period$ -- 226
-call.type$ -- 141
-change.case$ -- 153
++ -- 429
+- -- 287
+* -- 4346
+:= -- 5289
+add.period$ -- 228
+call.type$ -- 142
+change.case$ -- 156
 chr.to.int$ -- 0
-cite$ -- 145
-duplicate$ -- 2494
-empty$ -- 4695
-format.name$ -- 282
-if$ -- 12043
+cite$ -- 146
+duplicate$ -- 2514
+empty$ -- 4733
+format.name$ -- 287
+if$ -- 12155
 int.to.chr$ -- 0
-int.to.str$ -- 141
-missing$ -- 543
-newline$ -- 557
-num.names$ -- 141
-pop$ -- 704
+int.to.str$ -- 142
+missing$ -- 547
+newline$ -- 560
+num.names$ -- 142
+pop$ -- 708
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1772
+skip$ -- 1789
 stack$ -- 0
-substring$ -- 2804
-swap$ -- 1255
+substring$ -- 2844
+swap$ -- 1267
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 407
-width$ -- 144
-write$ -- 1158
+while$ -- 411
+width$ -- 145
+write$ -- 1166
 (There were 12 error messages)

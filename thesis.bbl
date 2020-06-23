@@ -708,6 +708,13 @@ S.~Bolognesi and S.~B. Gudnason, ``{{A} {N}ote on {C}hern-{S}imons solitons:
 \href{http://arxiv.org/abs/0711.3803}{{\ttfamily arXiv:0711.3803}}.
 %%CITATION = ARXIV:0711.3803;%%.
 
+\bibitem{PhysRevD.9.3471}
+A.~Chodos, R.~L. Jaffe, K.~Johnson, C.~B. Thorn, and V.~F. Weisskopf, ``New
+  extended model of hadrons'',
+  \href{http://dx.doi.org/10.1103/PhysRevD.9.3471}{{\em Phys. Rev. D}
+  {\bfseries 9} (Jun, 1974) 3471--3495}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevD.9.3471}.
+
 \bibitem{Kapusta:1981aa}
 J.~I. Kapusta, ``{Bose-Einstein Condensation, Spontaneous Symmetry Breaking,
   and Gauge Theories}'', \href{http://dx.doi.org/10.1103/PhysRevD.24.426}{{\em
@@ -841,6 +848,33 @@ D.~N. Voskresenskii, ``{{C}ondensate with finite momentum in a moving
 \bibitem{ongoing}
 S.~P. Kumar and S.~Stratiev, ``{{W}ork in progress}'',.
 
+\bibitem{deVega:1986eu}
+H.~J. de~Vega and F.~A. Schaposnik, ``{Electrically Charged Vortices in
+  Nonabelian Gauge Theories With Chern-simons Term}'',
+\href{http://dx.doi.org/10.1103/PhysRevLett.56.2564}{{\em Phys. Rev. Lett.}
+  {\bfseries 56} (1986) 2564}.
+%%CITATION = PRLTA,56,2564;%%.
+
+\bibitem{Kumar:1986yz}
+C.~N. Kumar and A.~Khare, ``{Charged Vortex of Finite Energy in Nonabelian
+  Gauge Theories With Chern-simons Term}'',
+\href{http://dx.doi.org/10.1016/0370-2693(86)91400-0}{{\em Phys. Lett.}
+  {\bfseries B178} (1986) 395}.
+%%CITATION = PHLTA,B178,395;%%.
+
+\bibitem{Blazquez-Salcedo:2013roa}
+J.~L. Blázquez-Salcedo, L.~M. González-Romero, F.~Navarro-Lérida, and D.~H.
+  Tchrakian, ``{Non-Abelian Chern-Simons-Higgs vortices with a quartic
+  potential}'', \href{http://dx.doi.org/10.1103/PhysRevD.88.025026,
+  10.1103/PhysRevD.88.02502}{{\em Phys. Rev.} {\bfseries D88} no.~2, (2013)
+  025026}, \href{http://arxiv.org/abs/1306.5146}{{\ttfamily arXiv:1306.5146}}.
+
+\bibitem{NavarroLerida:2009dm}
+F.~Navarro-Lerida and D.~H. Tchrakian, ``{Non-Abelian Yang-Mills-Higgs
+  vortices}'', \href{http://dx.doi.org/10.1103/PhysRevD.81.127702}{{\em Phys.
+  Rev.} {\bfseries D81} (2010) 127702},
+  \href{http://arxiv.org/abs/0909.4220}{{\ttfamily arXiv:0909.4220}}.
+
 \bibitem{Markov:2004mj}
 V.~Markov, A.~Marshakov, and A.~Yung, ``{{N}on-{A}belian {V}ortices in {N} = 1*
   {G}auge {T}heory}'',
@@ -879,32 +913,5 @@ S.~Choudhury, A.~Dey, I.~Halder, S.~Jain, L.~Janagal, S.~Minwalla, and
   {\bfseries 11} (2018) 177},
 \href{http://arxiv.org/abs/1804.08635}{{\ttfamily arXiv:1804.08635}}.
 %%CITATION = ARXIV:1804.08635;%%.
-
-\bibitem{deVega:1986eu}
-H.~J. de~Vega and F.~A. Schaposnik, ``{Electrically Charged Vortices in
-  Nonabelian Gauge Theories With Chern-simons Term}'',
-\href{http://dx.doi.org/10.1103/PhysRevLett.56.2564}{{\em Phys. Rev. Lett.}
-  {\bfseries 56} (1986) 2564}.
-%%CITATION = PRLTA,56,2564;%%.
-
-\bibitem{Kumar:1986yz}
-C.~N. Kumar and A.~Khare, ``{Charged Vortex of Finite Energy in Nonabelian
-  Gauge Theories With Chern-simons Term}'',
-\href{http://dx.doi.org/10.1016/0370-2693(86)91400-0}{{\em Phys. Lett.}
-  {\bfseries B178} (1986) 395}.
-%%CITATION = PHLTA,B178,395;%%.
-
-\bibitem{Blazquez-Salcedo:2013roa}
-J.~L. Blázquez-Salcedo, L.~M. González-Romero, F.~Navarro-Lérida, and D.~H.
-  Tchrakian, ``{Non-Abelian Chern-Simons-Higgs vortices with a quartic
-  potential}'', \href{http://dx.doi.org/10.1103/PhysRevD.88.025026,
-  10.1103/PhysRevD.88.02502}{{\em Phys. Rev.} {\bfseries D88} no.~2, (2013)
-  025026}, \href{http://arxiv.org/abs/1306.5146}{{\ttfamily arXiv:1306.5146}}.
-
-\bibitem{NavarroLerida:2009dm}
-F.~Navarro-Lerida and D.~H. Tchrakian, ``{Non-Abelian Yang-Mills-Higgs
-  vortices}'', \href{http://dx.doi.org/10.1103/PhysRevD.81.127702}{{\em Phys.
-  Rev.} {\bfseries D81} (2010) 127702},
-  \href{http://arxiv.org/abs/0909.4220}{{\ttfamily arXiv:0909.4220}}.
 
 \end{thebibliography}\endgroup

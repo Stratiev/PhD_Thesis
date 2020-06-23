@@ -25,14 +25,14 @@
 \contentsline {section}{\numberline {2.1}Introduction}{47}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}The Abelian theory at finite chemical potential}{50}{section.2.2}% 
 \contentsline {subsection}{\numberline {2.2.1}Perturbative spectrum}{52}{subsection.2.2.1}% 
-\contentsline {section}{\numberline {2.3}Vortex equations}{55}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}Qualitative features}{56}{subsection.2.3.1}% 
+\contentsline {section}{\numberline {2.3}Vortex equations}{56}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Qualitative features}{57}{subsection.2.3.1}% 
 \contentsline {paragraph}{Negative flux $n<0$}{57}{section*.13}% 
 \contentsline {section}{\numberline {2.4}Vortex energy and BPS-like scaling}{60}{section.2.4}% 
 \contentsline {subsection}{\numberline {2.4.1}The quartic potential $s=2$}{62}{subsection.2.4.1}% 
 \contentsline {subsection}{\numberline {2.4.2}General power law potential $(s\geq 2)$}{63}{subsection.2.4.2}% 
 \contentsline {subsection}{\numberline {2.4.3}Positive flux vortices}{64}{subsection.2.4.3}% 
-\contentsline {section}{\numberline {2.5}Numerical results}{64}{section.2.5}% 
+\contentsline {section}{\numberline {2.5}Numerical results}{65}{section.2.5}% 
 \contentsline {subsection}{\numberline {2.5.1}Quartic potential $(s=2)$}{65}{subsection.2.5.1}% 
 \contentsline {paragraph}{Negative flux solutions:}{65}{section*.14}% 
 \contentsline {paragraph}{Positive flux solutions:}{70}{section*.21}% 
@@ -47,21 +47,21 @@
 \contentsline {section}{\numberline {3.3}Spectrum of fluctuations}{85}{section.3.3}% 
 \contentsline {subsection}{\numberline {3.3.1}The $k\to \infty $ theory}{85}{subsection.3.3.1}% 
 \contentsline {subsection}{\numberline {3.3.2}Finite, large $k$}{86}{subsection.3.3.2}% 
-\contentsline {subsubsection}{\numberline {3.3.2.1}Physical states}{87}{subsubsection.3.3.2.1}% 
+\contentsline {subsubsection}{\numberline {3.3.2.1}Physical states}{88}{subsubsection.3.3.2.1}% 
 \contentsline {paragraph}{ The phonon mode:}{88}{section*.29}% 
 \contentsline {paragraph}{Level crossing:}{90}{section*.31}% 
-\contentsline {subsection}{\numberline {3.3.3}Roton minimum and complete spectrum}{91}{subsection.3.3.3}% 
-\contentsline {paragraph}{Critical case with $g_4=m=0$:}{92}{section*.35}% 
+\contentsline {subsection}{\numberline {3.3.3}Roton minimum and complete spectrum}{92}{subsection.3.3.3}% 
+\contentsline {paragraph}{Critical case with $g_4=m=0$:}{94}{section*.35}% 
 \contentsline {subsection}{\numberline {3.3.4}Landau critical velocity}{94}{subsection.3.3.4}% 
-\contentsline {subsection}{\numberline {3.3.5}The $U(2)_k$ theory}{95}{subsection.3.3.5}% 
+\contentsline {subsection}{\numberline {3.3.5}The $U(2)_k$ theory}{96}{subsection.3.3.5}% 
 \contentsline {section}{\numberline {3.4}The $SU(N>2)$ case}{96}{section.3.4}% 
-\contentsline {subsection}{\numberline {3.4.1}Vacuum configuration}{97}{subsection.3.4.1}% 
-\contentsline {subsection}{\numberline {3.4.2}Interpretation as quantum Hall droplet state}{99}{subsection.3.4.2}% 
-\contentsline {section}{\numberline {3.5}Summary and future directions}{101}{section.3.5}% 
-\contentsline {chapter}{\numberline {4}Vortices in U(2) and SU(2) Chern-Simons scalar theories.}{105}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}U(2) theory}{106}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}SU(2) theory}{111}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Discussion}{111}{section.4.3}% 
-\contentsline {chapter}{Conclusions}{113}{section.4.3}% 
-\contentsline {chapter}{\numberline {A}Determinant of fluctuation matrix for $SU(2)$ }{115}{appendix.A}% 
-\contentsline {chapter}{References}{117}{appendix*.39}% 
+\contentsline {subsection}{\numberline {3.4.1}Vacuum configuration}{98}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Interpretation as quantum Hall droplet state}{100}{subsection.3.4.2}% 
+\contentsline {section}{\numberline {3.5}Vortices in U(2) and SU(2) Chern-Simons scalar theories.}{102}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}U(2) theory}{103}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}SU(2) theory}{107}{section.3.7}% 
+\contentsline {section}{\numberline {3.8}Discussion}{108}{section.3.8}% 
+\contentsline {section}{\numberline {3.9}Summary and future directions}{108}{section.3.9}% 
+\contentsline {chapter}{Conclusions}{110}{section.3.9}% 
+\contentsline {chapter}{\numberline {A}Determinant of fluctuation matrix for $SU(2)$ }{113}{appendix.A}% 
+\contentsline {chapter}{References}{115}{appendix*.39}% 

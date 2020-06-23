@@ -10,3 +10,5 @@ Throughout the winding number explanation section, the winding number integer N 
 - p15, "\mathcal{L}" -> "S" in the Maxwell-Chern-Simons theory definition.
 - p18, Removed unnecessary (and incorrect) wedge in the differential form definition of the Chern-Simons action.
 - p22, Grand Canonical Ensemble defining equation changed Tr convention.
+- Section 2.2.1 Perturbative spectrum - added a section on deriving the quadratic spectrum and distinguishing it from the gauge degrees of freedom.
+- p55,Figure 2.1, fixed image.
