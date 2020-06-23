@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.8)  19 JUN 2020 17:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.8)  23 JUN 2020 12:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2228,23 +2228,23 @@ Underfull \vbox (badness 5622) has occurred while \output is active []
 
  [32]
 <"Background_Folder/figures/""solution_n1_magnetic_field_g_lambda".png, id=833,
- 462.528pt x 346.896pt>
+ 2230.58344pt x 1498.09688pt>
 File: "Background_Folder/figures/""solution_n1_magnetic_field_g_lambda".png Gra
 phic file (type png)
 <use "Background_Folder/figures/""solution_n1_magnetic_field_g_lambda".png>
 Package pdftex.def Info: "Background_Folder/figures/""solution_n1_magnetic_fiel
 d_g_lambda".png  used on input line 562.
-(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-<"Background_Folder/figures/""solution_n1_scalar_field_g_lambda".png, id=835, 4
-62.528pt x 346.896pt>
+(pdftex.def)             Requested size: 223.07141pt x 149.81847pt.
+<"Background_Folder/figures/""solution_n1_scalar_field_g_lambda".png, id=835, 2
+048.40282pt x 1471.74844pt>
 File: "Background_Folder/figures/""solution_n1_scalar_field_g_lambda".png Graph
 ic file (type png)
 <use "Background_Folder/figures/""solution_n1_scalar_field_g_lambda".png>
 Package pdftex.def Info: "Background_Folder/figures/""solution_n1_scalar_field_
 g_lambda".png  used on input line 563.
-(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+(pdftex.def)             Requested size: 204.85228pt x 147.18346pt.
 
-Overfull \hbox (9.18999pt too wide) in paragraph at lines 561--565
+Overfull \hbox (67.09787pt too wide) in paragraph at lines 561--565
  [][] 
  []
 
@@ -4365,7 +4365,7 @@ e/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/share/texmf-dist/fonts/
 type1/public/kpfonts/jkpsya.pfb></usr/share/texmf-dist/fonts/type1/public/kpfon
 ts/jkpsyb.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.pfb></us
 r/share/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on thesis.pdf (140 pages, 7250166 bytes).
+Output written on thesis.pdf (140 pages, 7536699 bytes).
 PDF statistics:
  2794 PDF objects out of 2984 (max. 8388607)
  2423 compressed objects within 25 object streams
