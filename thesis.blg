@@ -11,6 +11,7 @@ A level-1 auxiliary file: Chapter_3_Folder_1806.06976/Chapter_3.aux
 A level-1 auxiliary file: Conclusions_Folder/Conclusions.aux
 A level-1 auxiliary file: Appendices_Folder/appendix_Chapter_3.aux
 The style file: Reference_Folder/utphys.bst
+Reallocated field_info (elt_size=8) to 10280 items from 5000.
 Database file #1: Reference_Folder/references.bib
 You're missing a field name---line 195 of file Reference_Folder/references.bib
  :     
@@ -66,49 +67,53 @@ Repeated entry---line 2251 of file Reference_Folder/references.bib
  : @article{Borokhov:2002cg
  :                         ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2435 of file Reference_Folder/references.bib
+ : @article{Wilczek:1981du
+ :                        ,
+I'm skipping whatever remains of this entry
 Warning--empty booktitle in Tong:2016kpv
 Warning--empty year in Dunne:1998qy
 Warning--empty publisher in Dugundji
 Warning--empty publisher in 0486477223
-You've used 142 entries,
+You've used 165 entries,
             2328 wiz_defined-function locations,
-            1743 strings with 30677 characters,
-and the built_in function-call counts, 46421 in all, are:
-= -- 4897
-> -- 1086
+            1921 strings with 34961 characters,
+and the built_in function-call counts, 54238 in all, are:
+= -- 5764
+> -- 1233
 < -- 0
-+ -- 429
-- -- 287
-* -- 4346
-:= -- 5289
-add.period$ -- 228
-call.type$ -- 142
-change.case$ -- 156
++ -- 490
+- -- 325
+* -- 5027
+:= -- 6168
+add.period$ -- 264
+call.type$ -- 165
+change.case$ -- 202
 chr.to.int$ -- 0
-cite$ -- 146
-duplicate$ -- 2514
-empty$ -- 4733
-format.name$ -- 287
-if$ -- 12155
+cite$ -- 169
+duplicate$ -- 2925
+empty$ -- 5511
+format.name$ -- 325
+if$ -- 14185
 int.to.chr$ -- 0
-int.to.str$ -- 142
-missing$ -- 547
-newline$ -- 560
-num.names$ -- 142
-pop$ -- 708
+int.to.str$ -- 165
+missing$ -- 637
+newline$ -- 630
+num.names$ -- 165
+pop$ -- 819
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1789
+skip$ -- 2104
 stack$ -- 0
-substring$ -- 2844
-swap$ -- 1267
+substring$ -- 3472
+swap$ -- 1486
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 4
-while$ -- 411
-width$ -- 145
-write$ -- 1166
-(There were 12 error messages)
+while$ -- 491
+width$ -- 168
+write$ -- 1343
+(There were 13 error messages)

@@ -159,6 +159,8 @@ Depending on the value of $\alpha$, the sign of  $\tilde\omega''_{\pm}(0)$ can b
 \quad\frac{1}{\sqrt{2(s+3)}} < \alpha <  \frac{1}{\sqrt{2(s-1)}}\,.
 \ee
 
+ \textcolor{red}{In the case of $s=2$, the roton range becomes $\frac{1}{\sqrt{10}} < \alpha < \frac{1}{\sqrt{2}}$, and as can be seen from Fig (2.1), $\tilde{\omega}_-$ has a roton minimum for $\alpha = \frac{1}{2}$. This is not the case for the other plotted values of $\alpha$.}
+
 \section{Vortex equations}
 We want to solve the equations of motion in polar coordinates. Therefore, allowing for a non-trivial spatial metric $h$, the static field equations are:
  \bea
@@ -261,7 +263,7 @@ $B_{\rm ring}$
 denotes the peak value of the magnetic field in the ring and $R_n$ 
 %\sim n^\gamma$ 
 is the radius of the vortex for large enough $n$. The negative area-dependent contribution  is a key difference from a similar situation discussed in \cite{Bolognesi:2007ez}.  We cannot exclude the possibility that both the area and perimeter 
-contributions have faster than linear growth and a delicate cancellation yields the correct flux. It is possible to suppress the area contribution by making $\alpha$ arbitrarily large. The large $\alpha$ limit makes the magnetic field inside the vortex vanishingly small and the system then closely resembles an abelian  Chern-Simons vortex in vacuum.  
+contributions have faster than linear growth and a delicate cancellation yields the correct flux. It is possible to suppress the area contribution by making $\alpha$ arbitrarily large. The large $\alpha$ limit makes the magnetic field inside the vortex vanishingly small and the system then closely resembles an abelian  Chern-Simons vortex in vacuum. \textcolor{red}{Conversely, small $\alpha$ (or equivalently large $\mu$ and fixed $\alpha$) makes the magnetic field inside the vortex larger and forces the transition between the two vacua to be steeper, effectively approaching a step function \textit{domain wall} solution, analogous to the bag models discussed earlier.}
 %If the area dependent term is to be subleading then the exponent $\gamma < \frac{1}{2}$, while $\gamma+\beta+\varepsilon=1$. 
 \section{Vortex energy and BPS-like scaling}
 The ``energy" functional appropriate for the grand canonical ensemble is the grand potential. The Chern-Simons term does not contribute to it for static configurations. The grand potential is obtained by using the Lagrangian density \eqref{lagfull} with $\mu\neq 0$ and passing to the Hamiltonian picture. Rewriting the Hamiltonian in terms of the fields and their derivatives, the desired energy functional is\footnote{For static configurations, the grand potential can be quickly derived by retaining only the spatial gradient and potential terms including the Chern-Simons density,
@@ -455,7 +457,7 @@ We therefore arrive at a prediction,
 \ee
 This is precisely what we see in figure \ref{fig:error} for the $\alpha=2$ solution. However, we also find the unexpected feature that $\tilde A_0(0)$ for other values of $\alpha$ approaches $-1/4$ at large $|n|$. This suggests  that solutions with generic $\alpha$ and large $|n|$ are not approximate  solutions to the first order equation\footnote{For generic $\alpha$, eq. \eqref{eq:dimlesseom2} along with the first order equation $\tilde f^\prime = a \tilde f$, would imply $\tilde A_0(0)=-1/2\alpha$. }.
 \paragraph{Positive flux solutions:}
-We have explained how positive flux vortex solutions are qualitatively distinct from negative $n$ solutions. In certain limits (large-$\alpha$) they closely resemble  Chern-Simons vortex solutions in vacuum. 
+We have explained how positive flux vortex solutions are qualitatively distinct from negative $n$ solutions. In certain limits (large-$\alpha$) they closely resemble  Chern-Simons vortex solutions in vacuum.  
 The majority of the flux resides in the ring region or edge of the solution as $n$ is increased (see figure \ref{positiveprofile}).
 \begin{figure}[H]
 \begin{center}
@@ -463,6 +465,19 @@ The majority of the flux resides in the ring region or edge of the solution as $
      \caption[This figure depicts the magnetic and electric field profiles for positive flux.]{{Magnetic and electric fields for positive flux vortices have support near the edge of the vortex and their peak values grow without bound as $n$ is increased.}} \label{positiveprofile}
     \end{center}
 \end{figure} 
+
+
+
+ \textcolor{red}{In Figure (\ref{Comparison}) we have depicted a comparison betweeen magnetic field profiles of the pure Chern-Simons vortex (also known as the Jackiw-Lee-Weinberg-Hong-Kim-Pac (JLW-HKP) vortex \cite{Hong1990, Jackiw:1990aw, Jackiw:1990pr}) and the finite density vortex, studied in this section, in order to highlight the similarity in the $\mu \rightarrow 0$ limit. This ring-like profile in both cases is in contrast to the abelian Higgs model's disk-like structure, which we observed in Figure (\ref{fig:Abelian_Higgs_Profiles_n1}) earlier. The transition between these two types of behaviour (ring-like in CS and disk-like in abelian Higgs) has been more extensively studied by \textit{Bolognesi \& Gudnason} \cite{Bolognesi:2007ez}. }
+
+
+\begin{figure}[H]
+\begin{center}
+ \includegraphics[width=5in]{Chapter_2_Folder_1912.11321/figures/solution_JLW-HKP_n-1_Bvsalpha.png}
+     \caption[Magnetic field profiles comparison for $\mu =0$ and $\mu \neq 0$, $n=1$.]{ \textcolor{red}{Magnetic field profiles comparison for $\mu =0$ and $\mu \neq 0$, $n=1$. Here the red line shows the $\mu \neq 0$ vortex, while the blue line shows the $\mu =0$ case. Strictly speaking, a vortex would \textit{not} exist in such a limit, since the symmetry breaking is driven by the chemical potential. However, here we have depicted the vortex in a theory with a negative mass squared term in the potential. Since we have excluded 6th order terms (unlike the original studies of JLW-HKP) we may similarly describe the solutions using only one parameter. Due to its similarity with the $m=0, \mu\neq 0$ case, we have chosen to denote this parameter as $\alpha= \frac{k m}{4\pi v^2}$, to emphasize the analogy.}} \label{Comparison}
+    \end{center}
+\end{figure}
+
 In figure \ref{positiveenergy} the dependence of the $n$-vortex energy on $|n|$, is displayed for the negative and positive flux solutions, and as expected the latter are more massive.  It is surprising  that ${\cal E }(n)/|n|$ appears to grow faster than $|n|$.
 \begin{figure}[H]
 \begin{center}

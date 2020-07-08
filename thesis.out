@@ -12,48 +12,51 @@
 \BOOKMARK [1][]{section.1.3}{1.3 Fractional Quantum Hall Effect}{chapter.1}% 12
 \BOOKMARK [2][]{subsection.1.3.1}{1.3.1 Classical Hall Effect}{section.1.3}% 13
 \BOOKMARK [2][]{subsection.1.3.2}{1.3.2 Quantum Hall Effect}{section.1.3}% 14
-\BOOKMARK [1][]{section.1.4}{1.4 Vortices}{chapter.1}% 15
-\BOOKMARK [2][]{subsection.1.4.1}{1.4.1 Global U\(1\) Vortex}{section.1.4}% 16
-\BOOKMARK [2][]{subsection.1.4.2}{1.4.2 Local U\(1\) Vortex}{section.1.4}% 17
-\BOOKMARK [2][]{subsection.1.4.3}{1.4.3 Particle-Vortex Duality}{section.1.4}% 18
-\BOOKMARK [1][]{section.1.5}{1.5 Fermi-Bose Duality}{chapter.1}% 19
-\BOOKMARK [1][]{section.1.6}{1.6 Non-Commutative Fluids}{chapter.1}% 20
-\BOOKMARK [2][]{subsection.1.6.1}{1.6.1 Review of Non-Commutative Geometry}{section.1.6}% 21
-\BOOKMARK [2][]{subsection.1.6.2}{1.6.2 Non-Commutative Field Theory}{section.1.6}% 22
-\BOOKMARK [0][]{chapter.2}{2 Abelian Chern-Simons vortices at finite chemical potential}{}% 23
-\BOOKMARK [1][]{section.2.1}{2.1 Introduction}{chapter.2}% 24
-\BOOKMARK [1][]{section.2.2}{2.2 The Abelian theory at finite chemical potential}{chapter.2}% 25
-\BOOKMARK [2][]{subsection.2.2.1}{2.2.1 Perturbative spectrum}{section.2.2}% 26
-\BOOKMARK [1][]{section.2.3}{2.3 Vortex equations}{chapter.2}% 27
-\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Qualitative features}{section.2.3}% 28
-\BOOKMARK [1][]{section.2.4}{2.4 Vortex energy and BPS-like scaling}{chapter.2}% 29
-\BOOKMARK [2][]{subsection.2.4.1}{2.4.1 The quartic potential s=2}{section.2.4}% 30
-\BOOKMARK [2][]{subsection.2.4.2}{2.4.2 General power law potential \(s2\)}{section.2.4}% 31
-\BOOKMARK [2][]{subsection.2.4.3}{2.4.3 Positive flux vortices}{section.2.4}% 32
-\BOOKMARK [1][]{section.2.5}{2.5 Numerical results}{chapter.2}% 33
-\BOOKMARK [2][]{subsection.2.5.1}{2.5.1 Quartic potential \(s=2\)}{section.2.5}% 34
-\BOOKMARK [2][]{subsection.2.5.2}{2.5.2 Sextic potential \(s=3\)}{section.2.5}% 35
-\BOOKMARK [1][]{section.2.6}{2.6 Discussion}{chapter.2}% 36
-\BOOKMARK [0][]{chapter.3}{3 Roton-phonon excitations in Chern-Simons matter theory at finite density}{}% 37
-\BOOKMARK [1][]{section.3.1}{3.1 Introduction}{chapter.3}% 38
-\BOOKMARK [1][]{section.3.2}{3.2 The SU\(2\)k theory}{chapter.3}% 39
-\BOOKMARK [2][]{subsection.3.2.1}{3.2.1 Classical ground states with B0}{section.3.2}% 40
-\BOOKMARK [2][]{subsection.3.2.2}{3.2.2 Colour-flavour locked symmetry}{section.3.2}% 41
-\BOOKMARK [1][]{section.3.3}{3.3 Spectrum of fluctuations}{chapter.3}% 42
-\BOOKMARK [2][]{subsection.3.3.1}{3.3.1 The k theory}{section.3.3}% 43
-\BOOKMARK [2][]{subsection.3.3.2}{3.3.2 Finite, large k}{section.3.3}% 44
-\BOOKMARK [3][]{subsubsection.3.3.2.1}{3.3.2.1 Physical states}{subsection.3.3.2}% 45
-\BOOKMARK [2][]{subsection.3.3.3}{3.3.3 Roton minimum and complete spectrum}{section.3.3}% 46
-\BOOKMARK [2][]{subsection.3.3.4}{3.3.4 Landau critical velocity}{section.3.3}% 47
-\BOOKMARK [2][]{subsection.3.3.5}{3.3.5 The U\(2\)k theory}{section.3.3}% 48
-\BOOKMARK [1][]{section.3.4}{3.4 The SU\(N>2\) case}{chapter.3}% 49
-\BOOKMARK [2][]{subsection.3.4.1}{3.4.1 Vacuum configuration}{section.3.4}% 50
-\BOOKMARK [2][]{subsection.3.4.2}{3.4.2 Interpretation as quantum Hall droplet state}{section.3.4}% 51
-\BOOKMARK [1][]{section.3.5}{3.5 Vortices in U\(2\) and SU\(2\) Chern-Simons scalar theories.}{chapter.3}% 52
-\BOOKMARK [1][]{section.3.6}{3.6 U\(2\) theory}{chapter.3}% 53
-\BOOKMARK [1][]{section.3.7}{3.7 SU\(2\) theory}{chapter.3}% 54
-\BOOKMARK [1][]{section.3.8}{3.8 Discussion}{chapter.3}% 55
-\BOOKMARK [1][]{section.3.9}{3.9 Summary and future directions}{chapter.3}% 56
-\BOOKMARK [0][]{section.3.9}{Conclusions}{}% 57
-\BOOKMARK [0][]{appendix.A}{A Determinant of fluctuation matrix for SU\(2\) }{}% 58
-\BOOKMARK [0][]{appendix*.39}{References}{}% 59
+\BOOKMARK [2][]{subsection.1.3.3}{1.3.3 Landau levels and the Integer Quantum Hall Effect.}{section.1.3}% 15
+\BOOKMARK [2][]{subsection.1.3.4}{1.3.4 Fractional Quantum Hall Effect}{section.1.3}% 16
+\BOOKMARK [2][]{subsection.1.3.5}{1.3.5 Landau-Ginzburg and Chern-Simons theory}{section.1.3}% 17
+\BOOKMARK [1][]{section.1.4}{1.4 Vortices}{chapter.1}% 18
+\BOOKMARK [2][]{subsection.1.4.1}{1.4.1 Global U\(1\) Vortex}{section.1.4}% 19
+\BOOKMARK [2][]{subsection.1.4.2}{1.4.2 Local U\(1\) Vortex}{section.1.4}% 20
+\BOOKMARK [2][]{subsection.1.4.3}{1.4.3 Particle-Vortex Duality}{section.1.4}% 21
+\BOOKMARK [1][]{section.1.5}{1.5 Fermi-Bose Duality}{chapter.1}% 22
+\BOOKMARK [1][]{section.1.6}{1.6 Non-Commutative Fluids}{chapter.1}% 23
+\BOOKMARK [2][]{subsection.1.6.1}{1.6.1 Review of Non-Commutative Geometry}{section.1.6}% 24
+\BOOKMARK [2][]{subsection.1.6.2}{1.6.2 Non-Commutative Field Theory}{section.1.6}% 25
+\BOOKMARK [0][]{chapter.2}{2 Abelian Chern-Simons vortices at finite chemical potential}{}% 26
+\BOOKMARK [1][]{section.2.1}{2.1 Introduction}{chapter.2}% 27
+\BOOKMARK [1][]{section.2.2}{2.2 The Abelian theory at finite chemical potential}{chapter.2}% 28
+\BOOKMARK [2][]{subsection.2.2.1}{2.2.1 Perturbative spectrum}{section.2.2}% 29
+\BOOKMARK [1][]{section.2.3}{2.3 Vortex equations}{chapter.2}% 30
+\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Qualitative features}{section.2.3}% 31
+\BOOKMARK [1][]{section.2.4}{2.4 Vortex energy and BPS-like scaling}{chapter.2}% 32
+\BOOKMARK [2][]{subsection.2.4.1}{2.4.1 The quartic potential s=2}{section.2.4}% 33
+\BOOKMARK [2][]{subsection.2.4.2}{2.4.2 General power law potential \(s2\)}{section.2.4}% 34
+\BOOKMARK [2][]{subsection.2.4.3}{2.4.3 Positive flux vortices}{section.2.4}% 35
+\BOOKMARK [1][]{section.2.5}{2.5 Numerical results}{chapter.2}% 36
+\BOOKMARK [2][]{subsection.2.5.1}{2.5.1 Quartic potential \(s=2\)}{section.2.5}% 37
+\BOOKMARK [2][]{subsection.2.5.2}{2.5.2 Sextic potential \(s=3\)}{section.2.5}% 38
+\BOOKMARK [1][]{section.2.6}{2.6 Discussion}{chapter.2}% 39
+\BOOKMARK [0][]{chapter.3}{3 Roton-phonon excitations in Chern-Simons matter theory at finite density}{}% 40
+\BOOKMARK [1][]{section.3.1}{3.1 Introduction}{chapter.3}% 41
+\BOOKMARK [1][]{section.3.2}{3.2 The SU\(2\)k theory}{chapter.3}% 42
+\BOOKMARK [2][]{subsection.3.2.1}{3.2.1 Classical ground states with B0}{section.3.2}% 43
+\BOOKMARK [2][]{subsection.3.2.2}{3.2.2 Colour-flavour locked symmetry}{section.3.2}% 44
+\BOOKMARK [1][]{section.3.3}{3.3 Spectrum of fluctuations}{chapter.3}% 45
+\BOOKMARK [2][]{subsection.3.3.1}{3.3.1 The k theory}{section.3.3}% 46
+\BOOKMARK [2][]{subsection.3.3.2}{3.3.2 Finite, large k}{section.3.3}% 47
+\BOOKMARK [3][]{subsubsection.3.3.2.1}{3.3.2.1 Physical states}{subsection.3.3.2}% 48
+\BOOKMARK [2][]{subsection.3.3.3}{3.3.3 Roton minimum and complete spectrum}{section.3.3}% 49
+\BOOKMARK [2][]{subsection.3.3.4}{3.3.4 Landau critical velocity}{section.3.3}% 50
+\BOOKMARK [2][]{subsection.3.3.5}{3.3.5 The U\(2\)k theory}{section.3.3}% 51
+\BOOKMARK [1][]{section.3.4}{3.4 The SU\(N>2\) case}{chapter.3}% 52
+\BOOKMARK [2][]{subsection.3.4.1}{3.4.1 Vacuum configuration}{section.3.4}% 53
+\BOOKMARK [2][]{subsection.3.4.2}{3.4.2 Interpretation as quantum Hall droplet state}{section.3.4}% 54
+\BOOKMARK [1][]{section.3.5}{3.5 Vortices in U\(2\) and SU\(2\) Chern-Simons scalar theories.}{chapter.3}% 55
+\BOOKMARK [1][]{section.3.6}{3.6 U\(2\) theory}{chapter.3}% 56
+\BOOKMARK [1][]{section.3.7}{3.7 SU\(2\) theory}{chapter.3}% 57
+\BOOKMARK [1][]{section.3.8}{3.8 Discussion}{chapter.3}% 58
+\BOOKMARK [1][]{section.3.9}{3.9 Summary and future directions}{chapter.3}% 59
+\BOOKMARK [0][]{section.3.9}{Conclusions}{}% 60
+\BOOKMARK [0][]{appendix.A}{A Determinant of fluctuation matrix for SU\(2\) }{}% 61
+\BOOKMARK [0][]{appendix*.41}{References}{}% 62

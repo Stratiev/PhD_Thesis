@@ -136,14 +136,49 @@ This above passage illustrates the essence of large gauge transformations in the
 \textcolor{red}{Those two assumptions are}
 \textcolor{red}{
     \begin{itemize}
-        \item[$\circ$] Finite Temperature $T$.\\
-            -- Studying a Quantum Field Theory at finite temperature is equivalent to Wick rotating into Euclidean space and compactifying the time direction to an $S^1$. This leads to a space-time of the form $S^1 \times M$, where $M$ is a 2-dimensional manifold.
-        \item[$\circ$] Consistency of the theory in the presence of a magnetic monopole.\\
-            -- The presence of a monopole implies that $ \int_{M} F_{12} = 1$.
+        \setlength\itemsep{1em}
+        \item[$\circ$] Finite Temperature $T$.}\\
+            \vspace{0.01em}
+            \textcolor{red}{Studying a Quantum Field Theory at finite temperature is equivalent to Wick rotating into Euclidean space and compactifying the time direction to an $S^1$. This leads to a space-time of the form $S^1 \times M$, where $M$ is a 2-dimensional manifold.
+        \item[$\circ$] Consistency of the theory in the presence of a magnetic monopole.}\\
+            \vspace{0.01em}
+            \textcolor{red}{As we have already touched upon in the Introduction, in 1931, \textit{Paul Dirac} considered the possibility of the existence of a magnetic monopole \cite{Dirac:1931kp}. This is contrary to the statement of Gauss's law for magnetism, which states that magnetic monopoles cannot exist (since for such a configuration we would have $\nabla \cdot B \neq 0$). Dirac's construction required the existence of a singularity associated with it. Later on, in 1975, \textit{Wu \& Yang} \cite{Wu:1975es, Wu:1976ge}  resolved the mystery of the Dirac string by showing how gauge fields are connected to the mathematical concept of \textit{fiber bundles}, thus showing that a proper definition of the vector potential of a monopole, should be defined in patches, which are related by gauge transformations on the intersections. Here we will consider the monopole on a sphere $S^2$. The presence of a monopole implies that
     \end{itemize}}
+\begin{align}
+    \textcolor{red}{\frac{1}{2\pi} \int_{S^2} F_{12} = 1.} \label{monopole_flux}
+\end{align}
+    \textcolor{red}{With this setup, we can now perform a large gauge transformation along the time manifold $S^1$, and study its effect on the Chern-Simons action. However, this would lead us to a result that is incorrect. The reason for this is that our definition of the Chern-Simons action is ambiguous for a non-trivial fiber bundle (read for a gauge field that is not globally defined). The correct way of approaching this problem is by defining the $U(1)$ Chern-Simons action as the boundary term of a 4-dimensional action \cite{Dijkgraaf:1989pz}}
 
-
-
+\begin{align}
+    \textcolor{red}{S=\frac{k}{4 \pi} \int_{B} F\wedge F,}
+\end{align}
+ \textcolor{red}{ Where $B$ is a four manifold that bounds $S^1 \times S^2$. Here we shall take $B= D\times S^2$, where $D$ is the disk with boundary $S^1$. We know that the size of the $S^1$ is $\beta= \frac{1}{T}$, as dictated by thermodynamics. This implies that the radius of the disk is $R_D=\frac{\beta}{2\pi}$. Since the total space-time is a direct product, we can write the field strength as a sum of contributions to the separate parts of the manifold} 
+\begin{align}
+    \textcolor{red}{F= F_D +F_{S^2}.}
+\end{align}
+ \textcolor{red}{Since the wedge product of 2-forms commute, we have }
+\begin{align}
+    \textcolor{red}{   S = \frac{k}{4\pi}\int_B F\wedge F = \frac{k}{2\pi} \int_B F_{D} \wedge F_{S^2}.}
+\end{align}
+\textcolor{red}{Let's consider a large gauge transformation on $S^1$. Let $A_D$ be the gauge field defined on the disk $D$ and let a position on that disk be described in polar coordinates $(r, \alpha)$, where $r$ is the radial position and $\alpha$ the polar angle. A candidate for a non-single valued function on the boundary of $D$ ($S^1$) is a transformation of the form }
+\begin{align}
+    \textcolor{red}{A_D \rightarrow A_D + \frac{r}{R_D} d\alpha. \label{non-gauge_gauge}}
+\end{align}
+\textcolor{red}{This is \textit{not} a gauge transformation on $D$, but it is a perfectly well-defined gauge transformation on $S^1$ and, as such, we expect the boundary theory to be invariant under it. Since (\ref{non-gauge_gauge}) is not a gauge transformation on $D$, $F_D$ changes}
+\begin{align}
+    \textcolor{red}{F_D \rightarrow F_D + d (r d\alpha) =F_D + dr \wedge d\alpha.}
+\end{align}
+ \textcolor{red}{This implies that the action changes accordingly }
+\begin{align}
+    \textcolor{red}{\delta S }& \textcolor{red}{= \frac{k}{2\pi} \int_B \frac{1}{R_D} dr \wedge d\alpha \wedge F_{S^2}}\\
+    & \textcolor{red}{= \frac{k}{2\pi} \int_{S^1}  d\alpha \int_{S^2} F_{S^2}=2\pi k,}
+\end{align}
+ \textcolor{red}{where we have used Stokes' theorem, the monopole flux condition (\ref{monopole_flux}) and the fact that on the $S^1$, $r=R_D$. Just as in the non-abelian case, we see that if we would like the path integral over the boundary to remain invariant, we require that }
+\begin{align}
+    \textcolor{red}{\delta S \in 2\pi \mathbb{Z} \implies k\in \mathbb{Z}.}
+\end{align}
+\textcolor{red}{Finally, we remark that if the local definition of the Chern-Simons action had been used in this derivation, we would be off by a factor of 2, which would mean the level would be quantized to only even integers, leading to incorrect physical predictions.}
+ \textcolor{red}{\subsubsection*{Equations of Motion}}
     Let us look at some physical properties that the action functional $S_{\text{CS}} = \int d^3x \, \mathcal{L}_{\text{CS}}$ possesses. Performing the functional variation, we get the equation of motion $F_{\mu \nu}=0$, implying only pure gauge solutions exist. This might make one wonder, what could possibly be so interesting about CS theory if the classical equations of motion are trivial!?
     The reason that this theory is in fact interesting and non-trivial, despite the fact that $F=0$, is two-fold. Firstly, CS is a topological field theory. It has trivial local properties. All of the physics is encoded in the topology of the manifold and in the non-local observables such as Wilson loops that require us to study the full quantum theory.
 
@@ -454,6 +489,31 @@ Here we shall make a few observations that will come in use frequently for the r
         \end{align}
         Thus the quantity $\frac{2 \pi \hbar}{e^2}$ is dubbed the quantum of resistivity. The explanation of the Integer Quantum Hall effect is based on the quantum mechanics of non-interacting particles confined to a plane. In the case of the fractional Quantum Hall effect (FQHE), where $\nu \in \mathbb{Q}$, we need to study a highly interacting system, which makes the FQHE a very interesting topic for theoretical physics.
 
+ \textcolor{red}{\subsection{Landau levels and the Integer Quantum Hall Effect.}}
+
+\textcolor{red}{Before we attempt to tackle this highly non-trivial topic, we will have to first acquaint ourselves with the quantum mechanical analog of the Drude model. Namely, we will be interested in the quantum mechanics of a charged particle, confined to a plane, subjected to a magnetic field perpendicular to that plane (For now re will consider the electric field to be vanishing). The physics of this system can be described by a harmonic oscillator and the energy states are today referred to today as \textit{Landau levels}. The name comes from Landau's description of diamagnetism in metals through the quantized orbits of free electrons in a metal \cite{Landau1930}. Historically, there have been others \cite{Rabi1928, Fock1928, FrenkelBronshtein1930}, who have either predated or have independently studied this system, but Landau's name ended up being attached to it, likely because none of the other works found the number of states or found a connection between the oscillations and the diamagnetism of metals \cite{shifman2013under}.}
+
+\textcolor{red}{For the purpose of quantisation, we shall consider the particle in a magnetic field system in the Hamiltonian formulation. The general Hamiltonian for a particle at position $\bm{x}$ in a vector potential $\bm{A}$ is }
+\begin{align}
+    H=\frac{1}{2m}\left(\bm{p} +e \bm{A} \right)^2.
+\end{align}
+
+\textcolor{red}{In order to solve the quantum system, we follow canonical quantization and we promote the position and momenta to operators}
+\begin{align}
+    [\hat{x}_i, \hat{p}_j] = i \hbar \delta_{ij}, \qquad [\hat{x}_i, \hat{x}_j]=[\hat{p}_i, \hat{p}_j]=0.
+\end{align}
+
+ \textcolor{red}{\subsection{Fractional Quantum Hall Effect}}
+
+ \textcolor{red}{**Write down the Laughlin wavefunction \cite{Laughlin:1983fy}. Explain why it's a good ansatz. Explain why it captures the correct qualitative idea. Explain that excitations around the Laughlin ground state have fractional charge (Fractional charge has been observed \cite{dePicciotto:1997qc}). The existence of fractional charge implies the \textit{``fractionalization of statistics"} \cite{Halperin:1983zz, Wilczek:1981du}. The existence of particles with statistics which is in between that of fermions and bosons was first speculated by \textit{Leinaas \& Myrheim} \cite{Leinaas:1977fm} and later on by \textit{Wilczek} \cite{PhysRevLett.49.957}. The idea that anyonic statistics exist in 2+1 dimensions but not in 3+1 can be understood mathematically through the Braid group \cite{PhysRevLett.52.2103, Artin1947}. However, going into the details of Braid group representations will take us too far from the main subject of our study. It suffices to say that in 3+1 spatial dimensions, the interchange of $n$ particles is governed by the symmetric group $S_n$, since any world-lines followed in order to achieve an exchange can be pulled through and unbraided. This leaves us with either the trivial representation (boson) of $S_n$ or the faithful representation (fermions). On the other hand, in 2+1 dimensions, this is not the case. In order to exchange to particles, one must move them through space-time. This movement can in general braid the world-lines of particles. This knotting has the effect of leaving a non-trivial exchange phase that is neither $1$ or $-1$. Explain why it's hard to apply to large systems.**}
+
+\textcolor{red}{\subsection{Landau-Ginzburg and Chern-Simons theory}}
+
+
+
+\textcolor{red}{An excellent review on the subject of the FQHE can be found in an article by \textit{Xiao-Gang Wen} \cite{Wen:1995qn}. Explain how Landau-Ginzburg gives the correct effective theory \cite{PhysRevLett.58.1252, Read1989, PhysRevLett.62.82, PhysRevB.43.2637}. Explain how one can classify all abelian fractional quantum hall states with Chern-Simons theory \cite{PhysRevB.46.2290,PhysRevLett.69.953}. Mention that the picture is incomplete for the case of non-abelian quantum hall states (even denominator fractions?)}
+
+
         Our exploration of the Quantum Hall Effect will stop here. What is important to take away from this section is that the understanding of the FQHE is underlied by the study of Chern-Simons theory. Thus studying the models, that are of interest in the present work, might lead to a better understanding of the fascinating problem that is the FQHE. A further connection to this problem is provided by the non-commutative Chern-Simons theory that we explore at the end of this chapter and at the end of chapter 3. Next, we turn our attention to the study of vortices.
 
 %\textcolor{red}{***More to add***}\\
@@ -463,7 +523,12 @@ Here we shall make a few observations that will come in use frequently for the r
 %   \indent         - discovered by von Klitzing\\
 %        - Fractional Quantum Hall effect\\
 %    \indent        - Leads to charge fractionalization\\
-%           \indent - Laughlin wave function
+        %           \indent - Laughlin wave function \cite{Laughlin:1983fy}
+        % Jain's generalization (Composite-fermion approach)  \cite{PhysRevLett.63.199}
+        % Jain Theory of the fractional Quantum hall effect \cite{Jain:1990zz}
+        % In 1982, Wilczek observed that a particle current coupled to a CS gauge field produced states with fractional statistics through the binding of particles to flux \cite{Wilczek:1981du}. We will show how this takes place through the \textit{Aharonov-Bohm effect} \cite{Aharonov:1959fk} (Experimental confirmation \cite{PhysRevLett.5.3}).
+        % Fractional charge leads to fractional statistics according to Halperin and Wilczek \cite{Halperin:1983zz, Wilczek:1981du} (This needs more elaboration)
+        % First mention of anyonic statistics \cite{Leinaas:1977fm}
         \section{Vortices} \label{vortices_sec}
         This section takes up the task of summarizing basic aspects about vortices in general and specifically in Chern-Simons matter theories.
         Vortices are localized, exact solutions to the equations of motion. They may or may not be finite energy configurations.
@@ -562,7 +627,7 @@ Here we shall make a few observations that will come in use frequently for the r
         \includegraphics[scale=0.1]{Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png}
         \includegraphics[scale=0.1]{Background_Folder/figures/solution_n1_scalar_field_g_lambda.png}
 	\end{tabular}
-    \caption[This figure depicts the magnetic and scalar field profiles in the Abelian Higgs model.]{The profiles for the magnetic (left) and scalar (right) fields ($B(r)$ and $v(r)$, respectively) are depicted for winding number $n=1$, electromagnetic coupling $g=1$ and quartic interaction coupling $\lambda = (10,1,0.1)* \lambda_c$. Here, $\lambda_c$ is the critical coupling, for which the BPS equations \eqref{eq:BPS1_Abel} hold.} \label{fig:Abelian_Higgs_Profiles_n1}
+    \caption[This figure depicts the magnetic and scalar field profiles in the Abelian Higgs model.]{The profiles for the magnetic (left) and scalar (right) fields ($B(r)$ and $v(r)$, respectively) are depicted for winding number $n=1$, electromagnetic coupling $g=1$ and quartic interaction coupling $\lambda = (10,1,0.1)\times \lambda_c$. Here, $\lambda_c$ is the critical coupling, for which the BPS equations \eqref{eq:BPS1_Abel} hold.} \label{fig:Abelian_Higgs_Profiles_n1}
 \end{figure}
 
     From the asymptotic equations \eqref{eq:Asymptotics1_Abelian_Higgs} and \eqref{eq:Asymptotics2_Abelian_Higgs}, we can recover the masses of the Higgs field and gauge field $m_{H}$ and $m_a$, respectively, in the Higgsed phase of the theory 
