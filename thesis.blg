@@ -81,43 +81,43 @@ while executing---line 1248 of file Reference_Folder/utphys.bst
 Warning--empty pages in TopOrderRigidStates
 You've used 197 entries,
             2328 wiz_defined-function locations,
-            2160 strings with 41256 characters,
-and the built_in function-call counts, 65204 in all, are:
-= -- 6986
+            2167 strings with 41490 characters,
+and the built_in function-call counts, 65443 in all, are:
+= -- 7016
 > -- 1450
 < -- 0
 + -- 580
 - -- 383
-* -- 5988
-:= -- 7412
-add.period$ -- 320
+* -- 6019
+:= -- 7432
+add.period$ -- 321
 call.type$ -- 197
-change.case$ -- 268
+change.case$ -- 270
 chr.to.int$ -- 0
 cite$ -- 203
-duplicate$ -- 3491
-empty$ -- 6609
+duplicate$ -- 3502
+empty$ -- 6631
 format.name$ -- 383
-if$ -- 17016
+if$ -- 17078
 int.to.chr$ -- 0
 int.to.str$ -- 197
-missing$ -- 754
+missing$ -- 755
 newline$ -- 730
 num.names$ -- 197
-pop$ -- 979
+pop$ -- 978
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2525
+skip$ -- 2538
 stack$ -- 0
-substring$ -- 4352
-swap$ -- 1776
+substring$ -- 4384
+swap$ -- 1786
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 601
+while$ -- 604
 width$ -- 200
-write$ -- 1600
+write$ -- 1602
 (There were 14 error messages)

@@ -766,6 +766,12 @@ M.~Berger and Y.~Chen, ``Symmetric vortices for the ginzberg-landau equations
   Functional Analysis} {\bfseries 82} no.~2, (Feb., 1989) 259--295}.
   \url{https://doi.org/10.1016/0022-1236(89)90071-2}.
 
+\bibitem{Kierzenka2001}
+J.~Kierzenka and L.~F. Shampine, ``A {BVP} solver based on residual control and
+  the maltab {PSE}'', \href{http://dx.doi.org/10.1145/502800.502801}{{\em {ACM}
+  Transactions on Mathematical Software ({TOMS})} {\bfseries 27} no.~3, (Sept.,
+  2001) 299--316}. \url{https://doi.org/10.1145/502800.502801}.
+
 \bibitem{Peskin:1977kp}
 M.~E. Peskin, ``{Mandelstam 't Hooft Duality in Abelian Lattice Models}'',
   \href{http://dx.doi.org/10.1016/0003-4916(78)90252-X}{{\em Annals Phys.}
@@ -1173,9 +1179,6 @@ L.~P. Pitaevskii, ``{{L}ayered structure of ${}^4{\rm {H}e}$ with supercritical
 D.~N. Voskresenskii, ``{{C}ondensate with finite momentum in a moving
   medium}'', {\em JETP} {\bfseries 77(6)} (1993) 917--932.
   \url{http://www.jetp.ac.ru/cgi-bin/e/index/e/77/6/p917?a=list}.
-
-\bibitem{ongoing}
-S.~P. Kumar and S.~Stratiev, ``{{W}ork in progress}'',.
 
 \bibitem{deVega:1986eu}
 H.~J. de~Vega and F.~A. Schaposnik, ``{Electrically Charged Vortices in
