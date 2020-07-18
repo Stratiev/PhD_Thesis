@@ -20,15 +20,18 @@ A.~M. Polyakov, ``{Quark Confinement and Topology of Gauge Groups}'',
   \href{http://dx.doi.org/10.1016/0550-3213(77)90086-4}{{\em Nucl.\ Phys.\ B}
   {\bfseries 120} (1977) 429--458}.
 
-\bibitem{Kramers:1941kn}
-H.~Kramers and G.~Wannier, ``{Statistics of the two-dimensional ferromagnet.
-  Part 1.}'', \href{http://dx.doi.org/10.1103/PhysRev.60.252}{{\em Phys. Rev.}
-  {\bfseries 60} (1941) 252--262}.
+\bibitem{PhysRev.60.252}
+H.~A. Kramers and G.~H. Wannier, ``{Statistics of the Two-Dimensional
+  Ferromagnet. Part I}'', \href{http://dx.doi.org/10.1103/PhysRev.60.252}{{\em
+  Phys. Rev.} {\bfseries 60} (Aug, 1941) 252--262}.
+  \url{https://link.aps.org/doi/10.1103/PhysRev.60.252}.
 
-\bibitem{Onsager:1943jn}
-L.~Onsager, ``{Crystal statistics. 1. A Two-dimensional model with an order
-  disorder transition}'', \href{http://dx.doi.org/10.1103/PhysRev.65.117}{{\em
-  Phys. Rev.} {\bfseries 65} (1944) 117--149}.
+\bibitem{PhysRev.65.117}
+L.~Onsager, ``{Crystal Statistics. I. A Two-Dimensional Model with an
+  Order-Disorder Transition}'',
+  \href{http://dx.doi.org/10.1103/PhysRev.65.117}{{\em Phys. Rev.} {\bfseries
+  65} (Feb, 1944) 117--149}.
+  \url{https://link.aps.org/doi/10.1103/PhysRev.65.117}.
 
 \bibitem{Coleman:1974bu}
 S.~R. Coleman, ``{The Quantum Sine-Gordon Equation as the Massive Thirring
@@ -48,7 +51,7 @@ W.~E. Thirring, ``A soluble relativistic field theory'',
   \url{https://doi.org/10.1016/0003-4916(58)90015-0}.
 
 \bibitem{Witten:1983ar}
-E.~Witten, ``{Nonabelian Bosonization in Two-Dimensions}'',
+E.~Witten, ``{Non-abelian bosonization in two-dimensions}'',
   \href{http://dx.doi.org/10.1007/BF01215276}{{\em Commun. Math. Phys.}
   {\bfseries 92} (1984) 455--472}.
 
@@ -120,14 +123,14 @@ N.~Seiberg, ``{Exact results on the space of vacua of four-dimensional SUSY
   \href{http://arxiv.org/abs/hep-th/9402044}{{\ttfamily arXiv:hep-th/9402044}}.
 
 \bibitem{Seiberg:1994pq}
-N.~Seiberg, ``{Electric - magnetic duality in supersymmetric nonAbelian gauge
+N.~Seiberg, ``{Electric-magnetic duality in supersymmetric non-Abelian gauge
   theories}'', \href{http://dx.doi.org/10.1016/0550-3213(94)00023-8}{{\em Nucl.
   Phys. B} {\bfseries 435} (1995) 129--146},
   \href{http://arxiv.org/abs/hep-th/9411149}{{\ttfamily arXiv:hep-th/9411149}}.
 
 \bibitem{Seiberg:1994rs}
-N.~Seiberg and E.~Witten, ``{Electric - magnetic duality, monopole
-  condensation, and confinement in N=2 supersymmetric Yang-Mills theory}'',
+N.~Seiberg and E.~Witten, ``{Electric-magnetic duality, monopole condensation,
+  and confinement in $\mathcal{N}=2$ supersymmetric Yang-Mills theory}'',
   \href{http://dx.doi.org/10.1016/0550-3213(94)90124-4}{{\em Nucl. Phys. B}
   {\bfseries 426} (1994) 19--52},
   \href{http://arxiv.org/abs/hep-th/9407087}{{\ttfamily arXiv:hep-th/9407087}}.
@@ -296,6 +299,13 @@ C.~Nayak, S.~H. Simon, A.~Stern, M.~Freedman, and S.~Das~Sarma, ``Non-abelian
   {\bfseries 80} (Sep, 2008) 1083--1159}.
   \url{https://link.aps.org/doi/10.1103/RevModPhys.80.1083}.
 
+\bibitem{Kitaev:1997wr}
+A.~Kitaev, ``{Fault tolerant quantum computation by anyons}'',
+  \href{http://dx.doi.org/10.1016/S0003-4916(02)00018-0}{{\em Annals Phys.}
+  {\bfseries 303} (2003) 2--30},
+  \href{http://arxiv.org/abs/quant-ph/9707021}{{\ttfamily
+  arXiv:quant-ph/9707021}}.
+
 \bibitem{Schwarz:2000ct}
 A.~S. Schwarz, ``{Topological quantum field theories}'',
   \href{http://arxiv.org/abs/hep-th/0011260}{{\ttfamily arXiv:hep-th/0011260}}.
@@ -364,7 +374,7 @@ H.~Toda, ``A topological proof of theorems of bott and borel-hirzeburch for
 
 \bibitem{Dugundji}
 J.~Dugundji, {\em Topology}.
-\newblock 05, 1989.
+\newblock 1989.
 
 \bibitem{Polychronakos:1990xq}
 A.~P. Polychronakos, ``{On the Quantization of the Coefficient of the Abelian
@@ -387,6 +397,18 @@ T.~T. Wu and C.~N. Yang, ``{Dirac Monopole Without Strings: Monopole
 R.~Dijkgraaf and E.~Witten, ``{Topological Gauge Theories and Group
   Cohomology}'', \href{http://dx.doi.org/10.1007/BF02096988}{{\em Commun. Math.
   Phys.} {\bfseries 129} (1990) 393}.
+
+\bibitem{Coleman:1985zi}
+S.~R. Coleman and B.~R. Hill, ``{No More Corrections to the Topological Mass
+  Term in QED in Three-Dimensions}'',
+  \href{http://dx.doi.org/10.1016/0370-2693(85)90883-4}{{\em Phys. Lett. B}
+  {\bfseries 159} (1985) 184--188}.
+
+\bibitem{Khare:1994yv}
+A.~Khare, R.~MacKenzie, and M.~B. Paranjape, ``{On the Coleman-Hill theorem}'',
+  \href{http://dx.doi.org/10.1016/0370-2693(94)01420-H}{{\em Phys. Lett. B}
+  {\bfseries 343} (1995) 239--243},
+  \href{http://arxiv.org/abs/hep-th/9408091}{{\ttfamily arXiv:hep-th/9408091}}.
 
 \bibitem{Landau:1956zuh}
 L.~Landau, ``{The Theory of a Fermi Liquid}'', {\em Sov. Phys. JETP} {\bfseries
@@ -458,17 +480,74 @@ M.~Shifman, {\em Under the spell of Landau : when theoretical physics was
   shaping destinies}.
 \newblock World Scientific, Singapore Hackensack, N.J, 2013.
 
+\bibitem{PhysRevB.25.2185}
+B.~I. Halperin, ``Quantized hall conductance, current-carrying edge states, and
+  the existence of extended states in a two-dimensional disordered potential'',
+  \href{http://dx.doi.org/10.1103/PhysRevB.25.2185}{{\em Phys. Rev. B}
+  {\bfseries 25} (Feb, 1982) 2185--2190}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevB.25.2185}.
+
+\bibitem{PhysRevB.23.5632}
+R.~B. Laughlin, ``Quantized hall conductivity in two dimensions'',
+  \href{http://dx.doi.org/10.1103/PhysRevB.23.5632}{{\em Phys. Rev. B}
+  {\bfseries 23} (May, 1981) 5632--5633}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevB.23.5632}.
+
+\bibitem{hep-th/0509216}
+D.~Tong, ``{T}\textcolor{red}{A}\textcolor{red}{S}\textcolor{red}{I}
+  \textcolor{red}{L}ectures on \textcolor{red}{S}olitons'', 2005.
+
+\bibitem{yoshioka2002the}
+D.~Yoshioka, {\em The Quantum Hall Effect}.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2002.
+
+\bibitem{Girvin}
+S.~M. Girvin, \href{http://dx.doi.org/10.1007/3-540-46637-1_2}{``The quantum
+  hall effect: Novel excitations and broken symmetries'',} in {\em Aspects
+  topologiques de la physique en basse dimension. Topological aspects of low
+  dimensional systems}, pp.~53--175.
+\newblock Springer Berlin Heidelberg.
+\newblock \url{https://doi.org/10.1007/3-540-46637-1_2}.
+
 \bibitem{Laughlin:1983fy}
 R.~Laughlin, ``{Anomalous quantum Hall effect: An Incompressible quantum fluid
   with fractionallycharged excitations}'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.50.1395}{{\em Phys. Rev. Lett.}
   {\bfseries 50} (1983) 1395}.
 
+\bibitem{PhysRevLett.48.1559}
+D.~C. Tsui, H.~L. Stormer, and A.~C. Gossard, ``Two-dimensional
+  magnetotransport in the extreme quantum limit'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.48.1559}{{\em Phys. Rev. Lett.}
+  {\bfseries 48} (May, 1982) 1559--1562}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevLett.48.1559}.
+
+\bibitem{PhysRevB.37.8476}
+R.~L. Willett, H.~L. Stormer, D.~C. Tsui, A.~C. Gossard, and J.~H. English,
+  ``Quantitative experimental test for the theoretical gap energies in the
+  fractional quantum hall effect'',
+  \href{http://dx.doi.org/10.1103/PhysRevB.37.8476}{{\em Phys. Rev. B}
+  {\bfseries 37} (May, 1988) 8476--8479}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevB.37.8476}.
+
+\bibitem{Debye1912}
+P.~Debye, ``Zur theorie der spezifischen w\"{a}rmen'',
+  \href{http://dx.doi.org/10.1002/andp.19123441404}{{\em Annalen der Physik}
+  {\bfseries 344} no.~14, (1912) 789--839}.
+  \url{https://doi.org/10.1002/andp.19123441404}.
+
 \bibitem{dePicciotto:1997qc}
 R.~de~Picciotto, M.~Reznikov, M.~Heiblum, V.~Umansky, G.~Bunin, and D.~Mahalu,
   ``{Direct observation of a fractional charge}'',
   \href{http://dx.doi.org/10.1038/38241}{{\em Nature} {\bfseries 389} (1997)
   162--164}.
+
+\bibitem{PhysRevLett.79.2526}
+L.~Saminadayar, D.~C. Glattli, Y.~Jin, and B.~Etienne, ``Observation of the
+  $\mathit{e}\mathit{/}3$ fractionally charged laughlin quasiparticle'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.79.2526}{{\em Phys. Rev. Lett.}
+  {\bfseries 79} (Sep, 1997) 2526--2529}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevLett.79.2526}.
 
 \bibitem{Halperin:1983zz}
 B.~Halperin, ``{Theory of the quantized Hall conductance}'', {\em Helv. Phys.
@@ -501,12 +580,29 @@ E.~Artin, ``Theory of braids'', \href{http://dx.doi.org/10.2307/1969218}{{\em
   The Annals of Mathematics} {\bfseries 48} no.~1, (Jan., 1947) 101}.
   \url{https://doi.org/10.2307/1969218}.
 
-\bibitem{Wen:1995qn}
-X.-G. Wen, ``{Topological orders and edge excitations in FQH states}'',
-  \href{http://dx.doi.org/10.1080/00018739500101566}{{\em Adv. Phys.}
-  {\bfseries 44} no.~5, (1995) 405--473},
-  \href{http://arxiv.org/abs/cond-mat/9506066}{{\ttfamily
-  arXiv:cond-mat/9506066}}.
+\bibitem{PhysRevLett.60.2765}
+E.~Y. Andrei, G.~Deville, D.~C. Glattli, F.~I.~B. Williams, E.~Paris, and
+  B.~Etienne, ``Observation of a magnetically induced wigner solid'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.60.2765}{{\em Phys. Rev. Lett.}
+  {\bfseries 60} (Jun, 1988) 2765--2768}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevLett.60.2765}.
+
+\bibitem{PhysRev.46.1002}
+E.~Wigner, ``On the interaction of electrons in metals'',
+  \href{http://dx.doi.org/10.1103/PhysRev.46.1002}{{\em Phys. Rev.} {\bfseries
+  46} (Dec, 1934) 1002--1011}.
+  \url{https://link.aps.org/doi/10.1103/PhysRev.46.1002}.
+
+\bibitem{Wigner1938}
+E.~Wigner, ``Effects of the electron interaction on the energy levels of
+  electrons in metals'', \href{http://dx.doi.org/10.1039/tf9383400678}{{\em
+  Transactions of the Faraday Society} {\bfseries 34} (1938) 678}.
+  \url{https://doi.org/10.1039/tf9383400678}.
+
+\bibitem{wen2004quantum}
+Wen, {\em Quantum field theory of many-body systems : from the origin of sound
+  to an origin of light and electrons}.
+\newblock Oxford University Press, Oxford New York, 2004.
 
 \bibitem{PhysRevLett.58.1252}
 S.~M. Girvin and A.~H. MacDonald, ``Off-diagonal long-range order, oblique
@@ -514,15 +610,6 @@ S.~M. Girvin and A.~H. MacDonald, ``Off-diagonal long-range order, oblique
   \href{http://dx.doi.org/10.1103/PhysRevLett.58.1252}{{\em Phys. Rev. Lett.}
   {\bfseries 58} (Mar, 1987) 1252--1255}.
   \url{https://link.aps.org/doi/10.1103/PhysRevLett.58.1252}.
-
-\bibitem{Read1989}
-N.~Read, ``{O}rder \textcolor{red}{P}arameter and
-  \textcolor{red}{G}inzburg-\textcolor{red}{L}andau \textcolor{red}{T}heory for
-  the \textcolor{red}{F}ractional \textcolor{red}{Q}uantum
-  \textcolor{red}{H}all \textcolor{red}{E}ffect'',
-  \href{http://dx.doi.org/10.1103/physrevlett.62.86}{{\em Physical Review
-  Letters} {\bfseries 62} no.~1, (Jan., 1989) 86--89}.
-  \url{https://doi.org/10.1103/physrevlett.62.86}.
 
 \bibitem{PhysRevLett.62.82}
 S.~C. Zhang, T.~H. Hansson, and S.~Kivelson, ``{E}ffective-{F}ield-{T}heory
@@ -538,6 +625,25 @@ Z.~F. Ezawa and A.~Iwazaki, ``Chern-simons gauge theories for the
   {\bfseries 43} (Feb, 1991) 2637--2641}.
   \url{https://link.aps.org/doi/10.1103/PhysRevB.43.2637}.
 
+\bibitem{Read1989}
+N.~Read, ``{Order Parameter and Ginzburg-Landau Theory for the Fractional
+  Quantum Hall Effect}'',
+  \href{http://dx.doi.org/10.1103/physrevlett.62.86}{{\em Physical Review
+  Letters} {\bfseries 62} no.~1, (Jan., 1989) 86--89}.
+  \url{https://doi.org/10.1103/physrevlett.62.86}.
+
+\bibitem{Wen:1995qn}
+X.-G. Wen, ``{Topological orders and edge excitations in FQH states}'',
+  \href{http://dx.doi.org/10.1080/00018739500101566}{{\em Adv. Phys.}
+  {\bfseries 44} no.~5, (1995) 405--473},
+  \href{http://arxiv.org/abs/cond-mat/9506066}{{\ttfamily
+  arXiv:cond-mat/9506066}}.
+
+\bibitem{TopOrderRigidStates}
+X.~G.wen, ``Topological orders in rigid states'',
+  \href{http://dx.doi.org/10.1142/S0217979290000139}{{\em International Journal
+  of Modern Physics B} {\bfseries 04} (01, 2012) }.
+
 \bibitem{PhysRevB.46.2290}
 X.~G. Wen and A.~Zee, ``Classification of abelian quantum hall states and
   matrix formulation of topological fluids'',
@@ -545,12 +651,42 @@ X.~G. Wen and A.~Zee, ``Classification of abelian quantum hall states and
   {\bfseries 46} (Jul, 1992) 2290--2301}.
   \url{https://link.aps.org/doi/10.1103/PhysRevB.46.2290}.
 
+\bibitem{Aharonov:1959fk}
+Y.~Aharonov and D.~Bohm, ``{Significance of electromagnetic potentials in the
+  quantum theory}'', \href{http://dx.doi.org/10.1103/PhysRev.115.485}{{\em
+  Phys. Rev.} {\bfseries 115} (1959) 485--491}.
+
+\bibitem{PhysRevLett.5.3}
+R.~G. Chambers, ``Shift of an electron interference pattern by enclosed
+  magnetic flux'', \href{http://dx.doi.org/10.1103/PhysRevLett.5.3}{{\em Phys.
+  Rev. Lett.} {\bfseries 5} (Jul, 1960) 3--5}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevLett.5.3}.
+
+\bibitem{Willett:1987zz}
+R.~Willett, J.~Eisenstein, H.~Stormer, D.~Tsui, A.~Gossard, and J.~English,
+  ``{Observation of an even-denominator quantum number in the fractional
+  quantum Hall effect}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.59.1776}{{\em Phys. Rev. Lett.}
+  {\bfseries 59} (1987) 1776--1779}.
+
 \bibitem{PhysRevLett.69.953}
 X.~G. Wen and A.~Zee, ``Shift and spin vector: New topological quantum numbers
   for the hall fluids'',
   \href{http://dx.doi.org/10.1103/PhysRevLett.69.953}{{\em Phys. Rev. Lett.}
   {\bfseries 69} (Aug, 1992) 953--956}.
   \url{https://link.aps.org/doi/10.1103/PhysRevLett.69.953}.
+
+\bibitem{PhysRevLett.63.199}
+J.~K. Jain, ``Composite-fermion approach for the fractional quantum hall
+  effect'', \href{http://dx.doi.org/10.1103/PhysRevLett.63.199}{{\em Phys. Rev.
+  Lett.} {\bfseries 63} (Jul, 1989) 199--202}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevLett.63.199}.
+
+\bibitem{Read1994}
+N.~Read, ``Theory of the half-filled landau level'',
+  \href{http://dx.doi.org/10.1088/0268-1242/9/11s/002}{{\em Semiconductor
+  Science and Technology} {\bfseries 9} no.~11S, (Nov., 1994) 1859--1864}.
+  \url{https://doi.org/10.1088/0268-1242/9/11s/002}.
 
 \bibitem{Abrikosov1957}
 A.~Abrikosov, ``{T}he magnetic properties of superconducting alloys'',
@@ -583,9 +719,63 @@ R.~Jackiw and E.~J. Weinberg, ``{{S}elf-dual {C}hern-{S}imons Vortices}'',
   {\bfseries 64} (1990) 2234}.
 
 \bibitem{Jackiw:1990pr}
-R.~Jackiw, K.-M. Lee, and E.~J. Weinberg, ``{Selfdual Chern-Simons solitons}'',
-  \href{http://dx.doi.org/10.1103/PhysRevD.42.3488}{{\em Phys.\ Rev.\ D}
-  {\bfseries 42} (1990) 3488--3499}.
+R.~Jackiw, K.-M. Lee, and E.~J. Weinberg, ``{Self-dual Chern-Simons
+  solitons}'', \href{http://dx.doi.org/10.1103/PhysRevD.42.3488}{{\em Phys.\
+  Rev.\ D} {\bfseries 42} (1990) 3488--3499}.
+
+\bibitem{Kosterlitz_1973}
+J.~M. Kosterlitz and D.~J. Thouless, ``{O}rdering, metastability and phase
+  transitions in two-dimensional systems'',
+  \href{http://dx.doi.org/10.1088/0022-3719/6/7/010}{{\em Journal of Physics C:
+  Solid State Physics} {\bfseries 6} no.~7, (Apr, 1973) 1181--1203}.
+  \url{https://doi.org/10.1088%2F0022-3719%2F6%2F7%2F010}.
+
+\bibitem{Berezinsky:1970fr}
+V.~Berezinsky, ``{Destruction of long range order in one-dimensional and
+  two-dimensional systems having a continuous symmetry group. I. Classical
+  systems}'', {\em Sov. Phys. JETP} {\bfseries 32} (1971) 493--500.
+
+\bibitem{Berezinsky:1972rfj}
+V.~Berezinsky, ``{Destruction of Long-range Order in One-dimensional and
+  Two-dimensional Systems Possessing a Continuous Symmetry Group. II. Quantum
+  Systems.}'', {\em Sov. Phys. JETP} {\bfseries 34} no.~3, (1972) 610.
+
+\bibitem{Taubes1980_1}
+C.~H. Taubes, ``{{Arbitrary N}-vortex Solutions to the First Order
+  Ginzburg-Landau Equations}'',
+  \href{http://dx.doi.org/10.1007/bf01197552}{{\em Communications in
+  Mathematical Physics} {\bfseries 72} no.~3, (Oct., 1980) 277--292}.
+  \url{https://doi.org/10.1007/bf01197552}.
+
+\bibitem{Taubes1980_2}
+C.~H. Taubes, ``On the equivalence of the first and second order equations for
+  gauge theories'', \href{http://dx.doi.org/10.1007/bf01212709}{{\em
+  Communications in Mathematical Physics} {\bfseries 75} no.~3, (Oct., 1980)
+  207--227}. \url{https://doi.org/10.1007/bf01212709}.
+
+\bibitem{Plohr1981}
+B.~Plohr, ``The behavior at infinity of isotropic vortices and monopoles'',
+  \href{http://dx.doi.org/10.1063/1.524774}{{\em Journal of Mathematical
+  Physics} {\bfseries 22} no.~10, (Oct., 1981) 2184--2190}.
+  \url{https://doi.org/10.1063/1.524774}.
+
+\bibitem{Berger1989}
+M.~Berger and Y.~Chen, ``Symmetric vortices for the ginzberg-landau equations
+  of superconductivity and the nonlinear desingularization phenomenon'',
+  \href{http://dx.doi.org/10.1016/0022-1236(89)90071-2}{{\em Journal of
+  Functional Analysis} {\bfseries 82} no.~2, (Feb., 1989) 259--295}.
+  \url{https://doi.org/10.1016/0022-1236(89)90071-2}.
+
+\bibitem{Peskin:1977kp}
+M.~E. Peskin, ``{Mandelstam 't Hooft Duality in Abelian Lattice Models}'',
+  \href{http://dx.doi.org/10.1016/0003-4916(78)90252-X}{{\em Annals Phys.}
+  {\bfseries 113} (1978) 122}.
+
+\bibitem{Dasgupta:1981zz}
+C.~Dasgupta and B.~Halperin, ``{Phase Transition in a Lattice Model of
+  Superconductivity}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.47.1556}{{\em Phys. Rev. Lett.}
+  {\bfseries 47} (1981) 1556--1560}.
 
 \bibitem{Karch:2016sxi}
 A.~Karch and D.~Tong, ``{Particle-Vortex Duality from 3d Bosonization}'',
@@ -1052,5 +1242,11 @@ S.~Choudhury, A.~Dey, I.~Halder, S.~Jain, L.~Janagal, S.~Minwalla, and
   {\bfseries 11} (2018) 177},
 \href{http://arxiv.org/abs/1804.08635}{{\ttfamily arXiv:1804.08635}}.
 %%CITATION = ARXIV:1804.08635;%%.
+
+\bibitem{PhysRev.60.356}
+L.~Landau, ``Theory of the superfluidity of helium ii'',
+  \href{http://dx.doi.org/10.1103/PhysRev.60.356}{{\em Phys. Rev.} {\bfseries
+  60} (Aug, 1941) 356--358}.
+  \url{https://link.aps.org/doi/10.1103/PhysRev.60.356}.
 
 \end{thebibliography}\endgroup
