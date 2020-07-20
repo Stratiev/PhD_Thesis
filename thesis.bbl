@@ -376,6 +376,17 @@ H.~Toda, ``A topological proof of theorems of bott and borel-hirzeburch for
 J.~Dugundji, {\em Topology}.
 \newblock 1989.
 
+\bibitem{Jackiw:1979ur}
+R.~Jackiw, ``{Introduction to the Yang-Mills Quantum Theory}'',
+  \href{http://dx.doi.org/10.1103/RevModPhys.52.661}{{\em Rev. Mod. Phys.}
+  {\bfseries 52} (1980) 661--673}.
+
+\bibitem{Deser:1981wh}
+S.~Deser, R.~Jackiw, and S.~Templeton, ``{Topologically Massive Gauge
+  Theories}'', \href{http://dx.doi.org/10.1016/0003-4916(82)90164-6}{{\em
+  Annals Phys.} {\bfseries 140} (1982) 372--411}. [Erratum: Annals Phys. 185,
+  406 (1988)].
+
 \bibitem{Polychronakos:1990xq}
 A.~P. Polychronakos, ``{On the Quantization of the Coefficient of the Abelian
   {Chern-Simons} Term}'',
@@ -964,6 +975,38 @@ H.~S. Snyder, ``{The Electromagnetic Field in Quantized Space-Time}'',
   \href{http://dx.doi.org/10.1103/PhysRev.72.68}{{\em Phys.\ Rev.} {\bfseries
   72} (1947) 68--71}.
 
+\bibitem{Dunne1993}
+G.~Dunne and R.~Jackiw, ``{\textquotedblleft}peierls
+  substitution{\textquotedblright} and chern-simons quantum mechanics'',
+  \href{http://dx.doi.org/10.1016/0920-5632(93)90376-h}{{\em Nuclear Physics B
+  - Proceedings Supplements} {\bfseries 33} no.~3, (Nov., 1993) 114--118}.
+  \url{https://doi.org/10.1016/0920-5632(93)90376-h}.
+
+\bibitem{PhysRevD.41.661}
+G.~V. Dunne, R.~Jackiw, and C.~A. Trugenberger, ``"topological" (chern-simons)
+  quantum mechanics'', \href{http://dx.doi.org/10.1103/PhysRevD.41.661}{{\em
+  Phys. Rev. D} {\bfseries 41} (Jan, 1990) 661--666}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevD.41.661}.
+
+\bibitem{Susskind:2001fb}
+L.~Susskind, ``{{T}he {Q}uantum {H}all fluid and noncommutative
+  {C}hern-{S}imons theory}'',
+\href{http://arxiv.org/abs/hep-th/0101029}{{\ttfamily arXiv:hep-th/0101029}}.
+%%CITATION = HEP-TH/0101029;%%.
+
+\bibitem{Nair:2001rt}
+V.~Nair and A.~Polychronakos, ``{On Level quantization for the noncommutative
+  Chern-Simons theory}'',
+  \href{http://dx.doi.org/10.1103/PhysRevLett.87.030403}{{\em Phys. Rev. Lett.}
+  {\bfseries 87} (2001) 030403},
+  \href{http://arxiv.org/abs/hep-th/0102181}{{\ttfamily arXiv:hep-th/0102181}}.
+
+\bibitem{Bak:2001ze}
+D.~Bak, K.-M. Lee, and J.-H. Park, ``{Chern-Simons theories on noncommutative
+  plane}'', \href{http://dx.doi.org/10.1103/PhysRevLett.87.030402}{{\em Phys.
+  Rev. Lett.} {\bfseries 87} (2001) 030402},
+  \href{http://arxiv.org/abs/hep-th/0102188}{{\ttfamily arXiv:hep-th/0102188}}.
+
 \bibitem{Polychronakos:2001mi}
 A.~P. Polychronakos, ``{Quantum Hall states as matrix Chern-Simons theory}'',
   \href{http://dx.doi.org/10.1088/1126-6708/2001/04/011}{{\em JHEP} {\bfseries
@@ -1177,12 +1220,6 @@ A.~Schmitt, ``{{I}ntroduction to {S}uperfluidity}'',
   {\bfseries 888} (2015) pp.1--155},
 \href{http://arxiv.org/abs/1404.1284}{{\ttfamily arXiv:1404.1284}}.
 %%CITATION = ARXIV:1404.1284;%%.
-
-\bibitem{Susskind:2001fb}
-L.~Susskind, ``{{T}he {Q}uantum {H}all fluid and noncommutative
-  {C}hern-{S}imons theory}'',
-\href{http://arxiv.org/abs/hep-th/0101029}{{\ttfamily arXiv:hep-th/0101029}}.
-%%CITATION = HEP-TH/0101029;%%.
 
 \bibitem{Minwalla:2015sca}
 S.~Minwalla and S.~Yokoyama, ``{{C}hern {S}imons {B}osonization along {R}{G}

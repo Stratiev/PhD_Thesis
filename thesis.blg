@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Arch Linux)
+This is BibTeX, Version 0.99d (TeX Live 2020/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: Front_Folder/abstract.aux
@@ -11,7 +11,7 @@ A level-1 auxiliary file: Chapter_3_Folder_1806.06976/Chapter_3.aux
 A level-1 auxiliary file: Conclusions_Folder/Conclusions.aux
 A level-1 auxiliary file: Appendices_Folder/appendix_Chapter_3.aux
 The style file: Reference_Folder/utphys.bst
-Reallocated field_info (elt_size=8) to 11496 items from 5000.
+Reallocated field_info (elt_size=8) to 11688 items from 5000.
 Database file #1: Reference_Folder/references.bib
 You're missing a field name---line 195 of file Reference_Folder/references.bib
  :     
@@ -71,6 +71,14 @@ Repeated entry---line 2444 of file Reference_Folder/references.bib
  : @article{Wilczek:1981du
  :                        ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 3098 of file Reference_Folder/references.bib
+ : @article{Susskind:2001fb
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3147 of file Reference_Folder/references.bib
+ : @article{Deser:1981wh
+ :                      ,
+I'm skipping whatever remains of this entry
 Warning--empty booktitle in Tong:2016kpv
 Warning--empty year in Dunne:1998qy
 Warning--empty publisher in Dugundji
@@ -79,45 +87,45 @@ Warning--empty year in Girvin
 Name 1 in "Wen," has a comma at the end for entry wen2004quantum
 while executing---line 1248 of file Reference_Folder/utphys.bst
 Warning--empty pages in TopOrderRigidStates
-You've used 203 entries,
+You've used 209 entries,
             2328 wiz_defined-function locations,
-            2204 strings with 42486 characters,
-and the built_in function-call counts, 67470 in all, are:
-= -- 7248
-> -- 1482
+            2249 strings with 43550 characters,
+and the built_in function-call counts, 69623 in all, are:
+= -- 7482
+> -- 1535
 < -- 0
-+ -- 594
-- -- 391
-* -- 6190
-:= -- 7657
-add.period$ -- 332
-call.type$ -- 203
-change.case$ -- 285
++ -- 614
+- -- 405
+* -- 6386
+:= -- 7897
+add.period$ -- 341
+call.type$ -- 209
+change.case$ -- 295
 chr.to.int$ -- 0
-cite$ -- 209
-duplicate$ -- 3609
-empty$ -- 6838
-format.name$ -- 391
-if$ -- 17604
+cite$ -- 215
+duplicate$ -- 3725
+empty$ -- 7042
+format.name$ -- 405
+if$ -- 18165
 int.to.chr$ -- 0
-int.to.str$ -- 203
-missing$ -- 777
-newline$ -- 749
-num.names$ -- 203
-pop$ -- 1010
+int.to.str$ -- 209
+missing$ -- 801
+newline$ -- 767
+num.names$ -- 209
+pop$ -- 1037
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2616
+skip$ -- 2712
 stack$ -- 0
-substring$ -- 4552
-swap$ -- 1839
+substring$ -- 4704
+swap$ -- 1907
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 625
-width$ -- 206
-write$ -- 1650
-(There were 14 error messages)
+while$ -- 645
+width$ -- 212
+write$ -- 1697
+(There were 16 error messages)

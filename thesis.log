@@ -1,36 +1,36 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.5.8)  19 JUL 2020 16:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.7.19)  21 JUL 2020 00:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
-LaTeX2e <2019-10-01> patch level 1
-(./Latex/Classes/PhDthesisPSnPDF.cls
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-03> (./Latex/Classes/PhDthesisPSnPDF.cls
 Document Class: Latex/Classes/PhDthesisPSnPDF 2007/09/06 v2 PhD thesis class
 (/usr/share/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2019/08/27 v1.4j Standard LaTeX document class
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/bk12.clo
-File: bk12.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@chapter=\count81
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@subparagraph=\count86
-\c@figure=\count87
-\c@table=\count88
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
 )
 (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks14
+\@emptytoks=\toks15
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -38,7 +38,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/10/08 v1.3c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -52,39 +52,40 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 (/usr/share/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2019/09/01 v3.3d Customizing captions (AR)
+Package: caption 2020/05/10 v3.4j Customizing captions (AR)
 
 (/usr/share/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
+Package: caption3 2020/05/10 v1.11 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
+\KV@toks@=\toks16
 )
-\captionmargin=\dimen103
-\captionmargin@=\dimen104
-\captionwidth=\dimen105
-\caption@tempdima=\dimen106
-\caption@indent=\dimen107
-\caption@parindent=\dimen108
-\caption@hangindent=\dimen109
+\captionmargin=\dimen135
+\captionmargin@=\dimen136
+\captionwidth=\dimen137
+\caption@tempdima=\dimen138
+\caption@indent=\dimen139
+\caption@parindent=\dimen140
+\caption@hangindent=\dimen141
+Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count89
-\c@ContinuedFloat=\count90
+\c@caption@flags=\count176
+\c@continuedfloat=\count177
 )
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip43
-\f@nch@O@elh=\skip44
-\f@nch@O@erh=\skip45
-\f@nch@O@olh=\skip46
-\f@nch@O@orh=\skip47
-\f@nch@O@elf=\skip48
-\f@nch@O@erf=\skip49
-\f@nch@O@olf=\skip50
-\f@nch@O@orf=\skip51
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
 )
 (/usr/share/texmf-dist/tex/latex/amsfonts/eucal.sty
 Package: eucal 2009/06/22 v3.00 Euler Script fonts
@@ -92,11 +93,19 @@ LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 (Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
 )
 (/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2019/10/15 3.35 The Babel package
+Package: babel 2020/05/13 3.44 The Babel package
 
-(/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2019/10/15 3.35 Babel switching mechanism
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/05/13 3.44 Babel common definitions
+\babel@savecnt=\count178
+\U@D=\dimen142
+\l@babelnohyphens=\language86
+
+(/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
 )
+\bbl@dirlevel=\count179
+
 (/usr/share/texmf-dist/tex/generic/babel-german/ngerman.ldf
 Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthogra
 phy)
@@ -104,25 +113,19 @@ phy)
 (/usr/share/texmf-dist/tex/generic/babel-german/ngermanb.ldf
 Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogr
 aphy)
-
-(/usr/share/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2019/10/15 3.35 Babel common definitions
-\babel@savecnt=\count91
-\U@D=\dimen110
-
-(/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count92
-)
 Package babel Info: Making " an active character on input line 121.
 ))
 (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 108.
 ))
 (/usr/share/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
 (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -134,10 +137,10 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
 (/usr/share/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks16
-\footnotemargin=\dimen111
-\c@pp@next@reset=\count93
-\c@@fnserial=\count94
+\FN@temptoken=\toks17
+\footnotemargin=\dimen143
+\c@pp@next@reset=\count180
+\c@@fnserial=\count181
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -149,63 +152,83 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 )
 (/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip52
-\bibsep=\skip53
+\bibhang=\skip58
+\bibsep=\skip59
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count95
+\c@NAT@ctr=\count182
 )
 (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
-\c@tracingmulticols=\count96
-\mult@box=\box27
-\multicol@leftmargin=\dimen112
-\c@unbalance=\count97
-\c@collectmore=\count98
-\doublecol@number=\count99
-\multicoltolerance=\count100
-\multicolpretolerance=\count101
-\full@width=\dimen113
-\page@free=\dimen114
-\premulticols=\dimen115
-\postmulticols=\dimen116
-\multicolsep=\skip54
-\multicolbaselineskip=\skip55
-\partial@page=\box28
-\last@line=\box29
-\maxbalancingoverflow=\dimen117
-\mult@rightbox=\box30
-\mult@grightbox=\box31
-\mult@gfirstbox=\box32
-\mult@firstbox=\box33
-\@tempa=\box34
-\@tempa=\box35
-\@tempa=\box36
-\@tempa=\box37
-\@tempa=\box38
-\@tempa=\box39
-\@tempa=\box40
-\@tempa=\box41
-\@tempa=\box42
-\@tempa=\box43
-\@tempa=\box44
-\@tempa=\box45
-\@tempa=\box46
-\@tempa=\box47
-\@tempa=\box48
-\@tempa=\box49
-\@tempa=\box50
-\c@minrows=\count102
-\c@columnbadness=\count103
-\c@finalcolumnbadness=\count104
-\last@try=\dimen118
-\multicolovershoot=\dimen119
-\multicolundershoot=\dimen120
-\mult@nat@firstbox=\box51
-\colbreak@box=\box52
-\mc@col@check@num=\count105
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count183
+\mult@box=\box45
+\multicol@leftmargin=\dimen144
+\c@unbalance=\count184
+\c@collectmore=\count185
+\doublecol@number=\count186
+\multicoltolerance=\count187
+\multicolpretolerance=\count188
+\full@width=\dimen145
+\page@free=\dimen146
+\premulticols=\dimen147
+\postmulticols=\dimen148
+\multicolsep=\skip60
+\multicolbaselineskip=\skip61
+\partial@page=\box46
+\last@line=\box47
+\maxbalancingoverflow=\dimen149
+\mult@rightbox=\box48
+\mult@grightbox=\box49
+\mult@gfirstbox=\box50
+\mult@firstbox=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\c@minrows=\count189
+\c@columnbadness=\count190
+\c@finalcolumnbadness=\count191
+\last@try=\dimen150
+\multicolovershoot=\dimen151
+\multicolundershoot=\dimen152
+\mult@nat@firstbox=\box89
+\colbreak@box=\box90
+\mc@col@check@num=\count192
 )
 (/usr/share/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
@@ -215,114 +238,106 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
 ) (/usr/share/texmf-dist/tex/latex/nomencl/nomencl.sty
-Package: nomencl 2019/05/05 v5.2 Nomenclature package
+Package: nomencl 2020/03/01 v5.4 Nomenclature package
 
 (/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks17
-\XKV@tempa@toks=\toks18
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
 )
-\XKV@depth=\count106
+\XKV@depth=\count193
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2019/10/12 v3.27 KOMA-Script package (handling toc-files)
+Package: tocbasic 2020/04/19 v3.30 KOMA-Script package (handling toc-files)
 
 (/usr/share/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2019/10/12 v3.27 KOMA-Script package (KOMA-Script-independent 
+Package: scrbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
 (/usr/share/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2019/10/12 v3.27 KOMA-Script package (loading files)
+Package: scrlfile 2020/04/19 v3.30 KOMA-Script package (loading files)
 ))
-\scr@dte@tocline@numberwidth=\skip56
-\scr@dte@tocline@numbox=\box53
+\scr@dte@tocline@numberwidth=\skip62
+\scr@dte@tocline@numbox=\box91
 )
-Package tocbasic Info: setting babel extension for `nlo' on input line 155.
-Package tocbasic Info: setting babel extension for `nls' on input line 156.
-\nomlabelwidth=\dimen121
-\nom@tempdim=\dimen122
-\nomitemsep=\skip57
+Package tocbasic Info: setting babel extension for `nlo' on input line 179.
+Package tocbasic Info: setting babel extension for `nls' on input line 180.
+\nomlabelwidth=\dimen153
+\nom@tempdim=\dimen154
+\nomitemsep=\skip63
 )
 \@nomenclaturefile=\write3
-\openout3 = `thesis.nlo'.
-
 Package nomencl Info: Writing nomenclature file thesis.nlo on input line 64.
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+(/usr/share/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(/usr/share/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2019/09/28 v7.00a Hypertext links for LaTeX
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
-Package pdftexcmds Info: LuaTeX not detected.
+(/usr/share/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-04 v0.32 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+(/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-\@linkdim=\dimen123
-\Hy@linkcounter=\count107
-\Hy@pagecounter=\count108
+(/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen155
+\Hy@linkcounter=\count194
+\Hy@pagecounter=\count195
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2019/09/28 v7.00a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count109
-
-(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-Package hyperref Info: Option `plainpages' set `false' on input line 4414.
-Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4414.
+(/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count196
+Package hyperref Info: Option `plainpages' set `false' on input line 4338.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4338.
 
 
 Package hyperref Warning: Values of option `pdfpagelayout':
@@ -333,73 +348,92 @@ Package hyperref Warning: Values of option `pdfpagelayout':
 (hyperref)                * `TwoPageLeft' (PDF 1.5)
 (hyperref)                * `TwoPageRight' (PDF 1.5)
 (hyperref)                * An empty value disables the option.
-(hyperref)                Unknown value `useoutlines' on input line 4414.
+(hyperref)                Unknown value `useoutlines' on input line 4338.
 
-Package hyperref Info: Option `bookmarks' set `true' on input line 4414.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4414.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4414
+Package hyperref Info: Option `bookmarks' set `true' on input line 4338.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4338.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4338
 .
-Package hyperref Info: Option `breaklinks' set `true' on input line 4414.
-Package hyperref Info: Option `linktocpage' set `true' on input line 4414.
-Package hyperref Info: Option `colorlinks' set `false' on input line 4414.
-Package hyperref Info: Option `hyperindex' set `true' on input line 4414.
-Package hyperref Info: Option `hyperfigures' set `true' on input line 4414.
-Package hyperref Info: Hyper figures ON on input line 4538.
-Package hyperref Info: Link nesting OFF on input line 4545.
-Package hyperref Info: Hyper index ON on input line 4548.
-Package hyperref Info: Plain pages OFF on input line 4555.
-Package hyperref Info: Backreferencing OFF on input line 4560.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4338.
+Package hyperref Info: Option `linktocpage' set `true' on input line 4338.
+Package hyperref Info: Option `colorlinks' set `false' on input line 4338.
+Package hyperref Info: Option `hyperindex' set `true' on input line 4338.
+Package hyperref Info: Option `hyperfigures' set `true' on input line 4338.
+Package hyperref Info: Hyper figures ON on input line 4462.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4793.
-\c@Hy@tempcnt=\count110
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count197
 (/usr/share/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
+\Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5152.
-\XeTeXLinkMargin=\dimen124
-\Fld@menulength=\count111
-\Field@Width=\dimen125
-\Fld@charsize=\dimen126
-Package hyperref Info: Hyper figures ON on input line 6421.
-Package hyperref Info: Link nesting OFF on input line 6428.
-Package hyperref Info: Hyper index ON on input line 6431.
-Package hyperref Info: backreferencing OFF on input line 6438.
-Package hyperref Info: Link coloring OFF on input line 6443.
-Package hyperref Info: Link coloring with OCG OFF on input line 6448.
-Package hyperref Info: PDF/A mode OFF on input line 6453.
-LaTeX Info: Redefining \ref on input line 6493.
-LaTeX Info: Redefining \pageref on input line 6497.
-\Hy@abspage=\count112
-\c@Item=\count113
-\c@Hfootnote=\count114
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen156
+
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count198
+\Field@Width=\dimen157
+\Fld@charsize=\dimen158
+Package hyperref Info: Hyper figures ON on input line 6345.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+(/usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count199
+\c@Item=\count266
+\c@Hfootnote=\count267
 )
 Package hyperref Info: Driver: hpdftex.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2019/09/28 v7.00a Hyperref driver for pdfTeX
-\Fld@listcount=\count115
-\c@bookmark@seq@number=\count116
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 
-(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+(/usr/share/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Hy@SectionHShift=\skip58
+\Fld@listcount=\count268
+\c@bookmark@seq@number=\count269
+
+(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip64
 )
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen127
-\Gin@req@width=\dimen128
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
 ))
 \@input{Latex/Macros/MacroFile1.aux}
-\openout2 = `Latex/Macros/MacroFile1.aux'.
-
 (./Latex/Macros/MacroFile1.tex
 (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2019/04/01 v2.17c AMS math features
-\@mathmargin=\skip59
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip65
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -407,53 +441,53 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
-\ex@=\dimen129
+\@emptytoks=\toks20
+\ex@=\dimen161
 ))
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen130
+\pmbraise@=\dimen162
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count117
+\inf@bad=\count270
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count118
-\leftroot@=\count119
+\uproot@=\count271
+\leftroot@=\count272
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count120
-\DOTSCASE@=\count121
+\classnum@=\count273
+\DOTSCASE@=\count274
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box54
-\strutbox@=\box55
-\big@size=\dimen131
+\Mathstrutbox@=\box92
+\strutbox@=\box93
+\big@size=\dimen163
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count122
-\c@MaxMatrixCols=\count123
-\dotsspace@=\muskip11
-\c@parentequation=\count124
-\dspbrk@lvl=\count125
-\tag@help=\toks20
-\row@=\count126
-\column@=\count127
-\maxfields@=\count128
-\andhelp@=\toks21
-\eqnshift@=\dimen132
-\alignsep@=\dimen133
-\tagshift@=\dimen134
-\tagwidth@=\dimen135
-\totwidth@=\dimen136
-\lineht@=\dimen137
-\@envbody=\toks22
-\multlinegap=\skip60
-\multlinetaggap=\skip61
-\mathdisplay@stack=\toks23
-LaTeX Info: Redefining \[ on input line 2855.
-LaTeX Info: Redefining \] on input line 2856.
+\macc@depth=\count275
+\c@MaxMatrixCols=\count276
+\dotsspace@=\muskip17
+\c@parentequation=\count277
+\dspbrk@lvl=\count278
+\tag@help=\toks21
+\row@=\count279
+\column@=\count280
+\maxfields@=\count281
+\andhelp@=\toks22
+\eqnshift@=\dimen164
+\alignsep@=\dimen165
+\tagshift@=\dimen166
+\tagwidth@=\dimen167
+\totwidth@=\dimen168
+\lineht@=\dimen169
+\@envbody=\toks23
+\multlinegap=\skip66
+\multlinetaggap=\skip67
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
 )
 (/usr/share/texmf-dist/tex/latex/bbold/bbold.sty
 Package: bbold 1994/04/06 Bbold symbol package
@@ -461,348 +495,38 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 42.
 )
 (/usr/share/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-10-28 L3 programming layer (loader) 
+Package: expl3 2020-06-03 L3 programming layer (loader) 
 
-(/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-10-28 L3 programming layer (code)
-\c_max_int=\count129
-\l_tmpa_int=\count130
-\l_tmpb_int=\count131
-\g_tmpa_int=\count132
-\g_tmpb_int=\count133
-\l__seq_internal_a_int=\count134
-\l__seq_internal_b_int=\count135
-\g__kernel_prg_map_int=\count136
-\c__ior_term_noprompt_ior=\count137
-\c_log_iow=\count138
-\l_iow_line_count_int=\count139
-\l__iow_line_target_int=\count140
-\l__iow_one_indent_int=\count141
-\l__iow_indent_int=\count142
-\c_zero_dim=\dimen138
-\c_max_dim=\dimen139
-\l_tmpa_dim=\dimen140
-\l_tmpb_dim=\dimen141
-\g_tmpa_dim=\dimen142
-\g_tmpb_dim=\dimen143
-\c_zero_skip=\skip62
-\c_max_skip=\skip63
-\l_tmpa_skip=\skip64
-\l_tmpb_skip=\skip65
-\g_tmpa_skip=\skip66
-\g_tmpb_skip=\skip67
-\c_zero_muskip=\muskip12
-\c_max_muskip=\muskip13
-\l_tmpa_muskip=\muskip14
-\l_tmpb_muskip=\muskip15
-\g_tmpa_muskip=\muskip16
-\g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count143
-\l__intarray_loop_int=\count144
-\c__intarray_sp_dim=\dimen144
-\g__intarray_font_int=\count145
-\c__fp_leading_shift_int=\count146
-\c__fp_middle_shift_int=\count147
-\c__fp_trailing_shift_int=\count148
-\c__fp_big_leading_shift_int=\count149
-\c__fp_big_middle_shift_int=\count150
-\c__fp_big_trailing_shift_int=\count151
-\c__fp_Bigg_leading_shift_int=\count152
-\c__fp_Bigg_middle_shift_int=\count153
-\c__fp_Bigg_trailing_shift_int=\count154
-\c__kernel_randint_max_int=\count155
-\g__fp_array_int=\count156
-\l__fp_array_loop_int=\count157
-\l__sort_length_int=\count158
-\l__sort_min_int=\count159
-\l__sort_top_int=\count160
-\l__sort_max_int=\count161
-\l__sort_true_max_int=\count162
-\l__sort_block_int=\count163
-\l__sort_begin_int=\count164
-\l__sort_end_int=\count165
-\l__sort_A_int=\count166
-\l__sort_B_int=\count167
-\l__sort_C_int=\count168
-\l__str_internal_int=\count169
-\c__str_replacement_char_int=\count170
-\l__tl_analysis_normal_int=\count171
-\l__tl_analysis_index_int=\count172
-\l__tl_analysis_nesting_int=\count173
-\l__tl_analysis_type_int=\count174
-\l__regex_internal_a_int=\count175
-\l__regex_internal_b_int=\count176
-\l__regex_internal_c_int=\count177
-\l__regex_balance_int=\count178
-\l__regex_group_level_int=\count179
-\l__regex_mode_int=\count180
-\c__regex_cs_in_class_mode_int=\count181
-\c__regex_cs_mode_int=\count182
-\l__regex_catcodes_int=\count183
-\l__regex_default_catcodes_int=\count184
-\c__regex_catcode_D_int=\count185
-\c__regex_catcode_S_int=\count186
-\c__regex_catcode_L_int=\count187
-\c__regex_catcode_O_int=\count188
-\c__regex_catcode_A_int=\count189
-\c__regex_all_catcodes_int=\count190
-\l__regex_show_lines_int=\count191
-\l__regex_min_state_int=\count192
-\l__regex_max_state_int=\count193
-\l__regex_left_state_int=\count194
-\l__regex_right_state_int=\count195
-\l__regex_capturing_group_int=\count196
-\l__regex_min_pos_int=\count197
-\l__regex_max_pos_int=\count198
-\l__regex_curr_pos_int=\count199
-\l__regex_start_pos_int=\count266
-\l__regex_success_pos_int=\count267
-\l__regex_curr_char_int=\count268
-\l__regex_curr_catcode_int=\count269
-\l__regex_last_char_int=\count270
-\l__regex_case_changed_char_int=\count271
-\l__regex_curr_state_int=\count272
-\l__regex_step_int=\count273
-\l__regex_min_active_int=\count274
-\l__regex_max_active_int=\count275
-\l__regex_replacement_csnames_int=\count276
-\l__regex_match_count_int=\count277
-\l__regex_min_submatch_int=\count278
-\l__regex_submatch_int=\count279
-\l__regex_zeroth_submatch_int=\count280
-\g__regex_trace_regex_int=\count281
-\c_empty_box=\box56
-\l_tmpa_box=\box57
-\l_tmpb_box=\box58
-\g_tmpa_box=\box59
-\g_tmpb_box=\box60
-\l__box_top_dim=\dimen145
-\l__box_bottom_dim=\dimen146
-\l__box_left_dim=\dimen147
-\l__box_right_dim=\dimen148
-\l__box_top_new_dim=\dimen149
-\l__box_bottom_new_dim=\dimen150
-\l__box_left_new_dim=\dimen151
-\l__box_right_new_dim=\dimen152
-\l__box_internal_box=\box61
-\l__coffin_internal_box=\box62
-\l__coffin_internal_dim=\dimen153
-\l__coffin_offset_x_dim=\dimen154
-\l__coffin_offset_y_dim=\dimen155
-\l__coffin_x_dim=\dimen156
-\l__coffin_y_dim=\dimen157
-\l__coffin_x_prime_dim=\dimen158
-\l__coffin_y_prime_dim=\dimen159
-\c_empty_coffin=\box63
-\l__coffin_aligned_coffin=\box64
-\l__coffin_aligned_internal_coffin=\box65
-\l_tmpa_coffin=\box66
-\l_tmpb_coffin=\box67
-\g_tmpa_coffin=\box68
-\g_tmpb_coffin=\box69
-\l__coffin_bounding_shift_dim=\dimen160
-\l__coffin_left_corner_dim=\dimen161
-\l__coffin_right_corner_dim=\dimen162
-\l__coffin_bottom_corner_dim=\dimen163
-\l__coffin_top_corner_dim=\dimen164
-\l__coffin_scaled_total_height_dim=\dimen165
-\l__coffin_scaled_width_dim=\dimen166
-\c__coffin_empty_coffin=\box70
-\l__coffin_display_coffin=\box71
-\l__coffin_display_coord_coffin=\box72
-\l__coffin_display_pole_coffin=\box73
-\l__coffin_display_offset_dim=\dimen167
-\l__coffin_display_x_dim=\dimen168
-\l__coffin_display_y_dim=\dimen169
-\g__char_data_ior=\read1
-
-(/usr/share/texmf-dist/tex/latex/l3kernel/l3deprecation.def
-File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
-))
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2019-04-06 L3 backend support: PDF mode
+File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count282
-\l__pdf_internal_box=\box74
+\l__pdf_internal_box=\box94
 ))
 (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2019-10-11 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
 )
 (/usr/share/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-(/usr/share/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encoding TS1
-
-(/usr/share/texmf-dist/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00A8 (decimal 168)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AC (decimal 172)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00AF (decimal 175)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B1 (decimal 177)
-   defining Unicode char U+00B2 (decimal 178)
-   defining Unicode char U+00B3 (decimal 179)
-   defining Unicode char U+00B4 (decimal 180)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00B9 (decimal 185)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00D7 (decimal 215)
-   defining Unicode char U+00F7 (decimal 247)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+02C7 (decimal 711)
-   defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+02DD (decimal 733)
-   defining Unicode char U+0E3F (decimal 3647)
-   defining Unicode char U+2016 (decimal 8214)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+203B (decimal 8251)
-   defining Unicode char U+203D (decimal 8253)
-   defining Unicode char U+2044 (decimal 8260)
-   defining Unicode char U+204E (decimal 8270)
-   defining Unicode char U+2052 (decimal 8274)
-   defining Unicode char U+20A1 (decimal 8353)
-   defining Unicode char U+20A4 (decimal 8356)
-   defining Unicode char U+20A6 (decimal 8358)
-   defining Unicode char U+20A9 (decimal 8361)
-   defining Unicode char U+20AB (decimal 8363)
-   defining Unicode char U+20AC (decimal 8364)
-   defining Unicode char U+20B1 (decimal 8369)
-   defining Unicode char U+2103 (decimal 8451)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2117 (decimal 8471)
-   defining Unicode char U+211E (decimal 8478)
-   defining Unicode char U+2120 (decimal 8480)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2126 (decimal 8486)
-   defining Unicode char U+2127 (decimal 8487)
-   defining Unicode char U+212E (decimal 8494)
-   defining Unicode char U+2190 (decimal 8592)
-   defining Unicode char U+2191 (decimal 8593)
-   defining Unicode char U+2192 (decimal 8594)
-   defining Unicode char U+2193 (decimal 8595)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+2422 (decimal 9250)
-   defining Unicode char U+25E6 (decimal 9702)
-   defining Unicode char U+25EF (decimal 9711)
-   defining Unicode char U+266A (decimal 9834)
-   defining Unicode char U+27E8 (decimal 10216)
-   defining Unicode char U+27E9 (decimal 10217)
-   defining Unicode char U+FEFF (decimal 65279)
-))
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2019-10-11 L3 Experimental document command parser
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
 \l__xparse_current_arg_int=\count283
 \g__xparse_grabber_int=\count284
 \l__xparse_m_args_int=\count285
 \l__xparse_v_nesting_int=\count286
-)
+))
 (/usr/share/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
-Package: xtemplate 2019-10-11 L3 Experimental prototype document functions
+Package: xtemplate 2020-05-15 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen170
 \l__xtemplate_tmp_int=\count287
 \l__xtemplate_tmp_muskip=\muskip18
 \l__xtemplate_tmp_skip=\skip68
 )
-Package: xfrac 2019-10-11 L3 Experimental split-level fractions
-\l__xfrac_slash_box=\box75
-\l__xfrac_tmp_box=\box76
+Package: xfrac 2020-05-15 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box95
+\l__xfrac_tmp_box=\box96
 \l__xfrac_denominator_bot_sep_dim=\dimen171
 \l__xfrac_numerator_bot_sep_dim=\dimen172
 \l__xfrac_numerator_top_sep_dim=\dimen173
@@ -812,7 +536,7 @@ Package: xfrac 2019-10-11 L3 Experimental split-level fractions
 \l__xfrac_slash_right_muskip=\muskip20
 
 Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
-(xtemplate)             line 79.
+(xtemplate)             line 80.
 
 )
 (/usr/share/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
@@ -826,10 +550,10 @@ Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
 Package: simplewick 2007/11/23 v1.2a
 
 Package: simplewick v1.2a (2007/11/23)
-\swb@xone=\box77
-\swb@xtwo=\box78
-\swb@xthree=\box79
-\swb@xfour=\box80
+\swb@xone=\box97
+\swb@xtwo=\box98
+\swb@xthree=\box99
+\swb@xfour=\box100
 \swdimen@ne=\dimen176
 \swdimentw@=\dimen177
 ) (/usr/share/texmf-dist/tex/latex/braket/braket.sty)
@@ -840,20 +564,19 @@ Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/grffile.sty
-Package: grffile 2017/06/30 v1.18 Extended file name support for graphics (HO)
-Package grffile Info: Option `multidot' is set to `true'.
-Package grffile Info: Option `extendedchars' is set to `false'.
-Package grffile Info: Option `space' is set to `true'.
-Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
+(/usr/share/texmf-dist/tex/latex/grffile/grffile.sty
+Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
+y)
+Package grffile Info: This package is an empty stub for compatibility on input 
+line 40.
 )
 (/usr/share/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \c@r@tfl@t=\count288
 \rotFPtop=\skip69
 \rotFPbot=\skip70
-\rot@float@box=\box81
-\rot@mess@toks=\toks24
+\rot@float@box=\box101
+\rot@mess@toks=\toks25
 )
 (/usr/share/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
@@ -862,7 +585,7 @@ Package: placeins 2005/04/18  v 2.2
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2019/09/01 v1.3a Sub-captions (AR)
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
 \c@subfigure=\count289
 \c@subtable=\count290
 )
@@ -871,7 +594,7 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (/usr/share/texmf-dist/tex/latex/mdwtools/footnote.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box82
+\fn@notes=\box102
 \fn@width=\dimen178
 )
 (/usr/share/texmf-dist/tex/latex/pbox/pbox.sty
@@ -893,17 +616,17 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \pb@xlen=\skip74
 )
 (/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen181
-\ar@mcellbox=\box83
+\ar@mcellbox=\box103
 \extrarowheight=\dimen182
-\NC@list=\toks25
+\NC@list=\toks26
 \extratabsurround=\skip75
 \backup@length=\skip76
-\ar@cellbox=\box84
+\ar@cellbox=\box104
 )
 \TX@col@width=\dimen183
 \TX@old@table=\dimen184
@@ -911,7 +634,7 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \TX@target=\dimen186
 \TX@delta=\dimen187
 \TX@cols=\count294
-\TX@ftn=\toks26
+\TX@ftn=\toks27
 )
 (/usr/share/texmf-dist/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
@@ -1231,13 +954,13 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `sf'
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldsf'
 
 (Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 620.
-LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 824.
-LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 825.
-LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 831.
-LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 832.
 LaTeX Info: Redefining \not on input line 1580.
 ) (/usr/share/texmf-dist/tex/latex/epigraph/epigraph.sty
-Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
+Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
+
+(/usr/share/texmf-dist/tex/latex/nextpage/nextpage.sty
+Package: nextpage 2009/09/03 v1.1a additional page commands
+)
 \beforeepigraphskip=\skip77
 \afterepigraphskip=\skip78
 \epigraphwidth=\skip79
@@ -1246,10 +969,10 @@ Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
 (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count300
-\float@exts=\toks27
-\float@box=\box85
-\@float@everytoks=\toks28
-\@floatcapt=\box86
+\float@exts=\toks28
+\float@box=\box105
+\@float@everytoks=\toks29
+\@floatcapt=\box106
 )
 (/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
@@ -1258,34 +981,34 @@ Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks29
+\pgfutil@everybye=\toks30
 \pgfutil@tempdima=\dimen188
 \pgfutil@tempdimb=\dimen189
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box87
+\pgfutil@abb=\box107
 
 (/usr/share/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2019/08/03 v3.1.4b (3.1.4b)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
 ))
-Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks30
-\pgfkeys@temptoks=\toks31
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks32
+\pgfkeys@tmptoks=\toks33
 ))
 \pgf@x=\dimen190
 \pgf@y=\dimen191
@@ -1298,34 +1021,34 @@ Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@xd=\dimen198
 \pgf@yd=\dimen199
 \w@pgf@writea=\write4
-\r@pgf@reada=\read2
+\r@pgf@reada=\read3
 \c@pgf@counta=\count301
 \c@pgf@countb=\count302
 \c@pgf@countc=\count303
 \c@pgf@countd=\count304
-\t@pgf@toka=\toks33
-\t@pgf@tokb=\toks34
-\t@pgf@tokc=\toks35
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
 \pgf@sys@id@count=\count305
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfsyssoftpath@smallbuffer@items=\count306
 \pgfsyssoftpath@bigbuffer@items=\count307
 )
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))
 (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -1346,7 +1069,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
@@ -1354,10 +1077,10 @@ Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen256
 \pgfmath@count=\count308
-\pgfmath@box=\box88
-\pgfmath@toks=\toks36
-\pgfmath@stack@operand=\toks37
-\pgfmath@stack@operation=\toks38
+\pgfmath@box=\box108
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
 )
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
@@ -1373,7 +1096,7 @@ x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
 \c@pgfmathroundto@lastzeros=\count309
 )) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@picminx=\dimen257
 \pgf@picmaxx=\dimen258
 \pgf@picminy=\dimen259
@@ -1390,82 +1113,82 @@ File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@zy=\dimen270
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@path@lastx=\dimen271
 \pgf@path@lasty=\dimen272
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@shorten@end@additional=\dimen273
 \pgf@shorten@start@additional=\dimen274
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfpic=\box89
-\pgf@hbox=\box90
-\pgf@layerbox@main=\box91
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box109
+\pgf@hbox=\box110
+\pgf@layerbox@main=\box111
 \pgf@picture@serial@count=\count310
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgflinewidth=\dimen275
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
 ex
-File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@pt@x=\dimen276
 \pgf@pt@y=\dimen277
 \pgf@pt@temp=\dimen278
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
 x
-File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfarrowsep=\dimen279
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen280
 \pgf@sys@shading@range@num=\count311
 \pgf@shadingcount=\count312
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfexternal@startupbox=\box92
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box112
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfnodeparttextbox=\box93
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box113
 )
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@nodesepstart=\dimen281
 \pgf@nodesepend=\dimen282
 )
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 ))
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
@@ -1473,20 +1196,20 @@ Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
 (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen283
 \pgffor@skip=\dimen284
-\pgffor@stack=\toks39
-\pgffor@toks=\toks40
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
 x
-File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@plot@mark@count=\count313
 \pgfplotmarksize=\dimen285
 )
@@ -1498,16 +1221,16 @@ File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \tikz@lastmovetoy=\dimen291
 \tikzleveldistance=\dimen292
 \tikzsiblingdistance=\dimen293
-\tikz@figbox=\box94
-\tikz@figbox@bg=\box95
-\tikz@tempbox=\box96
-\tikz@tempbox@bg=\box97
+\tikz@figbox=\box114
+\tikz@figbox@bg=\box115
+\tikz@tempbox=\box116
+\tikz@tempbox@bg=\box117
 \tikztreelevel=\count314
 \tikznumberofchildren=\count315
 \tikznumberofcurrentchild=\count316
 \tikz@fig@count=\count317
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfmatrixcurrentrow=\count318
 \pgfmatrixcurrentcolumn=\count319
 \pgf@matrix@numberofcolumns=\count320
@@ -1516,7 +1239,7 @@ File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
-File: tikzlibrarytopaths.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/usr/share/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup11
@@ -1547,8 +1270,6 @@ or  <return>  to continue without it.
 (./Chapter_3_Folder_1806.06976/Chapter_3.aux)
 (./Conclusions_Folder/Conclusions.aux)
 (./Appendices_Folder/appendix_Chapter_3.aux))
-\openout1 = `thesis.aux'.
-
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 138.
 LaTeX Font Info:    Trying to load font information for OML+jkp on input line 1
 38.
@@ -1557,10 +1278,6 @@ LaTeX Font Info:    Trying to load font information for OML+jkp on input line 1
 File: omljkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
 LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 138.
 LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 1
 38.
@@ -1568,6 +1285,12 @@ LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 1
 (/usr/share/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
+LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
 LaTeX Font Info:    ... okay on input line 138.
 LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 138.
 LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 1
@@ -1587,14 +1310,6 @@ File: ujkpexa.fd 2006/08/15 v1.0
 LaTeX Font Info:    ... okay on input line 138.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
 LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-38.
-
-(/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 138.
 LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 1
 38.
 
@@ -1605,26 +1320,19 @@ File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count322
 \scratchdimen=\dimen294
-\scratchbox=\box98
+\scratchbox=\box118
 \nofMPsegments=\count323
 \nofMParguments=\count324
-\everyMPshowfont=\toks41
+\everyMPshowfont=\toks42
 \MPscratchCnt=\count325
 \MPscratchDim=\dimen295
 \MPnumerator=\count326
 \makeMPintoPDFobject=\count327
-\everyMPtoPDFconversion=\toks42
-) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-)
+\everyMPtoPDFconversion=\toks43
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.jpg,.jpeg,.pdf,.gif,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+85.
 
 (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -1635,36 +1343,38 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box99
+\AtBeginShipoutBox=\box119
 Package hyperref Info: Link coloring OFF on input line 138.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count328
 )
 LaTeX Info: Redefining \ref on input line 138.
 LaTeX Info: Redefining \pageref on input line 138.
 LaTeX Info: Redefining \nameref on input line 138.
- (./thesis.out) (./thesis.out)
-\@outlinefile=\write5
-\openout5 = `thesis.out'.
 
+(./thesis.out) (./thesis.out)
+\@outlinefile=\write5
  ABD: EveryShipout initializing macros
-<Front_Folder/figures/"""logo".pdf, id=246, 131.34843pt x 81.79889pt>
-File: Front_Folder/figures/"""logo".pdf Graphic file (type pdf)
-<use Front_Folder/figures/"""logo".pdf>
-Package pdftex.def Info: Front_Folder/figures/"""logo".pdf  used on input line 
-151.
+<Front_Folder/figures/logo.pdf, id=242, 131.34843pt x 81.79889pt>
+File: Front_Folder/figures/logo.pdf Graphic file (type pdf)
+<use Front_Folder/figures/logo.pdf>
+Package pdftex.def Info: Front_Folder/figures/logo.pdf  used on input line 151.
+
 (pdftex.def)             Requested size: 113.81102pt x 70.87862pt.
-<Front_Folder/figures/"""background".pdf, id=250, 597.50786pt x 845.04686pt>
-File: Front_Folder/figures/"""background".pdf Graphic file (type pdf)
-<use Front_Folder/figures/"""background".pdf>
-Package pdftex.def Info: Front_Folder/figures/"""background".pdf  used on input
- line 151.
+<Front_Folder/figures/background.pdf, id=246, 597.50786pt x 845.04686pt>
+File: Front_Folder/figures/background.pdf Graphic file (type pdf)
+<use Front_Folder/figures/background.pdf>
+Package pdftex.def Info: Front_Folder/figures/background.pdf  used on input lin
+e 151.
 (pdftex.def)             Requested size: 597.5064pt x 845.08348pt.
  [1
 
@@ -1677,10 +1387,7 @@ kground.pdf> <./Front_Folder/figures/logo.pdf
 
 pdfTeX warning: pdflatex (file ./Front_Folder/figures/logo.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->] [2]
-\openout2 = `Front_Folder/abstract.aux'.
-
- (./Front_Folder/abstract.tex
+>] [2] (./Front_Folder/abstract.tex
 LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 
 9.
 
@@ -1727,10 +1434,7 @@ You may provide a definition with
 
 [3
 
-])
-\openout2 = `Front_Folder/declaration.aux'.
-
- (./Front_Folder/declaration.tex) [4
+]) (./Front_Folder/declaration.tex) [4
 
 
 ] (./thesis.toc [5
@@ -1738,12 +1442,7 @@ You may provide a definition with
 
 ] [6])
 \tf@toc=\write6
-\openout6 = `thesis.toc'.
-
  [7]
-\openout2 = `Front_Folder/acknowledgement.aux'.
-
-
 (./Front_Folder/acknowledgement.tex [8
 
 ]) (./thesis.lof [9
@@ -1752,20 +1451,13 @@ You may provide a definition with
 
 ])
 \tf@lof=\write7
-\openout7 = `thesis.lof'.
-
  [10] (./thesis.lot)
 \tf@lot=\write8
-\openout8 = `thesis.lot'.
-
  [11
 
 ] [12
 
-]
-\openout2 = `Introduction_Folder/introduction.aux'.
-
- (./Introduction_Folder/introduction.tex
+] (./Introduction_Folder/introduction.tex
 [1
 
 
@@ -1774,11 +1466,8 @@ LaTeX Font Info:    Trying to load font information for U+eus on input line 32.
 
  (/usr/share/texmf-dist/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
-) [3] [4] [5])
-[6]
-\openout2 = `Background_Folder/Background.aux'.
-
- (./Background_Folder/Background.tex
+) [3] [4]) [5]
+[6] (./Background_Folder/Background.tex
 Chapter 1.
 [7
 
@@ -1990,23 +1679,23 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [12]
-<Background_Folder/figures/"""lrg_gauge1".pdf, id=637, 350.30875pt x 433.62pt>
-File: Background_Folder/figures/"""lrg_gauge1".pdf Graphic file (type pdf)
-<use Background_Folder/figures/"""lrg_gauge1".pdf>
-Package pdftex.def Info: Background_Folder/figures/"""lrg_gauge1".pdf  used on 
-input line 107.
+<Background_Folder/figures/lrg_gauge1.pdf, id=636, 350.30875pt x 433.62pt>
+File: Background_Folder/figures/lrg_gauge1.pdf Graphic file (type pdf)
+<use Background_Folder/figures/lrg_gauge1.pdf>
+Package pdftex.def Info: Background_Folder/figures/lrg_gauge1.pdf  used on inpu
+t line 107.
 (pdftex.def)             Requested size: 59.5517pt x 73.71442pt.
-<Background_Folder/figures/"""lrg_gauge2".pdf, id=638, 361.35pt x 360.34625pt>
-File: Background_Folder/figures/"""lrg_gauge2".pdf Graphic file (type pdf)
-<use Background_Folder/figures/"""lrg_gauge2".pdf>
-Package pdftex.def Info: Background_Folder/figures/"""lrg_gauge2".pdf  used on 
-input line 107.
+<Background_Folder/figures/lrg_gauge2.pdf, id=637, 361.35pt x 360.34625pt>
+File: Background_Folder/figures/lrg_gauge2.pdf Graphic file (type pdf)
+<use Background_Folder/figures/lrg_gauge2.pdf>
+Package pdftex.def Info: Background_Folder/figures/lrg_gauge2.pdf  used on inpu
+t line 107.
 (pdftex.def)             Requested size: 68.65721pt x 68.46649pt.
-<Background_Folder/figures/"""lrg_gauge3".pdf, id=639, 361.35pt x 360.34625pt>
-File: Background_Folder/figures/"""lrg_gauge3".pdf Graphic file (type pdf)
-<use Background_Folder/figures/"""lrg_gauge3".pdf>
-Package pdftex.def Info: Background_Folder/figures/"""lrg_gauge3".pdf  used on 
-input line 108.
+<Background_Folder/figures/lrg_gauge3.pdf, id=638, 361.35pt x 360.34625pt>
+File: Background_Folder/figures/lrg_gauge3.pdf Graphic file (type pdf)
+<use Background_Folder/figures/lrg_gauge3.pdf>
+Package pdftex.def Info: Background_Folder/figures/lrg_gauge3.pdf  used on inpu
+t line 108.
 (pdftex.def)             Requested size: 68.65721pt x 68.46649pt.
  [13] [14 <./Background_Folder/figures/lrg_gauge1.pdf> <./Background_Folder/fig
 ures/lrg_gauge2.pdf
@@ -2021,7 +1710,7 @@ pdfTeX warning: pdflatex (file ./Background_Folder/figures/lrg_gauge3.pdf): PDF
 ! Extra }, or forgotten \endgroup.
 \@textcolor ...otect \leavevmode {\color #1{#2}#3}
                                                   
-l.140 ...  \item[$\circ$] Finite Temperature $T$.}
+l.138 ...  \item[$\circ$] Finite Temperature $T$.}
                                                   \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2029,10 +1718,11 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
+[15]
 ! Missing } inserted.
 <inserted text> 
                 }
-l.146     \end{itemize}}
+l.144     \end{itemize}}
                         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2040,11 +1730,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[15]
-Underfull \vbox (badness 2343) has occurred while \output is active []
-
- [16]
-[17] [18]
+[16] [17] [18]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2052,7 +1738,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210     \end{align}
+l.208     \end{align}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2065,7 +1751,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210     \end{align}
+l.208     \end{align}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2074,62 +1760,57 @@ or  <return>  to continue without it.
 ! Double superscript.
 <argument> ...u \rho } F^a_{\nu \rho } = J^{\mu }^
                                                   a, 
-l.214     \end{align}
+l.212     \end{align}
                      
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
 <argument> ...u \rho } F^a_{\nu \rho } = J^{\mu }^
                                                   a, 
-l.214     \end{align}
+l.212     \end{align}
                      
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
 <argument>  D_{\mu } J^{\mu }^
                               a = \frac {k}{4 \pi } \epsilon ^{\mu \nu \rho ...
-l.218     \end{align}
+l.216     \end{align}
                      
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
 <argument> ...u \nu \rho } D_{\mu } F^{\nu \rho }^
                                                   a = 0, 
-l.218     \end{align}
+l.216     \end{align}
                      
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
 <argument>  D_{\mu } J^{\mu }^
                               a = \frac {k}{4 \pi } \epsilon ^{\mu \nu \rho ...
-l.218     \end{align}
+l.216     \end{align}
                      
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
 <argument> ...u \nu \rho } D_{\mu } F^{\nu \rho }^
                                                   a = 0, 
-l.218     \end{align}
+l.216     \end{align}
                      
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 [19]
-<"Background_Folder/figures/""Flux_Attachment_3".pdf, id=717, 1917.68117pt x 10
-63.11963pt>
-File: "Background_Folder/figures/""Flux_Attachment_3".pdf Graphic file (type pd
-f)
-<use "Background_Folder/figures/""Flux_Attachment_3".pdf>
-Package pdftex.def Info: "Background_Folder/figures/""Flux_Attachment_3".pdf  u
-sed on input line 240.
+<Background_Folder/figures/Flux_Attachment_3.pdf, id=720, 1917.68117pt x 1063.1
+1963pt>
+File: Background_Folder/figures/Flux_Attachment_3.pdf Graphic file (type pdf)
+<use Background_Folder/figures/Flux_Attachment_3.pdf>
+Package pdftex.def Info: Background_Folder/figures/Flux_Attachment_3.pdf  used 
+on input line 238.
 (pdftex.def)             Requested size: 326.0015pt x 180.72794pt.
- [20 <./Background_Folder/figures/Flux_Attachment_3.pdf>] [21]
+ [20 <./Background_Folder/figures/Flux_Attachment_3.pdf>] [21] [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
-[23]
-Underfull \vbox (badness 1590) has occurred while \output is active []
-
- [24]
+ [23]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2137,7 +1818,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.328         \end{align}
+l.324         \end{align}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2150,79 +1831,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.328         \end{align}
+l.324         \end{align}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[25]
-! Extra }, or forgotten \right.
-<template> }
-            $}\ifmeasuring@ \savefieldlength@ \fi \set@field \hfil \endtempl...
-l.361         \end{align}
-                         
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \right. inserted.
-<inserted text> 
-                \right .
-l.361         \end{align}
-                         
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.361         \end{align}
-                         
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \right.
-<template> }
-            $}\ifmeasuring@ \savefieldlength@ \fi \set@field \hfil \endtempl...
-l.361         \end{align}
-                         
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \right. inserted.
-<inserted text> 
-                \right .
-l.361         \end{align}
-                         
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.361         \end{align}
-                         
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+[24] [25]
 
 ! Package amsmath Error: Multiple \label's: label 'eq:partition_function_comple
 x_scalar' will be lost.
@@ -2231,23 +1846,29 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.361         \end{align}
+l.357         \end{align}
                          
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[26] [27] [28]
+[26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+[28]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
-Underfull \vbox (badness 2653) has occurred while \output is active []
+Underfull \vbox (badness 3009) has occurred while \output is active []
 
  [30]
-Underfull \vbox (badness 6592) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-[32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
@@ -2258,100 +1879,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
-! Extra }, or forgotten \right.
-<template> }
-            $}\ifmeasuring@ \savefieldlength@ \fi \set@field \endtemplate 
-l.601 \end{align}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-! Missing \right. inserted.
-<inserted text> 
-                \right .
-l.601 \end{align}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.601 \end{align}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra }, or forgotten \right.
-<template> }
-            $}\ifmeasuring@ \savefieldlength@ \fi \set@field \endtemplate 
-l.601 \end{align}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing \right. inserted.
-<inserted text> 
-                \right .
-l.601 \end{align}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.601 \end{align}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[37]
-Underfull \vbox (badness 7667) has occurred while \output is active []
-
- [38]
+ [37]
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 6
-29.
+16.
 
 (/usr/share/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
-)
-Underfull \vbox (badness 2591) has occurred while \output is active []
+) [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[41]
+Underfull \vbox (badness 3849) has occurred while \output is active []
 
- [41]
-[42] [43]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [42]
+Underfull \vbox (badness 1735) has occurred while \output is active []
 
- [44]
-Underfull \vbox (badness 1342) has occurred while \output is active []
+ [43]
+[44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45]
 LaTeX Font Info:    Trying to load font information for OT1+jkptt on input line
- 755.
+ 742.
 
 (/usr/share/texmf-dist/tex/latex/kpfonts/ot1jkptt.fd
 File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
@@ -2359,35 +1914,36 @@ File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
-<"Background_Folder/figures/""solution_n1_magnetic_field_g_lambda".png, id=1080
-, 2230.58344pt x 1498.09688pt>
-File: "Background_Folder/figures/""solution_n1_magnetic_field_g_lambda".png Gra
-phic file (type png)
-<use "Background_Folder/figures/""solution_n1_magnetic_field_g_lambda".png>
-Package pdftex.def Info: "Background_Folder/figures/""solution_n1_magnetic_fiel
-d_g_lambda".png  used on input line 770.
+<Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png, id=1089, 22
+30.58344pt x 1498.09688pt>
+File: Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png Graphic
+ file (type png)
+<use Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png>
+Package pdftex.def Info: Background_Folder/figures/solution_n1_magnetic_field_g
+_lambda.png  used on input line 757.
 (pdftex.def)             Requested size: 223.07141pt x 149.81847pt.
-<"Background_Folder/figures/""solution_n1_scalar_field_g_lambda".png, id=1082, 
-2048.40282pt x 1471.74844pt>
-File: "Background_Folder/figures/""solution_n1_scalar_field_g_lambda".png Graph
-ic file (type png)
-<use "Background_Folder/figures/""solution_n1_scalar_field_g_lambda".png>
-Package pdftex.def Info: "Background_Folder/figures/""solution_n1_scalar_field_
-g_lambda".png  used on input line 771.
+<Background_Folder/figures/solution_n1_scalar_field_g_lambda.png, id=1091, 2048
+.40282pt x 1471.74844pt>
+File: Background_Folder/figures/solution_n1_scalar_field_g_lambda.png Graphic f
+ile (type png)
+<use Background_Folder/figures/solution_n1_scalar_field_g_lambda.png>
+Package pdftex.def Info: Background_Folder/figures/solution_n1_scalar_field_g_l
+ambda.png  used on input line 758.
 (pdftex.def)             Requested size: 204.85228pt x 147.18346pt.
 
-Overfull \hbox (67.09787pt too wide) in paragraph at lines 769--773
+Overfull \hbox (67.09787pt too wide) in paragraph at lines 756--760
  [][] 
  []
 
 
+Underfull \vbox (badness 4859) has occurred while \output is active []
+
+ [47 <./Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png> <./B
+ackground_Folder/figures/solution_n1_scalar_field_g_lambda.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48 <./Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png> <./B
-ackground_Folder/figures/solution_n1_scalar_field_g_lambda.png>] [49]
+ [48]
+[49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [50]
@@ -2398,32 +1954,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53]
-[54] [55]
+[54]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
 ! Double superscript.
 <argument> ...,...,n_p\rangle = \bm {a}^{\dag }_1^
                                                   {n_1}... \bm {a}^{\dag }_p...
-l.915     \end{align}
+l.903     \end{align}
                      
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
 <argument> ...\dag }_1^{n_1}... \bm {a}^{\dag }_p^
                                                   {n_p}|0\rangle . 
-l.915     \end{align}
+l.903     \end{align}
                      
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
 <argument> ...,...,n_p\rangle = \bm {a}^{\dag }_1^
                                                   {n_1}... \bm {a}^{\dag }_p...
-l.915     \end{align}
+l.903     \end{align}
                      
 I treat `x^1^2' essentially like `x^1{}^2'.
 
 ! Double superscript.
 <argument> ...\dag }_1^{n_1}... \bm {a}^{\dag }_p^
                                                   {n_p}|0\rangle . 
-l.915     \end{align}
+l.903     \end{align}
                      
 I treat `x^1^2' essentially like `x^1{}^2'.
 
@@ -2435,17 +1994,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.948     -
+l.936     -
             Specifically, non-commutative Chern-Simons theory arises as the ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[57]) [58]
-\openout2 = `Chapter_2_Folder_1912.11321/Chapter_2.aux'.
 
- (./Chapter_2_Folder_1912.11321/Chapter_2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57])
+[58] (./Chapter_2_Folder_1912.11321/Chapter_2.tex
 Chapter 2.
 [59
 
@@ -2763,13 +2323,13 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [66]
-<"Chapter_2_Folder_1912.11321/figures/""Dispersion_relations".pdf, id=1365, 111
-5.07092pt x 652.77954pt>
-File: "Chapter_2_Folder_1912.11321/figures/""Dispersion_relations".pdf Graphic 
-file (type pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""Dispersion_relations".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""Dispersion_rela
-tions".pdf  used on input line 150.
+<Chapter_2_Folder_1912.11321/figures/Dispersion_relations.pdf, id=1382, 1115.07
+092pt x 652.77954pt>
+File: Chapter_2_Folder_1912.11321/figures/Dispersion_relations.pdf Graphic file
+ (type pdf)
+<use Chapter_2_Folder_1912.11321/figures/Dispersion_relations.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/Dispersion_relatio
+ns.pdf  used on input line 150.
 (pdftex.def)             Requested size: 268.1647pt x 156.97906pt.
  [67 <./Chapter_2_Folder_1912.11321/figures/Dispersion_relations.pdf>]
 
@@ -3131,21 +2691,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 376.
 
-<"Chapter_2_Folder_1912.11321/figures/""f_alpha_5_final".png, id=1487, 462.528p
-t x 346.896pt>
-File: "Chapter_2_Folder_1912.11321/figures/""f_alpha_5_final".png Graphic file 
-(type png)
-<use "Chapter_2_Folder_1912.11321/figures/""f_alpha_5_final".png>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""f_alpha_5_final
-".png  used on input line 381.
+<Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png, id=1504, 462.528pt x 
+346.896pt>
+File: Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png Graphic file (typ
+e png)
+<use Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.pn
+g  used on input line 381.
 (pdftex.def)             Requested size: 216.81pt x 162.60709pt.
-<"Chapter_2_Folder_1912.11321/figures/""B_alpha_5_final".pdf, id=1488, 462.5289
-3pt x 346.89668pt>
-File: "Chapter_2_Folder_1912.11321/figures/""B_alpha_5_final".pdf Graphic file 
-(type pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""B_alpha_5_final".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""B_alpha_5_final
-".pdf  used on input line 381.
+<Chapter_2_Folder_1912.11321/figures/B_alpha_5_final.pdf, id=1505, 462.52893pt 
+x 346.89668pt>
+File: Chapter_2_Folder_1912.11321/figures/B_alpha_5_final.pdf Graphic file (typ
+e pdf)
+<use Chapter_2_Folder_1912.11321/figures/B_alpha_5_final.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/B_alpha_5_final.pd
+f  used on input line 381.
 (pdftex.def)             Requested size: 216.81pt x 162.6074pt.
 
 Overfull \hbox (21.05504pt too wide) in paragraph at lines 381--382
@@ -3154,29 +2714,29 @@ Overfull \hbox (21.05504pt too wide) in paragraph at lines 381--382
 
 [77 <./Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png> <./Chapter_2_Fo
 lder_1912.11321/figures/B_alpha_5_final.pdf>]
-<"Chapter_2_Folder_1912.11321/figures/""E_alpha_5_final".png, id=1503, 462.528p
-t x 346.896pt>
-File: "Chapter_2_Folder_1912.11321/figures/""E_alpha_5_final".png Graphic file 
-(type png)
-<use "Chapter_2_Folder_1912.11321/figures/""E_alpha_5_final".png>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""E_alpha_5_final
-".png  used on input line 389.
+<Chapter_2_Folder_1912.11321/figures/E_alpha_5_final.png, id=1520, 462.528pt x 
+346.896pt>
+File: Chapter_2_Folder_1912.11321/figures/E_alpha_5_final.png Graphic file (typ
+e png)
+<use Chapter_2_Folder_1912.11321/figures/E_alpha_5_final.png>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/E_alpha_5_final.pn
+g  used on input line 389.
 (pdftex.def)             Requested size: 202.35622pt x 151.76662pt.
-<"Chapter_2_Folder_1912.11321/figures/""E_alpha_5_n_200".pdf, id=1504, 462.5289
-3pt x 346.89668pt>
-File: "Chapter_2_Folder_1912.11321/figures/""E_alpha_5_n_200".pdf Graphic file 
-(type pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""E_alpha_5_n_200".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""E_alpha_5_n_200
-".pdf  used on input line 389.
+<Chapter_2_Folder_1912.11321/figures/E_alpha_5_n_200.pdf, id=1521, 462.52893pt 
+x 346.89668pt>
+File: Chapter_2_Folder_1912.11321/figures/E_alpha_5_n_200.pdf Graphic file (typ
+e pdf)
+<use Chapter_2_Folder_1912.11321/figures/E_alpha_5_n_200.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/E_alpha_5_n_200.pd
+f  used on input line 389.
 (pdftex.def)             Requested size: 202.35622pt x 151.76692pt.
-<"Chapter_2_Folder_1912.11321/figures/""radius_alpha1_large_n".pdf, id=1507, 46
-2.52893pt x 346.89668pt>
-File: "Chapter_2_Folder_1912.11321/figures/""radius_alpha1_large_n".pdf Graphic
- file (type pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""radius_alpha1_large_n".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""radius_alpha1_l
-arge_n".pdf  used on input line 409.
+<Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf, id=1524, 462.52
+893pt x 346.89668pt>
+File: Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf Graphic fil
+e (type pdf)
+<use Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/radius_alpha1_larg
+e_n.pdf  used on input line 409.
 (pdftex.def)             Requested size: 209.58255pt x 157.18716pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3250,41 +2810,40 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<"Chapter_2_Folder_1912.11321/figures/""bpsrationeg".png, id=1522, 462.528pt x 
-346.896pt>
-File: "Chapter_2_Folder_1912.11321/figures/""bpsrationeg".png Graphic file (typ
-e png)
-<use "Chapter_2_Folder_1912.11321/figures/""bpsrationeg".png>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""bpsrationeg".pn
-g  used on input line 423.
+<Chapter_2_Folder_1912.11321/figures/bpsrationeg.png, id=1540, 462.528pt x 346.
+896pt>
+File: Chapter_2_Folder_1912.11321/figures/bpsrationeg.png Graphic file (type pn
+g)
+<use Chapter_2_Folder_1912.11321/figures/bpsrationeg.png>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/bpsrationeg.png  u
+sed on input line 423.
 (pdftex.def)             Requested size: 195.12877pt x 146.34637pt.
-<"Chapter_2_Folder_1912.11321/figures/""mass1neg".png, id=1523, 462.528pt x 346
-.896pt>
-File: "Chapter_2_Folder_1912.11321/figures/""mass1neg".png Graphic file (type p
-ng)
-<use "Chapter_2_Folder_1912.11321/figures/""mass1neg".png>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""mass1neg".png  
-used on input line 424.
+<Chapter_2_Folder_1912.11321/figures/mass1neg.png, id=1541, 462.528pt x 346.896
+pt>
+File: Chapter_2_Folder_1912.11321/figures/mass1neg.png Graphic file (type png)
+<use Chapter_2_Folder_1912.11321/figures/mass1neg.png>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/mass1neg.png  used
+ on input line 424.
 (pdftex.def)             Requested size: 195.12877pt x 146.34637pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [79 <./Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf>]
-<"Chapter_2_Folder_1912.11321/figures/""firstorderalpha1_corrected".pdf, id=154
-2, 2675.19739pt x 1676.1233pt>
-File: "Chapter_2_Folder_1912.11321/figures/""firstorderalpha1_corrected".pdf Gr
-aphic file (type pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""firstorderalpha1_corrected".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""firstorderalpha
-1_corrected".pdf  used on input line 432.
+<Chapter_2_Folder_1912.11321/figures/firstorderalpha1_corrected.pdf, id=1559, 2
+675.19739pt x 1676.1233pt>
+File: Chapter_2_Folder_1912.11321/figures/firstorderalpha1_corrected.pdf Graphi
+c file (type pdf)
+<use Chapter_2_Folder_1912.11321/figures/firstorderalpha1_corrected.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/firstorderalpha1_c
+orrected.pdf  used on input line 432.
 (pdftex.def)             Requested size: 195.12877pt x 122.25111pt.
-<"Chapter_2_Folder_1912.11321/figures/""firstorderalpha2_corrected".pdf, id=154
-3, 2374.93108pt x 1480.66028pt>
-File: "Chapter_2_Folder_1912.11321/figures/""firstorderalpha2_corrected".pdf Gr
-aphic file (type pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""firstorderalpha2_corrected".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""firstorderalpha
-2_corrected".pdf  used on input line 433.
+<Chapter_2_Folder_1912.11321/figures/firstorderalpha2_corrected.pdf, id=1560, 2
+374.93108pt x 1480.66028pt>
+File: Chapter_2_Folder_1912.11321/figures/firstorderalpha2_corrected.pdf Graphi
+c file (type pdf)
+<use Chapter_2_Folder_1912.11321/figures/firstorderalpha2_corrected.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/firstorderalpha2_c
+orrected.pdf  used on input line 433.
 (pdftex.def)             Requested size: 195.12877pt x 121.64085pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3344,21 +2903,21 @@ If that doesn't work, type  X <return>  to quit.
 
 [80 <./Chapter_2_Folder_1912.11321/figures/bpsrationeg.png> <./Chapter_2_Folder
 _1912.11321/figures/mass1neg.png>]
-<"Chapter_2_Folder_1912.11321/figures/""BPS_equation_error".pdf, id=1551, 462.5
-2893pt x 346.89668pt>
-File: "Chapter_2_Folder_1912.11321/figures/""BPS_equation_error".pdf Graphic fi
-le (type pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""BPS_equation_error".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""BPS_equation_er
-ror".pdf  used on input line 440.
+<Chapter_2_Folder_1912.11321/figures/BPS_equation_error.pdf, id=1568, 462.52893
+pt x 346.89668pt>
+File: Chapter_2_Folder_1912.11321/figures/BPS_equation_error.pdf Graphic file (
+type pdf)
+<use Chapter_2_Folder_1912.11321/figures/BPS_equation_error.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/BPS_equation_error
+.pdf  used on input line 440.
 (pdftex.def)             Requested size: 187.90244pt x 140.92642pt.
-<"Chapter_2_Folder_1912.11321/figures/""negative_n_A0".pdf, id=1552, 593.48349p
-t x 433.01884pt>
-File: "Chapter_2_Folder_1912.11321/figures/""negative_n_A0".pdf Graphic file (t
-ype pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""negative_n_A0".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""negative_n_A0".
-pdf  used on input line 440.
+<Chapter_2_Folder_1912.11321/figures/negative_n_A0.pdf, id=1569, 593.48349pt x 
+433.01884pt>
+File: Chapter_2_Folder_1912.11321/figures/negative_n_A0.pdf Graphic file (type 
+pdf)
+<use Chapter_2_Folder_1912.11321/figures/negative_n_A0.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/negative_n_A0.pdf 
+ used on input line 440.
 (pdftex.def)             Requested size: 187.90244pt x 137.09541pt.
  [81 <./Chapter_2_Folder_1912.11321/figures/firstorderalpha1_corrected.pdf> <./
 Chapter_2_Folder_1912.11321/figures/firstorderalpha2_corrected.pdf
@@ -3372,21 +2931,21 @@ pdfTeX warning: pdflatex (file ./Chapter_2_Folder_1912.11321/figures/BPS_equati
 on_error.pdf): PDF inclusion: multiple pdfs with page group included in a singl
 e page
 > <./Chapter_2_Folder_1912.11321/figures/negative_n_A0.pdf>]
-<"Chapter_2_Folder_1912.11321/figures/""B_alpha_10_positive_final".png, id=1595
-, 462.528pt x 346.896pt>
-File: "Chapter_2_Folder_1912.11321/figures/""B_alpha_10_positive_final".png Gra
-phic file (type png)
-<use "Chapter_2_Folder_1912.11321/figures/""B_alpha_10_positive_final".png>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""B_alpha_10_posi
-tive_final".png  used on input line 460.
+<Chapter_2_Folder_1912.11321/figures/B_alpha_10_positive_final.png, id=1612, 46
+2.528pt x 346.896pt>
+File: Chapter_2_Folder_1912.11321/figures/B_alpha_10_positive_final.png Graphic
+ file (type png)
+<use Chapter_2_Folder_1912.11321/figures/B_alpha_10_positive_final.png>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/B_alpha_10_positiv
+e_final.png  used on input line 460.
 (pdftex.def)             Requested size: 195.12877pt x 146.34637pt.
-<"Chapter_2_Folder_1912.11321/figures/""E_alpha_10_positive_final".png, id=1596
-, 462.528pt x 346.896pt>
-File: "Chapter_2_Folder_1912.11321/figures/""E_alpha_10_positive_final".png Gra
-phic file (type png)
-<use "Chapter_2_Folder_1912.11321/figures/""E_alpha_10_positive_final".png>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""E_alpha_10_posi
-tive_final".png  used on input line 460.
+<Chapter_2_Folder_1912.11321/figures/E_alpha_10_positive_final.png, id=1613, 46
+2.528pt x 346.896pt>
+File: Chapter_2_Folder_1912.11321/figures/E_alpha_10_positive_final.png Graphic
+ file (type png)
+<use Chapter_2_Folder_1912.11321/figures/E_alpha_10_positive_final.png>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/E_alpha_10_positiv
+e_final.png  used on input line 460.
 (pdftex.def)             Requested size: 195.12877pt x 146.34637pt.
 
 
@@ -3439,22 +2998,21 @@ If that doesn't work, type  X <return>  to quit.
 
 [82 <./Chapter_2_Folder_1912.11321/figures/B_alpha_10_positive_final.png> <./Ch
 apter_2_Folder_1912.11321/figures/E_alpha_10_positive_final.png>]
-<"Chapter_2_Folder_1912.11321/figures/""solution_JLW-HKP_n-1_Bvsalpha".png, id=
-1613, 1121.80298pt x 850.52083pt>
-File: "Chapter_2_Folder_1912.11321/figures/""solution_JLW-HKP_n-1_Bvsalpha".png
- Graphic file (type png)
-<use "Chapter_2_Folder_1912.11321/figures/""solution_JLW-HKP_n-1_Bvsalpha".png>
-
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""solution_JLW-HK
-P_n-1_Bvsalpha".png  used on input line 472.
+<Chapter_2_Folder_1912.11321/figures/solution_JLW-HKP_n-1_Bvsalpha.png, id=1630
+, 1121.80298pt x 850.52083pt>
+File: Chapter_2_Folder_1912.11321/figures/solution_JLW-HKP_n-1_Bvsalpha.png Gra
+phic file (type png)
+<use Chapter_2_Folder_1912.11321/figures/solution_JLW-HKP_n-1_Bvsalpha.png>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/solution_JLW-HKP_n
+-1_Bvsalpha.png  used on input line 472.
 (pdftex.def)             Requested size: 361.34999pt x 273.96317pt.
-<"Chapter_2_Folder_1912.11321/figures/""positive_n_energy".pdf, id=1615, 462.52
-893pt x 346.89668pt>
-File: "Chapter_2_Folder_1912.11321/figures/""positive_n_energy".pdf Graphic fil
-e (type pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""positive_n_energy".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""positive_n_ener
-gy".pdf  used on input line 480.
+<Chapter_2_Folder_1912.11321/figures/positive_n_energy.pdf, id=1632, 462.52893p
+t x 346.89668pt>
+File: Chapter_2_Folder_1912.11321/figures/positive_n_energy.pdf Graphic file (t
+ype pdf)
+<use Chapter_2_Folder_1912.11321/figures/positive_n_energy.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/positive_n_energy.
+pdf  used on input line 480.
 (pdftex.def)             Requested size: 216.81pt x 162.6074pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3469,29 +3027,29 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 484.
 
-<"Chapter_2_Folder_1912.11321/figures/""f_sixthvsfourth".pdf, id=1624, 462.5289
-3pt x 346.89668pt>
-File: "Chapter_2_Folder_1912.11321/figures/""f_sixthvsfourth".pdf Graphic file 
-(type pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""f_sixthvsfourth".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""f_sixthvsfourth
-".pdf  used on input line 492.
+<Chapter_2_Folder_1912.11321/figures/f_sixthvsfourth.pdf, id=1641, 462.52893pt 
+x 346.89668pt>
+File: Chapter_2_Folder_1912.11321/figures/f_sixthvsfourth.pdf Graphic file (typ
+e pdf)
+<use Chapter_2_Folder_1912.11321/figures/f_sixthvsfourth.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/f_sixthvsfourth.pd
+f  used on input line 492.
 (pdftex.def)             Requested size: 133.69994pt x 100.27457pt.
-<"Chapter_2_Folder_1912.11321/figures/""B_sixthvsfourth".pdf, id=1625, 462.5289
-3pt x 346.89668pt>
-File: "Chapter_2_Folder_1912.11321/figures/""B_sixthvsfourth".pdf Graphic file 
-(type pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""B_sixthvsfourth".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""B_sixthvsfourth
-".pdf  used on input line 492.
+<Chapter_2_Folder_1912.11321/figures/B_sixthvsfourth.pdf, id=1642, 462.52893pt 
+x 346.89668pt>
+File: Chapter_2_Folder_1912.11321/figures/B_sixthvsfourth.pdf Graphic file (typ
+e pdf)
+<use Chapter_2_Folder_1912.11321/figures/B_sixthvsfourth.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/B_sixthvsfourth.pd
+f  used on input line 492.
 (pdftex.def)             Requested size: 133.69994pt x 100.27457pt.
-<"Chapter_2_Folder_1912.11321/figures/""E_sixthvsfourth".pdf, id=1626, 462.5289
-3pt x 346.89668pt>
-File: "Chapter_2_Folder_1912.11321/figures/""E_sixthvsfourth".pdf Graphic file 
-(type pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""E_sixthvsfourth".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""E_sixthvsfourth
-".pdf  used on input line 493.
+<Chapter_2_Folder_1912.11321/figures/E_sixthvsfourth.pdf, id=1643, 462.52893pt 
+x 346.89668pt>
+File: Chapter_2_Folder_1912.11321/figures/E_sixthvsfourth.pdf Graphic file (typ
+e pdf)
+<use Chapter_2_Folder_1912.11321/figures/E_sixthvsfourth.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/E_sixthvsfourth.pd
+f  used on input line 493.
 (pdftex.def)             Requested size: 133.69994pt x 100.27457pt.
 
 Underfull \vbox (badness 4001) has occurred while \output is active []
@@ -3546,29 +3104,29 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [84 <./Chapter_2_Folder_1912.11321/figures/positive_n_energy.pdf>]
-<"Chapter_2_Folder_1912.11321/figures/""sixth_order_alpha".pdf, id=1638, 462.52
-893pt x 346.89668pt>
-File: "Chapter_2_Folder_1912.11321/figures/""sixth_order_alpha".pdf Graphic fil
-e (type pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""sixth_order_alpha".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""sixth_order_alp
-ha".pdf  used on input line 500.
+<Chapter_2_Folder_1912.11321/figures/sixth_order_alpha.pdf, id=1655, 462.52893p
+t x 346.89668pt>
+File: Chapter_2_Folder_1912.11321/figures/sixth_order_alpha.pdf Graphic file (t
+ype pdf)
+<use Chapter_2_Folder_1912.11321/figures/sixth_order_alpha.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/sixth_order_alpha.
+pdf  used on input line 500.
 (pdftex.def)             Requested size: 202.35622pt x 151.76692pt.
-<"Chapter_2_Folder_1912.11321/figures/""sixth_order_alpha_byE1".pdf, id=1639, 4
-62.52893pt x 346.89668pt>
-File: "Chapter_2_Folder_1912.11321/figures/""sixth_order_alpha_byE1".pdf Graphi
-c file (type pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""sixth_order_alpha_byE1".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""sixth_order_alp
-ha_byE1".pdf  used on input line 500.
+<Chapter_2_Folder_1912.11321/figures/sixth_order_alpha_byE1.pdf, id=1656, 462.5
+2893pt x 346.89668pt>
+File: Chapter_2_Folder_1912.11321/figures/sixth_order_alpha_byE1.pdf Graphic fi
+le (type pdf)
+<use Chapter_2_Folder_1912.11321/figures/sixth_order_alpha_byE1.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/sixth_order_alpha_
+byE1.pdf  used on input line 500.
 (pdftex.def)             Requested size: 202.35622pt x 151.76692pt.
-<"Chapter_2_Folder_1912.11321/figures/""sixth_order_A0".pdf, id=1642, 462.52893
-pt x 346.89668pt>
-File: "Chapter_2_Folder_1912.11321/figures/""sixth_order_A0".pdf Graphic file (
-type pdf)
-<use "Chapter_2_Folder_1912.11321/figures/""sixth_order_A0".pdf>
-Package pdftex.def Info: "Chapter_2_Folder_1912.11321/figures/""sixth_order_A0"
-.pdf  used on input line 511.
+<Chapter_2_Folder_1912.11321/figures/sixth_order_A0.pdf, id=1659, 462.52893pt x
+ 346.89668pt>
+File: Chapter_2_Folder_1912.11321/figures/sixth_order_A0.pdf Graphic file (type
+ pdf)
+<use Chapter_2_Folder_1912.11321/figures/sixth_order_A0.pdf>
+Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/sixth_order_A0.pdf
+  used on input line 511.
 (pdftex.def)             Requested size: 209.58255pt x 157.18716pt.
  [85 <./Chapter_2_Folder_1912.11321/figures/f_sixthvsfourth.pdf> <./Chapter_2_F
 older_1912.11321/figures/B_sixthvsfourth.pdf
@@ -3641,9 +3199,6 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [86 <./Chapter_2_Folder_1912.11321/figures/sixth_order_A0.pdf>]
-\openout2 = `Chapter_3_Folder_1806.06976/Chapter_3.aux'.
-
-
 (./Chapter_3_Folder_1806.06976/Chapter_3.tex
 Chapter 3.
 [87
@@ -4200,12 +3755,12 @@ If that doesn't work, type  X <return>  to quit.
                                                   \fi \fi 
 l.141  \eea
            ]
-<"Chapter_3_Folder_1806.06976/figures/""Fvsv".pdf, id=1818, 361.35pt x 215.8062
-4pt>
-File: "Chapter_3_Folder_1806.06976/figures/""Fvsv".pdf Graphic file (type pdf)
-<use "Chapter_3_Folder_1806.06976/figures/""Fvsv".pdf>
-Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""Fvsv".pdf  used
- on input line 160.
+<Chapter_3_Folder_1806.06976/figures/Fvsv.pdf, id=1834, 361.35pt x 215.80624pt>
+
+File: Chapter_3_Folder_1806.06976/figures/Fvsv.pdf Graphic file (type pdf)
+<use Chapter_3_Folder_1806.06976/figures/Fvsv.pdf>
+Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/Fvsv.pdf  used on 
+input line 160.
 (pdftex.def)             Requested size: 144.54pt x 86.32095pt.
  [95]
 
@@ -4679,13 +4234,13 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [100]
-<"Chapter_3_Folder_1806.06976/figures/""soundspeed".pdf, id=1901, 361.35pt x 22
-8.855pt>
-File: "Chapter_3_Folder_1806.06976/figures/""soundspeed".pdf Graphic file (type
- pdf)
-<use "Chapter_3_Folder_1806.06976/figures/""soundspeed".pdf>
-Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""soundspeed".pdf
-  used on input line 326.
+<Chapter_3_Folder_1806.06976/figures/soundspeed.pdf, id=1917, 361.35pt x 228.85
+5pt>
+File: Chapter_3_Folder_1806.06976/figures/soundspeed.pdf Graphic file (type pdf
+)
+<use Chapter_3_Folder_1806.06976/figures/soundspeed.pdf>
+Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/soundspeed.pdf  us
+ed on input line 326.
 (pdftex.def)             Requested size: 216.81pt x 137.31404pt.
  [101]
 
@@ -4803,21 +4358,20 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<"Chapter_3_Folder_1806.06976/figures/""crossing0".pdf, id=1951, 361.35pt x 220
-.825pt>
-File: "Chapter_3_Folder_1806.06976/figures/""crossing0".pdf Graphic file (type 
-pdf)
-<use "Chapter_3_Folder_1806.06976/figures/""crossing0".pdf>
-Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""crossing0".pdf 
- used on input line 365.
+<Chapter_3_Folder_1806.06976/figures/crossing0.pdf, id=1967, 361.35pt x 220.825
+pt>
+File: Chapter_3_Folder_1806.06976/figures/crossing0.pdf Graphic file (type pdf)
+
+<use Chapter_3_Folder_1806.06976/figures/crossing0.pdf>
+Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/crossing0.pdf  use
+d on input line 365.
 (pdftex.def)             Requested size: 166.2212pt x 101.58072pt.
-<"Chapter_3_Folder_1806.06976/figures/""crossing".pdf, id=1952, 361.35pt x 220.
-825pt>
-File: "Chapter_3_Folder_1806.06976/figures/""crossing".pdf Graphic file (type p
-df)
-<use "Chapter_3_Folder_1806.06976/figures/""crossing".pdf>
-Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""crossing".pdf  
-used on input line 365.
+<Chapter_3_Folder_1806.06976/figures/crossing.pdf, id=1968, 361.35pt x 220.825p
+t>
+File: Chapter_3_Folder_1806.06976/figures/crossing.pdf Graphic file (type pdf)
+<use Chapter_3_Folder_1806.06976/figures/crossing.pdf>
+Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/crossing.pdf  used
+ on input line 365.
 (pdftex.def)             Requested size: 166.2212pt x 101.58072pt.
 
 ! LaTeX Error: Too many math alphabets used in version normal.
@@ -4926,21 +4480,21 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<"Chapter_3_Folder_1806.06976/figures/""spectrumk20".pdf, id=2002, 361.35pt x 2
-34.8775pt>
-File: "Chapter_3_Folder_1806.06976/figures/""spectrumk20".pdf Graphic file (typ
-e pdf)
-<use "Chapter_3_Folder_1806.06976/figures/""spectrumk20".pdf>
-Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""spectrumk20".pd
-f  used on input line 386.
+<Chapter_3_Folder_1806.06976/figures/spectrumk20.pdf, id=2018, 361.35pt x 234.8
+775pt>
+File: Chapter_3_Folder_1806.06976/figures/spectrumk20.pdf Graphic file (type pd
+f)
+<use Chapter_3_Folder_1806.06976/figures/spectrumk20.pdf>
+Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/spectrumk20.pdf  u
+sed on input line 386.
 (pdftex.def)             Requested size: 202.35622pt x 131.5305pt.
-<"Chapter_3_Folder_1806.06976/figures/""rotonk500".pdf, id=2003, 494.84875pt x 
-306.14375pt>
-File: "Chapter_3_Folder_1806.06976/figures/""rotonk500".pdf Graphic file (type 
-pdf)
-<use "Chapter_3_Folder_1806.06976/figures/""rotonk500".pdf>
-Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""rotonk500".pdf 
- used on input line 386.
+<Chapter_3_Folder_1806.06976/figures/rotonk500.pdf, id=2019, 494.84875pt x 306.
+14375pt>
+File: Chapter_3_Folder_1806.06976/figures/rotonk500.pdf Graphic file (type pdf)
+
+<use Chapter_3_Folder_1806.06976/figures/rotonk500.pdf>
+Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/rotonk500.pdf  use
+d on input line 386.
 (pdftex.def)             Requested size: 202.35622pt x 125.18806pt.
 
 ! LaTeX Error: Too many math alphabets used in version normal.
@@ -5076,21 +4630,21 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<"Chapter_3_Folder_1806.06976/figures/""spectrummassive".pdf, id=2075, 361.35pt
- x 376.40625pt>
-File: "Chapter_3_Folder_1806.06976/figures/""spectrummassive".pdf Graphic file 
-(type pdf)
-<use "Chapter_3_Folder_1806.06976/figures/""spectrummassive".pdf>
-Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""spectrummassive
-".pdf  used on input line 411.
+<Chapter_3_Folder_1806.06976/figures/spectrummassive.pdf, id=2091, 361.35pt x 3
+76.40625pt>
+File: Chapter_3_Folder_1806.06976/figures/spectrummassive.pdf Graphic file (typ
+e pdf)
+<use Chapter_3_Folder_1806.06976/figures/spectrummassive.pdf>
+Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/spectrummassive.pd
+f  used on input line 411.
 (pdftex.def)             Requested size: 166.2212pt x 173.14897pt.
-<"Chapter_3_Folder_1806.06976/figures/""spectrumcrit".pdf, id=2076, 361.35pt x 
-271.0125pt>
-File: "Chapter_3_Folder_1806.06976/figures/""spectrumcrit".pdf Graphic file (ty
-pe pdf)
-<use "Chapter_3_Folder_1806.06976/figures/""spectrumcrit".pdf>
-Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""spectrumcrit".p
-df  used on input line 411.
+<Chapter_3_Folder_1806.06976/figures/spectrumcrit.pdf, id=2092, 361.35pt x 271.
+0125pt>
+File: Chapter_3_Folder_1806.06976/figures/spectrumcrit.pdf Graphic file (type p
+df)
+<use Chapter_3_Folder_1806.06976/figures/spectrumcrit.pdf>
+Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/spectrumcrit.pdf  
+used on input line 411.
 (pdftex.def)             Requested size: 221.6362pt x 166.2212pt.
 
 Underfull \vbox (badness 7704) has occurred while \output is active []
@@ -5362,13 +4916,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<"Chapter_3_Folder_1806.06976/figures/""vcrit".pdf, id=2203, 361.35pt x 223.836
-24pt>
-File: "Chapter_3_Folder_1806.06976/figures/""vcrit".pdf Graphic file (type pdf)
-
-<use "Chapter_3_Folder_1806.06976/figures/""vcrit".pdf>
-Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""vcrit".pdf  use
-d on input line 450.
+<Chapter_3_Folder_1806.06976/figures/vcrit.pdf, id=2220, 361.35pt x 223.83624pt
+>
+File: Chapter_3_Folder_1806.06976/figures/vcrit.pdf Graphic file (type pdf)
+<use Chapter_3_Folder_1806.06976/figures/vcrit.pdf>
+Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/vcrit.pdf  used on
+ input line 450.
 (pdftex.def)             Requested size: 233.34189pt x 144.54pt.
 
 ! LaTeX Error: Too many math alphabets used in version normal.
@@ -5397,12 +4950,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 458.
 
 [107 <./Chapter_3_Folder_1806.06976/figures/vcrit.pdf>]
-<"Chapter_3_Folder_1806.06976/figures/""u2".pdf, id=2247, 361.35pt x 271.0125pt
->
-File: "Chapter_3_Folder_1806.06976/figures/""u2".pdf Graphic file (type pdf)
-<use "Chapter_3_Folder_1806.06976/figures/""u2".pdf>
-Package pdftex.def Info: "Chapter_3_Folder_1806.06976/figures/""u2".pdf  used o
-n input line 468.
+<Chapter_3_Folder_1806.06976/figures/u2.pdf, id=2263, 361.35pt x 271.0125pt>
+File: Chapter_3_Folder_1806.06976/figures/u2.pdf Graphic file (type pdf)
+<use Chapter_3_Folder_1806.06976/figures/u2.pdf>
+Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/u2.pdf  used on in
+put line 468.
 (pdftex.def)             Requested size: 192.72762pt x 144.54pt.
 
 
@@ -6252,169 +5804,12 @@ l.721
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[120] [121])
-\openout2 = `Conclusions_Folder/Conclusions.aux'.
-
- (./Conclusions_Folder/Conclusions.tex
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \chapter
-            *{Conclusions}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \chapter
-            *{Conclusions}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \chapter
-            *{Conclusions}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \chapter
-            *{Conclusions}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \chapter
-            *{Conclusions}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 \chapter
-            *{Conclusions}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[122
+[120] [121]) (./Conclusions_Folder/Conclusions.tex [122
 
 
 
-] [123])
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 \include{Conclusions_Folder/Conclusions}
-                                                             % discussion of...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 \include{Conclusions_Folder/Conclusions}
-                                                             % discussion of...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 \include{Conclusions_Folder/Conclusions}
-                                                             % discussion of...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 \include{Conclusions_Folder/Conclusions}
-                                                             % discussion of...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 \include{Conclusions_Folder/Conclusions}
-                                                             % discussion of...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 \include{Conclusions_Folder/Conclusions}
-                                                             % discussion of...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[124]
-\openout2 = `Appendices_Folder/appendix_Chapter_3.aux'.
-
- (./Appendices_Folder/appendix_Chapter_3.tex
+] [123]) [124]
+(./Appendices_Folder/appendix_Chapter_3.tex
 Appendix A.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -6439,7 +5834,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ! Undefined control sequence.
 <recently read> \mathsemicolon 
                                
-l.443 ...ktronentheorie der metalle$\mathsemicolon
+l.454 ...ktronentheorie der metalle$\mathsemicolon
                                                   $ {II}. teil.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6455,7 +5850,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.547   $\mathit{e}
+l.558   $\mathit{e}
                    \mathit{/}3$ fractionally charged laughlin quasiparticle'',
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6468,7 +5863,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.547   $\mathit{e}\mathit{/}
+l.558   $\mathit{e}\mathit{/}
                              3$ fractionally charged laughlin quasiparticle'',
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -6482,15 +5877,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1209 ...kii, ``{{L}ayered structure of ${}^4{\rm
+l.1246 ...kii, ``{{L}ayered structure of ${}^4{\rm
                                                    {H}e}$ with supercritical
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[145]) [146]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
+[145] [146]) [147]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 287.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 287.
  (./thesis.aux (./Front_Folder/abstract.aux)
 (./Front_Folder/declaration.aux) (./Front_Folder/acknowledgement.aux)
 (./Introduction_Folder/introduction.aux) (./Background_Folder/Background.aux)
@@ -6498,22 +5893,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
 (./Chapter_3_Folder_1806.06976/Chapter_3.aux)
 (./Conclusions_Folder/Conclusions.aux)
 (./Appendices_Folder/appendix_Chapter_3.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 287.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 287.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: DA85F947C6BBD546F435AB6EB00D9219;4727.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
+(rerunfilecheck)             Checksum: 3870492C2ABDEB2E01742B7A33A21D6B;4616.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 287.
  ) 
 Here is how much of TeX's memory you used:
- 35535 strings out of 492167
- 659408 string characters out of 6131559
- 737920 words of memory out of 5000000
- 38434 multiletter control sequences out of 15000+600000
+ 25907 strings out of 480478
+ 475854 string characters out of 5905959
+ 763527 words of memory out of 5000000
+ 40366 multiletter control sequences out of 15000+600000
  632340 words of font info for 268 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 64i,21n,83p,2394b,1281s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not ex
+ 64i,21n,82p,2394b,1319s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.21} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
 t, replaced by a fixed one
@@ -6587,10 +5985,10 @@ e/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb></usr/share/texmf-dist/fonts/
 type1/public/kpfonts/jkpsya.pfb></usr/share/texmf-dist/fonts/type1/public/kpfon
 ts/jkpsyb.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.pfb></us
 r/share/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on thesis.pdf (158 pages, 7857003 bytes).
+Output written on thesis.pdf (159 pages, 7861138 bytes).
 PDF statistics:
- 3216 PDF objects out of 3580 (max. 8388607)
- 2821 compressed objects within 29 object streams
- 811 named destinations out of 1000 (max. 500000)
- 693 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3257 PDF objects out of 3580 (max. 8388607)
+ 2861 compressed objects within 29 object streams
+ 819 named destinations out of 1000 (max. 500000)
+ 685 words of extra memory for PDF output out of 10000 (max. 10000000)
 

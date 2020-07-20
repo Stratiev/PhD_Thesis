@@ -4,7 +4,7 @@
     \graphicspath{{Background_Folder/figures/PNG/}{Background_Folder/figures/PDF/}{Background_Folder/figures/}}
 
 %: ———————-- introduction file header ———————--
-\chapter{Background}
+\chapter{Background} \label{ch:Background}
 This chapter provides the necessary background information and technical details required to understand the main results of this thesis and their implications to related fields of physics. \textcolor{red}{This background material} includes both the theoretical framework \textcolor{red}{used in this thesis} and \textcolor{red}{associated} real\textcolor{red}{-}world phenomena  \colorbox{red}{ }. \textcolor{red}{As the title hints}, in this text, we will concern ourselves with the study of \textcolor{red}{$2+1$ dimensional} systems at finite density. We will approach the study of these \colorbox{red}{ }  systems through the framework of \textit{\textcolor{red}{q}uantum \textcolor{red}{f}ield \textcolor{red}{t}heory} (QFT). 
 
     There are two important aspects of QFT that will play a major role for us. One of them is the relation between the grand canonical statistical partition function and QFT. The other aspect is the distinct way in which the gauge principle manifests itself in 2+1 dimensional theories. The latter is addressed in \textcolor{red}{S}ection (\ref{CS_sec}), where we review the basics of \textit{Chern-Simons theory} \textcolor{red}{(CS)}. The former is discussed in \textcolor{red}{Subs}ection (\ref{GCE_sec}), where we will spend time reminding ourselves of some basic statistical mechanics. 
@@ -17,7 +17,7 @@ This chapter provides the necessary background information and technical details
 
     We continue by addressing \textit{Fermi-Bose and particle-vortex dualities} in \textcolor{red}{Section} (\ref{Fermi-Bose_sec}), which \textcolor{red}{provided} the primary motivation for this work. \colorbox{red}{ }  We outline important aspects of the dualities in order to highlight where our work fits in that context.
 
-    Finally, we include a section concerning the physics of \textit{non-commutative} field theory and its relation to the theory of fluids. In particular, we include the description of the \textcolor{red}{q}uantum Hall fluid in terms of a \textit{'fuzzy'} underlying space, in which the coordinates do not commute. We shall see that this description is a Chern-Simons theory and it seems to arise naturally out of the ground state in the finite density non-abelian model\textcolor{red}{, studied in Chapter 3}.
+    Finally, we include a section concerning the physics of \textit{non-commutative} field theory and its relation to the theory of fluids. In particular, we include the description of the \textcolor{red}{q}uantum Hall fluid in terms of a \textit{'fuzzy'} underlying space, in which the coordinates do not commute. We shall see that this description is a Chern-Simons theory and it seems to arise naturally out of the ground state in the finite density non-abelian model\textcolor{red}{, studied in Chapter \textcolor{red}{(\ref{ch:Chapter_3})}}.
 
         \section{Chern-Simons Theory} \label{CS_sec}
     Chern-Simons \colorbox{red}{ } theory is a very unusual type of QFT both in its origin and its applications. It is a testament to the power and universality of mathematics, first conceived of as an abstract tool in the theory of differential operators and their connections to topology \cite{Chern:1974ft}\textcolor{red}{. The theory} has grown to encompass many facets of modern physics and mathematics\textcolor{red}{,} from the computation of knot invariants \cite{Witten:1988hf} to the prediction of non-abelian anyons \cite{Moore:1991ks}, which are the ingredients necessary for performing a topological quantum computation \cite{RevModPhys.80.1083}. \textcolor{red}{This is} currently one of the most promising approaches to fault tolerant quantum computation \cite{Kitaev:1997wr}, due to the topological stability of the qubits. \textcolor{red}{CS} theory is an example of a \textit{topological quantum field theory} (TQFT) of \textit{Schwarz type} \cite{Schwarz:2000ct}, which means that it is independent of the metric and so any observable is related to a topological invariant. \textcolor{red}{The Einstein-Hilbert action in 2+1 dimensions can be written as the CS action \cite{Achucarro:1987vz}. This means that studying CS theory also leads to insight into} three dimensional gravity \cite{Carlip:2005zn, Deser:1982vy, Witten:2007kt}. \textcolor{red}{CS theory also} provides a field theoretic explanation for the \textcolor{red}{q}uantum Hall \textcolor{red}{e}ffect and anyonic physics \cite{Zee, Tong:2016kpv}, has been instrumental in the classification of rational 2 \textcolor{red}{dimensional} \textcolor{red}{conformal field theories (CFTs)} \cite{Moore:1989yh}, creates a bridge between theoretical physics and knot theory \cite{Witten:1988hf} and, recently, it has uncovered an equivalence between two types of matter, previously thought to have been fundamentally different -- namely\textcolor{red}{,} \textit{Fermi-Bose duality} \cite{Aharony:2015mjs, Aharony:2012nh, Giombi:2011kc, Aharony:2011jz, Giveon:2008zn}. These are among the most noteworthy applications of CS theory. Therefore, in this section we justly take the time to review essential aspects of CS theory. Most of the results seen in this section can also be found in the excellent review by \textit{Dunne} \cite{Dunne:1998qy}.
@@ -107,14 +107,14 @@ We can define the field strength tensor in the usual way for a non-abelian gauge
 		\includegraphics[scale=0.17]{lrg_gauge1.pdf} \text{(a)}  &  \includegraphics[scale=0.19]{lrg_gauge2.pdf} \text{(b)}  &
 		\includegraphics[scale=0.19]{lrg_gauge3.pdf} \text{(c)}
 	\end{tabular}
-    \caption[This figure provides a simple example that illustrates the idea behind large gauge transformations.]{This figure provides a simple example that illustrates the idea behind large gauge transformations. (a) is topologically distinct from the rest, yet they are all gauge equivalent configurations. } \label{large_gauge}
+    \caption[This figure provides a simple example that illustrates the idea behind large gauge transformations.]{This figure provides a simple example that illustrates the idea behind large gauge transformations. \textcolor{red}{The phase of a scalar field ($\in (0,2\pi)$) has been pictorially represented by arrows pointing in some direction on the plane. The three configurations depicted can all be transformed into each other via a gauge transformation. Transforming (a) into either (b) or (c) involves a gauge transformation that is not connected to the identity, \textit{i.e.} it cannot be represented as a sum of infinitesimal, continuous transformations and, for this reason, it is called a \textit{large gauge transformation}.} \textcolor{red}{So we say that} (a) is topologically distinct from the rest, yet they are all gauge equivalent configurations. } \label{large_gauge}
 \end{figure}
 
-As a final remark to counter the point that ``We \textcolor{red}{do not} live on a circle'', I shall say that when studying a non-singular\textcolor{red}{,} circularly symmetric\textcolor{red}{,} planar setup, we would require boundary conditions which identify the point at infinity with the same gauge field configuration. It turns out that the point at infinity \textit{is} an $S^1$, so inevitably abelian gauge transformations \textit{would be} separated into distinct homotopy classes.
+As a final remark to counter the point that ``We \textcolor{red}{do not} live on a circle'', I shall say that when studying a non-singular\textcolor{red}{,} circularly symmetric\textcolor{red}{,} planar setup, we would require boundary conditions which identify the point at infinity with the same gauge field configuration. It turns out that the point at infinity \textit{is} an $S^1$, so inevitably abelian gauge transformations \textit{would be} separated into distinct homotopy classes. A discussion of this fact can be found in a review of Yang-Mills theory by \textit{Jackiw} \cite{Jackiw:1979ur}.
 
 This above passage illustrates the essence of large gauge transformations in the simplest possible case, where we have a non-trivial homotopy group. The situation is precisely the same with more complicated homotopy groups but they just happen to be more difficult to visuali\textcolor{red}{s}e.
 
-    Going back to the Lagrangian transformation law, we pick $g$, s.t. $\textcolor{red}{\int d^3 x} \,w(g)=n$. Therefore the action transforms as
+    Going back to the Lagrangian transformation law, we pick $g$, \textcolor{red}{such that} $\textcolor{red}{\int d^3 x} \,w(g)=n$. Therefore the action transforms as
     \begin{align}
         S_{\text{CS}} \rightarrow S_{\text{CS } }+ 8 \pi^2 \kappa n.
     \end{align}
@@ -122,41 +122,39 @@ This above passage illustrates the essence of large gauge transformations in the
     \begin{align}
         e^{i S_{CS}} \rightarrow e^{i 8 \pi^2 \kappa n} e^{i S_{\text{CS}}}.
     \end{align}
-    This implies that if we set $\kappa = \frac{k}{4 \pi}$, where $k\in \mathbb{Z}$, we have restored gauge invariance, which means that we ought to include this term in the study of planar physics.
+    This implies that if we set $\kappa = \frac{k}{4 \pi}$, where $k\in \mathbb{Z}$, we have restored gauge invariance, which means that we ought to include this term in the study of planar physics. \textcolor{red}{This argument for the quantisation of the CS level is due to \textit{Deser, Jackiw \& Templeton} \cite{Deser:1981wh}. }
 
-    \textcolor{red}{The previous discussion can be easily generali\textcolor{red}{s}ed to gauge groups other than $SU(2)$, which allow for non-trivial homotopies by simply adjusting the normali\textcolor{red}{s}ation of the winding number. The case of $SU(N)$ is identical, since one can consider an $SU(2) \cong S^3$ subgroup in $SU(N)$, which maps onto the space-time. Let us take the simplest example that differs from $SU(2)$, the case of $SO(3)\cong SU(2)/ \mathbb{Z}_2$. The normali\textcolor{red}{s}ation of $w_{SO(3)}(g)$ is half that of $SU(2)$, since $vol[SO(3)] = \frac{1}{2} vol[SU(2)]$. If $w_{SO(3)}(g)=n$, then the shift of the action becomes }
+    \textcolor{red}{The previous discussion can be easily generali\textcolor{red}{s}ed to gauge groups  other than $SU(2)$, as long as they allow for non-trivial homotopies. This can be achieved by simply adjusting the normali\textcolor{red}{s}ation of the winding number. The case of $SU(N)$ is identical, since one can consider an $SU(2) \cong S^3$ subgroup in $SU(N)$, which maps onto the space-time. Let us take the simplest example that differs from $SU(2)$, the case of $SO(3)\cong SU(2)/ \mathbb{Z}_2$. The normali\textcolor{red}{s}ation of $w_{SO(3)}(g)$ is half that of $SU(2)$, since $vol[SO(3)] = \frac{1}{2} vol[SU(2)]$. If $w_{SO(3)}(g)=n$, then the shift of the action becomes }
 \begin{align}
     \textcolor{red}{S_{\text{CS}} \rightarrow S_{\text{CS}}+ 4\pi^2 \kappa n.}
 \end{align}
 
 \textcolor{red}{Setting $\kappa = \frac{k}{4 \pi}$ leads us to a quanti\textcolor{red}{s}ation condition which requires an \textit{even} Chern-Simons level $k \in 2\mathbb{Z}$ in the case of an $SO(3)$ gauge group.}
 
-\textcolor{red}{Next, we comment on the quanti\textcolor{red}{s}ation of the Chern-Simons level in the case of a compact abelian gauge group. The same argument, where we compactify $\mathbb{R}^3 \rightarrow S^{3}$ and then perform gauge transformations with a non-trivial winding number, no longer applies for an abelian group, since $\pi_1(S^3)$ is trivial. In fact, the level for an abelian CS theory is not \textit{in general} quanti\textcolor{red}{s}ed \cite{Polychronakos:1990xq}. We can, however, derive a quanti\textcolor{red}{s}ation condition with a small set of additional assumptions.}
-
-\textcolor{red}{Those two assumptions are}
+\textcolor{red}{Next, we comment on the quanti\textcolor{red}{s}ation of the Chern-Simons level in the case of a compact abelian gauge group. The same argument, where we compactify $\mathbb{R}^3 \rightarrow S^{3}$ and then perform gauge transformations with a non-trivial winding number, no longer applies for an abelian group, since $\pi_1(S^3)$ is trivial. In fact, the level for an abelian CS theory is not \textit{in general} quanti\textcolor{red}{s}ed \cite{Polychronakos:1990xq}. We can, however, derive a quanti\textcolor{red}{s}ation condition with a small set of additional assumptions, more specifically these are}
 \textcolor{red}{
     \begin{itemize}
         \setlength\itemsep{1em}
         \item[$\circ$] Finite Temperature $T$.}\\
             \vspace{0.01em}
-            \textcolor{red}{Studying a Quantum Field Theory at finite temperature is equivalent to Wick rotating into Euclidean space and compactifying the time direction to an $S^1$. This leads to a space-time of the form $S^1 \times M$, where $M$ is a 2-dimensional manifold.
+            \textcolor{red}{Studying a Quantum Field Theory at finite temperature is equivalent to performing a Wick rotation into Euclidean space and compactifying the time direction to an $S^1$. This leads to a space-time of the form $S^1 \times M$, where $M$ is a two dimensional manifold.
         \item[$\circ$] Consistency of the theory in the presence of a magnetic monopole.}\\
             \vspace{0.01em}
-            \textcolor{red}{As we have already touched upon in the Introduction, in 1931, \textit{Paul Dirac} considered the possibility of the existence of a magnetic monopole \cite{Dirac:1931kp}. This is contrary to the statement of Gauss's law for magnetism, which states that magnetic monopoles cannot exist (since for such a configuration we would have $\nabla \cdot B \neq 0$). Dirac's construction required the existence of a singularity associated with it. Later on, in 1975, \textit{Wu \& Yang} \cite{Wu:1975es, Wu:1976ge}  resolved the mystery of the Dirac string by showing how gauge fields are connected to the mathematical concept of \textit{fiber bundles}, thus showing that a proper definition of the vector potential of a monopole, should be defined in patches, which are related by gauge transformations on the intersections. Here we will consider the monopole on a sphere $S^2$. The presence of a monopole implies that
+            \textcolor{red}{As we have already touched upon in the Introduction, in 1931, \textit{Paul Dirac} considered the possibility of the existence of a magnetic monopole \cite{Dirac:1931kp}. This consideration is contrary to the statement of Gauss's law for magnetism, which states that magnetic monopoles cannot exist (since for such a configuration we would have $\nabla \cdot B \neq 0$). Dirac's construction required the existence of a singularity associated with itself. Later on, in 1975, \textit{Wu \& Yang} \cite{Wu:1975es, Wu:1976ge}  resolved the mystery of the Dirac string by showing how gauge fields are connected to the mathematical concept of \textit{fibre bundles}, thus showing that a proper definition of the vector potential of a monopole should be defined in patches, which are related by gauge transformations on the intersections. Here we will consider the monopole on a sphere $S^2$. The presence of a monopole implies that
     \end{itemize}}
 \begin{align}
     \textcolor{red}{\frac{1}{2\pi} \int_{S^2} F_{12} = 1.} \label{monopole_flux}
 \end{align}
-    \textcolor{red}{With this setup, we can now perform a large gauge transformation along the time manifold $S^1$, and study its effect on the Chern-Simons action. However, this would lead us to a result that is incorrect. The reason for this is that our definition of the Chern-Simons action is ambiguous for a non-trivial fiber bundle (read for a gauge field that is not globally defined). The correct way of approaching this problem is by defining the $U(1)$ Chern-Simons action as the boundary term of a 4-dimensional action \cite{Dijkgraaf:1989pz}}
+    \textcolor{red}{With this setup, we can now perform a large gauge transformation along the time manifold $S^1$, and study its effect on the Chern-Simons action. However, this would lead us to a result that is incorrect. The reason for this is that our definition of the Chern-Simons action is ambiguous for a non-trivial fibre bundle (read for a gauge field that is not globally defined). The correct way of approaching this problem is by defining the $U(1)$ Chern-Simons action as the boundary term of a 4-dimensional action \cite{Dijkgraaf:1989pz}}
 
 \begin{align}
     \textcolor{red}{S=\frac{k}{4 \pi} \int_{B} F\wedge F,}
 \end{align}
- \textcolor{red}{ Where $B$ is a four manifold that bounds $S^1 \times S^2$. Here we shall take $B= D\times S^2$, where $D$ is the disk with boundary $S^1$. We know that the size of the $S^1$ is $\beta= \frac{1}{T}$, as dictated by thermodynamics. This implies that the radius of the disk is $R_D=\frac{\beta}{2\pi}$. Since the total space-time is a direct product, we can write the field strength as a sum of contributions to the separate parts of the manifold} 
+ \textcolor{red}{where $B$ is a four manifold that bounds $S^1 \times S^2$. Here we shall take $B= D\times S^2$, where $D$ is the disk with boundary $S^1$. We know that the size of the $S^1$ is $\beta= \frac{1}{T}$, as dictated by thermodynamics. This implies that the radius of the disk is $R_D=\frac{\beta}{2\pi}$. Since the total space-time is a direct product, we can write the field strength as a sum of contributions to the separate parts of the manifold} 
 \begin{align}
     \textcolor{red}{F= F_D +F_{S^2}.}
 \end{align}
- \textcolor{red}{Since the wedge product of 2-forms commute, we have }
+ \textcolor{red}{Since the wedge product of 2-forms commutes, we have }
 \begin{align}
     \textcolor{red}{   S = \frac{k}{4\pi}\int_B F\wedge F = \frac{k}{2\pi} \int_B F_{D} \wedge F_{S^2}.}
 \end{align}
@@ -177,27 +175,27 @@ This above passage illustrates the essence of large gauge transformations in the
 \begin{align}
     \textcolor{red}{\delta S \in 2\pi \mathbb{Z} \implies k\in \mathbb{Z}.}
 \end{align}
-\textcolor{red}{We remark that if the local definition of the Chern-Simons action had been used in this derivation, we would be off by a factor of 2, which would mean the level would be quanti\textcolor{red}{s}ed to only even integers, leading to incorrect physical predictions. Finally, it \textcolor{red}{is} important to note that even though the arguments above are classical in nature, there is a result that guarantees the non-renormali\textcolor{red}{s}ability of the Chern-Simons level beyond 1-loop. This is known as the \textit{Coleman-Hill theorem} \cite{Coleman:1985zi, Khare:1994yv}  }
+\textcolor{red}{We remark that if the local definition of the Chern-Simons action had been used in this derivation, we would be off by a factor of 2, which would mean that the level would be quanti\textcolor{red}{s}ed to only even integers, leading to incorrect physical predictions. Finally, it is important to note that even though the arguments above are classical in nature, there is a result that guarantees the absence of radiative corrections of the Chern-Simons level beyond 1-loop. This is known as the \textit{Coleman-Hill theorem} \cite{Coleman:1985zi, Khare:1994yv}.  }
  \textcolor{red}{\subsubsection*{Equations of Motion}}
     Let us look at some physical properties that the action functional $S_{\text{CS}} = \int d^3x \, \mathcal{L}_{\text{CS}}$ possesses. Performing the functional variation, we get the equation of motion $F_{\mu \nu}=0$, implying only pure gauge solutions exist. This might make one wonder, what could possibly be so interesting about CS theory if the classical equations of motion are trivial!?
     The reason that this theory is in fact interesting and non-trivial, despite the fact that $F=0$, is two-fold. Firstly, CS is a topological field theory. It has trivial local properties. All of the physics is encoded in the topology of the manifold and in the non-local observables such as Wilson loops that require us to study the full quantum theory.
 
-    The second way in which CS is interesting teaches us the old lesson that sometimes the whole is greater than the sum of its parts. In this case, adding matter or a Maxwell term to the Lagrangian alters the pure Maxwell/matter theories immensely. Let us see how these alterations play out.
+    \textcolor{red}{Secondly,} CS teaches us the old lesson that sometimes the whole is greater than the sum of its parts. In this case, adding matter or a Maxwell term to the Lagrangian alters the pure Maxwell/matter theories immensely. Let us see how these alterations play out.
 
     \subsection{Chern-Simons-Maxwell \textcolor{red}{t}heory}
     Here we consider the familiar Maxwell theory deformed by a Chern-Simons term
     \begin{align}
         \textcolor{red}{S}_{\text{MCS}} &= \int d^3x \ \left[ \frac{-1}{4 g^2} F_{\mu \nu} F^{\mu \nu} + \frac{k}{4 \pi} \epsilon^{\mu \nu \rho} A_{\mu} \partial_{\nu} A_{\rho} \right].
     \end{align}
-    This leads to the equations of motion
+    This leads to the equation\colorbox{red}{ } of motion
     \begin{align}
         \partial_{\mu} F^{\mu \nu} + \frac{k}{4\pi} g^2 \epsilon^{\nu \alpha \beta}F_{\alpha \beta} =0.
     \end{align}
-    If we rewrite this equation in terms of the dual field strength $\tilde{F}_{\mu} = \frac{1}{2} \epsilon_{\mu\nu\rho} F^{\nu\rho}$ by contracting with an $\epsilon$ tensor density, followed by a $\partial$ contraction, using the equations of motion again and noting that $\partial_{\mu} \tilde{F}^{\mu} =0$ (3d Bianchi identity), we arrive at 
+    If we rewrite this equation in terms of the dual field strength $\tilde{F}_{\mu} = \frac{1}{2} \epsilon_{\mu\nu\rho} F^{\nu\rho}$ by contracting with an $\epsilon$ tensor density, followed by a $\partial$ contraction, \textcolor{red}{and then} using the equations of motion again\textcolor{red}{,} and finally noting that $\partial_{\mu} \tilde{F}^{\mu} =0$ (\textit{Bianchi identity}), we arrive at 
     \begin{align}
         \left[\partial_{\mu} \partial^{\mu} + \left(\frac{k}{2 \pi} g^2 \right)^2 \right] \tilde{F}^{\nu}=0.
     \end{align}
-    Observing that $\tilde{F}^{\mu}$ is gauge-invariant, we deduce that these equations describe a propagating wave with mass $\left(\frac{k}{2 \pi} g^2 \right)$.
+    Observing that $\tilde{F}^{\mu}$ is gauge-invariant, we deduce that \textcolor{red}{this} equation\colorbox{red}{ } describe a propagating wave with mass $\left(\frac{k}{2 \pi} g^2 \right)$.
     Even though in this work we shall promptly be ignoring the Maxwell contribution to the planar physics, it is important to note that despite the fact that the gauge bosons are heavy, we still observe global effects. This provides us with a more general lesson about CS. Namely, that we can have significant long-ra\textcolor{red}{n}ge global effects, such as the anyonic phase change interaction, even in the case of a gapped phase (such as the Quantum Hall droplet).
     Next, we turn to the matter sector.
     \subsection{Chern-Simons Matter \textcolor{red}{t}heory}
@@ -212,7 +210,7 @@ This above passage illustrates the essence of large gauge transformations in the
     \begin{align}
         \frac{k}{4 \pi} \epsilon^{\mu \nu \rho} F^a_{\nu \rho} = J^{\mu}^a,
     \end{align}
-    where $a=1,...,dim(\mathfrak{G})$ and $F_{\mu \nu}^a = \partial_{\mu} A_{\nu}^a - \partial_{\nu} A_{\mu}^a + [A_{\mu}, A_{\nu}]^a$. Note that covariant current conservation is equivalent to the non-abelian Bianchi identity
+    where $a=1,...,dim(\mathfrak{G})$ and $F_{\mu \nu}^a = \partial_{\mu} A_{\nu}^a - \partial_{\nu} A_{\mu}^a + [A_{\mu}, A_{\nu}]^a$. Note that covariant current conservation is equivalent to the \textit{non-abelian Bianchi identity}
     \begin{align}
         D_{\mu} J^{\mu}^a = \frac{k}{4 \pi} \epsilon^{\mu \nu \rho} D_{\mu} F^{\nu \rho}^a = 0,
     \end{align}
@@ -238,10 +236,10 @@ This above passage illustrates the essence of large gauge transformations in the
 \begin{figure}[htb]
 	\centering
 		\includegraphics[scale=0.17]{Background_Folder/figures/Flux_Attachment_3.pdf}
-    \caption[This figure depicts magnetic flux attachment.]{A collection of locali\textcolor{red}{s}ed charge distributions, and with magnetic flux lines of strength $\frac{\textcolor{red}{2} \pi \rho(x,y)}{k}$ tied to the charges. Here the charge density distribution is denoted by $\rho(x,y)$ and the magnetic field strength is denoted by $B(x,y)$. Darker shades of cyan depict a larger charge density and larger red vectors are associated with a stronger magnetic field perpendicular to the plane.  The charge and flux are tied together throughout the motion of the particles as a result of the Chern-Simons equations \eqref{eq:source_abel_charge} - \eqref{eq:source_abel_current}.} \label{fig:flux_attachment}
+    \caption[This figure depicts magnetic flux attachment.]{A collection of locali\textcolor{red}{s}ed charge distributions, \colorbox{red}{ } with magnetic flux lines of strength $\frac{\textcolor{red}{2} \pi \rho(x,y)}{k}$ tied to the charges. Here the charge density distribution is denoted by $\rho(x,y)$ and the magnetic field strength is denoted by $B(x,y)$. Dark\colorbox{red}{ } shades of cyan depict a large\colorbox{red}{ } charge density and large\colorbox{red}{ } red vectors are associated with a strong\colorbox{red}{ } magnetic field perpendicular to the plane.  The charge and flux are tied together throughout the motion of the particles as a result of the Chern-Simons equations \eqref{eq:source_abel_charge} - \eqref{eq:source_abel_current}.} \label{fig:flux_attachment}
 \end{figure}
 
-The final aspect of Chern-Simons theory that we will use is the fact that it is a \textit{topological} field theory (TQFT). This means that the theory is independent of the metric. This consequently implies that the CS term does not contribute to the energy-momentum tensor, since
+The final aspect of Chern-Simons theory that we will use is the fact that it is a \textit{topological} quantum field theory (TQFT) \textcolor{red}{of \textit{Schwarz type}}. This means that the theory is independent of the metric. This consequently implies that the CS term does not contribute to the energy-momentum tensor, since
 \begin{align}
     T^{\mu \nu} = \frac{-2}{ \sqrt{-g}} \frac{\delta S_{\text{CS}}}{ \delta g_{\mu\nu}} =0.
 \end{align}
@@ -257,14 +255,14 @@ This concludes our review of CS theory. We now move on to a refresher of statist
 
         \section{Statistical Physics}
 
-        Here we motivate the study of QFT as a gateway into understanding phenomena in many body physics. Physical phenomena at macro scale require micro scale explanations. The transition between a microscopic theory and its observable large scale properties is facillitated by the use of techniques in statistical mechanics. Here we review the connection between microscopic Lagrangian formulation and the statistical partition function through the formalism of the path integral. We follow through by accentuating the treatment of a chemical potential and the subtleties related to it. Before we go on, I note that this is the only part of this section that will be relevant to the calculations performed in this work. However, the rest of this section is meant to shine a light on why it is that we are interested in such an abstract problem.
+        Here we motivate the study of QFT as a gateway into understanding phenomena in many body physics. Physical phenomena at macro scale require micro scale explanations. The transition between a microscopic theory and its observable large scale properties is facillitated by the use of techniques \textcolor{red}{from} statistical mechanics. Here we review the connection between \textcolor{red}{the} microscopic Lagrangian formulation and the statistical partition function through the formalism of the path integral. We follow through by accentuating the treatment of a chemical potential and the subtleties related to it \textcolor{red}{in Subsection (\ref{GCE_sec})}. \textcolor{red}{We build up to this with standard statistical physics material in Subsection (\ref{Functional_Integral_sec})}.\colorbox{red}{ }
 
-        Upon completing this summary, we go through a short review of statistical mechanical paradigms, their successes and shortcomings. In particular, we will highlight how the Landau-Fermi liquid theory \cite{Landau:1956zuh} manages to do away with the complications arising from interactions and how succesful the Landau-Ginzburg symmetry breaking ideas have been in explaining large swathes of interesting phases of matter. 
+        %Upon completing this summary, we go through a short review of statistical mechanical paradigms, their successes and shortcomings. In particular, we will highlight how the Landau-Fermi liquid theory \cite{Landau:1956zuh} manages to do away with the complications arising from interactions and how succesful the Landau-Ginzburg symmetry breaking ideas have been in explaining large swathes of interesting phases of matter. 
 
-        Finally, the failures of these extremely successful ideas will lead us to strongly correlated and topological systems. Notably, we discuss one system that seems to reject treatment from both of the above approaches -- a system of strongly interacting electrons confined to 2 dimensions, namely, the physical setup in which we observe the Quantum Hall effect. As the reader might suspect, the planar confinement is what forces us into considering CS theory as a natural candidate to explain the exotic properties of this structure.
-        \subsection{Functional \textcolor{red}{i}ntegral \textcolor{red}{r}epresentation of the \textcolor{red}{p}artition \textcolor{red}{f}unction}
-        In this section we derive the functional integral representation of the partition function for interacting relativistic non-gauge field theories. Good reviews on the techniques we discuss here can be found in \cite{Laine:2016hma, 0486477223}.
-        Let $\hat{\phi}(\bm{x},0)$ be a Schr{\H o}dinger picture field operator at time $t=0$. We define its conjugate momentum operator to be $\hat{\pi}(\bm{x},0)$. The eigenstates of the field operator are labe\textcolor{red}{l}led $| \phi \rangle$ and satisfy
+        %Finally, the failures of these extremely successful ideas will lead us to strongly correlated and topological systems. Notably, we discuss one system that seems to reject treatment from both of the above approaches -- a system of strongly interacting electrons confined to 2 dimensions, namely, the physical setup in which we observe the \textcolor{red}{q}uantum Hall effect. As the reader might suspect, the planar confinement is what \textcolor{red}{prompts us to} consider\colorbox{red}{ } CS theory as a natural candidate to explain the exotic properties of this structure.
+        \subsection{Functional \textcolor{red}{i}ntegral \textcolor{red}{r}epresentation of the \textcolor{red}{p}artition \textcolor{red}{f}unction} \label{Functional_Integral_sec}
+        In this section we derive the functional integral representation of the partition function for interacting\textcolor{red}{,} relativistic\textcolor{red}{,} non-gauge field theories. Good reviews on the techniques we discuss here can be found \textcolor{red}{in \textit{Feynman \& Hibbs}'s classic work on the path integral formulation \cite{, 0486477223} and a set of excellent lecture notes on thermal field theory by \textit{Laine \& Vuorinen} \cite{Laine:2016hma}}.
+        Let $\hat{\phi}(\bm{x},0)$ be a Schr\textcolor{red}{ö}dinger picture field operator at time $t=0$. We define its conjugate momentum operator to be $\hat{\pi}(\bm{x},0)$. The eigenstates of the field operator are labe\textcolor{red}{l}led $| \phi \rangle$ and satisfy
         \begin{align}
             \hat{\phi}(\bm{x},0) | \phi \rangle = \phi(\bm{x}) | \phi \rangle,
         \end{align}
@@ -283,20 +281,18 @@ This concludes our review of CS theory. We now move on to a refresher of statist
         \begin{align}
             H = \int d^2x \, \mathcal{H}(\hat{\phi}, \hat{\pi}).
         \end{align}
-        Assume that a system is in a state $| \phi_a \rangle$ at time $t=0$. After a time $t_f$ it evolves to $e^{-i H t_f} | \phi_a \rangle$, assuming that the Hamiltonian has no explicit time dependence. The transition amplitude for going from state $| \phi_a \rangle$ to state $| \phi_b \rangle$ after a time $t_f$ is $\langle \phi_b | e^{-i H t_f} | \phi_a \rangle$. In order to study a system at thermodynamic equilibrium, we will be interested in the amplitude for the system returning to the same state after a time $t_f$. To be able to compute this amplitude, we divide the time interval $(0, t_f)$ into $N$ equal time steps $\Delta t = \frac{t_f}{N}$. Then at each time interval, we insert a complete set of states, alternating between field operators and their conjugate momenta
-
-
+        Assume that a system is in a state $| \phi_a \rangle$ at time $t=0$. After a time $t_f$ it evolves to $e^{-i H t_f} | \phi_a \rangle$, assuming that the Hamiltonian has no explicit time dependence. The transition amplitude for going from state $| \phi_a \rangle$ to state $| \phi_b \rangle$ after a time $t_f$ is $\langle \phi_b | e^{-i H t_f} | \phi_a \rangle$. In order to study a system at thermodynamic equilibrium, we \textcolor{red}{are} interested in the amplitude for the system returning to the same state after a time $t_f$. To be able to compute this amplitude, we divide the time interval $(0, t_f)$ into \textcolor{red}{$\ell$} equal time steps $\Delta t = \frac{t_f}{\textcolor{red}{\ell}}$. Then at each time interval, we insert a complete set of states, alternating between field operators and their conjugate momenta
         \begin{align}
-            \langle \phi_a| e^{- i H t_f} | \phi_a \rangle &= \lim_{N\rightarrow \infty} \int \left( \prod_{i=1}^{N} \frac{d\pi_i d\phi_i}{2\pi} \right) \nonumber \\
-            &\times \langle \phi_a | \pi_N \rangle \langle \pi_N|  e^{-i H \Delta t}| \phi_N \rangle \langle \phi_N | \pi_{N-1} \rangle \nonumber \\
-            &\times \langle \pi_{N-1} | e^{-i H \Delta t} | \phi_{N-1} \rangle \dots \nonumber \\
+            \langle \phi_a| e^{- i H t_f} | \phi_a \rangle &= \lim_{\textcolor{red}{\ell}\rightarrow \infty} \int \left( \prod_{i=1}^{\textcolor{red}{\ell}} \frac{d\pi_i d\phi_i}{2\pi} \right) \nonumber \\
+            &\times \langle \phi_a | \pi_{\textcolor{red}{\ell}} \rangle \langle \pi_{\textcolor{red}{\ell}}|  e^{-i H \Delta t}| \phi_{\textcolor{red}{\ell}} \rangle \langle \phi_{\textcolor{red}{\ell}} | \pi_{\textcolor{red}{\ell}-1} \rangle \nonumber \\
+            &\times \langle \pi_{\textcolor{red}{\ell}-1} | e^{-i H \Delta t} | \phi_{\textcolor{red}{\ell}-1} \rangle \dots \nonumber \\
             &\times \langle \phi_2 | \pi_1 \rangle \langle \pi_1 | e^{-i H \Delta t} | \phi_1 \rangle \langle \phi_1 |\phi_a \rangle.
         \end{align}
-        In order to evaluate this expression, we need to do several things. First of all, from single particle QM, we know that 
+        In order to evaluate this expression, we need to do several things. First of all, from single particle \textcolor{red}{quantum mechanics}, we know that 
         \begin{align}
             \langle x | p \rangle = e^{i p \cdot x}.
         \end{align}
-        So an appropriate generali\textcolor{red}{s}ation for this inner product to field operators is 
+        So an appropriate generali\textcolor{red}{s}ation \textcolor{red}{of} this inner product \textcolor{red}{from phase space coordinates} to field operators is 
         \begin{align}
             \langle \phi_{i+1}| \pi_i \rangle = \exp \left(i \int d^2 x \ \pi_i(\bm{x}) \phi_{i+1}(\bm{x}) \right).
         \end{align}
@@ -312,21 +308,21 @@ This concludes our review of CS theory. We now move on to a refresher of statist
         \end{align}
         In the end we arrive at 
         \begin{align}
-            \langle \phi_a | e^{-i H t_f} | \phi_a \rangle &= \lim_{N\rightarrow \infty} \int \left( \prod_{i=1}^N \frac{d \pi_i d\phi_i}{2\pi} \right) \delta \left(\phi_1 -\phi_a \right) \nonumber \\
-            &\times \exp \left(i \Delta t \sum_{j=1}^{N} \int d^2x \left[\frac{\pi_j (\phi_{j+1} -\phi_j)}{\Delta t} - \mathcal{H}(\pi_j, \phi_j) \right] \right).
+            \langle \phi_a | e^{-i H t_f} | \phi_a \rangle &= \lim_{\textcolor{red}{\ell}\rightarrow \infty} \int \left( \prod_{i=1}^{\textcolor{red}{\ell}} \frac{d \pi_i d\phi_i}{2\pi} \right) \delta \left(\phi_1 -\phi_a \right) \nonumber \\
+            &\times \exp \left(i \Delta t \sum_{j=1}^{\textcolor{red}{\ell}} \int d^2x \left[\frac{\pi_j (\phi_{j+1} -\phi_j)}{\Delta t} - \mathcal{H}(\pi_j, \phi_j) \right] \right).
         \end{align}
-        And taking the continuum limit we arrive at the path integral representation of the partition function
+       \colorbox{red}{ } Taking the continuum limit we arrive at the path integral representation of the partition function
         \begin{align}
             &\langle \phi_a | e^{-i H t_f} | \phi_a \rangle = \int \mathcal{D} \pi \int_{\phi(\bm{x},0) =\phi_a(\bm{x})}^{\phi(\bm{x}, t_f) = \phi_a(\bm{x})} \mathcal{D} \phi \nonumber \\
             &\times \exp \left[i \int_0^{t_f} dt \int d^2 x \left( \pi(\bm{x} ,t) \frac{\partial\phi(\bm{x}, t)}{ \partial t} - \mathcal{H}\left(\phi(\bm{x},t), \pi(\bm{x},t)\right) \right) \right] \label{eq:path_integral_amplitude}.
         \end{align}
         For a Hamiltonian that is quadratic in the canonical momenta, we can just complete the square, integrate out the momenta and arrive at the usual expression for a transition amplitude in terms of a path integral over $e^{i S}$. Since our purpose here is to illuminate the connection between the statistical partition function and the path integral, we shall perform a few more manipulations. 
         \subsection{Grand \textcolor{red}{c}anonical \textcolor{red}{e}nsemble} \label{GCE_sec}
-        First, we note that the grand canonical partition function is defined as follows
+        \textcolor{red}{With the background of the previous section in place, we are now prepared to tackle the study of the grand canonical partition function in the path integral formalism.} First, we note that the grand canonical partition function is defined as follows
         \begin{align}
-            Z= \textcolor{red}{\mathrm{Tr}} \left[e^{-\beta \left( H - \mu N \right)}\right],
+            Z= \textcolor{red}{\mathrm{Tr}} \left[e^{-\beta \left( H - \mu N \right)}\right], \label{GCPF_eq}
         \end{align}
-        where $\beta = \frac{1}{k_b T}$ and is the inverse temperature and $\mu$ is the \textit{chemical potential}, and $N$ is a particle number. In a QFT this particle number will be associated with a conserved charge that is discreti\textcolor{red}{s}ed, which is the reason why it is associated to particle number. We can express the trace in the $\phi$ basis
+        where $\beta = \frac{1}{k_{\textcolor{red}{B}} T}$ \colorbox{red}{ } is the inverse temperature\textcolor{red}{,} $\mu$ is the \textit{chemical potential}, and $N$ is \textcolor{red}{the} particle number. \textcolor{red}{To see that $N$ denotes particle number, we note that in a QFT, $N$ will be associated with a conserved charge. Hence $N$ counts the charge in the system, which, for particles with discrete charge, translates directly to counting the number of particles.} We can express the trace in \textcolor{red}{(\ref{GCPF_eq}) in} the $\phi$ basis
         \begin{align}
             Z= \int d \phi_a \langle \phi_a | e^{-\beta \left( H - \mu N \right)} | \phi_a \rangle.
         \end{align}
@@ -338,13 +334,13 @@ This concludes our review of CS theory. We now move on to a refresher of statist
         \begin{align}
             Z &= \int \mathcal{D} \pi \int_{\text{periodic}} \mathcal{D} \phi \exp \left[ \int_0^{\beta} \int d^2x \left(\pi \frac{\partial \phi}{\partial t} - \mathcal{H}(\pi, \phi) + \mu \mathcal{N}(\pi, \phi) \right) \right] \label{eq:partition_function}.
         \end{align}
-This is the path integral representation of the partition function of the grand canonical ensemble of a single real scalar field. This expression is readily generalizable to more fields by integrating over the extra fields and their respective conjugate momenta.
+This is the path integral representation of the partition function of the grand canonical ensemble of a single real scalar field. This expression is readily generali\textcolor{red}{s}able to more fields by integrating over the extra fields and their respective conjugate momenta.
 
-Here we shall make a few observations that will come in use frequently for the rest of this work. For the purposes of presentation, we will elaborate on these points in the context of a somewhat simpler model. This should not alarm the reader, because the properties we are discussing are more general and model independent. With this in mind, we consider the Lagrangian description of a complex relativistic scalar in $2+1d$ with a potential $U(\phi)$
+Here we shall make a few observations that will come in use frequently for the rest of this \textcolor{red}{thesis}. For the purposes of presentation, we will elaborate on these points in the context of a somewhat simpler model. This should not alarm the reader, because the properties we are discussing are \colorbox{red}{ } general and model independent. With this in mind, we consider the Lagrangian description of a complex relativistic scalar in $2+1$ \textcolor{red}{dimensions} with a potential $U(\phi)$
         \begin{align}
             \mathcal{L} = \left(\partial_{\mu}\phi^{*} \partial^{\mu} \phi  - U\big(|\phi|\big)\right).
         \end{align}
-        This system possesses a global symmetry
+        This system possesses a global symmetry 
         \begin{align}
             \phi \rightarrow e^{i \alpha} \phi, \qquad\qquad \phi^* \rightarrow e^{-i \alpha} \phi^*.
         \end{align}
@@ -355,7 +351,7 @@ Here we shall make a few observations that will come in use frequently for the r
         where $\pi = \frac{\delta \mathcal{L}}{\delta ( \partial_0 \phi)}$ is the canonical momentum. Based on the assumption of identical particles with discrete charges, we postulate that $J_0 = \mathcal{N}$. Next, we perform the momentum integrals in \eqref{eq:partition_function}. Since now we have a complex field, we have to integrate over all of $\phi$, $\phi^{\dag}$, $\pi$ and $\pi^{\dag}$
         \begin{align}
             Z &= \int \mathcal{D} \pi \mathcal{D} \pi^{\dag} \int_{\text{periodic}} \mathcal{D} \phi \mathcal{D} \phi^{\dag} \nonumber \\
-            &\times \exp \left[ \int_0^{\beta} \int d^2x \left(\pi \frac{\partial \phi}{\partial t} +\pi^{\dag} \frac{\partial \phi^{\dag}}{\partial t} - \mathcal{H}(\pi, \pi^{\dag}, \phi, \phi^{\dag}) - i  \mu \left(\pi \phi - \pi^{\dag}\phi^{\dag} \right) \right] \label{eq:partition_function_complex_scalar} \nonumber \\
+            &\times \exp \left[ \int_0^{\beta} \int d^2x \left(\pi \frac{\partial \phi}{\partial t} +\pi^{\dag} \frac{\partial \phi^{\dag}}{\partial t} - \mathcal{H}\left(\pi, \pi^{\dag}, \phi, \phi^{\dag}\right) - i  \mu \left(\pi \phi - \pi^{\dag}\phi^{\dag} \right) \right) \right] \label{eq:partition_function_complex_scalar} \nonumber \\
             &= \int \mathcal{D} \pi \mathcal{D} \pi^{\dag} \int_{\text{periodic}} \mathcal{D} \phi \mathcal{D} \phi^{\dag} \nonumber \\
             &\times \exp \left[ \int_0^{\beta} \int d^2x \left(\pi \left( \frac{\partial \phi}{\partial t} -i \mu \phi \right) +\pi^{\dag} \left( \frac{\partial \phi^{\dag}}{\partial t} +i \mu \phi^{\dag} \right) - \mathcal{H}(\pi, \pi^{\dag}, \phi, \phi^{\dag}) \right) \right]. \label{eq:partition_function_complex_scalar}
         \end{align}
@@ -363,13 +359,13 @@ Here we shall make a few observations that will come in use frequently for the r
         \begin{align}
             Z= \int_{\text{periodic}} \mathcal{D}\phi \mathcal{D}\phi^{\dag} \exp \left[\int_0^{\tau} d\tau \int d^2x \mathcal{L'} \right],
         \end{align}
-        where $\mathcal{L'}$ is the same as $\mathcal{L}$ except for the time derivatives acting on $\phi$ now act as covariant derivatives in the presence of a constant background gauge field $A_0=\mu$, \ie
+        where $\mathcal{L'}$ is the same as $\mathcal{L}$ except \textcolor{red}{that} the time derivatives acting on $\phi$ \textcolor{red}{instead} act as covariant derivatives in the presence of a constant background gauge field $A_0=\mu$, \ie
         \begin{align}
             \partial_0 \rightarrow \partial_0 -i \mu. \label{eq:chemical_potential_gauge_field}
         \end{align}
         This is a general result that we will be making use of numerous times.
-        \subsubsection{Chemical \textcolor{red}{p}otential for a \textcolor{red}{l}ocal \textcolor{red}{s}ymmetry}
-        Now, let us see how this situation changes when we try to introduce a chemical potential for a gauged symmetry. First, we modify the Lagrangian $\mathcal{L}$ by gauging the $U(1)$ and adding a Maxwell term $-\frac{1}{4 g^2} F_{\mu \nu} F^{\mu \nu}$. For simplicity, let us assume that the potential has the monomial super-renormali\textcolor{red}{s}able form
+        \subsubsection*{Chemical \textcolor{red}{p}otential for a \textcolor{red}{l}ocal \textcolor{red}{s}ymmetry}
+        Now, let us see how \textcolor{red}{the grand canonical partition function} changes when we try to introduce a chemical potential for a gauged symmetry. First, we modify the Lagrangian $\mathcal{L}$ by gauging the $U(1)$ and adding a Maxwell term $-\frac{1}{4 g^2} F_{\mu \nu} F^{\mu \nu}$. For simplicity, let us assume that the potential has the monomial super-renormali\textcolor{red}{s}able form
         \begin{align}
             U\big(|\phi| \big) = \lambda |\phi|^4.
         \end{align}
@@ -391,15 +387,12 @@ Here we shall make a few observations that will come in use frequently for the r
             \sigma &= \sqrt{\frac{\mu^2}{2\lambda}}  \label{eq:chem_pot_local_symmetry_eom1}, \\
             \frac{1}{g^2} \partial_{\mu} F^{\mu 0} &= \mu \sigma^2. \label{eq:chem_pot_local_symmetry_eom2}
         \end{align}
-        The first equation tells us that the scalars have condensed to the ground state. The second equation states that we have a non-zero charge density in this ground state. On the one hand, this makes sense, since the charged scalars have condensed. On the other hand, this is contradictory, since we are studying a system at equilibrium. And a charged system cannot be in equilibrium by definition. In order to fix this problem, we introduce a background charge density, which guarantees that the system is neutral 
+        The first equation tells us that the scalars have condensed to the ground state. The second equation states that we have a non-zero charge density in this ground state. On the one hand, this makes sense, since the charged scalars have condensed. On the other hand, this is contradictory, since we are studying a system at equilibrium \textcolor{red}{a}nd a charged system cannot be in equilibrium by definition. In order to fix this problem, we introduce a background charge density, which guarantees that the system is neutral 
         \begin{align}
             \mathcal{L}' \rightarrow \mathcal{L}' - A_0 J_0,
         \end{align}
-        where $J_0 = \frac{\mu^3}{2\lambda}$.
-
-        %\subsection{Physical Applications}\label{phys_app_sec}
-        %\subsubsection{Landau-Fermi Liquid Theory} \label{Fermi_Liquid_sec}
-        The statistical description of weakly interacting particles, for example, in a fluid can be thought of as the same as that of a free gas of non-interacting quasiparticles that are in one to one correspondence with the original interacting excitations of the material. We find that in order to explain some of the surprising feature of the charge carriers in a QH system, we need to go beyond the weakly interacting description of a Landau-Fermi liquid.
+        where $J_0 = \frac{\mu^3}{2\lambda}$.\\
+        \indent The statistical description of weakly interacting particles, for example\colorbox{red}{ } in a fluid\textcolor{red}{,} can be thought of as the same as that of a free gas of non-interacting quasiparticles that are in one to one correspondence with the original interacting excitations of the material \textcolor{red}{\cite{Landau:1956zuh}}. We find that in order to explain some of the surprising feature\textcolor{red}{s} of the charge carriers in a \textcolor{red}{quantum Hall} system, we need to go beyond the weakly interacting description of a Landau-Fermi liquid.
         %\subsubsection{Landau-Ginzburg Paradigm} \label{Landau-Ginzburg_sec}
         %\textcolor{red}{***More to add***} \\
         %- Introductory part talk about the problem of scales, how mean field theory tackles the problems well away from the critical temperature, but at the critical point, all scales need to be taken into account. We are left with a LG functional that no longer contains information about the microscopic system -- we find a universal effective theory describing said phenomenon.
@@ -409,22 +402,22 @@ Here we shall make a few observations that will come in use frequently for the r
         %- Read's improvement \cite{Read1989}\\
         %- The Zhang, Hansson, Kivelson microscopic Hamiltonian improvement \cite{PhysRevLett.62.82}
         \section{Fractional Quantum Hall Effect} \label{FQHE_sec}
-        Here we discuss what is perhaps the most applied aspect of TQFT in the real\textcolor{red}{-}world. But before we get to the point of discussing the highly non-trivial physics of the various types of \textcolor{red}{q}uantum Hall \textcolor{red}{e}ffects, we take a moment to review the classical picture.
+        Here we discuss what is perhaps the most applied aspect of TQFT in the real world. But before we get to the point of discussing the highly non-trivial physics of the various types of \textcolor{red}{q}uantum Hall \textcolor{red}{e}ffects, we take a moment to review the classical picture.
         \subsection{Classical Hall \textcolor{red}{e}ffect}
-        In the year 1879, \textit{Edwin Hall} \cite{Hall1879} set up an experiment consisting of a conductor plate with two electrodes attached at either end of it, generating a current, and a magnetic field penetrating the surface of the conductor perpendicularly. He found that he could measure a non-zero potential across the conductor, orthogonal to the plane defined by the driving current and the magnetic field. The generation of this potential difference has since been known as the \textit{Hall effect}. Despite this being an exciting discovery at the time, from our modern perspective this is all accounted by basic knowledge of conductors and classical electrodynamics. In the presence of a magnetic field, the charge carriers, which are responsible for the current in the conductor, get deflected in a direction orthogonal to their motion due to the Lorentz force
+        In the year 1879, \textit{Edwin Hall} \cite{Hall1879} set up an experiment consisting of a conductor plate with two electrodes attached at \textcolor{red}{opposite} end\textcolor{red}{s} of \textcolor{red}{the plate} \colorbox{red}{ } and a magnetic field \textcolor{red}{perpendicularly} penetrating the surface of the conductor \colorbox{red}{ }. He found that he could measure a non-zero potential across the conductor, orthogonal to the plane defined by the driving current and the magnetic field. The generation of this potential difference has since been known as the \textit{Hall effect}. Despite this being an exciting discovery at the time, from our modern perspective\textcolor{red}{,} this \textcolor{red}{can} all \textcolor{red}{be explained through} basic knowledge of conductors and classical electrodynamics. In the presence of a magnetic field, the charge carriers, which are responsible for the current in the conductor, get deflected in a direction orthogonal to their motion due to the Lorentz force
         \begin{align}
             F = q(\bm{E} + \bm{v}\times \bm{B}),
         \end{align}
-        where $q$ is the charge of the electrons, $\bm{E}$ is the electric field due to the potential difference in the electrodes, $\bm{v}$ is the velocity of the charge carriers and $\bm{B}$ is the magnetic field in the material. If we were to account for the possible collisions that may occur within a sample of the conductor, which will cause the charge carriers (in this case electrons) to slow down, we shall arrive at a slightly modified equation to the Lorentz law from above
+        where $q$ is the charge of the electrons, $\bm{E}$ is the electric field due to the potential difference in the electrodes, $\bm{v}$ is the velocity of the charge carriers and $\bm{B}$ is the magnetic field in the material. If we \colorbox{red}{ } account for the possible collisions that may occur within a sample of the conductor, which \colorbox{red}{ } cause the charge carriers (in this case electrons) to slow down, we \colorbox{red}{ } arrive at a slightly modified equation to the Lorentz law from above
         \begin{align}
             m \dot{\bm{v}} = q \bm{E}+q \bm{v}\times \bm{B} - \frac{1}{\tau} m \bm{v}, \label{eq:Drude_Model_Background}
         \end{align}
-        where $\tau$ is the \textit{scattering time} -- it accounts for how frequently the electrons scatter, hence a large scattering time makes the term disappear completely. This description of the charge carriers in a material, subject to both electric and magnetic field, in the presence of impurities, is called the \textit{Drude model}, named after the German physicist \textit{Paul Drude}, who first proposed it \cite{Drude1900a, Drude1900b}. Before we look at the general solution of this model, we make several remarks about certain limiting cases.\\
-        \indent First, assume that there are no collisions (\textit{i.e.} the collision time diverges $\tau \rightarrow\infty$) and that there is no electric field. Then the system simplifies to
+        where $\tau$ is the \textit{scattering time}\textcolor{red}{. It} accounts for how frequently the electrons scatter, hence a large scattering time makes the \textcolor{red}{last} term \textcolor{red}{in (\ref{eq:Drude_Model_Background})} disappear completely. This description of the charge carriers in a material, subject to both electric and magnetic field\textcolor{red}{s}\colorbox{red}{ } in the presence of impurities, is called the \textit{Drude model}, named after the German physicist \textit{Paul Drude}\colorbox{red}{ }  who first proposed it \cite{Drude1900a, Drude1900b}. Before we look at the general solution of this model, we make several remarks about certain limiting cases.\\
+        \indent First, assume that there are no collisions (\textit{i.e.} the collision time diverges\textcolor{red}{,} $\tau \rightarrow\infty$) and that there is no electric field. Then the system simplifies to
         \begin{align}
             m\dot{\bm{v}} =q \bm{v}\times \bm{B}.
         \end{align}
-        For a particle confined to the plane the velocity vector is $\bm{v} = (\dot{x}, \dot{y})$, which leads to the system of two coupled linear ODEs
+        For a particle confined to the plane\textcolor{red}{,} the velocity vector is $\bm{v} = (\dot{x}, \dot{y})$, which leads to the system of two coupled linear \textcolor{red}{ordinary differential equations (}ODEs\textcolor{red}{)}
         \begin{align}
             m \ddot{x} = q B \dot{y}, \qquad m \ddot{y}= -q B \dot{x}.
         \end{align}
@@ -438,7 +431,7 @@ Here we shall make a few observations that will come in use frequently for the r
             \omega_B = \frac{q B}{m}
         \end{align}
         is the \textit{cyclotron frequency}.
-        We \textcolor{red}{see} that the solution in the absence of collisions and an electric potential is circular motion with a fixed magnetic field dependent frequency \textcolor{red}{$\omega_B$}.
+        We \textcolor{red}{see} that the solution in the absence of collisions and an electric potential \textcolor{red}{represents} circular motion with a fixed\textcolor{red}{,} magnetic field dependent frequency \textcolor{red}{$\omega_B$}.
 
         Let us go back to the full Drude model. We would like to find out what the equilibrium of the system looks like. This implies that $\dot{v} =0$. The equation of motion becomes 
         \begin{align}
@@ -479,34 +472,34 @@ Here we shall make a few observations that will come in use frequently for the r
          \end{align}
          where $\rho_{xx} =\rho_{yy}$ and $\rho_{xy} = - \rho_{yx}$.
 
-         This equation tells us that in the presence of a constant magnetic field, the charge carriers experience two types of resistivity. One is the usual type of resistivity that you can expect from a conductor $\rho_{xx} = \frac{m}{q^2\tau}$ -- \textcolor{red}{i}t is independent of the magnetic field and as the scattering time increases, \textit{i.e.} the number of scattering events decreases, the resistivity decreases. The other type of resistivity is different. The off-diagonal component of the resistivity $\rho_{yx} = \frac{m \omega_B}{q^2}= \frac{B}{q}$ is independent of $\tau$. So somehow the resistivity in the direction orthogonal to that of the driving current does not depend on the impurities in the material. Another way in which $\rho_{yx}$ is different is that it depends on the magnetic field. Surprisingly, as $B\rightarrow 0$ so does $\rho_{yx} \rightarrow 0$. It would be incorrect to assume that the vanishing of $\rho_{xy}$ implies that we achieve superconductivity, since $\sigma_{xy}$ also vanishes so there is no current being generated perpendicular to the generating electric field.
+         This equation tells us that in the presence of a constant magnetic field, the charge carriers experience two types of resistivity. One is the usual type of resistivity\textcolor{red}{,} that you can expect from a conductor\textcolor{red}{,} $\rho_{xx} = \frac{m}{q^2\tau}$ -- \textcolor{red}{i}t is independent o\textcolor{red}{n} the magnetic field and as the scattering time increases, \textit{i.e.} the number of scattering events decreases, the resistivity decreases. The other type of resistivity is different. The off-diagonal component of the resistivity $\rho_{yx} = \frac{m \omega_B}{q^2}= \frac{B}{q}$ is independent of $\tau$. So somehow the resistivity in the direction orthogonal to that of the driving current does not depend on the impurities in the material. Another way in which $\rho_{yx}$ is different \textcolor{red}{from $\rho_{xx}$} is that it depends on the magnetic field. Surprisingly, as $B\rightarrow 0$ so does $\rho_{yx} \rightarrow 0$. It would be incorrect to assume that the vanishing of $\rho_{xy}$ implies that we achieve superconductivity, since $\sigma_{xy}$ also vanishes \textcolor{red}{and therefore} there is no current being generated perpendicular to the generating electric field.
 
         The Drude model is successful when compared to the classical experimental results obtained by Hall since it predicts correctly that the resistivity  $\rho_{xy}$ would grow linearly with the magnetic field $B$.
         \subsection{Quantum Hall \textcolor{red}{e}ffect}
-        Now that we have an understanding of the classical Hall effect we are ready to delve into the physics of the \textcolor{red}{q}uantum Hall effect. It \textcolor{red}{is} important to distinguish two different types of \textcolor{red}{q}uantum Hall effects, since they are qualitatively different, occur in different materials and seem to have fundamentally different physical explanations.
-        The first type is the \textit{integer quantum Hall effect (IQHE)}. In 1980, \textit{Klaus von Klitzing et. al.} \cite{vonKlitzing:1980pdk} performed the Hall experiment at ultralow temperatures with strong magnetic fields and found that the above relation between $\rho_{yx}$ and $B$ does not hold for large enough magnetic fields. They found that beyond a certain magnetic field strength, plateaux started appearing in the resistivity that could not be explained by the classical picture. Further, they found that in the plateaux, where $\rho_{yx}$ was constant, $\rho_{xx}$ was vanishing. The precise relation that he discovered was
+        Now that we have an understanding of the classical Hall effect\textcolor{red}{,} we are ready to delve into the physics of the \textcolor{red}{q}uantum Hall effect. It \textcolor{red}{is} important to distinguish two different types of \textcolor{red}{q}uantum Hall effects, since they are qualitatively different, occur in different materials and seem to have fundamentally different physical explanations.
+        The first type is the \textit{integer quantum Hall effect (IQHE)}. In 1980, \colorbox{red}{ } \textit{von Klitzing et al} \cite{vonKlitzing:1980pdk} performed the Hall experiment at ultralow temperatures with strong magnetic fields and found that the above relation between $\rho_{yx}$ and $B$ does not hold for large enough magnetic fields. They found that beyond a certain magnetic field strength, plateaux started appearing in the resistivity that could not be explained by the classical picture. Further, they found that in the plateaux, where $\rho_{yx}$ was constant, $\rho_{xx}$ was vanishing. The precise relation that \textcolor{red}{they} discovered was
         \begin{align}
             \rho_{yx} = \frac{2 \pi \hbar}{e^2} \frac{1}{\nu}, \qquad \nu \in \mathbb{Z}.
         \end{align}
         Thus the quantity $\frac{2 \pi \hbar}{e^2}$ is dubbed the \textit{quantum of resistivity}. The explanation of the \textcolor{red}{i}nteger \textcolor{red}{q}uantum Hall effect is based on the quantum mechanics of non-interacting particles confined to a plane. In the case of the fractional \textcolor{red}{q}uantum Hall effect (FQHE), where $\nu \in \mathbb{Q}$, we need to study a highly interacting system, which makes the FQHE a very interesting topic for theoretical physics.
 
- \textcolor{red}{\subsection{Landau levels and the integer quantum Hall effect.}}
+ \textcolor{red}{\subsection{Landau levels and the integer quantum Hall effect}}
 
-\textcolor{red}{Before we attempt to tackle the intricacies of the FQHE, we will have to first acquaint ourselves with the quantum mechanical analogue of the Drude model. Namely, we will be interested in the quantum mechanics of a charged particle, confined to a plane, subjected to a magnetic field perpendicular to that plane (For now we will consider the electric field to be vanishing). The physics of this system can be described by a harmonic oscillator. The energy states of this system are today referred to today as \textit{Landau levels}. The name comes from Landau's description of diamagnetism in metals through the quanti\textcolor{red}{s}ed orbits of free electrons in a metal \cite{Landau1930}. Historically, there have been others \cite{Rabi1928, Fock1928, FrenkelBronshtein1930}, who have either predated or have independently studied this system, but Landau's name ended up being attached to it, likely because none of the other works found the number of states or found a connection between the oscillations and the diamagnetism of metals \cite{shifman2013under}.}
+\textcolor{red}{Before we attempt to tackle the intricacies of the FQHE, we first acquaint ourselves with the quantum mechanical analogue of the Drude model. Namely, we will be interested in the quantum mechanics of a charged particle confined to a plane, subjected to a magnetic field perpendicular to the plane (for now we will consider the electric field to be vanishing). The physics of this system can be described by a harmonic oscillator. The energy states of this system are today referred to as \textit{Landau levels}. The name comes from Landau's description of diamagnetism in metals through the quanti\textcolor{red}{s}ed orbits of free electrons in metals \cite{Landau1930}. Historically, there have been others who have independently studied this system \cite{Rabi1928, Fock1928, FrenkelBronshtein1930}, but Landau's name ended up being attached to it.}
 
-\textcolor{red}{For the purpose of quantisation, we shall consider the particle in a magnetic field system in the Hamiltonian formulation. The general Hamiltonian for a particle at position $\bm{x}$ in a vector potential $\bm{A}$ is }
+\textcolor{red}{For the purpose of quantisation, we consider a system, consisting of a particle in a magnetic field using the Hamiltonian formulation. The general Hamiltonian for a particle at position $\bm{x}$ in a vector potential $\bm{A}(\bm{x})$ is }
 \begin{align}
-    H=\frac{1}{2m}\left(\bm{p} +e \bm{A} \right)^2.
+    \textcolor{red}{H=\frac{1}{2m}\left(\bm{p} +e \bm{A} \right)^2.}
 \end{align}
 
  \textcolor{red}{Here we take the special case of a vector potential such that $\nabla \times \bm{A} = B \hat{\bm{z}}$.}
 
-\textcolor{red}{In order to solve the quantum system, we follow canonical quanti\textcolor{red}{s}ation and we promote the position and momenta to operators}
+\textcolor{red}{In order to solve the quantum system, we perform the canonical quanti\textcolor{red}{s}ation procedure and we promote the positions and momenta to operators}
 \begin{align}
     \textcolor{red}{[\hat{x}_i, \hat{p}_j] = i \hbar \delta_{ij}, \qquad [\hat{x}_i, \hat{x}_j]=[\hat{p}_i, \hat{p}_j]=0.}
 \end{align}
 
-\textcolor{red}{Here we shall use \textit{Landau gauge}}
+\textcolor{red}{Here we use \textit{Landau gauge}}
 
 \begin{align}
     \textcolor{red}{\bm{A}=  x B\hat{y}.}
@@ -516,24 +509,20 @@ Here we shall make a few observations that will come in use frequently for the r
 \begin{align}
     \textcolor{red}{\hat{a}^{\dagger}= \hat{p}_x +i (\hat{p}_y +e A_y), \qquad \hat{a}= \hat{p}_x  -i (\hat{p}_y +e A_y).}
 \end{align}
- \textcolor{red}{Substituting the form of $A$ in Landau gauge and using the canonical quanti\textcolor{red}{s}ation conditions, we get the usual commutation relations}
+ \textcolor{red}{Substituting the form of $A$ in Landau gauge and using the canonical quanti\textcolor{red}{s}ation conditions, we get the usual ladder operator commutation relations}
 \begin{align}
     \textcolor{red}{ [\hat{a}, \hat{a}^{\dagger}] =1.}
 \end{align}
-
- \textcolor{red}{ In terms of $\hat{a}$ and $\hat{a}^{\dagger}$, the Hamiltonian takes the standard form}
-
+\textcolor{red}{In terms of $\hat{a}$ and $\hat{a}^{\dagger}$, the Hamiltonian takes the standard form}
 \begin{align}
     \textcolor{red}{ H = \hbar \omega_B \left( \hat{a}^{\dagger} \hat{a}+ \frac{1}{2}\right),}
 \end{align}
-
- \textcolor{red}{ where $\omega_B=\frac{eB}{m}$. This leads to a tower of energy eigenstates $|n\rangle$ with energies}
+\textcolor{red}{ where $\omega_B=\frac{eB}{m}$. This leads to a tower of energy eigenstates $|n\rangle$ with energies}
 \begin{align}
     \textcolor{red}{ E_n= \hbar \omega_B \left( n + \frac{1}{2} \right), \qquad n \in \mathbb{N}.}
 \end{align}
- \textcolor{red}{ Since we are studying the QHE, we expect the magnetic fields to be large, hence the gap between the energy levels would appropriately be very large too. If the gap is in addition very large in comparison to the temperature of the system, \textit{i.e.} $k_B T \ll \hbar \omega_B$, then we expect that only the first few Landau levels would be occupied. An important fact to take note of here is that we are attempting to study a system of a macroscopic number of electrons, yet we see that they occupy only a few energy states. This tells us that these energy eigenstates are extremely degenerate. This degeneracy is what is going to play a role in the conductivity computation.}
-
- \textcolor{red}{ Let us extend this to include an electric field. We choose the direction of the electric field to be in the $x$ direction, which results in an electric potential $\phi = -Ex$.}
+ \textcolor{red}{ Since we are studying the QHE, we expect the magnetic fields to be large, hence the gap between the energy levels would consequently be very large too. If the gap is, in addition, very large in comparison to the temperature of the system, \textit{i.e.} $k_B T \ll \hbar \omega_B$, then we expect only the first few Landau levels to be occupied. An important fact to take note of here, is that we are attempting to study a system of a macroscopic number of electrons, yet we see that they occupy only a few energy eigenstates. This tells us that these energy states are extremely degenerate. This degeneracy is what is going to play a role in the conductivity computation.}\\
+ \indent \textcolor{red}{ Let us extend this to include an electric field. We choose the electric field to be in the $x$ direction, which results in an electric potential $\phi = -Ex$. With this potential, the Hamiltonian becomes}
 \begin{align}
     \textcolor{red}{ H=\frac{1}{2m}\left(\bm{p} +e \bm{A} \right)^2 -e Ex.}
 \end{align}
@@ -541,79 +530,78 @@ Here we shall make a few observations that will come in use frequently for the r
 \begin{align}
     \textcolor{red}{ {\bf{I}}=-e\dot{{\bf x}}=  e \frac{\left({\bf p}+e{\bf A}\right)}{m}.}
 \end{align}
- \textcolor{red}{ Quantum mechanically, we need to average over the available charge carriers. If we are working in the $k_b T \ll \hbar \omega_B$ limit, then only the first $\nu$ Landau levels contribute, so we have}
+ \textcolor{red}{ Quantum mechanically, we need to average over the available charge carriers. If we are working in the $k_b T \ll \hbar \omega_B$ limit, then only the first $\nu$ Landau levels contribute to the current, so we have}
 \begin{align}
     \textcolor{red}{ \langle {\bf I} \rangle = - \frac{e}{m} \sum_{n=1}^{\nu} \sum_{k}  \langle \psi |-i \hbar \nabla +e \bf{A} |\psi \rangle.}
 \end{align}
  \textcolor{red}{ The current in the $x$ direction is }
 \begin{align}
-    \textcolor{red}{ I_x = -\frac{e}{m} \sum_{n=1}^{\nu} \sum_{k} \langle \psi|p_x | \psi \rangle=0,}
+    \textcolor{red}{ I_x = -\frac{e}{m} \sum_{n=1}^{\nu} \sum_{k} \langle \psi|p_x | \psi \rangle= -\frac{e}{m} \sum_{n=1}^{\nu} \sum_{k} \langle \psi| \frac{\hat{a}^{\dagger}+ \hat{a}}{2} | \psi \rangle=0.}
 \end{align}
- \textcolor{red}{ which vanishes since it averages $p_x$ over harmonic oscillator eigenstates. The current in the $y$ direction is}
+ \textcolor{red}{The current in the $y$ direction is}
 \begin{align}
     \textcolor{red}{ I_y = e \nu \sum_{k} \frac{E}{B}.}
 \end{align}
- \textcolor{red}{ Assuming that the Landau levels are completely filled, which would be the case if the \textit{Fermi energy} is in the gap between the levels, the sum over $k$ is the number of electrons per Landau level. The number of electrons per Landau level can be approximately derived by taking a unit area $A$ and dividing it by the size of an electron orbit $2 \pi l_B^2$ }
+ \textcolor{red}{ Assuming that the Landau levels are completely filled, which is the case if the \textit{Fermi energy} is in the gap between the levels, the sum over $k$ is the number of electrons per Landau level. The number of electrons per Landau level can be approximately derived by taking a unit area $A$ and dividing it by the size of an electron orbit $2 \pi l_B^2$ }
 \begin{align}
-    \textcolor{red}{ \sum_{k}1 = N = \frac{A B e}{2 \pi \hbar}.}
+    \textcolor{red}{ \sum_{k}1 =  \frac{A B e}{2 \pi \hbar}.}
 \end{align}
  \textcolor{red}{ This leaves us with the \textit{current density}}
 \begin{align}
-    {\bf J} = \begin{pmatrix} 
+  \textcolor{red}{  {\bf J} = \begin{pmatrix} 
 0\\
         \frac{-e^2 \nu E}{2 \pi \hbar}
-    \end{pmatrix}.
+    \end{pmatrix}.}
 \end{align}
  \textcolor{red}{ We can again use Ohm's law (\ref{Ohms_Law}) and infer the conductivity tensor}
 \begin{align}
-    \sigma = \begin{pmatrix}
+    \textcolor{red}{  \sigma = \begin{pmatrix}
         0&\frac{- e^2 \nu }{2\pi \hbar}\\
         \frac{- e^2 \nu }{2\pi \hbar}&0
-    \end{pmatrix}.
+    \end{pmatrix}.}
 \end{align}
-
- \textcolor{red}{ Inverting this expression and reading the off-diagonal term we find the \textit{Hall resistivity} }
+ \textcolor{red}{ Inverting this expression and reading the off-diagonal terms, we find the \textit{Hall resistivity} }
 \begin{align}
     \textcolor{red}{ \rho_{xy} = - \frac{2 \pi \hbar}{e^2 \nu}.}
 \end{align}
 
 
- \textcolor{red}{The above discussion shows that the IQHE effect comes out of simple quantum mechanics. We have omitted a lot of details and intricacies relating to impurities in the sample, edge states \cite{PhysRevB.25.2185}, the role of extended states and the irrelevance of locali\textcolor{red}{s}ed states \cite{PhysRevB.23.5632}, the role of topology and much more. We refer the reader to the following reviews \cite{hep-th/0509216, yoshioka2002the, Girvin} to learn more about these details. The main point that we'd like to make here is that the IQHE can be understood in terms of a non-interacting system of electrons. This is in contrast to our current understanding of the FQHE, which requires strongly interacting electrons.}
+ \textcolor{red}{The above discussion shows that the IQHE effect comes out of simple quantum mechanics. We have omitted a lot of details and intricacies relating to impurities in the sample, edge states \cite{PhysRevB.25.2185}, the role of topology, the role of extended states and the irrelevance of locali\textcolor{red}{s}ed states \cite{PhysRevB.23.5632} and much more. We refer the reader to the following reviews \cite{hep-th/0509216, yoshioka2002the, Girvin} to learn more about these details. The main point that we would like to make here is that the IQHE can be understood in terms of a non-interacting system of electrons. This is in contrast to our current understanding of the FQHE, which requires strongly interacting electrons.}
 
 
  \textcolor{red}{\subsection{Fractional quantum Hall effect}}
 
- \textcolor{red}{Despite the fact that a Nobel prize had already been awarded for the IQHE, a second QHE Nobel prize\footnote{https://www.nobelprize.org/prizes/physics/1998/summary/} was awarded to \textit{Laughlin, Störmer \& Tsui} \cite{Laughlin:1983fy, PhysRevLett.48.1559} in 1998 for the discovery of the FQHE! This fact alone should signal just how distinct and important the two effects are, despite arising from a system that is classically indisinguishable. As we saw in the IQHE, there is a certain, very large, value of the magnetic field $B$, for which we would find the system completely in the lowest Landau level, due to the large energy gap $\Delta E \sim B$. Measuring the resistivity perpendicular to the external electric field, we would find it to be equal to}
+ \textcolor{red}{Despite the fact that a Nobel prize had already been awarded for the IQHE in 1985\footnote[1]{https://www.nobelprize.org/prizes/physics/1985/summary/}, a second QHE Nobel prize\footnote[2]{https://www.nobelprize.org/prizes/physics/1998/summary/} was awarded to \textit{Laughlin, Störmer \& Tsui} \cite{Laughlin:1983fy, PhysRevLett.48.1559} in 1998 for the discovery of the FQHE! This fact alone should signal just how distinct and important the two effects are, despite arising from a system that is classically indisinguishable. As we saw in the IQHE, there is a certain, very large, value of the magnetic field $B$, for which we find the system completely in the lowest Landau level, due to the large energy gap $\Delta E \sim B$. Measuring the resistivity perpendicular to the external electric field, we find it to be equal to}
 \begin{align}
     \textcolor{red}{ \rho_{x y} = \frac{2\pi\hbar}{e^2},}
 \end{align}
- \textcolor{red}{ which corresponds to the case $\nu=1$. Decreasing the magnetic field, we find resistances corresponding to $\nu=2,3,...$ \textit{etc.} However, in certain materials with higher electron mobility \cite{yoshioka2002the} and at lower temperatures, this pattern seems to break down. We start seeing values of the resistance that are  no longer in integer values, which are, however, still quanti\textcolor{red}{s}ed.  More specifically, they are quanti\textcolor{red}{s}ed in rational fractional values of the basic unit of resistance $\frac{2 \pi\hbar}{e^2}$, hence the name \textit{fractional}. This effect persists going the other way, in increasing magnetic field, which leads to a fractionally filled lowest Landau level. This is what \textit{Störmer, Tsui \& Gossard} \cite{PhysRevLett.48.1559} observed in 1982, when they measured the resistance for a fractional filling of $\nu=\frac{1}{3}$. It appears as though the Landau levels are only fractionally filled, yet the resistance in the direction along the electric field is still vanishing. What could be happening?}
+ \textcolor{red}{ which corresponds to the case $\nu=1$. Decreasing the magnetic field, we find resistances corresponding to $\nu=2,3,...$ \textit{etc.} However, in certain materials with high electron mobility \cite{yoshioka2002the} and lower temperatures, this pattern seems to break down. We start seeing values of the resistance that are  no longer in integer values, which are, however, still quanti\textcolor{red}{s}ed.  More specifically, they are quanti\textcolor{red}{s}ed in rational fractional values of the basic unit of resistance $\frac{2 \pi\hbar}{e^2}$, hence the name \textit{fractional}. This effect persists going the other way, in increasing magnetic field, which leads to a fractionally filled lowest Landau level. This is what \textit{Störmer, Tsui \& Gossard} \cite{PhysRevLett.48.1559} observed in 1982, when they measured the resistance for a fractional filling of $\nu=\frac{1}{3}$. It appears as though the Landau levels are only fractionally filled, yet the resistance in the direction along the electric field is still vanishing. What could be happening?}
 
  \textcolor{red}{It turns out that increasing the electron mobility, or equivalently, reducing the impurities in the material, allows the electrons to more freely interact \cite{PhysRevB.37.8476}. This means that our treatment from the previous section, where the electrons were thought of as non-interacting particles breaks down. In order to understand what is actually happening, we need to solve the interacting electron system. Unfortunately, this is extremely difficult, due the extremely large number of degrees of freedom. In fact, to this day, there is no known model that can explain all of the fractional values that can be observed in the FQHE. It is an unsolved problem in physics, and as such provides an exciting playground for innovation.}
  
  \textcolor{red}{It seems, however, that it is possible to write down a guess that captures the correct qualitative physics and reproduces some of the filling fractions, despite not being the exact solution to the highly interacting system. Such a well-informed guess was first written down not long after the discovery of the fractional states by \textit{Laughlin} \cite{Laughlin:1983fy} and the distinct features of this guess (such as fractional charge and anyonic statistcs, that we will get to soon) keep informing a lot of the research that is being done in the field. The wavefunction that he proposed was the following }
 \begin{align}
-    \psi_m(z)= \prod_{j<k} \left((z_j -z_k)^m \right) \exp\left(- \frac{1}{4}\sum\limits_{l}|z_l|^2\right),
+    \textcolor{red}{\psi_m(z)= \prod_{j<k} \left((z_j -z_k)^m \right) \exp\left(- \frac{1}{4}\sum\limits_{l}|z_l|^2\right),}
 \end{align}
-where $z_j= x_j+iy_j$ the position of the $j^{th}$ electron and $m$ is an \textit{odd} natural number $m \in 2\mathbb{N}+1$. This requirement comes from the fact that we are describing electrons, which are fermions, hence we expect the wave function to be completely anti-symmetric under the exchange of any 2 of them. Since we have only made continuous changes to the system from the case of the IQHE, we expect that the number of states in the lowest Landau level to remain the same. For a unit area $A$, we have $\frac{A}{2\pi l_B^2}$ states. If we pick out any given $z_i$ from the polynomial prefactor of $\psi_m(z)$, we see that it is taken to the power of $(N-1)m$. This value is also the eigenvalue of the angular momentum operator
+ \textcolor{red}{where $z_j= x_j+iy_j$ the position of the $j^{th}$ electron and $m$ is an \textit{odd} natural number $m \in 2\mathbb{N}+1$. This requirement comes from the fact that we are describing electrons, which are fermions, hence we expect the wave function to be completely anti-symmetric under the exchange of any 2 of them. Since we have only made continuous changes to the system from the case of the IQHE, we expect that the number of states in the lowest Landau level to remain the same. For a unit area $A$, we have $\frac{A}{2\pi l_B^2}$ states. If we pick out any given $z_i$ from the polynomial prefactor of $\psi_m(z)$, we see that it is taken to the power of $(N-1)m$. This value is also the eigenvalue of the angular momentum operator}
 \begin{align}
-    J = \hbar \left(z \partial_z -\bar{z} \partial_{\bar{z}}), \qquad J\psi_m(z) = \hbar (N-1)m \psi_m(z).
+    \textcolor{red}{J = \hbar \left(z \partial_z -\bar{z} \partial_{\bar{z}}\right), \qquad J\psi_m(z) = \hbar (N-1)m \psi_m(z).}
 \end{align}
-This means that we expect a single electron to occupy an area of $A= 2\pi R^2 \approx 2\pi m (N-1)l_B^2$. Substituting this into our expression for the number of Landau levels, we have
+ \textcolor{red}{This means that we expect a single electron to occupy an area of $A= 2\pi R^2 \approx 2\pi m (N-1)l_B^2$. Substituting this into our expression for the number of Landau levels, we have}
 \begin{align}
-    \text{Degeneracy of lowest Landau levels} = m(N-1). 
+    \textcolor{red}{\text{Degeneracy of lowest Landau levels} = m(N-1). }
 \end{align}
-If we take the total number of electrons in the Laughlin wavefunction and divide it by the number of occupied states we get the filling fraction
+ \textcolor{red}{If we take the total number of electrons in the Laughlin wavefunction and divide it by the number of occupied states we get the filling fraction}
 \begin{align}
-    \nu = \frac{N}{m (N-1)} \xrightarrow{N \rightarrow \infty} \frac{1}{m}.
+    \textcolor{red}{\nu = \frac{N}{m (N-1)} \xrightarrow{N \rightarrow \infty} \frac{1}{m}.}
 \end{align}
-We see that the Laughlin wavefunction does indeed provide an explanation for some of the filling fractions. 
+ \textcolor{red}{We see that the Laughlin wavefunction does indeed provide an explanation for some of the filling fractions. }
 
-One can also consider excitations above this ground state. These excitations are one of the distinctive elements of the FQH liquid, since they have very peculiar properties. They are quasi-particles in the same sense as phonons, the excitations of an atomic lattice in the \textit{Debye model} \cite{Debye1912}. In the spirit of Landau-Fermi liquid \cite{Landau:1956zuh}, one can think of them as renormali\textcolor{red}{s}ed interacting elelectrons. The first of these peculiar properties is that they have a \textit{fractional charge}, which is quite surprising, given that the fundamental particles underlying the system have a quanti\textcolor{red}{s}ed charge. These fractionally charged quasi-particles have been observed in Hall systems by \textit{de Picciotto et al} and \textit{Saminadayar et al} \cite{dePicciotto:1997qc, PhysRevLett.79.2526}.
+ \textcolor{red}{One can also consider excitations above this ground state. These excitations are one of the distinctive elements of the FQH liquid, since they have very peculiar properties. They are quasi-particles in the same sense as phonons, the excitations of an atomic lattice in the \textit{Debye model} \cite{Debye1912}. In the spirit of Landau-Fermi liquid \cite{Landau:1956zuh}, one can think of them as renormali\textcolor{red}{s}ed interacting elelectrons. The first of these peculiar properties is that they have a \textit{fractional charge}, which is quite surprising, given that the fundamental particles underlying the system have a quanti\textcolor{red}{s}ed charge. These fractionally charged quasi-particles have been observed in Hall systems by \textit{de Picciotto et al} and \textit{Saminadayar et al} \cite{dePicciotto:1997qc, PhysRevLett.79.2526}.}
 
  \textcolor{red}{The second surprising feature of these excitations is that they are an example of an exotic type of particle, which only exists in systems confined to two spatial dimensions. They are particles, whose phase under exchange is neither 1 nor -1, but somewhere in between. Under an exchange the wavefunction changes as}
 \begin{align}
-    \psi(x) \rightarrow e^{ i\pi  \alpha} \psi(x),
+    \textcolor{red}{\psi(x) \rightarrow e^{ i\pi  \alpha} \psi(x),}
 \end{align}
 
  \textcolor{red}{where $\alpha \in (0,1)$ is a parameter, which characteri\textcolor{red}{s}es the statistics of particles. The value $\alpha=0 $ corresponds to bosons, while $\alpha=1$, corresponds to fermions. The quasiparticles in the Laughlin state have a statistics parameter $\alpha = \frac{1}{m}$. In other words, in terms of their statistics, these particles are somewhere between bosons and fermions.  So the name given to them is \textit{anyons}, since they can have any statistics parameter. This property seems to follow from the fractional charge, which we mentioned earlier \cite{Halperin:1983zz, Wilczek:1981du}. The existence of particles with statistics which is in between that of fermions and bosons was first speculated by \textit{Leinaas \& Myrheim} \cite{Leinaas:1977fm} and later on by \textit{Wilczek} \cite{PhysRevLett.49.957}.}
@@ -624,37 +612,36 @@ One can also consider excitations above this ground state. These excitations are
 \textcolor{red}{\subsection{Landau-Ginzburg and Chern-Simons theory}}
 
 
-The Laughlin ground state describes a new phase of matter. One, which we refer to as \textit{fractional quantum Hall liquid}. This phase is stable for small values of $m$ and we know that for very large values of $m$ (very high magnetic fields and small temperature), the two dimensional electron liquid starts to condense into a solid crystal, known as a \textit{Wigner crystal} \cite{PhysRevLett.60.2765, PhysRev.46.1002, Wigner1938}. The fractional Hall liquid is a very special type of state of matter for several reasons. One of those reasons is that if we attempt to fit it into the accepted Landau-Ginzburg paradigm in condensed matter physics, we find that we cannot explain some of the observed states \cite{wen2004quantum}. Such attempts to describe the quantum Hall liquid were first made by \textit{Girving \& McDonald} \cite{PhysRevLett.58.1252}, who showed that the Laughlin state contains off-diagonal long range order in a non-local operator. Later on, three separate groups --  \textit{Zhang, Hansson \& Kivelsson}, \textit{Read} and \textit{Ezawa \& Iwazaki} \cite{PhysRevLett.62.82, PhysRevB.43.2637, Read1989} showed that the effective field theory describing this state involves Chern-Simons theory. It seems that the fractional quantum Hall liquid belongs to a whole new class of matter, that is not governed by the classification of its symmetries. Rather, it exhibits what is now known as topological order \cite{Wen:1995qn, TopOrderRigidStates}. Topological order is physically characteri\textcolor{red}{s}ed by a ground state degeneracy, which depends on the topology of the spatial manifold, quasiparticles with anyonic statistics and non-trivial edge states \cite{Wen:1995qn}. All abelian quantum Hall states have been classified in terms of emergent Chern-Simons gauge fields \cite{PhysRevB.46.2290}.
-
-In 1982, Wilczek observed that a particle current coupled to a CS gauge field produced states with fractional statistics through the binding of particles to flux \cite{Wilczek:1981du}. We will show how this takes place through the \textit{Aharonov-Bohm effect} \cite{Aharonov:1959fk, PhysRevLett.5.3}. The existence of charge, implies the attachment of flux to charged particles, as we already observed in (\ref{eq:source_abel_charge}). Consider two particles of charge $1$ in some units. This means that each of them has a flux $\Phi = \frac{2\pi}{k}$ attached to them. Suppose we rotate one particle around the other by 180° and then translate the configuration back to where it was. This action is clearly equivalent to just exchanging the two particles. Whatever this does to the wavefunction, it would have to tell us what type of statistics these particles obey. Performing the aforementioned operation would lead to an Aharonov-Bohm phase in the wave function proportional to
+ \textcolor{red}{The Laughlin ground state describes a new phase of matter. One, which we refer to as \textit{the fractional quantum Hall liquid}. This phase is stable for small values of $m$ and we know that for very large values of $m$ (very high magnetic fields and small temperature), the two dimensional electron liquid starts to condense into a solid crystal, known as a \textit{Wigner crystal} \cite{PhysRevLett.60.2765, PhysRev.46.1002, Wigner1938}. The fractional Hall liquid is a very special type of state of matter for several reasons. One of those reasons is that if we attempt to fit it into the accepted Landau-Ginzburg paradigm in condensed matter physics, we find that we cannot explain some of the observed states \cite{wen2004quantum}. Such attempts to describe the quantum Hall liquid were first made by \textit{Girving \& McDonald} \cite{PhysRevLett.58.1252}, who showed that the Laughlin state contains off-diagonal long range order in a non-local operator. Later on, three separate groups --  \textit{Zhang, Hansson \& Kivelsson}, \textit{Read} and \textit{Ezawa \& Iwazaki} \cite{PhysRevLett.62.82, PhysRevB.43.2637, Read1989} showed that the effective field theory describing this state involves Chern-Simons theory. It seems that the fractional quantum Hall liquid belongs to a whole new class of matter, that is not governed by the classification of its symmetries. Rather, it exhibits what is now known as topological order \cite{Wen:1995qn, TopOrderRigidStates}. Topological order is physically characteri\textcolor{red}{s}ed by a ground state degeneracy, which depends on the topology of the spatial manifold, quasiparticles with anyonic statistics and non-trivial edge states \cite{Wen:1995qn}. All abelian quantum Hall states have been classified in terms of emergent Chern-Simons gauge fields \cite{PhysRevB.46.2290}.}\\
+\indent \textcolor{red}{In 1982, \textit{Wilczek} observed that a particle current coupled to a CS gauge field produced states with fractional statistics through the binding of particles to flux \cite{Wilczek:1981du}. We will show how this takes place through the \textit{Aharonov-Bohm effect} \cite{Aharonov:1959fk, PhysRevLett.5.3}. The existence of charge, implies the attachment of flux to charged particles, as we already observed in (\ref{eq:source_abel_charge}). Consider two particles of charge $1$ in some units. This means that each of them has a flux $\Phi = \frac{2\pi}{k}$ attached to them. Suppose we rotate one particle around the other by 180° and then translate the configuration back to where it was. This action is clearly equivalent to just exchanging the two particles. Whatever this does to the wavefunction, it would have to tell us what type of statistics these particles obey. Performing the aforementioned operation would lead to an Aharonov-Bohm phase in the wave function proportional to}
 \begin{align}
-    e^{i \frac{1}{2} \oint A \cdot ds}=e^{i \frac{\Phi}{2}}= e^{i \frac{\pi}{k}},
+    \textcolor{red}{e^{i \frac{1}{2} \oint A \cdot ds}=e^{i \frac{\Phi}{2}}= e^{i \frac{\pi}{k}},}
 \end{align}
-where the initial factor of $\frac{1}{2}$ comes from the fact that we only went half way around the second particle. For $k=0,\infty$ (the 0 case follows from there being no flux in the first place), we have bosons and for $k=1$ we have fermions. So we see that we have found the anyons from Laughlin's ground state for finite values of the CS level $k>1$!\\
-\indent Yet another feature of the quantum Hall effect pops out of Chern-Simons theory when we go back to the equation of motion (\ref{eq:source_abel_current}) for the electric field in the matter-CS section. We see the off-diagonal conductivity appearing yet again
+ \textcolor{red}{where the initial factor of $\frac{1}{2}$ comes from the fact that we only went half way around the second particle. For $k=0,\infty$ (the 0 case follows from there being no flux in the first place), we have bosons and for $k=1$ we have fermions. So we see that we have found the anyons from Laughlin's ground state for finite values of the CS level $k>1$!}\\
+\indent \textcolor{red}{Yet another feature of the quantum Hall effect pops out of Chern-Simons theory when we go back to the equation of motion (\ref{eq:source_abel_current}) for the electric field in the matter-CS section. We see the off-diagonal conductivity appearing yet again}
 \begin{align}
-    J^{i} = \sigma_{ij}E^j,
+    \textcolor{red}{J^{i} = \sigma_{ij}E^j,}
 \end{align}
-where $\sigma_{xy}=\frac{k}{2\pi}$. Inverting this expression and resinstating the units of resistance $\left(\frac{\hbar}{e^2}\right)$, we recover the IQHE conductivity for integer $k$
+ \textcolor{red}{where $\sigma_{xy}=\frac{k}{2\pi}$. Inverting this expression and resinstating the units of resistance $\left(\frac{\hbar}{e^2}\right)$, we recover the IQHE conductivity for integer $k$}
 \begin{align}
-    \rho_{xy} =\frac{2\pi \hbar}{e^2 k}.
+    \textcolor{red}{\rho_{xy} =\frac{2\pi \hbar}{e^2 k}.}
 \end{align}
-But how does CS recover the fractional filling if we have said that $k$ is fixed to be an integer? In order to recover the fractional fillings of the Laughlin state, we postulate the existence of emergent topological degrees of freedom $a_{\mu}$, which we describe through CS theory. Since they emerge out of the collective motions of the interacting electron system, we also expect them to couple to the familiar electromagnetic gauge field $A_{\mu}$. This leads to the effective action
+ \textcolor{red}{But how does CS recover the fractional filling if we have said that $k$ is fixed to be an integer? In order to recover the fractional fillings of the Laughlin state, we postulate the existence of emergent topological degrees of freedom $a_{\mu}$, which we describe through CS theory. Since they emerge out of the collective motions of the interacting electron system, we also expect them to couple to the familiar electromagnetic gauge field $A_{\mu}$. This leads to the effective action}
 \begin{align}
-    S_{\text{eff}} = \int d^3x \frac{k}{4\pi} \epsilon^{\mu \nu \rho} a_{\mu} \partial_{\nu} a_{\rho} + \frac{1}{2 \pi} \epsilon^{\mu \nu \rho} A_{\mu} \partial_{\nu}a_{\rho}+ A_{\mu} J^{\mu}.
+    \textcolor{red}{S_{\text{eff}} = \int d^3x \frac{k}{4\pi} \epsilon^{\mu \nu \rho} a_{\mu} \partial_{\nu} a_{\rho} + \frac{1}{2 \pi} \epsilon^{\mu \nu \rho} A_{\mu} \partial_{\nu}a_{\rho}+ A_{\mu} J^{\mu}.}
 \end{align}
-The equations of motion of this model lead to the relation
+ \textcolor{red}{The equations of motion of this model lead to the relation}
 \begin{align}
-    J^{\mu} &= \frac{1}{2\pi} \epsilon^{\mu \nu \rho} \partial_\nu a_{\rho} = \frac{1}{4\pi} \frac{1}{k} \epsilon^{\mu \nu \rho} F_{\nu \rho} \\
+    \textcolor{red}{J^{\mu}} &= \textcolor{red}{\frac{1}{2\pi} \epsilon^{\mu \nu \rho} \partial_\nu a_{\rho} = \frac{1}{4\pi} \frac{1}{k} \epsilon^{\mu \nu \rho} F_{\nu \rho} }\\
     &\implies J^{i} = \frac{1}{2 \pi} \frac{1}{k} \epsilon^{i j} E_{j}.
 \end{align}
-Again, inverting this equation and reinstating units, we get the resistivity of the Laughlin states
+ \textcolor{red}{Again, inverting this equation and reinstating units, we get the resistivity of the Laughlin states}
 \begin{align}
     \rho_{xy} =k\frac{2\pi \hbar}{e^2 }, \qquad k \in \mathbb{Z}!
 \end{align}
-One can obtain the resistivity of any abelian Hall system by adding more of these emergent gauge fields, coupling them to each other and computing their effect on the electromagnetic background gauge field. This is done through the \textit{K-matrix} approach \cite{PhysRevB.46.2290}. Despite our understanding of the abelian system, there still remain fractional fillings that remain unexplained, such as the $\nu=\frac{5}{2}$ state \cite{Willett:1987zz}.
-\textcolor{red}{An excellent review on the subject of the FQHE can be found in an article by \textit{Xiao-Gang Wen} \cite{Wen:1995qn}. Explain how Landau-Ginzburg gives the correct effective theory \cite{PhysRevLett.58.1252, Read1989, PhysRevLett.62.82, PhysRevB.43.2637}. Explain how one can classify all abelian fractional quantum Hall states with Chern-Simons theory \cite{PhysRevB.46.2290,PhysRevLett.69.953}. Mention that the picture is incomplete for the case of non-abelian quantum hall states (even denominator fractions?). Mention \textit{Wen}'s idea about Topological order \cite{TopOrderRigidStates}. Mention the hierchy of states and Jain's composite fermion as special case of FQHE. \cite{PhysRevLett.63.199, Read1994}}\\
-        \indent Our exploration of the \textcolor{red}{q}uantum Hall \textcolor{red}{e}ffect will stop here. What is important to take away from this section is that the understanding of the FQHE is underlied by the study of Chern-Simons theory. Thus studying the models, that are of interest in the present work, might lead to a better understanding of the fascinating problem that is the FQHE. A further connection to this problem is provided by the non-commutative Chern-Simons theory that we explore at the end of this chapter and at the end of chapter 3. Next, we turn our attention to the study of vortices.
+ \textcolor{red}{One can obtain the resistivity of any abelian Hall system by adding more of these emergent gauge fields, coupling them to each other and computing their effect on the electromagnetic background gauge field. This is done through the \textit{K-matrix} approach \cite{PhysRevB.46.2290}. Despite our understanding of the abelian system, there still remain fractional fillings that remain unexplained, such as the $\nu=\frac{5}{2}$ state \cite{Willett:1987zz}, for example. Finally, we mention that there are other approaches to the understanding of the FQHE, such as Jain's composite fermion \cite{PhysRevLett.63.199}. The composite fermion is a bound state of a fermion and an even number of vortices. The fact that such an excitation plays a role in the FQHE, gives us one more reason to be interested in studying vortices, which is the topic that we shall focus on in the next section.}\\
+%\indent \textcolor{red}{ Explain how Landau-Ginzburg gives the correct effective theory \cite{PhysRevLett.58.1252, Read1989, PhysRevLett.62.82, PhysRevB.43.2637}. Explain how one can classify all abelian fractional quantum Hall states with Chern-Simons theory \cite{PhysRevB.46.2290,PhysRevLett.69.953}. Mention that the picture is incomplete for the case of non-abelian quantum hall states (even denominator fractions?). Mention \textit{Wen}'s idea about Topological order \cite{TopOrderRigidStates}. }\\
+        \indent Our exploration of the \textcolor{red}{q}uantum Hall \textcolor{red}{e}ffect will stop here. \textcolor{red}{We direct the curious reader to a list of very insightful reviews for further exploration of the world of the QHE \cite{Wen:1995qn, Tong:2016kpv, Zee, yoshioka2002the, Girvin}.} What is important to take away from this section is that the understanding of the FQHE is underlied by the study of Chern-Simons theory. Thus studying the models, that are of interest in the present work, might lead to a better understanding of the fascinating problem that is the FQHE. A further connection to this problem is provided by the non-commutative Chern-Simons theory that we explore at the end of this chapter and at the end of \textcolor{red}{C}hapter \textcolor{red}{(\ref{ch:Chapter_3})}. Next, we turn our attention to the study of vortices.
 
 %\textcolor{red}{***More to add***}\\
 %        - Drude Model
@@ -864,7 +851,7 @@ In \cite{Karch:2016sxi}, the authors showed a link between this particle-vortex 
     \textcolor{red}{ \langle \mathcal{M}(x) \rangle = \int \mathcal{D}A_{\mu} e^{i S}\bigg |_{\frac{1}{4\pi} \int_{\textbf{S}^2} d^2S_{\mu} \epsilon^{\mu \nu \rho}F_{\nu \rho} =1}, }
 \end{align}
     \textcolor{red}{where $\mathbf{S}^2$ is a sphere surrounding the monopole insertion point.} \\
-            \indent Understanding the details of this duality subject to the inclusion of a chemical potential has been the formative motivation for this work. We believe that some of the results of this thesis have sown the seed for this understanding. More specifically, the role of the ground state discussed in chapter 3 in the duality still remains mysterious. The resolution of this mystery is left for future work. Thus we conclude our discussion of Fermi-Bose duality and move on to the physics of non-commutative fluids\textcolor{red}{.}
+            \indent Understanding the details of this duality subject to the inclusion of a chemical potential has been the formative motivation for this work. We believe that some of the results of this thesis have sown the seed for this understanding. More specifically, the role of the ground state discussed in \textcolor{red}{C}hapter \textcolor{red}{(\ref{ch:Chapter_3})} in the duality still remains mysterious. The resolution of this mystery is left for future work. Thus we conclude our discussion of Fermi-Bose duality and move on to the physics of non-commutative fluids\textcolor{red}{.}
 %\textcolor{red}{***More to add***}\\
 %            - Make sure to include the first bosonization papers \cite{hep-th/9407078, hep-th/9407182} \\
 %            - Explain what is the precise dictionary of this duality. The two theories are equivalent but which degrees of freedom correspond to which. Clarify that fundamental perturbative states on one side map to monopole operators on the other and vice-versa.\\
@@ -878,7 +865,8 @@ In \cite{Karch:2016sxi}, the authors showed a link between this particle-vortex 
         [\hat{x}, \hat{p}] = i \hbar.
     \end{align}
     As is well known, this quanti\textcolor{red}{s}ation condition leads to a ``smearing out`` of the phase space structure of the theory. It makes it so that the notion of a point in phase space no longer makes sense, since one can no longer measure both position and momentum accurately. \\
-    \indent However, there are more exotic cases, where the coordinate space becomes non-commutative or fuzzy, due to the specific form of the Poisson brackets in the problem. In such a problem, the notion of a point in space is no longer reasonable and one can no longer measure the position of a (quasi)particle to arbitrary accuracy on both axes at once. An example of a problem, where the different momenta exhibit such non-commutativity is the problem of particles in a magnetic field that we discussed earlier. Similarly, we all know that angular momentum also behaves in a non-commutative way so the idea of the spatial coordinates having non-zero commutator comes naturally. Finally, in the study of fluids, one can define a type of Poisson bracket that is restricted to the coordinate space, which leads to a non-commutative space following a canonical quanti\textcolor{red}{s}ation \cite{Jackiw:2002pn}. These ideas of a non-commuting space-time were first explored by \textit{Snyder} in 1947 \cite{Snyder:1946qz, Snyder:1947nq}.
+    \indent However, there are more exotic cases, where the coordinate space becomes non-commutative or fuzzy, due to the specific form of the Poisson brackets in the problem. In such a problem, the notion of a point in space is no longer reasonable and one can no longer measure the position of a (quasi)particle to arbitrary accuracy on both axes at once. An example of a problem, where the different momenta exhibit such non-commutativity is the problem of particles in a magnetic field that we discussed earlier. Similarly, we all know that angular momentum also behaves in a non-commutative way so the idea of the spatial coordinates having non-zero commutator comes naturally. Finally, in the study of fluids, one can define a type of Poisson bracket that is restricted to the coordinate space, which leads to a non-commutative space following a canonical quanti\textcolor{red}{s}ation \cite{Jackiw:2002pn}. These ideas of a non-commuting space-time were first explored by \textit{Snyder} in 1947 \cite{Snyder:1946qz, Snyder:1947nq}.\\
+    \indent \textcolor{red}{Chern-Simons quantum mechanics has been shown to be related to the physics of the lowest Landau level \cite{Dunne1993, PhysRevD.41.661}. The first proposal that non-commutative Chern-Simons theory has anything to do with the fractional quantum hall effect came from \textit{Susskind} \cite{Susskind:2001fb}. It can be shown that the level of non-commutative CS is quantized \cite{Nair:2001rt, Bak:2001ze}.}
     \subsection{Review of \textcolor{red}{n}on-\textcolor{red}{c}ommutative \textcolor{red}{g}eometry}
     Let us see how to define a \textit{non-commutative space}. Here we will be concerned with a $D$ dimensional space-time that has both a set of $D-2p$ commuting $\{ y_i, \ i=2p+1,...,D\}$ and $2p$ non-commuting coordinates $\{ x_i, \ \alpha =1,...,2p\}$. More precisely,
     \begin{align}
