@@ -4,21 +4,21 @@
 
 
 \section{Introduction}
-Chern-Simons theory and the dynamics of vortices are both intimately connected to the \textcolor{red}{q}uantum Hall \textcolor{red}{e}ffect \cite{PhysRevLett.62.82}. The Chern-Simons interaction  has the effect of attaching a magnetic flux to a charged particle, and endowing magnetic flux carrying vortices  with electric charge.  Magnetic flux attachment changes the  statistics of particles, so that fermions can be described as bosons with a Chern-Simons interaction. In particular, the effective theory of the fractional quantum hall state is a complex scalar interacting with an \textcolor{red}{a}belian Chern-Simons gauge field \cite{PhysRevLett.62.82, Tong:2016kpv}.
+Chern-Simons theory and the dynamics of vortices are both intimately connected to the \textcolor{red}{q}uantum Hall \textcolor{red}{e}ffect \cite{PhysRevLett.62.82}. The Chern-Simons interaction  has the effect of attaching a magnetic flux to a charged particle, and endowing magnetic flux carrying vortices  with electric charge.  Magnetic flux attachment changes the  statistics of particles, so that fermions can be described as bosons with a Chern-Simons interaction. In particular, the effective theory of the fractional quantum \textcolor{red}{H}all state is a complex scalar interacting with an \textcolor{red}{a}belian Chern-Simons gauge field \cite{PhysRevLett.62.82, Tong:2016kpv}.
 Vortex solitons in the relativistic \textcolor{red}{a}belian Higgs model  in 2+1 dimensions in the presence  of a Chern-Simons action  (with or without a Maxwell term) have been extensively studied \cite{Paul:1986ix, Jackiw:1990aw, Hong:1990yh, Jackiw:1990pr, Dunne:1998qy, Horvathy:2008hd}.
 
-In this note we are interested in vortex solitons appearing in  relativistic scalar field theory coupled to an \textcolor{red}{a}belian Chern-Simons gauge field when a chemical potential for particle number is turned on. Our motivation is to investigate vortex configurations whose presence is triggered purely by finite density effects in Chern-Simons-matter theories. The \textcolor{red}{a}belian Chern-Simons-scalar system offers the simplest  such setting. Eventually, we would like to understand finite density vortex solutions in $SU(N)$ and $U(N)$ Chern-Simons-scalar theories where  finite chemical potential results in condensation of gauge fields, potentially breaking rotational invariance \cite{Kumar:2018nkf}\footnote{An analogous situation in 3+1 dimensional Yang-Mills-Higgs system with $SU(2)\times U(1)$ gauge group was encountered by \textcolor{red}{\textit{Miransky, Gusynin \& Shovkovy}} \cite{Gusynin:2003yu} where the finite density ground state breaks spatial isotropy due to condensation of vector fields.  Vortex solutions in the condensed phase were subsequently found \textcolor{red}{\textit{Miransky, Gorbar \& Jia}} \cite{Gorbar:2005pi}.}.
+In this \textcolor{red}{chapter} we are interested in vortex solitons appearing in  relativistic scalar field theory coupled to an \textcolor{red}{a}belian Chern-Simons gauge field when a chemical potential for particle number is turned on. Our motivation is to investigate vortex configurations whose presence is triggered purely by finite density effects in Chern-Simons-matter theories. The \textcolor{red}{a}belian Chern-Simons-scalar system offers the simplest  such setting. Eventually, we would like to understand finite density vortex solutions in $SU(N)$ and $U(N)$ Chern-Simons-scalar theories where  finite chemical potential results in condensation of gauge fields, potentially breaking rotational invariance \cite{Kumar:2018nkf}\footnote{An analogous situation in 3+1 dimensional Yang-Mills-Higgs system with $SU(2)\times U(1)$ gauge group was encountered by \textcolor{red}{\textit{Miransky, Gusynin \& Shovkovy}} \cite{Gusynin:2003yu} where the finite density ground state breaks spatial isotropy due to condensation of vector fields.  Vortex solutions in the condensed phase were subsequently found \textcolor{red}{\textit{Miransky, Gorbar \& Jia}} \cite{Gorbar:2005pi}.}.
 %The first Abelian relativistic Chern-Simons vortices were obtained by Paul \& Khare \cite{Paul:1986ix} in the presence of a Maxwell term.
  %   BPS vortex solutions were discovered in pure Chern-Simons theory in \cite{Jackiw:1990aw, Hong:1990yh}. Non-topological solitons were shown to exist in \cite{Jackiw:1990pr}.
 %Finite chemical potential vortices for a model with gauge field VEVs were found in \cite{Gorbar:2005pi}. 
 A broader aim for exploring different aspects of finite density physics in Chern-Simons-matter theories is to understand the implications of the associated web \cite{Seiberg:2016gmd, Karch:2016sxi, Murugan:2016zal} of particle-vortex and Bose-Fermi dualities in 2+1 dimensions  
 \cite{Giombi:2011kc, Aharony:2011jz, Aharony:2012nh, Aharony:2012ns, Jain:2013py, Jain:2013gza, Takimi:2013zca, Aharony:2015mjs, Geracie:2015drf}.
 
-A chemical potential $\mu$ for a gauged $U(1)$ symmetry  can only be turned on provided a source term representing a classical (frozen out) uniform background charge density is simultaneously introduced. In Chern-Simons theory, such a source can either be viewed as a distribution of heavy charges or as a uniform magnetic field. We focus on the massless scalar field with purely power law interaction potential
+A chemical potential $\mu$ for a gauged $U(1)$ symmetry  can only be turned on provided a source term representing a classical (frozen out) uniform background charge density is simultaneously introduced. In Chern-Simons theory, such a source can either be viewed as a distribution of heavy charges or as a uniform magnetic field. We focus on the massless scalar field\textcolor{red}{, whose interaction potential is purely a power law}
 \be 
 U=\frac{g_{2s}}{s}\,|\Phi|^{2s}\,,\qquad s=2,3,\ldots\,, \label{powerlawu}
 \ee
- with no symmetry breaking minima in vacuum, and solve the equations of motion numerically  with non-zero $\mu$.  Chern-Simons vortices with symmetry breaking potentials in vacuum have vanishing magnetic fields in the interior and on the outside, with the flux being supported at the edges. The finite $\mu$ vortex solutions are qualitatively different as the magnetic flux acquires support within the vortex interior, and depending on the sign of the quanti\textcolor{red}{s}ed flux ($=2\pi n$), there are two qualitatively distinct types of solutions: (i) Those with negative flux, given our choice of conventions ($\mu>0$ and Chern-Simons level $k>0$), where the majority of the flux resides in the vortex interior, and (ii) positive flux solutions wherein most of the flux sits at the edge of the vortex. The qualitatively different behaviour of configurations with winding numbers $n<0$ and $n>0$ is expected due to the breaking of charge conjugation symmetry when $\mu\neq 0$.  Positive flux solutions are energetically disfavoured, or more precisely the grand potential for the $n$-vortex with $n>0$ is parametrically larger, as a function of $n$, than that for the $n<0$ vortex. 
+ with no symmetry breaking minima in vacuum, and solve the equations of motion\textcolor{red}{,}\colorbox{red}{ } with non-zero $\mu$\textcolor{red}{,} \textcolor{red}{numerically}.  Chern-Simons vortices with symmetry breaking potentials in vacuum have vanishing magnetic fields in the interior and on the outside, with the flux being supported at the edges. The finite $\mu$ vortex solutions are qualitatively different as the magnetic flux acquires support within the vortex interior, and depending on the sign of the quanti\textcolor{red}{s}ed flux ($=2\pi n$), there are two qualitatively distinct types of solutions: (i) Those with negative flux, given our choice of conventions ($\mu>0$ and Chern-Simons level $k>0$), where the majority of the flux resides in the vortex interior, and (ii) positive flux solutions wherein most of the flux sits at the edge of the vortex. The qualitatively different behaviour of configurations with winding numbers $n<0$ and $n>0$ is expected due to the breaking of charge conjugation symmetry when $\mu\neq 0$.  Positive flux solutions are energetically disfavoured, or more precisely the grand potential for the $n$-vortex with $n>0$ is parametrically larger, as a function of $n$, than that for the $n<0$ vortex. 
  
 The negative flux solutions are the most interesting. We find these numerically for a wide range of winding numbers, $1\leq |n| \lesssim 10^5$. Supported by simple analytical arguments, we confirm that for large $|n|$, negative flux vortices for power law potentials \eqref{powerlawu} with general $s$  exhibit linear scaling of the grand potential with $|n|$:
 \be
@@ -34,9 +34,9 @@ Finally, the radius of the $n$-vortex in all cases is given by
 \be
 \left.R_n\right|_{|n|\gg 1} \,=\,\sqrt{2\alpha |n|}\,\mu^{-1}\,,
 \ee
-implying  that the $n$-vortex behaves like a uniform incompressible droplet within which individual vortices are as closely packed as possible. The physical properties we have described  closely resemble the non-relativistic supersymmetric Chern-Simons theory introduced in \cite{Tong:2015xaa}. The scalings with $n$ are in line with the ``MIT bag" model for solitons with large winding number, advocated in \cite{Bolognesi:2005ty, Bolognesi:2005rk, Bolognesi:2007ez}\textcolor{red}{, in which  the vortices are thought of as a region of non-zero energy density separated from the outside via a domain wall. This is similar to the original MIT bag model named after the institution which the creators were associated with \cite{PhysRevD.9.3471}. In this model hadrons are thought of as a confining region of space with non-zero energy density, within which the fermion and gluon fields are weakly interacting .} 
+implying  that the $n$-vortex behaves like a uniform incompressible droplet within which individual vortices are as closely packed as possible. The physical properties we have described  closely resemble the non-relativistic supersymmetric Chern-Simons theory introduced in \cite{Tong:2015xaa}. The scalings with $n$ are in line with the ``MIT bag" model for solitons with large winding number, advocated in \textcolor{red}{a series of publications by \textit{Bolognesi et al.}} \cite{Bolognesi:2005ty, Bolognesi:2005rk, Bolognesi:2007ez}\textcolor{red}{, in which  the vortices are thought of as a region of non-zero energy density separated from the outside via a domain wall. This is similar to the original MIT bag model named after the institution which the creators were associated with \cite{PhysRevD.9.3471}. In this model hadrons are thought of as a confining region of space with non-zero energy density, within which the fermion and gluon fields are weakly interacting .} 
 
-The chapter is organised as follows: In Sections \textcolor{red}{(}\ref{sec:Abelian_Theory_at_finite_chemical_potential}\textcolor{red}{)} and \textcolor{red}{(}\ref{sec:Abelian_Vortex_Equations}\textcolor{red}{)}, we review the  standard vortex equations of motion, but in the presence of chemical potential. We also point out some features of the finite density spectrum and qualitative aspects of vortex profiles.  In Section \textcolor{red}{(}\ref{sec:Vortex_energy_and_BPS-like_scaling}\textcolor{red}{)}, we discuss the energy functional or the grand potential, and argue its expected scaling for large winding numbers. In Section \textcolor{red}{(}\ref{sec:Numerical_Results_vortex}\textcolor{red}{)}, we present several results of the numerical analysis of the vortex equations of motion for different choices of potentials and parameters.
+Th\textcolor{red}{is} chapter is organised as follows: In Sections \textcolor{red}{(}\ref{sec:Abelian_Theory_at_finite_chemical_potential}\textcolor{red}{)} and \textcolor{red}{(}\ref{sec:Abelian_Vortex_Equations}\textcolor{red}{)}, we review the  standard vortex equations of motion, but in the presence of chemical potential. We also point out some features of the finite density spectrum and qualitative aspects of vortex profiles.  In Section \textcolor{red}{(}\ref{sec:Vortex_energy_and_BPS-like_scaling}\textcolor{red}{)}, we discuss the energy functional or the grand potential, and argue its expected scaling for large winding numbers. In Section \textcolor{red}{(}\ref{sec:Numerical_Results_vortex}\textcolor{red}{)}, we present several results of the numerical analysis of the vortex equations of motion for different choices of potentials and parameters.
 \section{The \textcolor{red}{A}belian \textcolor{red}{T}heory at \textcolor{red}{F}inite \textcolor{red}{C}hemical \textcolor{red}{P}otential} \label{sec:Abelian_Theory_at_finite_chemical_potential}
 Our starting point is the \textcolor{red}{a}belian Chern-Simons theory at level $k$ coupled to a relativistic scalar field in 2+1 dimensions. As is customary, we may regard this system as the  infrared limit of the \textcolor{red}{a}belian Higgs model with a Maxwell-Chern-Simons gauge field, since the Maxwell action is irrelevant compared to the Chern-Simons term. We want to consider the theory in the grand canonical ensemble with a chemical potential for the $U(1)$ charge. Turning on a chemical potential for a local symmetry is a subtle issue since the Gauss constraint requires the total charge in the system to vanish. This putative obstacle can be overcome by introducing  a uniform external classical charge density which can be viewed  as a distribution of  heavy charged species whose fluctuations are frozen out \cite{Kapusta:1981aa, Rosen:2010es}. In the presence of a Chern-Simons density this can also conveniently be viewed as a constant background magnetic field.
 
@@ -45,7 +45,7 @@ The $U(1)$ chemical potential is introduced as usual via a constant temporal bac
 \bea
 &&\mathcal{L} \,=\,\mathcal{L}_{\rm matter} \,+\,\mathcal{L}_{\rm CS}\, -\, J_0 A_0\,,
 \\\nonumber\\\nonumber
-&&\mathcal{L}_{\rm matter} \,=\, D_{\nu}\Phi^\dagger D^{\nu}\Phi + U(\Phi^\dagger\Phi) 
+&&\mathcal{L}_{\rm matter} \,=\, D_{\nu}\Phi^\dagger D^{\nu}\Phi + U(\Phi^\dagger\Phi) \textcolor{red}{,}
  \\\nonumber\\\nonumber
 &&\mathcal{L}_{\rm CS} \,= \,\frac{k}{4 \pi} \epsilon^{\nu \lambda\sigma}
 A_{\nu} \partial_{\lambda} A_{\sigma}\,.
@@ -58,7 +58,7 @@ and $J_0$ is the background  classical charge density.  We assume  a  simple pow
 \be
 U(\Phi^\dagger \Phi) \,=\, \frac{g_{2s}}{s} |\Phi|^{2s}\,, \qquad s \geq  2\,.
  \ee
- The cases of quartic ($s=2$) and sextic ($s=3$) potentials are special since they correspond to relevant and marginal interactions. Our main interest is in monotonic potentials with a global minimum at $\Phi=0$ (in the absence of a chemical potential), so that any stable vortex configurations only appear at finite density  i.e. they are driven by scalar condensation in the presence of the chemical potential. 
+ The cases of quartic ($s=2$) and sextic ($s=3$) potentials are special since they correspond to relevant and marginal interactions. Our main interest is in monotonic potentials with a global minimum at $\Phi=0$ (in the absence of a chemical potential), so that any stable vortex configurations only appear at finite density\textcolor{red}{,} \textit{i.e.} they are driven by scalar condensation in the presence of the chemical potential. 
  
 The quartic potential is of general interest because when $\mu$  vanishes, the theory flows to the 2+1 dimensional Wilson-Fisher fixed point coupled to a Chern-Simons gauge field. The critical scalar plays an important role in particle-vortex and the related web of Bose-Fermi dualities in 2+1 dimensions \cite{Aharony:2015mjs}. Semi\textcolor{red}{-}classical solutions are far removed from this critical point and only reliable when $\mu/g_4 \gg 1$.
 
@@ -84,7 +84,7 @@ and assuming a static configuration, the equation of motion for $A_0$ yields,
 J_0\,-\,\frac{k}{2\pi}\langle B\rangle\,+\,2\left(\mu\,+\,\langle A_0\rangle\right) v^2\,=\,0\,.
 \ee
 Therefore, even if the source $J_0$ were not  explicitly introduced, it is naturally induced through a non-zero background value for  $B$. We will treat this background value as distinct from the magnetic field carried by the vortex.
-\subsection{Perturbative spectrum} The vacuum expectation value for $\Phi$ Higgses the gauge group and since Chern-Simons gauge fields do not propagate, the physical perturbative spectrum consists of two gapped excitations.  The dispersion relations can be found by expanding the gauge-fixed  action\footnote{We use an $R_\xi$ gauge fixing term of the form ${\cal L}_{\rm gf}\,=\,\left(\partial_\mu A^{\mu}\,- \textcolor{red}{i\left(} \,\xi \langle\Phi\rangle\delta\Phi^\dagger\, \textcolor{red}{-}\,\xi\delta\Phi\langle\Phi\rangle^\dagger \textcolor{red}{\right)} \right)^2/(2\xi)$} to  quadratic order in fluctuations and identifying the gauge-invariant zeros of the fluctuation determinant. \textcolor{red}{Let the quadratic fluctuations be defined as follows:}
+\subsection{Perturbative spectrum} \label{sec:Perturbative_Spectrum} The vacuum expectation value for $\Phi$ Higgses the gauge group and since Chern-Simons gauge fields do not propagate, the physical perturbative spectrum consists of two gapped excitations.  The dispersion relations can be found by expanding the gauge-fixed  action\footnote{We use an $R_\xi$ gauge fixing term of the form ${\cal L}_{\rm gf}\,=\,\left(\partial_\mu A^{\mu}\,- \textcolor{red}{i\left(} \,\xi \langle\Phi\rangle\delta\Phi^\dagger\, \textcolor{red}{-}\,\xi\delta\Phi\langle\Phi\rangle^\dagger \textcolor{red}{\right)} \right)^2/(2\xi)$} to  quadratic order in fluctuations and identifying the gauge-invariant zeros of the fluctuation determinant. \textcolor{red}{Let the quadratic fluctuations be defined as follows:}
 \begin{align}
     \textcolor{red}{\Phi = (v+\varphi_1) + i \varphi_2, \qquad A_{\mu} = \delta A_{\mu}.}
 \end{align}
@@ -95,7 +95,7 @@ Therefore, even if the source $J_0$ were not  explicitly introduced, it is natur
     &\textcolor{red}{-\frac{i k}{2 \pi} \bigg(\delta A_{0} p_{1} \delta A_{2}- \delta A_{0} p_{2} \delta A_{1} + \delta A_{1} \omega \delta A_{2}  \bigg) } \nonumber \\
     &\textcolor{red}{- \frac{1}{2 \xi} p_{\mu}p_{\nu} \delta A^{\mu} \delta A^{\nu}  - 2 \xi v^2 \varphi_2^2.}
 \end{align}
- \textcolor{red}{From this expression we can extract the following matrix, the zero eigenvalues of which, are the elementary excitations of the model}
+ \textcolor{red}{From this expression we can extract the following matrix, the zero eigenvalues of which are the elementary excitations of the model,}
 \begin{align}
    \textcolor{red}{D= \left(
 \begin{array}{ccccc}
@@ -109,11 +109,12 @@ Therefore, even if the source $J_0$ were not  explicitly introduced, it is natur
 \end{align}
 \textcolor{red}{where we have used $g_{2s} =\frac{ \mu^2}{ v^{2(s-1)}}$. Note that this is a $5x5$ matrix, but we stated earlier that the number of excitations in this model is only $d_{\text{dof}}=2$, where $d_{\text{dof}}$ is the number of physical degrees of freedom. The reason for this mismatch is that 3 out of the 5 solutions, that we get, are going to be gauge dependent. Once we remove the gauge dependent solutions, we will be left with the two physical excitations present in the spectrum of the theory.}
 
- \textcolor{red}{One way of achieving this is by finding all of the eigenvalues explicitly. This is not-trivial in the general case so here we will illustrate an approach that can be used when symbolic computation of all the eigenvalues is unfeasible. This approach is also utili\textcolor{red}{s}ed in Chapter \textcolor{red}{(\ref{ch:Chapter_3})}, but we outline it here since the calculation is simpler and more instructive. The way we can find the physical eigenvalues is by picking out the highest order term in $\xi$ in the determinant. Let \textcolor{red}{us} see why this works. We know that without gauge fixing, $D$ is non-invertible. First we express $D$ as the product of eigenvalues}
+ \textcolor{red}{One way of computing the elementary excitations is by finding all of the eigenvalues explicitly. This is not trivial in the general case so here we will illustrate an approach that can be used when symbolic computation of all the eigenvalues is unfeasible. This approach is also utili\textcolor{red}{s}ed in Chapter \textcolor{red}{(\ref{ch:Chapter_3})}, but we outline it here since the calculation is simpler and more instructive. The way we can find the physical eigenvalues is by picking out the highest order term in $\xi$ in the determinant. Let \textcolor{red}{us} see why this works. We know that without gauge fixing, $D$ is non-invertible. First we express $D$ as the product of eigenvalues}
 \begin{align}
-    \textcolor{red}{\det\left(D \right) =\lambda_1 ... \lambda_r, \text{ where } r \text{ is the size of the square matrix}.}
+    \textcolor{red}{\det\left(D \right) =\lambda_1 ... \lambda_r,}
 \end{align}
-\textcolor{red}{Suppose, without loss of generality, that the physical eigenvalues are $\lambda_1$ and $\lambda_2$. Hence the dispersion relations are $\lambda_1=0$ and $\lambda_2=0$. Then the determinant can be expressed as}
+\textcolor{red}{where $r$ is the size of the square matrix.}
+\textcolor{red}{Suppose, without loss of generality, that the physical eigenvalues are $\lambda_1$ and $\lambda_2$. Hence the dispersion relations correspond to $\lambda_1=0$ and $\lambda_2=0$. Then the determinant can be expressed as}
 \begin{align}
     \textcolor{red}{\det\left(D \right) = \lambda_1 \lambda_2 \left( \sum_{i_{1}=-p_1}^{q_1} a_{i_{1}}^{(1)} \xi^{i_{1}}\right) ...\left( \sum_{i_{r-2}=-p_{r-2}}^{q_{r-2}} a_{i_{r-2}}^{(r-2)} \xi^{i_{r-2}}\right),}
 \end{align}
@@ -138,7 +139,7 @@ We find,
 \be
 \tilde\omega_{\pm}\,=\,\sqrt{\tilde{\bf p}^2+(s+1)+\frac{1}{2\alpha^2}\pm\sqrt{4\tilde{\bf p}^2\,+\,\left(s+1-\frac{1}{2\alpha^2}\right)^2}}\,.
 \ee
-Both modes are gapped at $\tilde{\bf p}=0$. 
+Both modes are gapped at $\tilde{\bf p}=0$\textcolor{red}{, as can be seen here}
 \bea
 &&\tilde\omega^2_+\,\simeq\,2(s+1)+\tilde{\bf p}^2\,\frac{2\alpha^2(s+3)-1}{2\alpha^2(s+1)-1}\ldots\,, \\\nonumber \\\nonumber
 &&\tilde\omega^2_-\,\simeq\,\frac{1}{\alpha^2}+\tilde{\bf p}^2\,\frac{2\alpha^2(s-1)-1}{2\alpha^2(s+1)-1}\ldots\,,\qquad\qquad |\tilde {\bf p}|\ll1\,.
@@ -163,7 +164,7 @@ We want to solve the equations of motion in polar coordinates. Therefore, allowi
  \bea
         &&\tfrac{1}{\sqrt h}\partial_j \left(\sqrt h\,\partial^j\Phi\right) - \tfrac{i}{\sqrt{h}} \partial_{j} \left(\sqrt{h} A^{j} \Phi \right) + (\mu +A_0)^2 \Phi -i A_{j} \partial^{j} \Phi - A_{j} A^{j} \Phi\, =\, 
 %        \\\nonumber&&\hspace{4in}
-  g_{2s} |\Phi|^{2s-2}\Phi \nonumber\\\\\nonumber
+  g_{2s} |\Phi|^{2s-2}\Phi\textcolor{red}{,} \nonumber\\\\\nonumber
         &&\frac{k}{2 \pi} \epsilon^{\sigma \nu \rho} \partial_{\nu} A_{\rho}\, = \,-\sqrt{h}\left[i \left(\partial^{\sigma} \Phi \Phi^{\dag} - \Phi \partial^{\sigma} \Phi^{\dag} \right) \,+\,2 A^{\sigma} \left|\Phi \right|^2- \delta_{0 \sigma} \left(2 \mu \left|\Phi \right|^2 + J_0 \right)\right]\,.
 \eea
  As usual, a static vortex configuration carrying $n$ units of magnetic flux is described by the  rotationally symmetric ansatz in polar coordinates: 
@@ -173,8 +174,8 @@ We want to solve the equations of motion in polar coordinates. Therefore, allowi
         \ee
 This ansatz leads to the following system of equations\footnote{We omit the equation of motion for $A_r$ which is automatically satisfied.}:
     \bea
-&&        f''+\frac{f'}{r} -\frac{1}{r^2}\left(A_\theta - n\right)^2 f + (A_0+\mu)^2 f\, - g_{2s} f^{2s-1} = 0 \label{eq:radial_scalar}  \\\nonumber\\
- &&       -\frac{f^2}{r}\left(A_\theta - n\right)+ \frac{k}{4 \pi} A_0' =0 \label{eq:radial_Atheta}  \\\nonumber\\
+&&        f''+\frac{f'}{r} -\frac{1}{r^2}\left(A_\theta - n\right)^2 f + (A_0+\mu)^2 f\, - g_{2s} f^{2s-1} = 0\textcolor{red}{,} \label{eq:radial_scalar}  \\\nonumber\\
+ &&       -\frac{f^2}{r}\left(A_\theta - n\right)+ \frac{k}{4 \pi} A_0' =0\textcolor{red}{,} \label{eq:radial_Atheta}  \\\nonumber\\
  &&       -f^2 A_0 -\mu f^2 + \frac{k}{4 \pi} \left(\frac{A'_\theta}{r}\right)\,=\, \frac{J_0}{2}\,,\qquad \qquad J_0\,=\,-\,2\mu\,v^2\,. \label{eq:radial_A0}
     \eea
 We are looking for a configuration which asymptotes at infinity to the ground state with the fixed non-vanishing background value for $J_0$, obeying the boundary conditions:
@@ -204,7 +205,7 @@ The effect of the Gauss constraint is to induce a magnetic field $B$ inside the 
 
 The sign of $B(0)$ plays an important role in determining the properties of the vortex solutions. Without loss of generality, we assume that the chemical potential $\mu$ and the Chern-Simons level $k$ are both positive:
 \be
-\mu >0\, \qquad \qquad k >0\,.
+\mu >0\textcolor{red}{,}\, \qquad \qquad k >0\,.
 \ee
 With this choice $B(0)$ is negative definite,   independently of the sign of the magnetic flux $2\pi n$. However, this means that solutions with positive and negative flux will be qualitatively different. This breaking of charge conjugation is precisely what we expect in the presence of the $U(1)$ chemical potential.
 
@@ -217,23 +218,23 @@ The assumption of uniformity of the vortex core region is self-consistently just
 \be
 f(r)\,=\,c_0\,r^{|n|} +\ldots\,,\qquad \qquad c_0 >0\,.
 \ee 
-This is obtained by neglecting $A_\theta$ in comparison to $n$, and ignoring higher order terms for small $r$ in eq.\eqref{eq:radial_scalar}. 
+This is obtained by neglecting $A_\theta$ in comparison to $n$, and ignoring higher order terms for small $r$ in \textcolor{red}{Equation} \eqref{eq:radial_scalar}. 
 Therefore, for large flux, the scalar profile is extremely flat near $r=0$. With a uniform $B$ field in the vortex interior, the vector potential is determined as 
 \be
  A_\theta\approx-\frac{1}{2} |B(0)| r^2\,,
 \ee
 and this approximation breaks down precisely when $r\approx R_n$
-(see eq.\eqref{radius}) . 
+(see \textcolor{red}{Equation} \eqref{radius}) . 
 We see numerically that the scalar field profile,  inside the vortex, closely follows the solution to the first order equation:
 \bea
 &&f'(r)\,\approx\,\tfrac{1}{r}\left(|n|-\tfrac{1}{2}|B(0)|r^2\right)\, f(r)\\\nonumber\\\nonumber
 \implies \quad&&f(r)\approx c_0 r^{|n|}\,e^{-|B(0)|r^2/4}\,,\quad r< R_n\,.
 \eea
-This feature of the solution  is depicted in figure \ref{fig:firstorder}. 
+This feature of the solution  is depicted in \textcolor{red}{F}igure \ref{fig:firstorder}. 
 
 The equation of motion \eqref{eq:radial_Atheta} for $A_\theta$ determines the  radial electric field $E(r)\,=\,A_0'(r)$. 
 The electrostatic potential $A_0$ remains constant inside the core region since $f(r)$ is vanishingly small and therefore the electric field is also vanishingly small. 
-Outside the core region the electric and magnetic fields decay exponentially to zero. Linearizing about the asymptotic solution at  large $r$ we find,
+Outside the core region the electric and magnetic fields decay exponentially to zero. Lineari\textcolor{red}{s}ing about the asymptotic solution at  large $r$ we find,
 \bea
 &&\delta f\,\equiv\, f(r)-v\,,\qquad \delta A_\theta\,=\, A_\theta-n\,,\\\nonumber\\\nonumber
 &&\delta A_\theta\,=\,\frac{\alpha}{\mu}\, r A_0'\,,\\\nonumber\\\nonumber
@@ -245,11 +246,11 @@ The solutions to the homogeneous equations for the fluctuations $\delta f$ and $
 K_0\left(\sqrt{2s-2}\,\mu r\right)\big|_{\mu r\to\infty} \,\sim\,\frac{e^{-\sqrt{2s-2}\,\mu r}}{\sqrt {\mu r}}\,,\qquad K_0\left(\mu r/\alpha\right)\big|_{\mu r\to\infty} \,\sim\,\frac{e^{-\mu r/\alpha}}{\sqrt {\mu r}} \,.         
 \ee
 The two exponents are related to  masses of the gapped perturbative excitations around the Higgsed ground state.
-Since $A_\theta(r)\simeq n$ outside the core region, according to  eq. \eqref{eq:radial_Atheta} the electric field is only significant in a strip  along the edge of the vortex core.  Numerically, we find that the width of this strip does not scale with $|n|$, so that in the limit of large $|n|$, the contribution from the transition region to the vortex energy is subleading in $|n|$. 
+Since $A_\theta(r)\simeq n$ outside the core region, according to  \textcolor{red}{Equation} \eqref{eq:radial_Atheta} the electric field is only significant in a strip  along the edge of the vortex core.  Numerically, we find that the width of this strip does not scale with $|n|$, so that in the limit of large $|n|$, the contribution from the transition region to the vortex energy is subleading in $|n|$. 
 
 We will see below that these qualitative aspects of the vortex solutions lead to linear dependence of the vortex energy on $|n|$ and BPS-like behaviour at a critical value of the effective coupling $\alpha$.
 
-\textbf{Positive flux $n>0$:} Positive flux solutions are qualitatively distinct from the negative flux ones.  This is because $B(0)<0$ independent of $n$, so 
+\textbf{Positive flux $n>0$:} Positive flux solutions are qualitatively distinct from the negative flux ones.  This is because $B(0)<0$ independent\textcolor{red}{ly} of $n$, so 
 $B(r)$ must switch sign to yield a net positive flux.  For large $n>0$, most of this positive flux remains concentrated in a ring-like region at the edge of the vortex. In this case the total flux can be written as a sum of two contributions, one that scales with the area of the vortex and is negative, therefore must be subleading, and a positive dominant contribution which scales with the radius of the configuration\,,
 \be
 2\pi n\,\sim\, -\pi R_n^2\frac{\mu^2}{\alpha}\,+\, 2\pi R_n \Delta_{\rm ring} \, B_{\rm ring}\,.\label{ringansatz}
@@ -259,8 +260,8 @@ $B_{\rm ring}$
 % \sim n^\beta$ 
 denotes the peak value of the magnetic field in the ring and $R_n$ 
 %\sim n^\gamma$ 
-is the radius of the vortex for large enough $n$. The negative area-dependent contribution  is a key difference from a similar situation discussed in \cite{Bolognesi:2007ez}.  We cannot exclude the possibility that both the area and perimeter 
-contributions have faster than linear growth and a delicate cancellation yields the correct flux. It is possible to suppress the area contribution by making $\alpha$ arbitrarily large. The large $\alpha$ limit makes the magnetic field inside the vortex vanishingly small and the system then closely resembles an abelian Chern-Simons vortex in vacuum. \textcolor{red}{Conversely, small $\alpha$ (or equivalently large $\mu$ and fixed $\alpha$) makes the magnetic field inside the vortex larger and forces the transition between the two vacua to be steeper, effectively approaching a step function \textit{domain wall} solution, analogous to the bag models discussed earlier.}
+is the radius of the vortex for large enough $n$. The negative area-dependent contribution  is a key difference from a similar situation discussed by \textit{Bolognesi} \cite{Bolognesi:2007ez}.  We cannot exclude the possibility that both the area and perimeter 
+contributions have faster than linear growth and a delicate cancellation yields the correct flux. It is possible to suppress the area contribution by making $\alpha$ arbitrarily large. The large $\alpha$ limit makes the magnetic field inside the vortex vanishingly small and the system then closely resembles an abelian Chern-Simons vortex in vacuum. \textcolor{red}{Conversely, a small value of  $\alpha$ (or equivalently a large value of $\mu$ and a fixed $\alpha$) makes the magnetic field inside the vortex larger and forces the transition between the two vacua to be steeper, effectively approaching a step function \textit{domain wall} solution, analogous to the MIT bag models discussed earlier.}
 %If the area dependent term is to be subleading then the exponent $\gamma < \frac{1}{2}$, while $\gamma+\beta+\varepsilon=1$. 
 \section{Vortex \textcolor{red}{E}nergy and BPS-like \textcolor{red}{S}caling} \label{sec:Vortex_energy_and_BPS-like_scaling}
 The ``energy" functional appropriate for the grand canonical ensemble is the grand potential. The Chern-Simons term does not contribute to it for static configurations. The grand potential is obtained by using the Lagrangian density \eqref{lagfull} with $\mu\neq 0$ and passing to the Hamiltonian picture. Rewriting the Hamiltonian in terms of the fields and their derivatives, the desired energy functional is\footnote{For static configurations, the grand potential can be quickly derived by retaining only the spatial gradient and potential terms including the Chern-Simons density,
@@ -269,7 +270,7 @@ The ``energy" functional appropriate for the grand canonical ensemble is the gra
  \left( \left| D_i \Phi\right|^2 \,- \,\left(A_0+\mu\right)^2 \left| \Phi\right|^2  %-2 \mu A_0 \left|\Phi\right|^2 -\mu^2 \left| \Phi\right|^2 
  + A_0\left(\frac{k}{2 \pi}  B -J_0\right)+ \frac{g_{2s}}{s}  \left| \Phi\right|^{2s}\right)\,,
  \eea
- and then applying the constraint \eqref{constraint}.
+ and then applying the constraint \textcolor{red}{equation}  \eqref{constraint}.
 },
 \bea
 {\cal E}\,=\,\int d^2 x 
@@ -281,8 +282,7 @@ The ``energy" functional appropriate for the grand canonical ensemble is the gra
  \be
 \frac{k}{4\pi} B\,=\,A_0|\Phi|^2+\mu\left(|\Phi|^2-v^2\right)\,.\label{constraint}
  \ee
- 
-An interesting feature of the finite-$\mu$ vortices (with negative flux)  is that they appear to be  marginally bound (or BPS-like) for a specific value of the effective dimensionless parameter $\alpha$. Recall that this parameter depends on the Chern-Simons level, the chemical potential and the interaction strength:
+\indent An interesting feature of the finite-$\mu$ vortices (with negative flux)  is that they appear to be  marginally bound (or BPS-like) for a specific value of the effective dimensionless parameter $\alpha$. Recall that this parameter depends on the Chern-Simons level, the chemical potential and the interaction strength:
 \be
 \alpha \,=\,\frac{k\mu}{4\pi v^2}\,=\,\frac{k}{4\pi}\left(\frac{g_{2s}}{\mu^{3-s}}\right)^{\frac1{s-1}}\,.\label{alphadef}
 \ee
@@ -296,12 +296,12 @@ The rescaled scalar profile vanishes at  $\tilde r=0$ and approaches unity for l
 \ee
 The resulting dimensionless equations of motion (primes denote derivatives with respect to $\tilde r$) are,
  \bea
- &&\tilde f'' + \frac{\tilde f'}{\tilde r} - a^2\, \tilde{f} + \left(\tilde A_0+1\right)^2\tilde{f}  -\tilde f^{2s-1} =0 \label{eq:dimlesseom1}\\\nonumber\\
-&& \alpha \tilde A_0' \,=\,  a\,\tilde f^2 \label{eq:dimlesseom2}\\\nonumber\\
+ &&\tilde f'' + \frac{\tilde f'}{\tilde r} - a^2\, \tilde{f} + \left(\tilde A_0+1\right)^2\tilde{f}  -\tilde f^{2s-1} =0\textcolor{red}{,} \label{eq:dimlesseom1}\\\nonumber\\
+&& \alpha \tilde A_0' \,=\,  a\,\tilde f^2\textcolor{red}{,} \label{eq:dimlesseom2}\\\nonumber\\
   &&      \alpha \tilde B= \left(\tilde f^2-1\right)+\tilde f^2 \tilde A_0\,.\label{eq:dimlesseom3}
  \eea
 Therefore, for a fixed flux $n$, the solutions are only parametrised by the  dimensionless 
-effective coupling $\alpha$. Note we have introduced the
+effective coupling $\alpha$. Note \textcolor{red}{that} we have introduced the
 dimensionless magnetic field,
 \be
 \tilde B\,=\,\frac{1}{\tilde r}\,\left(\tilde r a\right)^\prime\,=\,\frac{A_\theta^\prime}{\tilde r}\,.
@@ -312,7 +312,7 @@ We first rewrite the energy functional using the rescaled fields and variables,
 %\frac{1}{\alpha}\tilde A_0\tilde f^2(1-\tilde f^2)
 \right]\,,\label{bpsfirst}
 \ee
-where we have included a constant zero-point shift so that the energy density is vanishing for the ground state at infinity. The second term in eq.\eqref{bpsfirst} when integrated by parts yields a nonvanishing surface contribution,
+where we have included a constant zero-point shift so that the energy density is vanishing for the ground state at infinity. The second term in \textcolor{red}{Equation} \eqref{bpsfirst} when integrated by parts yields a non\textcolor{red}{-}vanishing surface contribution,
 \be
 \int_0^\infty d\tilde r \,\left(\tilde r a\right)\frac{d }{d\tilde r}\left(\tilde f^2-1\right)\,=\,|n|\,-\,\int_0^\infty \tilde r\, d\tilde r \tilde B(\tilde f^2-1)\,.
 \ee
@@ -322,9 +322,9 @@ Employing the Gauss constraint to eliminate $\tilde B$ in favour of $\tilde A_0$
 &&\left.\tilde A_0^2\,\tilde f^2+\frac{1}{\alpha}\tilde A_0 \tilde f^2(1-\tilde f^2)\right]\,. 
 \eea
  \subsection{The quartic potential $s=2$}
-Anticipating numerical results in the next section, we can make certain  observations on the energetics of vortex solutions for large negative flux. 
+Anticipating numerical results in the next section, we can make certain  observations \textcolor{red}{concerning} the energetics of vortex solutions for large negative flux. 
 
-Our arguments rely on the fact that for $n$ sufficiently large and negative, all fields are uniform inside and outside the vortex whose radius scales as $\sqrt{|n|}$ , with a thin transition region whose width does not scale with $n$. In the case of the quartic potential the energy functional is, 
+Our arguments rely on the fact that for $n$ sufficiently large and negative, all fields are uniform inside and outside the vortex. \textcolor{red}{Moreover, the vortex has a radius that scales as $\sqrt{|n|}$, and a thin transition region, whose width does not scale with $n$.} In the case of the quartic potential the energy functional is, 
 \bea
 {\cal E}(n, \alpha)\big|_{s=2} = 2\pi v^2 |n| +2\pi v^2\int_0^\infty \tilde r d\tilde r&&\left[\left(\tilde f'-a\tilde f\right)^2+\left(\tfrac{1}
 {2}-\tfrac{1}{\alpha}\right)\left(1-\tilde f^2\right)^2 +\right.\nonumber\\\label{energys2}\\\nonumber
@@ -334,20 +334,20 @@ We know that $\tilde f$ vanishes inside the vortex, whilst $\tilde A_0$  and $a(
 \be
 {\cal E}(n, \,\alpha=2)\big|_{s=2, |n|\gg1}\,=\, 2\pi v^2 |n|\,.
 \ee
-Our numerical solutions confirm (figure \ref{fig:massn1}) this conclusion which works remarkably well even for low values of $n$, including  $|n|=1,2 \ldots$. Another surprising feature of the solutions for $\alpha=2$ is that they appear to solve the first order equation $\tilde f'= a \tilde f$ to very high numerical accuracy (figure \ref{fig:firstorder})\footnote{In this context, it is worth noting that if the terms proportional to $\tilde A_0$ are omitted (or assumed to be negligible) in eqs. \eqref{eq:dimlesseom1} and \eqref{eq:dimlesseom3}, then the resulting equations coincide, for a particular value of $\alpha$, with equations of motion for a BPS vortex in $U(2)\times U(2)$ ABJM theory which solves an equivalent first order system \cite{Auzzi:2009es}.}.
+Our numerical solutions confirm (\textcolor{red}{F}igure \ref{fig:massn1}) this conclusion which works remarkably well even for low values of $n$, including  $|n|=1,2 \ldots$. Another surprising feature of the solutions for $\alpha=2$ is that they appear to solve the first order equation $\tilde f'= a \tilde f$ to very high numerical accuracy (\textcolor{red}{F}igure \ref{fig:firstorder})\footnote{In this context, it is worth noting that if the terms proportional to $\tilde A_0$ are omitted (or assumed to be negligible) in \textcolor{red}{Equations} \eqref{eq:dimlesseom1} and \eqref{eq:dimlesseom3}, then the resulting equations coincide, for a particular value of $\alpha$, with equations of motion for a BPS vortex in $U(2)\times U(2)$ ABJM theory \textcolor{red}{\cite{Aharony:2008ug}} which solves an equivalent first order system \cite{Auzzi:2009es}.}.
 
 
-It is easy to extend the arguments to  other values of $\alpha$. When $\alpha\neq 2$, the second term in the integrand of \eqref{energys2} provides an approximately constant energy density inside the vortex where $\tilde f=0$, while all other contributions remain vanishingly small. We therefore find,
+It is easy to extend the arguments to  other values of $\alpha$. When $\alpha\neq 2$, the second term in the integrand \textcolor{red}{in Equation} \eqref{energys2} provides an approximately constant energy density inside the vortex where $\tilde f=0$, while all other contributions remain vanishingly small. We therefore find,
 \be
 {\cal E}(n, \,\alpha)\big|_{s=2, |n|\gg1}\,=\, 2\pi v^2 \left(|n|\,+\,\tfrac12 \mu^2R_n^2\left(\tfrac12-\tfrac{1}{\alpha}\right) \right)\,=\,\alpha\pi v^2|n|\,.
 \ee
-This behaviour is also confirmed numerically in figure \ref{fig:massn1}, albeit only for large $|n|$ as expected. Interestingly, although $v$ and $\alpha$ each  depend on the quartic coupling constant $g_4$, the large $|n|$ vortex mass formula depends only the Chern-Simons level $k$ and the chemical potential,
+This behaviour is also confirmed numerically in \textcolor{red}{F}igure \ref{fig:massn1}, albeit only for large $|n|$ as expected. Interestingly, although $v$ and $\alpha$ each  depend on the quartic coupling constant $g_4$, the large $|n|$ vortex mass formula depends only \textcolor{red}{on} the Chern-Simons level $k$ and the chemical potential,
 \be
 {\cal E}(n,\,\alpha)\big|_{s=2, |n|\gg1}\,=\,\alpha\pi v^2|n|\,=\, \frac{k\mu}{4}|n|\,.
 \ee
 
 \subsection{General power law potential $(s\geq 2)$}
- The energies of solutions for general power law potentials now work along similar lines.  The integrand in the energy density \eqref{energys} is negligible both inside and outside the vortex when $\alpha=\alpha_c$,
+ The energies of solutions for general power law potentials now work along similar lines.  The integrand \textcolor{red}{for} the energy density \textcolor{red}{in Equation} \eqref{energys} is negligible both inside and outside the vortex when $\alpha=\alpha_c$,
  \be
  \alpha_c= \frac{s}{s-1}.
  \ee 
@@ -355,16 +355,16 @@ This behaviour is also confirmed numerically in figure \ref{fig:massn1}, albeit 
  \be
  {\cal E}(n, \,\alpha; s)\big|_{|n|\gg 1}\,=\,2\alpha\pi v^2|n|\frac{s-1}{s}\,=\,\frac{s-1}{2s}k\mu|n|\,.\label{generalenergy}
  \ee
-This result is confirmed by our numerical solutions for the sextic potential below. As before the mass formula is independent of the interaction strength of the potential. We point out however that the radius of the vortex solution $R_n=\frac{1}{\mu}\sqrt{2\alpha |n|}$ depends non\textcolor{red}{-}trivially on all parameters. From the definition of $\alpha$ \eqref{alphadef}, increasing the interaction strength (for fixed $\mu$ and $k$) has the effect of increasing the vortex size.
+This result is confirmed by our numerical solutions for the sextic potential below. As before the mass formula is independent of the interaction strength of the potential. We point out\textcolor{red}{,} however\textcolor{red}{,} that the radius of the vortex solution $R_n=\frac{1}{\mu}\sqrt{2\alpha |n|}$ depends non\textcolor{red}{-}trivially on all parameters. From the definition of $\alpha$ \textcolor{red}{(Equation }\eqref{alphadef}\textcolor{red}{)}, increasing the interaction strength (for fixed $\mu$ and $k$) has the effect of increasing the vortex size.
 \subsection{Positive flux vortices}
-With our choice of conventions  $\mu >0$ and $k>0$, positive flux solutions are energetically disfavoured. To see this, let us  reconsider the energy functional \eqref{bpsfirst}.  As in the case of the flux in eq.\eqref{ringansatz}, there are different types of contributions to the energy, those that scale with the area of the vortex, those that scale with the perimeter, and finally (gauge-covariant) gradient  terms which become important at the edge of the vortex.
+With our choice of conventions  $\mu >0$ and $k>0$, positive flux solutions are energetically disfavoured. To see this, let us  reconsider the energy functional \eqref{bpsfirst}.  As in the case of the flux in \textcolor{red}{Equation} \eqref{ringansatz}, there are different types of contributions to the energy, those that scale with the area of the vortex, those that scale with the perimeter, and finally (gauge-covariant) gradient  terms which become important at the edge of the vortex.
 If we pick $\alpha$ to be sufficiently large so that we can ignore the flux contribution from the vortex interior, then 
 $B_{\rm ring}\sim n/R_n$. Then the leading contributions to the energy take the schematic form,
 \be
-{\cal E}(n)\sim (2\pi v^2)\left(\frac{n^2}{R_n}\Delta + c_0\pi R_n^2 \right)\,,\qquad \alpha\gg1
+{\cal E}(n)\sim (2\pi v^2)\left(\frac{n^2}{R_n}\Delta + c_0\pi R_n^2 \right)\,,\qquad \alpha\gg1\textcolor{red}{.}
 \ee
-Here the first term is a perimeter contribution from a covariant gradient while the second term is a potential energy contribution from the interior. Extremizing with respect to $R_n$, we obtain $R_n\sim n^{2/3}$ and ${\cal E}(n)\sim n^{4/3}$.
-However this argument will fail for  finite $\alpha$ since $B(0)=-\mu^2/\alpha$ and the area scaling as $n^{4/3}$ would violate  the flux condition \eqref{ringansatz}.  We have not found a satisfactory scaling argument for finite $\alpha$ and large $n$, but our numerical results indicate a faster than quadratic growth of the energy as a function of $n$ in this situation.
+Here the first term is a perimeter contribution from a covariant gradient while the second term is a potential energy contribution from the interior. Extremi\textcolor{red}{s}ing with respect to $R_n$, we obtain $R_n\sim n^{2/3}$ and ${\cal E}(n)\sim n^{4/3}$.
+However this argument will fail for  finite $\alpha$ since $B(0)=-\mu^2/\alpha$ and the area scaling as $n^{4/3}$ would violate  the flux condition \textcolor{red}{in Equation} \eqref{ringansatz}.  We have not found a satisfactory scaling argument for finite $\alpha$ and large $n$, but our numerical results indicate a faster than quadratic growth of the energy as a function of $n$ in this situation.
 
 
 %    \section{Approximately BPS solution}
@@ -375,15 +375,14 @@ However this argument will fail for  finite $\alpha$ since $B(0)=-\mu^2/\alpha$ 
 The vortex equations of motion are not analytically solvable. We numerically solve the dimensionless equations of motion \eqref{eq:dimlesseom1}, \eqref{eq:dimlesseom2} and \eqref{eq:dimlesseom3} along with the accompanying boundary conditions. Below we outline the results for the quartic potential $(s=2)$ first, and subsequently  summari\textcolor{red}{s}e the results for the sextic $(s=3)$ case.
 \subsection{Quartic potential $(s=2)$}
 \paragraph{Negative flux solutions:} A well known feature of Chern-Simons-Higgs vortices in vacuum is the ring-like profile of electric and magnetic fields \cite{Horvathy:2008hd}. The finite density vortices we have studied are qualitatively distinct and
-retain this feature only partially. Figure  \ref{fig:scalarneg}  shows the (dimensionless) scalar field $\tilde f(\tilde r)$ and magnetic field $\tilde B(\tilde r )$  at $\alpha=5$ and different negative values of the magnetic flux.
+retain this feature only partially. Figure \textcolor{red}{(}\ref{fig:scalarneg}\textcolor{red}{)}  shows the (dimensionless) scalar field $\tilde f(\tilde r)$ and magnetic field $\tilde B(\tilde r )$  at $\alpha=5$ and different negative values of the magnetic flux.
 \begin{figure}[H]
 \begin{center}
     \includegraphics[width=3in]{Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png}\includegraphics[width=3in]{Chapter_2_Folder_1912.11321/figures/B_alpha_5_final.pdf}
     \caption[This figure showcases the scalar and magnetic field profiles of vortices in the \textcolor{red}{a}belian Chern-Simons model at finite chemical potential and negative magnetic flux.]{ {\small{\it Left}: The scalar field profile $\tilde f(\tilde r)$ for $\alpha=5$ and negative flux. {\it Right:} The dimensionless magnetic field $\tilde B(\tilde r)$ for the same values of $\alpha$ and magnetic flux.}} \label{fig:scalarneg}
    \end{center}
 \end{figure}
-Unlike Chern-Simons vortices in vacuum \cite{Horvathy:2008hd, Bolognesi:2007ez} the magnetic field is no longer expelled from the core of the vortex. Instead, the magnetic field and the scalar are both effectively constant separately inside and outside the vortex and we observe a kink-like transition in between.  The value of the dimensionless magnetic field inside the vortex is $\tilde B(0)= -1/\alpha=-0.2$ for $\alpha=5$. 
-
+Unlike Chern-Simons vortices in vacuum \cite{Horvathy:2008hd, Bolognesi:2007ez} the magnetic field is no longer expelled from the core of the vortex. Instead, the magnetic \colorbox{red}{ } and the scalar \textcolor{red}{fields} are both effectively constant \colorbox{red}{ } inside and outside the vortex and we observe a kink-like transition in between.  The value of the dimensionless magnetic field inside the vortex is $\tilde B(0)= -1/\alpha=-0.2$ for $\alpha=5$. 
 \begin{figure}[H]
 \begin{center}
     \includegraphics[width=2.8in]{Chapter_2_Folder_1912.11321/figures/E_alpha_5_final.png} \includegraphics[width=2.8in]{Chapter_2_Folder_1912.11321/figures/E_alpha_5_n_200.pdf} 
@@ -391,15 +390,14 @@ Unlike Chern-Simons vortices in vacuum \cite{Horvathy:2008hd, Bolognesi:2007ez} 
    The width of the transition region remains fixed as $|n|$ is cranked up.} }\label{fig:Eneg}
    \end{center}
 \end{figure}
-
- The electric field on the other hand has support only at the edge or the transition-region where the gradient of $A_0$ is significant. This is illustrated in figure \ref{fig:Eneg}.
+ The electric field\textcolor{red}{,} on the other hand\textcolor{red}{,} has support only at the edge or the transition-region where the gradient of $A_0$ is significant. This is illustrated in \textcolor{red}{F}igure \textcolor{red}{(}\ref{fig:Eneg}\textcolor{red}{)}.
 %\includegraphics[width=2.9in]{Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf}
-Even for relatively low values of $|n|$, the location of the peak in the magnitude of the electric field begins to track the large $|n|$ estimate of the vortex radius \eqref{radius}:
+Even for relatively low values of $|n|$, the location of the peak in the magnitude of the electric field begins to track the large $|n|$ estimate of the vortex radius \textcolor{red}{in Equation} \eqref{radius}:
 \bea
 \mu R_n = \sqrt{2|n|\alpha} = \quad
 \left\{\begin{matrix}
-7.07 & \quad n=-5\,,\alpha=5\\
-15.81&\quad n=-25\,,\alpha=5\\
+    7.07 & \quad n=-5\,,\alpha=5\textcolor{red}{,}\\
+    15.81&\quad n=-25\,,\alpha=5\textcolor{red}{,}\\
 44.7 & \quad n=-200\,,\alpha=5\,.
 \end{matrix}\right.
 \eea
@@ -407,26 +405,25 @@ The width of the ring-like transition region remains fixed as $|n|$ is increased
 \begin{figure}[H]
 \begin{center}
     \includegraphics[width=2.9in]{Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf}  
-    \caption[This figure shows the vortex size dependence on the flux.]{ {\small The radii of large $n$ vortex solutions follow very closely the curve $\mu R_n=\sqrt{2\mu |n|}$.
+    \caption[This figure shows the vortex size dependence on the flux.]{ {\small The radii of large $n$ vortex solutions follow very closely the curve $\mu R_n=\sqrt{2 \textcolor{red}{\alpha} |n|}$.
 We define the radius of the vortex as the position at which the dimensionless energy density falls below a threshold $\sim 10^{-4}$. } }\label{fig:radius}
    \end{center}
 \end{figure}
-A precise agreement between the above scaling formula for the radius is obtained when the magnitude of the flux is significantly increased, as shown in the second plot in figure \ref{fig:radius}.
-
-The most interesting aspect of the negative flux vortex solutions is the scaling of the energy with $|n|$. Using the energy functional \eqref{bpsfirst}, we compute the two dimensionless ratios,
+A precise agreement between the above scaling formula for the radius is obtained when the magnitude of the flux is significantly increased, as shown in \colorbox{red}{ } \textcolor{red}{F}igure \textcolor{red}{(}\ref{fig:radius}\textcolor{red}{)}.\\
+\indent The most interesting aspect of the negative flux vortex solutions is the scaling of the energy with $|n|$. Using the energy functional \eqref{bpsfirst}, we compute the two dimensionless ratios,
 \be
-\frac{{\cal E}(n, \alpha)}{{|n|\cal E}(1, \alpha)}\,\qquad{\rm and} \qquad \frac{{\cal E}(n, \alpha)}{2\pi v^2|n|} \quad\xrightarrow{|n|\gg 1} \quad\frac{\alpha}{2}\,.\label{ratios}
+\frac{{\cal E}(n, \alpha)}{{|n|\cal E}(1, \alpha)}\,\qquad\text{\rm and} \qquad \frac{{\cal E}(n, \alpha)}{2\pi v^2|n|} \quad\xrightarrow{|n|\gg 1} \quad\frac{\alpha}{2}\,.\label{ratios}
 \ee
-The first ratio measures the energy of the $n$-vortex relative to that of $|n|$ vortices each with unit (negative) flux. If this is less than unity, then the $n$-vortex has lower energy than $|n|$ separated $-1$-vortices, and therefore the interactions between them must be attractive (type I). Conversely, if ${\cal E}(n, \alpha) > |n|{\cal E}(1, \alpha)$, the vortex interaction is repulsive (type II). 
+The first ratio measures the energy of the $n$-vortex relative to that of \textcolor{red}{$n$} vortices each with unit (negative) flux. If this is less than unity, then the \textcolor{red}{$n$}-vortex has lower energy than $n$ separated \textcolor{red}{$\left(-1\right)$}-vortices, and therefore the interactions between them must be attractive (type I). Conversely, if ${\cal E}(n, \alpha) > |n|{\cal E}(1, \alpha)$, the vortex interaction is repulsive (type II). 
 \begin{figure}[H]
 \begin{center}
  \includegraphics[width=2.70in]{Chapter_2_Folder_1912.11321/figures/bpsrationeg.png}\hspace{0.1in}
     \includegraphics[width=2.70in]{Chapter_2_Folder_1912.11321/figures/mass1neg.png}
-    \caption[This figure shows the energy per flux for different values of the coupling parameter $\alpha$.]{{\small{\it Left:} This shows that $\alpha < 2$ vortices are type I (attractive), separated from type II (repulsive) solutions for $\alpha>2$ by the $\alpha=2$ line where the solutions have vanishing interaction energy. {\it Right:} The $\alpha$-dependence of the $n$-vortex mass formula agrees with analytical arguments at large $|n|$. }} \label{fig:massn1}
+    \caption[This figure shows the energy per flux for different values of the coupling parameter $\alpha$.]{{\small{\it Left:} This shows that $\alpha < 2$ vortices are type I (attractive)\textcolor{red}{. They are} separated from type II (repulsive) solutions for $\alpha>2$ by the $\alpha=2$ line\textcolor{red}{,} where the solutions have vanishing interaction energy. {\it Right:} The $\alpha$-dependence of the $n$-vortex mass formula agrees with analytical arguments at large $|n|$. }} \label{fig:massn1}
    \end{center}
 \end{figure}
-The second ratio in \eqref{ratios} is the general formula for the $\alpha$-dependence of the $n$-vortex energy which was deduced from arguments for large $|n|$. Figure \ref{fig:massn1} shows to significant numerical precision that negative flux solutions with $\alpha=2$ are effectively ``BPS" for any value of  $|n|$, separating $\alpha> 2$ solutions which are type II (repulsive) from the solutions with $\alpha < 1$ which are type I or attractive. Furthermore the $\alpha$-dependence of the energies of type I and type II vortices for large flux matches the predicted behaviour in eq.\eqref{ratios}. \\
-\indent A surprising feature of the numerical results is how closely the energies of the vortices with $\alpha=2$  match the BPS result $2\pi |n| v^2$ even for low values of $|n|$. This matching is corroborated by  figure \ref{fig:firstorder}, which shows that the vortex profile for $\alpha=2$  almost solves the first order equation $\tilde f' = a \tilde f$. This figure also demonstrates that the vector potential inside the vortex closely follows the result for a uniform magnetic field.
+The second ratio in \textcolor{red}{Equation} \eqref{ratios} is the general formula for the $\alpha$-dependence of the $n$-vortex energy which was deduced from arguments for large $|n|$. Figure \textcolor{red}{(}\ref{fig:massn1}\textcolor{red}{)} shows\textcolor{red}{,} to significant numerical precision\textcolor{red}{,} that negative flux solutions with $\alpha=2$ are effectively ``BPS" for any value of  $|n|$, separating $\alpha> 2$ solutions\textcolor{red}{,} which are type II (repulsive)\textcolor{red}{,} from the solutions with $\alpha < \textcolor{red}{2}$\textcolor{red}{,} which are type I or attractive. Furthermore the $\alpha$-dependence of the energies of type I and type II vortices for large flux matches the predicted behaviour in \textcolor{red}{Equation} \eqref{ratios}. \\
+\indent A surprising feature of the numerical results is how closely the energies of the vortices with $\alpha=2$  match the BPS result $2\pi |n| v^2$ even for low values of $|n|$. This matching is corroborated by \textcolor{red}{F}igure \textcolor{red}{(}\ref{fig:firstorder}\textcolor{red}{)}, which shows that the vortex profile for $\alpha=2$  almost solves the first order equation $\tilde f' = a \tilde f$. This figure also demonstrates that the vector potential inside the vortex closely follows the result for a uniform magnetic field.
 \begin{figure}[H]
 \begin{center}
     \includegraphics[width=2.70in]{Chapter_2_Folder_1912.11321/figures/firstorderalpha1_corrected.pdf} \hspace{0.1in}
@@ -434,11 +431,11 @@ The second ratio in \eqref{ratios} is the general formula for the $\alpha$-depen
     \caption[This figure shows three quantities that ought to match in the BPS vortex.]{{\small The figure shows the three quantities: $rf'/f$ (red), $\left(A_\theta+|n|\right)$ (green), and $\left(-|B(0)|r^2/2+|n|\right)$ (purple) evaluated on the exact numerical solutions for $\alpha=1$ and $\alpha=2$.}} \label{fig:firstorder}
     \end{center}
 \end{figure}
-The extent of the departure of the vortex profile from an exact solution to the  first order equation $\tilde f'=a f$ is shown in figure \ref{fig:error}.  Evaluated on the $\alpha=2$ solution, the quantity $(\tilde f^\prime - a \tilde f)$ deviates minimally from zero near the edge of the vortex.
+The extent of the departure of the vortex profile from an exact solution to the  first order equation $\tilde f'=a f$ is shown in \textcolor{red}{F}igure \textcolor{red}{(}\ref{fig:error}\textcolor{red}{)}.  Evaluated on the $\alpha=2$ solution, the quantity $(\tilde f^\prime - a \tilde f)$ deviates minimally from zero near the edge of the vortex.
 \begin{figure}[H]
 \begin{center}
     \includegraphics[width=2.6in]{Chapter_2_Folder_1912.11321/figures/BPS_equation_error.pdf}\qquad\includegraphics[width=2.6in]{Chapter_2_Folder_1912.11321/figures/negative_n_A0.pdf}
-     \caption[Plots of $\tilde{f}(r)' - a(r) \tilde{f}(r)$ for 3 values of $\alpha$ and $\tilde{A}_0(0)$ for different values of $|n|$ and $\alpha$.]{{\small {\it Left: }$\left(\tilde f^\prime - a \tilde f\right)$ plotted for 3 values of $\alpha$ including critical case. $\alpha=2$. {\it Right:} The value of $\tilde A_0$ at the origin for different $\alpha$ as a function of $|n|$. }} \label{fig:error}
+     \caption[Plots of $\tilde{f}(r)' - a(r) \tilde{f}(r)$ for 3 values of $\alpha$ and $\tilde{A}_0(0)$ for different values of $|n|$ and $\alpha$.]{{\small {\it Left: }$\left(\tilde f^\prime - a \tilde f\right)$ plotted for 3 values of $\alpha$ including \textcolor{red}{the} critical case\colorbox{red}{ } $\alpha=2$. {\it Right:} The value of $\tilde A_0$ at the origin for different $\alpha$ as a function of $|n|$. }} \label{fig:error}
     \end{center}
 \end{figure}
 Yet another measure of the relevance of the first order equation $\tilde f^\prime = a \tilde f$ for the $\alpha=2$ solutions is given by the value of $\tilde A_0(0)$. The value of the electrostatic potential at the origin is not fixed as a boundary condition, but an output of the solution. Let us use the equation of motion for the electric field \eqref{eq:dimlesseom2} in conjunction with the first order equation at $\alpha=2$,
@@ -451,10 +448,10 @@ We therefore arrive at a prediction,
 \be
 \tilde A_0(0)\big|_{\alpha=2}\,=\,-\frac{1}{4}\,.
 \ee
-This is precisely what we see in figure \ref{fig:error} for the $\alpha=2$ solution. However, we also find the unexpected feature that $\tilde A_0(0)$ for other values of $\alpha$ approaches $-1/4$ at large $|n|$. This suggests  that solutions with generic $\alpha$ and large $|n|$ are not approximate  solutions to the first order equation\footnote{For generic $\alpha$, eq. \eqref{eq:dimlesseom2} along with the first order equation $\tilde f^\prime = a \tilde f$, would imply $\tilde A_0(0)=-1/2\alpha$. }.
+This is precisely what we see in \textcolor{red}{F}igure \textcolor{red}{(}\ref{fig:error}\textcolor{red}{)} for the $\alpha=2$ solution. However, we also find the unexpected feature that $\tilde A_0(0)$\textcolor{red}{,} for other values of $\alpha$\textcolor{red}{,} approaches $-1/4$ at large $|n|$. This suggests  that solutions with generic $\alpha$ and large $|n|$ are not approximate  solutions to the first order equation\footnote{For generic $\alpha$, \textcolor{red}{Equation} \eqref{eq:dimlesseom2} along with the first order equation $\tilde f^\prime = a \tilde f$, would imply $\tilde A_0(0)=\textcolor{red}{-\frac{1}{2\alpha}}$. }.
 \paragraph{Positive flux solutions:}
 We have explained how positive flux vortex solutions are qualitatively distinct from negative $n$ solutions. In certain limits (large $\alpha$) they closely resemble  Chern-Simons vortex solutions in vacuum.  
-The majority of the flux resides in the ring region or edge of the solution as $n$ is increased (see figure \ref{positiveprofile}).
+The majority of the flux resides in the ring region or edge of the solution as $n$ is increased (see \textcolor{red}{F}igure \textcolor{red}{(}\ref{positiveprofile}\textcolor{red}{)}).
 \begin{figure}[H]
 \begin{center}
  \includegraphics[width=2.7in]{Chapter_2_Folder_1912.11321/figures/B_alpha_10_positive_final.png} \includegraphics[width=2.7in]{Chapter_2_Folder_1912.11321/figures/E_alpha_10_positive_final.png}
@@ -464,48 +461,47 @@ The majority of the flux resides in the ring region or edge of the solution as $
 
 
 
- \textcolor{red}{In Figure (\ref{Comparison}) we have depicted a comparison betweeen magnetic field profiles of the pure Chern-Simons vortex (also known as the Jackiw-Lee-Weinberg-Hong-Kim-Pac (JLW-HKP) vortex \cite{Hong1990, Jackiw:1990aw, Jackiw:1990pr}) and the finite density vortex, studied in this section, in order to highlight the similarity in the $\mu \rightarrow 0$ limit. This ring-like profile in both cases is in contrast to the abelian Higgs model's disk-like structure, which we observed in Figure (\ref{fig:Abelian_Higgs_Profiles_n1}) earlier. The transition between these two types of behaviour (ring-like in CS and disk-like in abelian Higgs) has been more extensively studied by \textit{Bolognesi \& Gudnason} \cite{Bolognesi:2007ez}. }
+ \textcolor{red}{In Figure (\ref{Comparison}) we have depicted a comparison betweeen magnetic field profiles of the pure Chern-Simons vortex (also known as the \textit{Jackiw-Lee-Weinberg-Hong-Kim-Pac} (JLW-HKP) vortex \cite{Hong1990, Jackiw:1990aw, Jackiw:1990pr}) and the finite density vortex studied in this section, in order to highlight the similarity in the $\mu \rightarrow 0$ limit. This ring-like profile in both cases is in contrast to the abelian Higgs model's disk-like structure, which we observed in Figure (\ref{fig:Abelian_Higgs_Profiles_n1}) earlier. The transition between these two types of behaviours (ring-like in CS and disk-like in abelian Higgs) has been more extensively studied by \textit{Bolognesi \& Gudnason} \cite{Bolognesi:2007ez}. }
 
 
 \begin{figure}[H]
 \begin{center}
  \includegraphics[width=5in]{Chapter_2_Folder_1912.11321/figures/solution_JLW-HKP_n-1_Bvsalpha.png}
-     \caption[Magnetic field profiles comparison for $\mu =0$ and $\mu \neq 0$, $n=1$.]{ \textcolor{red}{Magnetic field profiles comparison for $\mu =0$ and $\mu \neq 0$, $n=1$. Here the red line shows the $\mu \neq 0$ vortex, while the blue line shows the $\mu =0$ case. Strictly speaking, a vortex would \textit{not} exist in such a limit, since the symmetry breaking is driven by the chemical potential. However, here we have depicted the vortex in a theory with a negative mass squared term in the potential. Since we have excluded 6th order terms (unlike the original studies of JLW-HKP) we may similarly describe the solutions using only one parameter. Due to its similarity with the $m=0, \mu\neq 0$ case, we have chosen to denote this parameter as $\alpha= \frac{k m}{4\pi v^2}$, to emphasi\textcolor{red}{s}e the analogy.}} \label{Comparison}
+     \caption[Magnetic field profiles comparison for $\mu =0$ and $\mu \neq 0$, in the case of $n=1$.]{ \textcolor{red}{Magnetic field profiles comparison for $\mu =0$ and $\mu \neq 0$, in the case of $n=1$. Here the red line shows the $\mu \neq 0$ vortex, while the blue line shows the $\mu =0$ case. Strictly speaking, a vortex would \textit{not} exist in such a limit, since the symmetry breaking is driven by the chemical potential. However, here we have depicted the vortex in a theory with a negative mass squared ($m^2$) term in the potential. Since we have excluded 6th order terms (unlike the original studies of JLW-HKP) we may similarly describe the solutions using only one parameter. Due to its similarity with the $m=0, \mu\neq 0$ case, we have chosen to denote this parameter as $\alpha= \frac{k m}{4\pi v^2}$, to emphasi\textcolor{red}{s}e the analogy.}} \label{Comparison}
     \end{center}
 \end{figure}
 
-In figure \ref{positiveenergy} the dependence of the $n$-vortex energy on $|n|$, is displayed for the negative and positive flux solutions, and as expected the latter are more massive.  It is surprising  that ${\cal E }(n)/|n|$ appears to grow faster than $|n|$.
+In \textcolor{red}{F}igure \textcolor{red}{(}\ref{positiveenergy}\textcolor{red}{)} the dependence of the $n$-vortex energy on $|n|$, is displayed for the negative and positive flux solutions, and as expected\textcolor{red}{,} the latter are more massive.  It is surprising  that ${\cal E }(n)/|n|$ appears to grow faster than $|n|$.
 \begin{figure}[H]
 \begin{center}
  \includegraphics[width=3in]{Chapter_2_Folder_1912.11321/figures/positive_n_energy.pdf}
-     \caption[Energy per flux for positive winding number $n$.]{{\small Positive flux vortices have higher energy than their negative flux counterparts.}} \label{positiveenergy}
+     \caption[Energy per flux for positive winding number $n$.]{{\small \textcolor{red}{This figure shows the energy of a vortex per unit of a flux, measured in units of a flux $1$ vortex.}  Positive flux vortices have higher energy than their negative flux counterparts.}} \label{positiveenergy}
     \end{center}
 \end{figure}
 \subsection{Sextic potential ($s=3$)}
 Finally we turn to numerical results for the higher power law potentials, in particular the $s=3$
-or sextic potential. We do not expect to see major qualitative differences overall. One special feature of the quartic potential $(s=2)$ is that when $\alpha=2$, there is a precise cancellation of the scalar potential energy contribution to the energy functional. This is not the case for general power laws. Nevertheless there is an approximate cancellation when evaluated on the vortex background at the critical value of $\alpha = \frac{s}{s-1}$.   The critical value for the sextic potential is $\alpha = \frac32$.
-The profiles for the negative flux vortex with sextic and quartic potentials are shown on the same plot in figure \ref{sexticprofile}. For the same values of the dimensionless parameter $\alpha$ there is very little difference between the two systems. The transition between the two phases is slightly steeper for the sextic potential. The ratios of the energies of the $n$-vortex to single vortex and and the BPS value ($2\pi v^2 n$) are shown in figure 
-\ref{sexticenergy}.
+or sextic potential. We do not expect to see major qualitative differences \textcolor{red}{from the $s=2$ case}. One special feature of the quartic potential $(s=2)$ is that when $\alpha=2$, there is a precise cancellation of the scalar potential energy contribution to the energy functional. This is not the case for general power laws. Nevertheless there is an approximate cancellation when evaluated on the vortex background at the critical value of $\alpha = \frac{s}{s-1}$.   The critical value for the sextic potential is $\alpha = \frac32$.
+The profiles for the negative flux vortex with sextic and quartic potentials are shown on the same plot in \textcolor{red}{F}igure \textcolor{red}{(}\ref{sexticprofile}\textcolor{red}{)}. For the same values of the dimensionless parameter $\alpha$ there is very little difference between the two systems. The transition between the two phases is slightly steeper for the sextic potential. The ratios of the energies of the $n$-vortex to single vortex \colorbox{red}{ } and the BPS value ($2\pi v^2 n$) are shown in \textcolor{red}{F}igure \textcolor{red}{(}\ref{sexticenergy}\textcolor{red}{)}.
 
 \begin{figure}[H]
 \begin{center}
  \includegraphics[width=1.85in]{Chapter_2_Folder_1912.11321/figures/f_sixthvsfourth.pdf}\includegraphics[width=1.85in]{Chapter_2_Folder_1912.11321/figures/B_sixthvsfourth.pdf}
  \includegraphics[width=1.85in]{Chapter_2_Folder_1912.11321/figures/E_sixthvsfourth.pdf}
-     \caption[This figure shows the vortex profiles with negative winding number for quartic and sextic potentials.]{{ \small Vortex profiles with negative winding number for quartic(solid) and sextic(dashed) potentials.}} \label{sexticprofile}
+     \caption[This figure shows the vortex profiles with negative winding number for quartic and sextic potentials.]{{ \small Vortex profiles with negative winding number for quartic(solid) and sextic(dashed) potentials. \textcolor{red}{The figure shows the scalar, magnetic and electric fields profiles, respectively.}}} \label{sexticprofile}
     \end{center}
 \end{figure}
 
  \begin{figure}[H]
 \begin{center}
  \includegraphics[width=2.8in]{Chapter_2_Folder_1912.11321/figures/sixth_order_alpha.pdf}\hspace{0.1in}\includegraphics[width=2.8in]{Chapter_2_Folder_1912.11321/figures/sixth_order_alpha_byE1.pdf}
-     \caption[This figure shows the scaling of the energy of the $n$-vortex with $|n|$ and $\alpha$, with sextic potential.]{{ \small The scaling of the energy of the $n$-vortex with $|n|$ and $\alpha$, with sextic potential.}} \label{sexticenergy}
+     \caption[This figure shows the scaling of the energy of the $n$-vortex with $|n|$ and $\alpha$, with sextic potential.]{{ \small The scaling of the energy of the $n$-vortex with $|n|$ and $\alpha$, with sextic potential. \textcolor{red}{The plots show two different normalisations. On the left we have normalised the energy with respect to the value of a BPS vortex, whereas on the right we have used the single flux vortex with its respective value of $\alpha$ as normalisation.}}} \label{sexticenergy}
     \end{center}
 \end{figure}
-The dependence of the energy on $|n|$ and $\alpha$ matches the prediction \eqref{generalenergy}, and we find a transition line between type I and type II vortices at the critical coupling $\alpha_c = \tfrac32$ which represents the marginally bound ``BPS" case for the sextic potential.   Again the value of $\tilde A_0(0)$ indicates that the profiles almost satisfy the first order equation which would imply,
+The dependence of the energy on $|n|$ and $\alpha$ matches the prediction \textcolor{red}{from Equation} \eqref{generalenergy}, and we find a transition line between type I and type II vortices at the critical coupling $\alpha_c = \tfrac32$ which represents the marginally bound ``BPS" case for the sextic potential.   Again the value of $\tilde A_0(0)$ indicates that the profiles almost satisfy the first order equation which would imply,
 \be
 \tilde A_0(0)\,=\,-\frac{1}{2\alpha_c}\,=\,-\frac13\,.
 \ee
-This is indeed what we observe in figure \ref{A0sextic}. All large $n$ vortex profiles approach this value
+This is indeed what we observe in \textcolor{red}{F}igure \textcolor{red}{(}\ref{A0sextic}\textcolor{red}{)}. All large $n$ vortex profiles approach this value\textcolor{red}{.}
 \begin{figure}[H]
 \begin{center}
     \includegraphics[width=2.9in]{Chapter_2_Folder_1912.11321/figures/sixth_order_A0.pdf}     \caption[This figure shows value of $\tilde A_0$ at the origin for different values of $\alpha$, as a function of $|n|$,  
@@ -514,7 +510,7 @@ This is indeed what we observe in figure \ref{A0sextic}. All large $n$ vortex pr
     \end{center}
 \end{figure}
 \section{Discussion}
-We have studied \textcolor{red}{a}belian Chern-Simons vortices in the presence of a chemical potential driving the theory into the Higgs phase. The numerical solutions reveal several features which are in line with the physical picture presented in an analytically solvable (nonrelativistic) supersymmetric model \cite{Tong:2015xaa, Tong:2003vy}.  The configurations with large (negative) flux show precise BPS-like scaling of energy/grand potential and appear (numerically) to closely solve first order equations.
+We have studied \textcolor{red}{a}belian Chern-Simons vortices in the presence of a chemical potential driving the theory into the Higgs phase. The numerical solutions reveal several features which are in line with the physical picture presented in an analytically solvable (non\textcolor{red}{-}relativistic) supersymmetric model \cite{Tong:2015xaa, Tong:2003vy}.  The configurations with large (negative) flux show precise BPS-like scaling of energy/grand potential and appear (numerically) to closely solve first order equations.
 It would be interesting to make use of the large flux limit to understand the edge excitations of the vortex droplet. We expect that some of the lessons learnt from analy\textcolor{red}{s}ing this system will be of use in $SU(N)$ and $U(N)$ Chern-Simons-scalar theories with a particle number chemical potential. In these theories the ground state putatively breaks rotational invariance due to condensation of vector fields \cite{Kumar:2018nkf}, and depending on whether we are in the $SU(N)$ or $U(N)$ theory, particle number is ungauged or gauged,  and we will have superfluid or superconducting vortices. 
 
 %\acknowledgments We thank Jeff Murugan for discussions on closely related topics. SPK acknowledges support from STFC grant ST/P00055X/1. SS is supported by an STFC studentship under the DTP grant ST/N504464/1.

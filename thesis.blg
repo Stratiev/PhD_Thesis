@@ -11,9 +11,9 @@ A level-1 auxiliary file: Chapter_3_Folder_1806.06976/Chapter_3.aux
 A level-1 auxiliary file: Conclusions_Folder/Conclusions.aux
 A level-1 auxiliary file: Appendices_Folder/appendix_Chapter_3.aux
 The style file: Reference_Folder/utphys.bst
-Reallocated field_info (elt_size=8) to 11688 items from 5000.
+Reallocated field_info (elt_size=8) to 12168 items from 5000.
 Database file #1: Reference_Folder/references.bib
-You're missing a field name---line 195 of file Reference_Folder/references.bib
+You're missing a field name---line 191 of file Reference_Folder/references.bib
  :     
  :     % primaryClass   = "hep-th",
 (Error may have been on previous line)
@@ -41,91 +41,96 @@ Repeated entry---line 1229 of file Reference_Folder/references.bib
  : @article{Susskind:2001fb
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1425 of file Reference_Folder/references.bib
+Repeated entry---line 1424 of file Reference_Folder/references.bib
  : @article{Aharony:2012nh
  :                        ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1538 of file Reference_Folder/references.bib
+You're missing a field name---line 1535 of file Reference_Folder/references.bib
  :   
  :   %url = {https://link.aps.org/doi/10.1103/PhysRevB.39.2756}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1607 of file Reference_Folder/references.bib
+Repeated entry---line 1604 of file Reference_Folder/references.bib
  : @article{Aharony:2014uya
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2195 of file Reference_Folder/references.bib
+Repeated entry---line 2184 of file Reference_Folder/references.bib
  : @article{Maldacena:1997re
  :                          ,
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 2231 of file Reference_Folder/references.bib
+Unbalanced braces---line 2219 of file Reference_Folder/references.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2260 of file Reference_Folder/references.bib
- : @article{Borokhov:2002cg
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2444 of file Reference_Folder/references.bib
+Repeated entry---line 2429 of file Reference_Folder/references.bib
  : @article{Wilczek:1981du
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3098 of file Reference_Folder/references.bib
+Repeated entry---line 3050 of file Reference_Folder/references.bib
  : @article{Susskind:2001fb
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3147 of file Reference_Folder/references.bib
+Repeated entry---line 3099 of file Reference_Folder/references.bib
  : @article{Deser:1981wh
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--empty booktitle in Tong:2016kpv
+You're missing a field name---line 3232 of file Reference_Folder/references.bib
+ : 
+ : %    author = "Fradkin, E.S. and Tseytlin, Arkady A.",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3243 of file Reference_Folder/references.bib
+ : 
+ : %  author = "Born, Max and Infeld, Leopold",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty year in Dunne:1998qy
-Warning--empty publisher in Dugundji
-Warning--empty publisher in 0486477223
+Warning--empty booktitle in Tong:2016kpv
 Warning--empty year in Girvin
+Warning--empty publisher in 0486477223
 Name 1 in "Wen," has a comma at the end for entry wen2004quantum
 while executing---line 1248 of file Reference_Folder/utphys.bst
 Warning--empty pages in TopOrderRigidStates
-You've used 209 entries,
+You've used 224 entries,
             2328 wiz_defined-function locations,
-            2249 strings with 43550 characters,
-and the built_in function-call counts, 69623 in all, are:
-= -- 7482
-> -- 1535
+            2297 strings with 43700 characters,
+and the built_in function-call counts, 73487 in all, are:
+= -- 7694
+> -- 1667
 < -- 0
-+ -- 614
-- -- 405
-* -- 6386
-:= -- 7897
-add.period$ -- 341
-call.type$ -- 209
-change.case$ -- 295
++ -- 664
+- -- 440
+* -- 6689
+:= -- 8340
+add.period$ -- 308
+call.type$ -- 224
+change.case$ -- 313
 chr.to.int$ -- 0
-cite$ -- 215
-duplicate$ -- 3725
-empty$ -- 7042
-format.name$ -- 405
-if$ -- 18165
+cite$ -- 229
+duplicate$ -- 3983
+empty$ -- 7526
+format.name$ -- 440
+if$ -- 19119
 int.to.chr$ -- 0
-int.to.str$ -- 209
-missing$ -- 801
-newline$ -- 767
-num.names$ -- 209
-pop$ -- 1037
+int.to.str$ -- 224
+missing$ -- 859
+newline$ -- 814
+num.names$ -- 224
+pop$ -- 1168
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2712
+skip$ -- 2882
 stack$ -- 0
-substring$ -- 4704
-swap$ -- 1907
+substring$ -- 4966
+swap$ -- 2030
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 645
-width$ -- 212
-write$ -- 1697
-(There were 16 error messages)
+warning$ -- 5
+while$ -- 687
+width$ -- 227
+write$ -- 1764
+(There were 17 error messages)
