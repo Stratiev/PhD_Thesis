@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.7.19)  27 JUL 2020 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.7.19)  27 JUL 2020 19:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1706,31 +1706,11 @@ pdfTeX warning: pdflatex (file ./Background_Folder/figures/lrg_gauge2.pdf): PDF
 
 pdfTeX warning: pdflatex (file ./Background_Folder/figures/lrg_gauge3.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->]
-! Extra }, or forgotten \endgroup.
-\@textcolor ...otect \leavevmode {\color #1{#2}#3}
-                                                  
-l.138 ...  \item[$\circ$] Finite Temperature $T$.}
-                                                  \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+>] [15] [16]
+Underfull \vbox (badness 5563) has occurred while \output is active []
 
-[15]
-! Missing } inserted.
-<inserted text> 
-                }
-l.144     \end{itemize}}
-                        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[16] [17] [18]
+ [17]
+[18]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -1807,8 +1787,16 @@ File: Background_Folder/figures/Flux_Attachment_3.pdf Graphic file (type pdf)
 Package pdftex.def Info: Background_Folder/figures/Flux_Attachment_3.pdf  used 
 on input line 237.
 (pdftex.def)             Requested size: 326.0015pt x 180.72794pt.
- [20] [21 <./Background_Folder/figures/Flux_Attachment_3.pdf>] [22]
-[23]
+ [20] [21 <./Background_Folder/figures/Flux_Attachment_3.pdf>]
+Underfull \vbox (badness 2846) has occurred while \output is active []
+
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -1835,7 +1823,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[24] [25]
+[25]
 
 ! Package amsmath Error: Multiple \label's: label 'eq:partition_function_comple
 x_scalar' will be lost.
@@ -1850,37 +1838,35 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 6016) has occurred while \output is active []
+ [27]
+[28] [29] [30]
+Underfull \vbox (badness 6220) has occurred while \output is active []
 
- [26]
-[27] [28] [29] [30] [31] [32]
-Underfull \vbox (badness 1824) has occurred while \output is active []
+ [31]
+[32]
+Underfull \vbox (badness 2393) has occurred while \output is active []
 
  [33]
-Underfull \vbox (badness 7522) has occurred while \output is active []
-
- [34]
-[35] [36] [37] [38]
+[34] [35] [36] [37] [38]
 LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 6
 15.
  (/usr/share/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
 )
-[39] [40] [41] [42] [43] [44] [45]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[39] [40] [41] [42] [43] [44]
+Underfull \vbox (badness 1097) has occurred while \output is active []
 
- [46]
+ [45]
+[46]
 LaTeX Font Info:    Trying to load font information for OT1+jkptt on input line
  741.
-
-(/usr/share/texmf-dist/tex/latex/kpfonts/ot1jkptt.fd
+ (/usr/share/texmf-dist/tex/latex/kpfonts/ot1jkptt.fd
 File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
-)
-Underfull \vbox (badness 2707) has occurred while \output is active []
-
- [47]
-<Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png, id=1126, 22
+) [47]
+<Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png, id=1124, 22
 30.58344pt x 1498.09688pt>
 File: Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png Graphic
  file (type png)
@@ -1888,7 +1874,7 @@ File: Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png Graphic
 Package pdftex.def Info: Background_Folder/figures/solution_n1_magnetic_field_g
 _lambda.png  used on input line 756.
 (pdftex.def)             Requested size: 223.07141pt x 149.81847pt.
-<Background_Folder/figures/solution_n1_scalar_field_g_lambda.png, id=1128, 2048
+<Background_Folder/figures/solution_n1_scalar_field_g_lambda.png, id=1126, 2048
 .40282pt x 1471.74844pt>
 File: Background_Folder/figures/solution_n1_scalar_field_g_lambda.png Graphic f
 ile (type png)
@@ -1901,20 +1887,17 @@ Overfull \hbox (67.09787pt too wide) in paragraph at lines 755--759
  [][] 
  []
 
+[48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 1275) has occurred while \output is active []
-
- [48 <./Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png> <./B
-ackground_Folder/figures/solution_n1_scalar_field_g_lambda.png>]
-Underfull \vbox (badness 2495) has occurred while \output is active []
-
- [49]
-[50] [51] [52]
+ [49 <./Background_Folder/figures/solution_n1_magnetic_field_g_lambda.png> <./B
+ackground_Folder/figures/solution_n1_scalar_field_g_lambda.png>] [50] [51] [52]
+ [53]
 ! Undefined control sequence.
 <argument> \smooth 
                    
-l.833 ...ds to the form of the partition function}
-                                                  
+l.833 ...mooth}}=0$, since $\theta_{\text{\smooth}
+                                                  }$ is a smooth function. W...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1924,8 +1907,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \firstchoice@false \smooth 
                                       
-l.833 ...ds to the form of the partition function}
-                                                  
+l.833 ...mooth}}=0$, since $\theta_{\text{\smooth}
+                                                  }$ is a smooth function. W...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1935,8 +1918,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \firstchoice@false \smooth 
                                       
-l.833 ...ds to the form of the partition function}
-                                                  
+l.833 ...mooth}}=0$, since $\theta_{\text{\smooth}
+                                                  }$ is a smooth function. W...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1946,15 +1929,19 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \firstchoice@false \smooth 
                                       
-l.833 ...ds to the form of the partition function}
-                                                  
+l.833 ...mooth}}=0$, since $\theta_{\text{\smooth}
+                                                  }$ is a smooth function. W...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[53] [54] [55] [56] [57] [58] [59] [60]
+[54]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+[56] [57] [58] [59] [60]
 ! Double superscript.
 <argument> ...,...,n_p\rangle = \bm {a}^{\dag }_1^
                                                   {n_1}... \bm {a}^{\dag }_p...
@@ -1983,66 +1970,13 @@ l.948     \end{align}
                      
 I treat `x^1^2' essentially like `x^1{}^2'.
 
-[61]
-Underfull \vbox (badness 3229) has occurred while \output is active []
-
- [62]
-[63]) [64] (./Chapter_2_Folder_1912.11321/Chapter_2.tex
+[61] [62] [63]) [64] (./Chapter_2_Folder_1912.11321/Chapter_2.tex
 Chapter 2.
 [65
 
 
 
-]
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 \be
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 \be
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 \be
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 \be
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[66] [67]
+] [66] [67]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2097,54 +2031,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \ee
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \ee
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \ee
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \ee
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 [68] [69]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
@@ -2153,142 +2039,28 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 ...textcolor{red}{\right)} \right)^2/(2\xi)$}
+l.87 ...\rangle^\dagger \right) \right)^2/(2\xi)$}
                                                    to  quadratic order in fl...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Extra }, or forgotten \right.
-\@textcolor ...otect \leavevmode {\color #1{#2}#3}
-                                                  
-l.87 ...textcolor{red}{\right)} \right)^2/(2\xi)$}
-                                                   to  quadratic order in fl...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.87 ...textcolor{red}{\right)} \right)^2/(2\xi)$}
-                                                   to  quadratic order in fl...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 \end{align}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 \end{align}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 \end{align}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 \end{align}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[70] [71]
+ [70]
+[71]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.129 ... to leading order term in $\xi$, namely }
-                                                  
+l.129 ...ref{eq:xi_infinity} for the energy \omega
+                                                  $ gives us a number of sol...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.146 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.146 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.146 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.146 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 [72]
-<Chapter_2_Folder_1912.11321/figures/Dispersion_relations.pdf, id=1479, 1115.07
+<Chapter_2_Folder_1912.11321/figures/Dispersion_relations.pdf, id=1477, 1115.07
 092pt x 652.77954pt>
 File: Chapter_2_Folder_1912.11321/figures/Dispersion_relations.pdf Graphic file
  (type pdf)
@@ -2296,104 +2068,11 @@ File: Chapter_2_Folder_1912.11321/figures/Dispersion_relations.pdf Graphic file
 Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/Dispersion_relatio
 ns.pdf  used on input line 151.
 (pdftex.def)             Requested size: 268.1647pt x 156.97906pt.
- [73 <./Chapter_2_Folder_1912.11321/figures/Dispersion_relations.pdf>]
 
-! Package xcolor Error: Undefined color `RED'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.191 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.191 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.191 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.191 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[74] [75]
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 \bea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 \bea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 \bea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 \bea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+ [73]
+[74 <./Chapter_2_Folder_1912.11321/figures/Dispersion_relations.pdf>] [75]
 [76] [77]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
@@ -2449,62 +2128,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Underfull \vbox (badness 6016) has occurred while \output is active []
-
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280  \eea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280  \eea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280  \eea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280  \eea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[78]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [79]
+[78] [79] [80]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 324.
@@ -2513,59 +2137,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 324.
 
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.327 O
-       ur arguments rely on the fact that for $n$ sufficiently large and neg...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.327 O
-       ur arguments rely on the fact that for $n$ sufficiently large and neg...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.327 O
-       ur arguments rely on the fact that for $n$ sufficiently large and neg...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.327 O
-       ur arguments rely on the fact that for $n$ sufficiently large and neg...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[80] [81]
+[81]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 349.
@@ -2578,6 +2150,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 349.
 
+[82]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -2592,59 +2165,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Underfull \vbox (badness 1721) has occurred while \output is active []
-
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.363 \be
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.363 \be
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.363 \be
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.363 \be
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[82]
+[83]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 376.
@@ -2653,7 +2174,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 376.
 
-<Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png, id=1602, 462.528pt x 
+<Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png, id=1607, 462.528pt x 
 346.896pt>
 File: Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png Graphic file (typ
 e png)
@@ -2661,7 +2182,7 @@ e png)
 Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.pn
 g  used on input line 381.
 (pdftex.def)             Requested size: 216.81pt x 162.60709pt.
-<Chapter_2_Folder_1912.11321/figures/B_alpha_5_final.pdf, id=1603, 462.52893pt 
+<Chapter_2_Folder_1912.11321/figures/B_alpha_5_final.pdf, id=1608, 462.52893pt 
 x 346.89668pt>
 File: Chapter_2_Folder_1912.11321/figures/B_alpha_5_final.pdf Graphic file (typ
 e pdf)
@@ -2674,8 +2195,7 @@ Overfull \hbox (21.05504pt too wide) in paragraph at lines 381--382
  [][] 
  []
 
-[83]
-<Chapter_2_Folder_1912.11321/figures/E_alpha_5_final.png, id=1612, 462.528pt x 
+<Chapter_2_Folder_1912.11321/figures/E_alpha_5_final.png, id=1611, 462.528pt x 
 346.896pt>
 File: Chapter_2_Folder_1912.11321/figures/E_alpha_5_final.png Graphic file (typ
 e png)
@@ -2683,7 +2203,7 @@ e png)
 Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/E_alpha_5_final.pn
 g  used on input line 388.
 (pdftex.def)             Requested size: 202.35622pt x 151.76662pt.
-<Chapter_2_Folder_1912.11321/figures/E_alpha_5_n_200.pdf, id=1613, 462.52893pt 
+<Chapter_2_Folder_1912.11321/figures/E_alpha_5_n_200.pdf, id=1612, 462.52893pt 
 x 346.89668pt>
 File: Chapter_2_Folder_1912.11321/figures/E_alpha_5_n_200.pdf Graphic file (typ
 e pdf)
@@ -2692,63 +2212,10 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/E_alpha_5_n_200.pd
 f  used on input line 388.
 (pdftex.def)             Requested size: 202.35622pt x 151.76692pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1472) has occurred while \output is active []
 
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.393  T
-        he electric field\textcolor{red}{,} on the other hand\textcolor{red}...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.393  T
-        he electric field\textcolor{red}{,} on the other hand\textcolor{red}...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.393  T
-        he electric field\textcolor{red}{,} on the other hand\textcolor{red}...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.393  T
-        he electric field\textcolor{red}{,} on the other hand\textcolor{red}...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[84 <./Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png> <./Chapter_2_Fo
-lder_1912.11321/figures/B_alpha_5_final.pdf>]
+ [84 <./Chapter_2_Folder_1912.11321/figures/f_alpha_5_final.png> <./Chapter_2_F
+older_1912.11321/figures/B_alpha_5_final.pdf>]
 <Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf, id=1627, 462.52
 893pt x 346.89668pt>
 File: Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf Graphic fil
@@ -2780,60 +2247,7 @@ Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/mass1neg.png  used
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.425 T
-       he second ratio in \textcolor{red}{Equation} \eqref{ratios} is the ge...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.425 T
-       he second ratio in \textcolor{red}{Equation} \eqref{ratios} is the ge...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.425 T
-       he second ratio in \textcolor{red}{Equation} \eqref{ratios} is the ge...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.425 T
-       he second ratio in \textcolor{red}{Equation} \eqref{ratios} is the ge...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[86 <./Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf>]
+ [86 <./Chapter_2_Folder_1912.11321/figures/radius_alpha1_large_n.pdf>]
 <Chapter_2_Folder_1912.11321/figures/firstorderalpha1_corrected.pdf, id=1661, 2
 675.19739pt x 1676.1233pt>
 File: Chapter_2_Folder_1912.11321/figures/firstorderalpha1_corrected.pdf Graphi
@@ -2871,57 +2285,8 @@ pdf)
 Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/negative_n_A0.pdf 
  used on input line 437.
 (pdftex.def)             Requested size: 187.90244pt x 137.09541pt.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.445 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.445 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.445 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.445 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[88 <./Chapter_2_Folder_1912.11321/figures/firstorderalpha1_corrected.pdf> <./C
-hapter_2_Folder_1912.11321/figures/firstorderalpha2_corrected.pdf
+ [88 <./Chapter_2_Folder_1912.11321/figures/firstorderalpha1_corrected.pdf> <./
+Chapter_2_Folder_1912.11321/figures/firstorderalpha2_corrected.pdf
 
 pdfTeX warning: pdflatex (file ./Chapter_2_Folder_1912.11321/figures/firstorder
 alpha2_corrected.pdf): PDF inclusion: multiple pdfs with page group included in
@@ -2966,56 +2331,8 @@ ype pdf)
 Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/positive_n_energy.
 pdf  used on input line 477.
 (pdftex.def)             Requested size: 216.81pt x 162.6074pt.
+ [90 <./Chapter_2_Folder_1912.11321/figures/solution_JLW-HKP_n-1_Bvsalpha.png>]
 
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.480 \end{figure}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.480 \end{figure}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.480 \end{figure}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.480 \end{figure}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[90 <./Chapter_2_Folder_1912.11321/figures/solution_JLW-HKP_n-1_Bvsalpha.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 481.
@@ -3073,57 +2390,8 @@ File: Chapter_2_Folder_1912.11321/figures/sixth_order_A0.pdf Graphic file (type
 Package pdftex.def Info: Chapter_2_Folder_1912.11321/figures/sixth_order_A0.pdf
   used on input line 507.
 (pdftex.def)             Requested size: 209.58255pt x 157.18716pt.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.511 \end{figure}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.511 \end{figure}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.511 \end{figure}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.511 \end{figure}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[92 <./Chapter_2_Folder_1912.11321/figures/f_sixthvsfourth.pdf> <./Chapter_2_Fo
-lder_1912.11321/figures/B_sixthvsfourth.pdf
+ [92 <./Chapter_2_Folder_1912.11321/figures/f_sixthvsfourth.pdf> <./Chapter_2_F
+older_1912.11321/figures/B_sixthvsfourth.pdf
 
 pdfTeX warning: pdflatex (file ./Chapter_2_Folder_1912.11321/figures/B_sixthvsf
 ourth.pdf): PDF inclusion: multiple pdfs with page group included in a single p
@@ -3144,60 +2412,7 @@ pdfTeX warning: pdflatex (file ./Chapter_2_Folder_1912.11321/figures/sixth_orde
 r_alpha_byE1.pdf): PDF inclusion: multiple pdfs with page group included in a s
 ingle page
 >]) [93 <./Chapter_2_Folder_1912.11321/figures/sixth_order_A0.pdf>]
-(./Chapter_3_Folder_1806.06976/Chapter_3.tex
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \chapter
-            {Roton-\textcolor{red}{P}honon \textcolor{red}{E}xcitations in C...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \chapter
-            {Roton-\textcolor{red}{P}honon \textcolor{red}{E}xcitations in C...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \chapter
-            {Roton-\textcolor{red}{P}honon \textcolor{red}{E}xcitations in C...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \chapter
-            {Roton-\textcolor{red}{P}honon \textcolor{red}{E}xcitations in C...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[94
+(./Chapter_3_Folder_1806.06976/Chapter_3.tex [94
 
 
 
@@ -3217,78 +2432,6 @@ l.17 ... the context of superfluidity in ${}^4{\rm
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 [96] [97]
 
@@ -3330,78 +2473,6 @@ l.35 ...\pi}\int d^3x\,\epsilon^{\mu\nu\rho}\,{\rm
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \ee
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \ee
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \ee
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \ee
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \ee
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \ee
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 [98]
 
@@ -3521,78 +2592,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.85 \be
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.85 \be
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.85 \be
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.85 \be
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.85 \be
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.85 \be
-        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 [100]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
@@ -3666,78 +2665,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138  \bea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138  \bea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138  \bea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138  \bea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138  \bea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138  \bea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 [102pdfTeX warning (ext4): destination with the same identifier (name{equation.
 3.2.20}) has been already used, duplicate ignored
 
@@ -3752,80 +2679,7 @@ File: Chapter_3_Folder_1806.06976/figures/Fvsv.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter_3_Folder_1806.06976/figures/Fvsv.pdf  used on 
 input line 160.
 (pdftex.def)             Requested size: 144.54pt x 86.32095pt.
- [103]
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 \bea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 \bea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 \bea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 \bea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 \bea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 \bea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[104 <./Chapter_3_Folder_1806.06976/figures/Fvsv.pdf>]
+ [103] [104 <./Chapter_3_Folder_1806.06976/figures/Fvsv.pdf>]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -3938,78 +2792,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 269.
 
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 \begin{eqnarray}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 \begin{eqnarray}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 \begin{eqnarray}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 \begin{eqnarray}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 \begin{eqnarray}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 \begin{eqnarray}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 [106]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
@@ -4101,8 +2883,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.309 {\bf p=0:}\quad&&\omega_{{\rm
-                                    I}\textcolor{red}{(}-\textcolor{red}{)}}...
-
+                                    I}(-)}\,=\,0,\, \qquad \qquad
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -4115,7 +2896,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.310 \omega_{{\rm
-                   I}\textcolor{red}{(}+\textcolor{red}{)}}\,=\,\sqrt{m^2+6g...
+                   I}(+)}\,=\,\sqrt{m^2+6g_4v^2 -\mu_B^2 +\left(2|\mu_B|-\fr...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4129,7 +2910,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.311 && \omega_{{\rm
-                      II}(-)}\,=\,\frac{4\pi}{|k|}\,v^2\textcolor{red}{,} \q...
+                      II}(-)}\,=\,\frac{4\pi}{|k|}\,v^2, \qquad\qquad \omega...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4142,83 +2923,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.311 ...xtcolor{red}{,} \qquad\qquad \omega_{{\rm
+l.311 ...\pi}{|k|}\,v^2, \qquad\qquad \omega_{{\rm
                                                    II}(+)}\,=\, 2|\mu_B|\,.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.312 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.312 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.312 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.312 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.312 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.312 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 [108]
 <Chapter_3_Folder_1806.06976/figures/soundspeed.pdf, id=2024, 361.35pt x 228.85
@@ -4257,78 +2966,6 @@ l.359 ... the light state with energy $\omega_{\rm
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.360 \be
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.360 \be
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.360 \be
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.360 \be
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.360 \be
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.360 \be
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 [110 <./Chapter_3_Folder_1806.06976/figures/soundspeed.pdf>]
 
@@ -4493,78 +3130,6 @@ l.396 ...a_{\rm rot} \sim k^{-1}$ whilst  $\p_{\rm
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.399 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.399 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.399 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.399 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.399 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.399 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 [112 <./Chapter_3_Folder_1806.06976/figures/spectrumk20.pdf> <./Chapter_3_Folde
 r_1806.06976/figures/rotonk500.pdf
@@ -4737,81 +3302,8 @@ or  <return>  to continue without it.
 
 Underfull \vbox (badness 6658) has occurred while \output is active []
 
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.437 \subsection
-                 {Landau critical velocity}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.437 \subsection
-                 {Landau critical velocity}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.437 \subsection
-                 {Landau critical velocity}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.437 \subsection
-                 {Landau critical velocity}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.437 \subsection
-                 {Landau critical velocity}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.437 \subsection
-                 {Landau critical velocity}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[114 <./Chapter_3_Folder_1806.06976/figures/spectrummassive.pdf> <./Chapter_3_F
-older_1806.06976/figures/spectrumcrit.pdf
+ [114 <./Chapter_3_Folder_1806.06976/figures/spectrummassive.pdf> <./Chapter_3_
+Folder_1806.06976/figures/spectrumcrit.pdf
 
 pdfTeX warning: pdflatex (file ./Chapter_3_Folder_1806.06976/figures/spectrumcr
 it.pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -4925,78 +3417,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 460.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.466  \eea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.466  \eea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.466  \eea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.466  \eea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.466  \eea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.466  \eea
-           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 [116 <./Chapter_3_Folder_1806.06976/figures/vcrit.pdf>]
 <Chapter_3_Folder_1806.06976/figures/u2.pdf, id=2375, 361.35pt x 271.0125pt>
@@ -5140,78 +3560,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.536 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.536 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.536 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.536 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.536 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.536 \ee
-         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 [118]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
@@ -5244,80 +3592,7 @@ or  <return>  to continue without it.
 
 Underfull \vbox (badness 1874) has occurred while \output is active []
 
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.574 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.574 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.574 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.574 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.574 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.574 \eea
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[120]
+ [120]
 ! Undefined control sequence.
 l.580 ...^2 \left[\begin{array} {c|c}\quad{\mathds
                                                   {1}}_{(N-1)\times(N-1)}\qu...
@@ -5355,86 +3630,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[121]
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.605 B
-       efore we conclude this chapter, we address the possibility of a vorte...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.605 B
-       efore we conclude this chapter, we address the possibility of a vorte...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.605 B
-       efore we conclude this chapter, we address the possibility of a vorte...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.605 B
-       efore we conclude this chapter, we address the possibility of a vorte...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.605 B
-       efore we conclude this chapter, we address the possibility of a vorte...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.605 B
-       efore we conclude this chapter, we address the possibility of a vorte...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[122] [123]
+[121] [122] [123]
 
 ! LaTeX Error: Too many math alphabets used in version normal.
 
@@ -5460,78 +3656,6 @@ l.627 \end{align}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.631 \end{align}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.631 \end{align}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.631 \end{align}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.631 \end{align}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.631 \end{align}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.631 \end{align}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 [124]
 
@@ -5612,235 +3736,14 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Underfull \vbox (badness 1715) has occurred while \output is active []
-
- [125]
+[125]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.700     \end{align}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.700     \end{align}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.700     \end{align}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.700     \end{align}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.700     \end{align}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.700     \end{align}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[126]
+ [126]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [127]
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.725 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.725 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.725 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.725 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.725 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.725 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[128] [129]
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.735 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.735 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.735 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.735 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.735 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package xcolor Error: Undefined color `RED'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.735 \newpage
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[130]) (./Conclusions_Folder/Conclusions.tex [131
+[128] [129] [130]) (./Conclusions_Folder/Conclusions.tex [131
 
 
 
@@ -5937,13 +3840,13 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 287.
  ) 
 Here is how much of TeX's memory you used:
- 25994 strings out of 480478
- 477565 string characters out of 5905959
- 764408 words of memory out of 5000000
- 40421 multiletter control sequences out of 15000+600000
+ 25993 strings out of 480478
+ 477555 string characters out of 5905959
+ 763448 words of memory out of 5000000
+ 40420 multiletter control sequences out of 15000+600000
  632340 words of font info for 268 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 64i,21n,82p,2394b,1347s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,21n,82p,2189b,1347s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -6026,7 +3929,7 @@ e/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb></usr/share/texmf-dist/fonts
 ts/jkpsya.pfb></usr/share/texmf-dist/fonts/type1/public/kpfonts/jkpsyb.pfb></us
 r/share/texmf-dist/fonts/type1/public/kpfonts/jkpsyc.pfb></usr/share/texmf-dist
 /fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on thesis.pdf (167 pages, 7891356 bytes).
+Output written on thesis.pdf (167 pages, 7881629 bytes).
 PDF statistics:
  3345 PDF objects out of 3580 (max. 8388607)
  2939 compressed objects within 30 object streams
